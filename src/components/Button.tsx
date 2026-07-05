@@ -12,7 +12,7 @@ export function Button({children, onClick, type, styles}: ButtonProps){
 
     return (
         <>
-        <button onClick={onClick} type={type} className={` rounded-md py-2.5 px-1 ${styles}`}>
+        <button onClick={onClick} type={type} className={` rounded-md py-2.5 px-1 cursor-pointer ${styles}`}>
             {children}
         </button>
         </>
