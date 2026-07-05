@@ -1,6 +1,8 @@
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import {LoginScreen} from "./features/auth/LoginScreen";
 import { SplashScreen } from "./features/auth/SplashScreen";
+import { SignUpScreen } from "./features/auth/SignUpScreen";
+import { SelectGradeScreen } from "./features/auth/SelectGradeScreen";
 import "./App.css";
 
 function App() {
