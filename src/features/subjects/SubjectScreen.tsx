@@ -1,6 +1,5 @@
-
 import { useState } from "react";
-import { useNavigate } from "react-router-dom";
+import { useNavigate, useParams } from "react-router-dom";
 import { TopicItem } from "./TopicItem";
 
 interface Subtopic {
@@ -35,8 +34,11 @@ const initialTopics: Topic[] = [
 ];
 
 export function SubjectScreen() {
+  const { subjectId } = useParams();
   const navigate = useNavigate();
   const [topics, setTopics] = useState<Topic[]>(initialTopics);
+
+  const subjectName = subjectId ? subjectId.charAt(0).toUpperCase() + subjectId.slice(1) : "Subject";
 
   const handleToggleSubtopic = (topicId: string, subtopicId: string) => {
     setTopics((prev) =>
@@ -45,11 +47,11 @@ export function SubjectScreen() {
           ? {
               ...topic,
               subtopics: topic.subtopics.map((s) =>
-                s.id === subtopicId ? { ...s, completed: !s.completed } : s
+                s.id === subtopicId ? { ...s, completed: !s.completed } : s,
               ),
             }
-          : topic
-      )
+          : topic,
+      ),
     );
   };
 
@@ -59,8 +61,10 @@ export function SubjectScreen() {
         <button onClick={() => navigate("/dashboard")} className="mb-2 text-sm">
           ← Back
         </button>
-        <h1 className="text-xl font-bold">English</h1>
-        <p className="text-sm mt-1">Build your reading, writing, and comprehension skills.</p>
+        <h1 className="text-xl font-bold">{subjectName}</h1>
+        <p className="text-sm mt-1">
+          Build your reading, writing, and comprehension skills.
+        </p>
         <p className="text-xs mt-2">{topics.length} topics</p>
       </div>
 

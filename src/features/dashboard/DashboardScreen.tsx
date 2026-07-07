@@ -1,4 +1,5 @@
 
+import { useNavigate } from "react-router-dom";
 import { Card } from "../../components/Card";
 import { StackedCard } from "./StackedCard";
 
@@ -13,6 +14,8 @@ const subjects = ["Mathematics", "Science", "English", "Social Studies"];
 const isFirstTime = true; 
 
 export function DashboardScreen() {
+  const navigate = useNavigate();
+
   return (
     <div className="flex flex-col gap-6 p-4 bg-amber-50 min-h-screen">
       <div>
@@ -26,7 +29,11 @@ export function DashboardScreen() {
         <h2 className="font-semibold mb-2">Available Subjects</h2>
         <div className="grid grid-cols-2 gap-3">
           {subjects.map((subject) => (
-            <Card key={subject} variant="subject">
+            <Card 
+            key={subject} 
+            variant="subject"
+            onClick={() => navigate(`/subject/${subject.toLowerCase()}`)}
+            >
               <p className="font-medium">{subject}</p>
             </Card>
           ))}

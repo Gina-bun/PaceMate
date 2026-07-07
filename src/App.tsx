@@ -21,8 +21,8 @@ function App() {
         <Route path="/login" element={<LoginScreen />} />
         <Route path="/signup" element={<SignUpScreen />} />
         <Route path="/select-grade" element={<SelectGradeScreen />} />
-        <Route path="/subject-screen" element={<SubjectScreen />} />
-        <Route path="/topic-screen" element={<TopicScreen/>}/>
+        <Route path="/subject/:subjectId" element={<SubjectScreen />} />
+        <Route path="/subject/:subjectId/topic/:topicId" element={<TopicScreen/>}/>
       </Routes>
     </BrowserRouter>
   );
