@@ -8,7 +8,10 @@ import { SignUpScreen } from "./features/auth/SignUpScreen";
 import { SelectGradeScreen } from "./features/auth/SelectGradeScreen";
 import { SubjectScreen } from "./features/subjects/SubjectScreen";
 import { TopicScreen } from "./features/subjects/TopicScreen";
+import { QuizScoreScreen } from "./features/quiz/QuizScoreScreen";
+import { QuizScreen } from "./features/quiz/QuizScreen";
 import "./App.css";
+
 
 function App() {
   return (
@@ -23,6 +26,8 @@ function App() {
         <Route path="/select-grade" element={<SelectGradeScreen />} />
         <Route path="/subject/:subjectId" element={<SubjectScreen />} />
         <Route path="/subject/:subjectId/topic/:topicId" element={<TopicScreen/>}/>
+        <Route path="/subject/:subjectId/topic/:topicId/quiz" element={<QuizScreen />} />
+<Route path="/subject/:subjectId/topic/:topicId/quiz-score" element={<QuizScoreScreen />} />
       </Routes>
     </BrowserRouter>
   );
