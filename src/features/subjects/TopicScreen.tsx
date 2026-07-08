@@ -35,7 +35,7 @@ export function TopicScreen() {
           <div className="flex justify-between items-center mb-1">
             <h2 className="font-semibold">Key Concept Summary</h2>
             <span className="text-xs text-gray-500">~4 min read</span>
-            {/* TODO: replace hardcoded minutes with a real calc later — word count ÷ ~200wpm */}
+            
           </div>
           <p className="text-sm text-gray-700">
             This topic covers how to identify the main idea of a passage, tell facts apart from
