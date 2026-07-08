@@ -11,6 +11,8 @@ import { TopicScreen } from "./features/subjects/TopicScreen";
 import { QuizScoreScreen } from "./features/quiz/QuizScoreScreen";
 import { QuizScreen } from "./features/quiz/QuizScreen";
 import "./App.css";
+import { EditProfileScreen } from "./features/profile/EditProfileScreen";
+import { ProfileScreen } from "./features/profile/ProfileScreen";
 
 
 function App() {
@@ -27,7 +29,9 @@ function App() {
         <Route path="/subject/:subjectId" element={<SubjectScreen />} />
         <Route path="/subject/:subjectId/topic/:topicId" element={<TopicScreen/>}/>
         <Route path="/subject/:subjectId/topic/:topicId/quiz" element={<QuizScreen />} />
-<Route path="/subject/:subjectId/topic/:topicId/quiz-score" element={<QuizScoreScreen />} />
+        <Route path="/subject/:subjectId/topic/:topicId/quiz-score" element={<QuizScoreScreen />} />
+        <Route path="/profile" element={<ProfileScreen />} />
+        <Route path="/edit-profile" element={<EditProfileScreen />} />
       </Routes>
     </BrowserRouter>
   );
