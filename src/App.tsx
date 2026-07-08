@@ -13,7 +13,9 @@ import { QuizScoreScreen } from "./features/quiz/QuizScoreScreen";
 import { QuizScreen } from "./features/quiz/QuizScreen";
 import { EditProfileScreen } from "./features/profile/EditProfileScreen";
 import { ProfileScreen } from "./features/profile/ProfileScreen";
+import { SettingsScreen } from "./features/settings/SettingsScreen";
 import "./App.css";
+
 
 
 function App() {
@@ -33,6 +35,7 @@ function App() {
           {/* primary tabs only here - nav visible */}
           <Route path="/dashboard" element={<DashboardScreen />} />
           <Route path="/profile" element={<ProfileScreen />} />
+          <Route path="/settings" element={<SettingsScreen />} />
         </Route>
 
         {/* back buttons only for this screen */}
