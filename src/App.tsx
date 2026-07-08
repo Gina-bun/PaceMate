@@ -30,14 +30,17 @@ function App() {
 
          {/* Main app */}
         <Route element={<MainLayout />}>
+          {/* primary tabs only here - nav visible */}
           <Route path="/dashboard" element={<DashboardScreen />} />
+          <Route path="/profile" element={<ProfileScreen />} />
+        </Route>
+
+        {/* back buttons only for this screen */}
           <Route path="/subject/:subjectId" element={<SubjectScreen />} />
           <Route path="/subject/:subjectId/topic/:topicId" element={<TopicScreen/>}/>
           <Route path="/subject/:subjectId/topic/:topicId/quiz" element={<QuizScreen />} />
           <Route path="/subject/:subjectId/topic/:topicId/quiz-score" element={<QuizScoreScreen />} />
-          <Route path="/profile" element={<ProfileScreen />} />
           <Route path="/edit-profile" element={<EditProfileScreen />} />
-        </Route>
       
         
       </Routes>
