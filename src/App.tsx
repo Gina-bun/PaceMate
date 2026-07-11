@@ -1,9 +1,9 @@
 // App.tsx
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import  { AuthLayout } from "./layouts/AuthLayout";
+import { AuthLayout } from "./layouts/AuthLayout";
 import { MainLayout } from "./layouts/MainLayout";
 import { DashboardScreen } from "./features/dashboard/DashboardScreen";
-import {LoginScreen} from "./features/auth/LoginScreen";
+import { LoginScreen } from "./features/auth/LoginScreen";
 import { SplashScreen } from "./features/auth/SplashScreen";
 import { SignUpScreen } from "./features/auth/SignUpScreen";
 import { SelectGradeScreen } from "./features/auth/SelectGradeScreen";
@@ -15,39 +15,47 @@ import { EditProfileScreen } from "./features/profile/EditProfileScreen";
 import { ProfileScreen } from "./features/profile/ProfileScreen";
 import { SettingsScreen } from "./features/settings/SettingsScreen";
 import "./App.css";
-
-
+import { AuthProvider } from "./context/AuthContext";
 
 function App() {
   return (
-    <BrowserRouter>
-      <Routes>
-        {/* Auth flow */}
-        <Route element={<AuthLayout/>}>
-          <Route path="/" element={<SplashScreen />} />
-          <Route path="/login" element={<LoginScreen />} />
-          <Route path="/signup" element={<SignUpScreen />} />
-          <Route path="/select-grade" element={<SelectGradeScreen />} />
-        </Route>
+    <AuthProvider>
+      <BrowserRouter>
+        <Routes>
+          {/* Auth flow */}
+          <Route element={<AuthLayout />}>
+            <Route path="/" element={<SplashScreen />} />
+            <Route path="/login" element={<LoginScreen />} />
+            <Route path="/signup" element={<SignUpScreen />} />
+            <Route path="/select-grade" element={<SelectGradeScreen />} />
+          </Route>
 
-         {/* Main app */}
-        <Route element={<MainLayout />}>
-          {/* primary tabs only here - nav visible */}
-          <Route path="/dashboard" element={<DashboardScreen />} />
-          <Route path="/profile" element={<ProfileScreen />} />
-          <Route path="/settings" element={<SettingsScreen />} />
-        </Route>
+          {/* Main app */}
+          <Route element={<MainLayout />}>
+            {/* primary tabs only here - nav visible */}
+            <Route path="/dashboard" element={<DashboardScreen />} />
+            <Route path="/profile" element={<ProfileScreen />} />
+            <Route path="/settings" element={<SettingsScreen />} />
+          </Route>
 
-        {/* back buttons only for this screen */}
+          {/* back buttons only for this screen */}
           <Route path="/subject/:subjectId" element={<SubjectScreen />} />
-          <Route path="/subject/:subjectId/topic/:topicId" element={<TopicScreen/>}/>
-          <Route path="/subject/:subjectId/topic/:topicId/quiz" element={<QuizScreen />} />
-          <Route path="/subject/:subjectId/topic/:topicId/quiz-score" element={<QuizScoreScreen />} />
+          <Route
+            path="/subject/:subjectId/topic/:topicId"
+            element={<TopicScreen />}
+          />
+          <Route
+            path="/subject/:subjectId/topic/:topicId/quiz"
+            element={<QuizScreen />}
+          />
+          <Route
+            path="/subject/:subjectId/topic/:topicId/quiz-score"
+            element={<QuizScoreScreen />}
+          />
           <Route path="/edit-profile" element={<EditProfileScreen />} />
-      
-        
-      </Routes>
-    </BrowserRouter>
+        </Routes>
+      </BrowserRouter>
+    </AuthProvider>
   );
 }
 
