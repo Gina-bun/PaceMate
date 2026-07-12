@@ -1,5 +1,5 @@
 // features/subjects/TopicScreen.tsx
-import { useNavigate } from "react-router-dom";
+import { useNavigate, useParams } from "react-router-dom";
 import { Button } from "../../components/Button";
 
 const learningGoals = [
@@ -16,6 +16,7 @@ const readingResources = [
 
 export function TopicScreen() {
   const navigate = useNavigate();
+  const { subjectId, topicId } = useParams();
 
   return (
     <div className="flex flex-col min-h-screen bg-amber-50">
@@ -34,7 +35,7 @@ export function TopicScreen() {
           <div className="flex justify-between items-center mb-1">
             <h2 className="font-semibold">Key Concept Summary</h2>
             <span className="text-xs text-gray-500">~4 min read</span>
-            {/* TODO: replace hardcoded minutes with a real calc later — word count ÷ ~200wpm */}
+            
           </div>
           <p className="text-sm text-gray-700">
             This topic covers how to identify the main idea of a passage, tell facts apart from
@@ -83,7 +84,7 @@ export function TopicScreen() {
         </div>
 
         {/* CTA */}
-        <Button type="button" onClick={() => navigate("/quiz")} styles="bg-orange-400 text-amber-50 mt-2">
+        <Button type="button" onClick={() => navigate(`/subject/${subjectId}/topic/${topicId}/quiz`)} styles="bg-orange-400 text-amber-50 mt-2">
           READY FOR QUIZ
         </Button>
       </div>

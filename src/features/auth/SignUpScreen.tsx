@@ -3,15 +3,23 @@ import { useState } from "react";
 import { useNavigate } from "react-router-dom";
 import { Button } from "../../components/Button";
 import { TextInput } from "../../components/TextInput";
+import { useAuth } from "../../context/AuthContext";
 
 export function SignUpScreen() {
   const navigate = useNavigate();
   const [fullName, setFullName] = useState("");
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
+  const {signup} = useAuth();
 
-  const handleSignUp = () => {
-    console.log({ fullName, email, password });
+  const handleSignUp = async () => {
+    try {
+      await signup(fullName, email, password);
+      navigate("/select-grade");
+    } catch (error) {
+      console.error("Sign up failed:", error);
+    }
+    
   };
 
   return (

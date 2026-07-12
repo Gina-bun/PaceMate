@@ -1,0 +1,452 @@
+{
+  "subject": "Social Studies",
+  "grade": 7,
+  "topics": [
+    {
+      "id": "strand-1",
+      "title": "Identity, Significance and Purpose",
+      "subtopics": [
+        {
+          "id": "1-1-people-of-ghana",
+          "title": "The People of Ghana",
+          "completed": false,
+          "learningGoals": [
+            "Trace the original homes and movement patterns of the major ethnic groups in Ghana",
+            "Assess the factors and impact of the migration of the major ethnic groups into Ghana",
+            "Recount the factors for the rise and decline of the major states and kingdoms in Ghana",
+            "Discuss the roles of matriarchs and patriarchs of the major kingdoms and states in precolonial Ghana"
+          ],
+          "keyConceptSummary": "Ghana's major ethnic groups — including the Gonja, Mole-Dagbani, Guan, Akan, Ewe, and Ga-Adangbe — originally settled in different parts of West Africa before migrating to their present locations. Over time, some of these groups formed powerful states and kingdoms, led by patriarchs and matriarchs whose leadership shaped Ghana's early history.",
+          "resources": [
+            { "type": "video", "title": "The Major Ethnic Groups of Ghana", "url": "REPLACE_WITH_REAL_URL" },
+            { "type": "reading", "title": "Migration Patterns of Ghana's Ethnic Groups", "url": "#" },
+            { "type": "reading", "title": "Rise and Decline of Ghana's Precolonial Kingdoms", "url": "#" }
+          ],
+          "quiz": [
+            {
+              "id": "q1",
+              "question": "Which of these is one of the major ethnic groups of Ghana?",
+              "options": [
+                { "id": "a", "text": "Zulu" },
+                { "id": "b", "text": "Akan" },
+                { "id": "c", "text": "Maasai" },
+                { "id": "d", "text": "Yoruba" }
+              ],
+              "correctOptionId": "b"
+            },
+            {
+              "id": "q2",
+              "question": "A 'push factor' in migration refers to:",
+              "options": [
+                { "id": "a", "text": "A reason that attracts people to a new place" },
+                { "id": "b", "text": "A reason that forces people to leave their original home" },
+                { "id": "c", "text": "A type of historical map" },
+                { "id": "d", "text": "A festival celebrating a kingdom's founding" }
+              ],
+              "correctOptionId": "b"
+            }
+          ]
+        },
+        {
+          "id": "1-3-individual-community-development",
+          "title": "The Individual and Community Development",
+          "completed": false,
+          "learningGoals": [
+            "Examine the concept of self-identity",
+            "Discuss reasons for knowing oneself, including accepting oneself and identifying one's potential",
+            "Identify attitudes that enhance self-worth, such as self-confidence and a positive attitude towards life",
+            "Describe how individuals can develop their capabilities through education, training, and continuous practice"
+          ],
+          "keyConceptSummary": "Self-identity is about understanding who you are — your strengths, weaknesses, and potential. Knowing yourself helps build confidence and a positive attitude, and there are practical ways to grow your abilities over time, like education, training, and practice.",
+          "resources": [
+            { "type": "video", "title": "Understanding Self-Identity", "url": "REPLACE_WITH_REAL_URL" },
+            { "type": "reading", "title": "Building Self-Confidence and Self-Worth", "url": "#" },
+            { "type": "reading", "title": "Ways to Develop Your Personal Capabilities", "url": "#" }
+          ],
+          "quiz": [
+            {
+              "id": "q1",
+              "question": "Self-identity is best described as:",
+              "options": [
+                { "id": "a", "text": "A person's official ID card" },
+                { "id": "b", "text": "Understanding who you are, including your strengths and weaknesses" },
+                { "id": "c", "text": "A community's shared history" },
+                { "id": "d", "text": "A type of government document" }
+              ],
+              "correctOptionId": "b"
+            },
+            {
+              "id": "q2",
+              "question": "Which of these is an example of developing your personal capabilities?",
+              "options": [
+                { "id": "a", "text": "Avoiding new challenges" },
+                { "id": "b", "text": "Continuous practice and training" },
+                { "id": "c", "text": "Ignoring feedback from others" },
+                { "id": "d", "text": "Comparing yourself only to others" }
+              ],
+              "correctOptionId": "b"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "strand-2",
+      "title": "Environment and Sustainability",
+      "subtopics": [
+        {
+          "id": "2-1-environmental-issues",
+          "title": "Environmental Issues",
+          "completed": false,
+          "learningGoals": [
+            "Explain the terms environment, environmental challenges, and pollution",
+            "Discuss the types of environmental challenges in society",
+            "Identify the impact of human activities on the environment",
+            "Discuss the effects of environmental challenges"
+          ],
+          "keyConceptSummary": "The environment includes everything around us — land, water, air, and living things. Environmental challenges, such as pollution, often result from human activities and can have serious effects on communities if not properly managed.",
+          "resources": [
+            { "type": "video", "title": "What Are Environmental Challenges?", "url": "REPLACE_WITH_REAL_URL" },
+            { "type": "reading", "title": "Types of Pollution and Their Effects", "url": "#" },
+            { "type": "reading", "title": "How Human Activities Impact the Environment", "url": "#" }
+          ],
+          "quiz": [
+            {
+              "id": "q1",
+              "question": "Which of these is an example of pollution?",
+              "options": [
+                { "id": "a", "text": "Planting trees" },
+                { "id": "b", "text": "Dumping waste into a river" },
+                { "id": "c", "text": "Recycling plastic" },
+                { "id": "d", "text": "Conserving water" }
+              ],
+              "correctOptionId": "b"
+            },
+            {
+              "id": "q2",
+              "question": "Environmental challenges are mostly caused by:",
+              "options": [
+                { "id": "a", "text": "Natural disasters only" },
+                { "id": "b", "text": "Human activities" },
+                { "id": "c", "text": "Weather patterns only" },
+                { "id": "d", "text": "Wild animals" }
+              ],
+              "correctOptionId": "b"
+            }
+          ]
+        },
+        {
+          "id": "2-3-resources-in-ghana",
+          "title": "Resources in Ghana",
+          "completed": false,
+          "learningGoals": [
+            "Explain what resources mean",
+            "Identify the various types of resources",
+            "Identify types of natural resources (renewable and non-renewable)",
+            "Discuss the importance of resources in Ghana",
+            "Discuss ways of developing resources in Ghana and the challenges involved"
+          ],
+          "keyConceptSummary": "Resources are things people use to meet their needs — some, like forests and water, are renewable because they can replenish over time, while others, like minerals, are non-renewable. Ghana has many natural resources that are important to its development, but managing them sustainably comes with real challenges.",
+          "resources": [
+            { "type": "video", "title": "Renewable vs Non-Renewable Resources", "url": "REPLACE_WITH_REAL_URL" },
+            { "type": "reading", "title": "Ghana's Natural Resources Map", "url": "#" },
+            { "type": "reading", "title": "Sustainable Resource Development", "url": "#" }
+          ],
+          "quiz": [
+            {
+              "id": "q1",
+              "question": "Which of these is a renewable resource?",
+              "options": [
+                { "id": "a", "text": "Gold" },
+                { "id": "b", "text": "Forests" },
+                { "id": "c", "text": "Crude oil" },
+                { "id": "d", "text": "Bauxite" }
+              ],
+              "correctOptionId": "b"
+            },
+            {
+              "id": "q2",
+              "question": "A non-renewable resource is one that:",
+              "options": [
+                { "id": "a", "text": "Can be replaced quickly" },
+                { "id": "b", "text": "Cannot be replaced once used up" },
+                { "id": "c", "text": "Only exists in water" },
+                { "id": "d", "text": "Grows back every year" }
+              ],
+              "correctOptionId": "b"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "strand-3",
+      "title": "Law and Order in the Ghanaian Society",
+      "subtopics": [
+        {
+          "id": "3-3-political-institutions",
+          "title": "Political Institutions and Structures in Ghana",
+          "completed": false,
+          "learningGoals": [
+            "Analyse indigenous political systems in precolonial Ghana and their relevance today",
+            "Compare and contrast different forms of political systems in precolonial Ghana",
+            "Examine the nature of modern political institutions in Ghana",
+            "Identify types of political institutions in the state, such as the executive, legislature, and judiciary"
+          ],
+          "keyConceptSummary": "Precolonial Ghana had different political systems, including centralised states (like the Asante and Akwamu), non-centralised societies, and theocratic systems. Modern Ghana's political institutions — the executive, legislature, and judiciary — have roots in these earlier structures while also reflecting newer forms of governance.",
+          "resources": [
+            { "type": "video", "title": "Political Systems of Precolonial Ghana", "url": "REPLACE_WITH_REAL_URL" },
+            { "type": "reading", "title": "Executive, Legislature, and Judiciary Explained", "url": "#" },
+            { "type": "reading", "title": "The Role of Chieftaincy in Ghana Today", "url": "#" }
+          ],
+          "quiz": [
+            {
+              "id": "q1",
+              "question": "Which of these is a branch of modern political institutions in Ghana?",
+              "options": [
+                { "id": "a", "text": "The judiciary" },
+                { "id": "b", "text": "The chieftaincy only" },
+                { "id": "c", "text": "The military only" },
+                { "id": "d", "text": "The clan system" }
+              ],
+              "correctOptionId": "a"
+            },
+            {
+              "id": "q2",
+              "question": "The Asante political system in precolonial Ghana is best described as:",
+              "options": [
+                { "id": "a", "text": "Non-centralised" },
+                { "id": "b", "text": "Centralised" },
+                { "id": "c", "text": "Theocratic only" },
+                { "id": "d", "text": "Foreign-controlled" }
+              ],
+              "correctOptionId": "b"
+            }
+          ]
+        },
+        {
+          "id": "3-1-citizenship-human-rights",
+          "title": "Citizenship and Human Rights",
+          "completed": false,
+          "learningGoals": [
+            "Examine the value of citizenship in nation-building",
+            "Discuss the various ways of acquiring citizenship in Ghana",
+            "Discuss the responsibilities of a Ghanaian citizen",
+            "Explain how citizens contribute to the country's development"
+          ],
+          "keyConceptSummary": "Citizenship can be acquired in Ghana by birth, adoption, marriage, or registration. Being a good citizen means fulfilling responsibilities like obeying laws, protecting state property, paying taxes, and respecting national symbols — all of which contribute to the country's development.",
+          "resources": [
+            { "type": "video", "title": "What Does It Mean to Be a Citizen?", "url": "REPLACE_WITH_REAL_URL" },
+            { "type": "reading", "title": "Ways of Acquiring Citizenship in Ghana", "url": "#" },
+            { "type": "reading", "title": "Responsibilities of a Ghanaian Citizen", "url": "#" }
+          ],
+          "quiz": [
+            {
+              "id": "q1",
+              "question": "Which of these is a way of acquiring citizenship in Ghana?",
+              "options": [
+                { "id": "a", "text": "By registration" },
+                { "id": "b", "text": "By owning property" },
+                { "id": "c", "text": "By visiting the country" },
+                { "id": "d", "text": "By attending school" }
+              ],
+              "correctOptionId": "a"
+            },
+            {
+              "id": "q2",
+              "question": "Which of these is a responsibility of a Ghanaian citizen?",
+              "options": [
+                { "id": "a", "text": "Avoiding taxes" },
+                { "id": "b", "text": "Respecting national symbols" },
+                { "id": "c", "text": "Ignoring laws" },
+                { "id": "d", "text": "Damaging state property" }
+              ],
+              "correctOptionId": "b"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "strand-4",
+      "title": "Ethics and Human Development",
+      "subtopics": [
+        {
+          "id": "4-1-indigenous-knowledge-systems",
+          "title": "Indigenous Knowledge Systems",
+          "completed": false,
+          "learningGoals": [
+            "Identify indigenous medicinal plants used in the precolonial era to provide health care",
+            "Match medicinal plants to the diseases they cured in the precolonial era",
+            "Discuss the concept of traditional medicine and its importance",
+            "Investigate the processes and methods of indigenous medicinal practitioners in precolonial Ghana"
+          ],
+          "keyConceptSummary": "Before modern medicine, Ghanaians relied on indigenous medicinal plants and traditional healers to treat illnesses. Traditional medicine practices, passed down through generations, remain an important part of Ghana's healthcare heritage today.",
+          "resources": [
+            { "type": "video", "title": "Traditional Medicine in Precolonial Ghana", "url": "REPLACE_WITH_REAL_URL" },
+            { "type": "reading", "title": "Common Indigenous Medicinal Plants", "url": "#" },
+            { "type": "reading", "title": "The Role of Traditional Healers", "url": "#" }
+          ],
+          "quiz": [
+            {
+              "id": "q1",
+              "question": "Traditional medicine in precolonial Ghana relied mainly on:",
+              "options": [
+                { "id": "a", "text": "Imported pharmaceutical drugs" },
+                { "id": "b", "text": "Indigenous medicinal plants" },
+                { "id": "c", "text": "Hospital equipment" },
+                { "id": "d", "text": "Foreign doctors" }
+              ],
+              "correctOptionId": "b"
+            },
+            {
+              "id": "q2",
+              "question": "Who typically administered traditional medicine in precolonial Ghana?",
+              "options": [
+                { "id": "a", "text": "Traditional healers and herbalists" },
+                { "id": "b", "text": "Foreign missionaries" },
+                { "id": "c", "text": "School teachers" },
+                { "id": "d", "text": "Government officials" }
+              ],
+              "correctOptionId": "a"
+            }
+          ]
+        },
+        {
+          "id": "4-3-socialisation",
+          "title": "Socialisation",
+          "completed": false,
+          "learningGoals": [
+            "Explain the terms socialisation, agencies of socialisation, and agents of socialisation",
+            "Identify the agencies and agents of socialisation",
+            "Discuss the roles of agencies and agents in the socialisation process"
+          ],
+          "keyConceptSummary": "Socialisation is the process by which individuals learn the values, norms, and behaviours of their society. This happens through agencies like the family, school, and religious institutions, and agents like parents, teachers, and peers.",
+          "resources": [
+            { "type": "video", "title": "What Is Socialisation?", "url": "REPLACE_WITH_REAL_URL" },
+            { "type": "reading", "title": "Agencies of Socialisation Explained", "url": "#" },
+            { "type": "reading", "title": "The Role of Family and School in Socialisation", "url": "#" }
+          ],
+          "quiz": [
+            {
+              "id": "q1",
+              "question": "Which of these is an agency of socialisation?",
+              "options": [
+                { "id": "a", "text": "The family" },
+                { "id": "b", "text": "A shopping mall" },
+                { "id": "c", "text": "A traffic light" },
+                { "id": "d", "text": "A weather forecast" }
+              ],
+              "correctOptionId": "a"
+            },
+            {
+              "id": "q2",
+              "question": "Socialisation is best described as:",
+              "options": [
+                { "id": "a", "text": "Learning to drive" },
+                { "id": "b", "text": "The process of learning a society's values and norms" },
+                { "id": "c", "text": "A type of festival" },
+                { "id": "d", "text": "A government policy" }
+              ],
+              "correctOptionId": "b"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "strand-5",
+      "title": "Production, Exchange and Creativity",
+      "subtopics": [
+        {
+          "id": "5-1-economic-activities",
+          "title": "Promoting Economic Activities in Ghana",
+          "completed": false,
+          "learningGoals": [
+            "Recount precolonial Ghanaian economic activities, including agriculture and industries",
+            "Research sustainable methods or practices in agriculture and indigenous industries",
+            "Discuss continuity and changes in precolonial Ghanaian economic activities",
+            "Discuss how precolonial Ghanaian economic activities have shaped the economy of Ghana today"
+          ],
+          "keyConceptSummary": "Precolonial Ghana's economy relied on activities like farming, fishing, hunting, craft industries, mining, and salt production. Many of these activities have continued, in changed forms, and still shape Ghana's economy today.",
+          "resources": [
+            { "type": "video", "title": "Economic Activities in Precolonial Ghana", "url": "REPLACE_WITH_REAL_URL" },
+            { "type": "reading", "title": "From Precolonial Trade to Modern Industry", "url": "#" },
+            { "type": "reading", "title": "Sustainable Agriculture Practices in Ghana", "url": "#" }
+          ],
+          "quiz": [
+            {
+              "id": "q1",
+              "question": "Which of these was a common economic activity in precolonial Ghana?",
+              "options": [
+                { "id": "a", "text": "Salt production" },
+                { "id": "b", "text": "Software development" },
+                { "id": "c", "text": "Stock trading" },
+                { "id": "d", "text": "Air travel" }
+              ],
+              "correctOptionId": "a"
+            },
+            {
+              "id": "q2",
+              "question": "Precolonial economic activities in Ghana have:",
+              "options": [
+                { "id": "a", "text": "Disappeared completely" },
+                { "id": "b", "text": "Shaped Ghana's economy today" },
+                { "id": "c", "text": "No connection to modern Ghana" },
+                { "id": "d", "text": "Only existed in coastal areas" }
+              ],
+              "correctOptionId": "b"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "strand-6",
+      "title": "Nationalism and Nationhood",
+      "subtopics": [
+        {
+          "id": "6-1-european-encounter-slave-trade",
+          "title": "European Encounter and the Slave Trade",
+          "completed": false,
+          "learningGoals": [
+            "Examine the coming of Europeans to the Gold Coast",
+            "Explore the early interactions between Europeans and the indigenous people",
+            "Describe the origins and development of the Trans-Atlantic Slave Trade",
+            "Analyse the impact of the slave trade on Ghanaian society"
+          ],
+          "keyConceptSummary": "European traders first arrived on the Gold Coast (present-day Ghana) seeking goods and later became involved in the Trans-Atlantic Slave Trade. This trade had a devastating impact on Ghanaian society, including depopulation and the disruption of traditional social and economic structures.",
+          "resources": [
+            { "type": "video", "title": "European Arrival on the Gold Coast", "url": "REPLACE_WITH_REAL_URL" },
+            { "type": "reading", "title": "The Trans-Atlantic Slave Trade Explained", "url": "#" },
+            { "type": "reading", "title": "Impact of the Slave Trade on Ghanaian Society", "url": "#" }
+          ],
+          "quiz": [
+            {
+              "id": "q1",
+              "question": "European traders first arrived on the coast now known as:",
+              "options": [
+                { "id": "a", "text": "The Gold Coast" },
+                { "id": "b", "text": "The Ivory Coast" },
+                { "id": "c", "text": "The Slave Coast" },
+                { "id": "d", "text": "The Cape Coast Colony" }
+              ],
+              "correctOptionId": "a"
+            },
+            {
+              "id": "q2",
+              "question": "One major impact of the Trans-Atlantic Slave Trade on Ghanaian society was:",
+              "options": [
+                { "id": "a", "text": "Rapid population growth" },
+                { "id": "b", "text": "Depopulation and disruption of social structures" },
+                { "id": "c", "text": "Increased trade with no negative effects" },
+                { "id": "d", "text": "Stronger indigenous political systems" }
+              ],
+              "correctOptionId": "b"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

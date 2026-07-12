@@ -3,14 +3,21 @@ import { useState } from "react";
 import { useNavigate } from "react-router-dom";
 import { Button } from "../../components/Button";
 import { TextInput } from "../../components/TextInput";
+import { useAuth } from "../../context/AuthContext";
 
 export function LoginScreen() {
   const navigate = useNavigate();
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
+  const {login} = useAuth();
 
-  const handleLogin = () => {
-    console.log({ email, password });
+  const handleLogin = async () => {
+    try {
+      await login(email, password);
+      navigate("/dashboard");
+    } catch (error) {
+      console.error("Login failed:", error);
+    }
   };
 
   return (
