@@ -1,34 +1,27 @@
-import { useState } from "react";
 import { useNavigate, useParams } from "react-router-dom";
-import type { Topic } from "../types";
-import type { SubjectData } from "../types";
-import subjectData from "../../data/social-studies-jhs1.json";
+import { useCurriculum } from "../../context/CurriculumContext";
 import { TopicItem } from "./TopicItem";
-
+import { useState } from "react";
 
 export function SubjectScreen() {
-  const data = subjectData as SubjectData;
-
   const { subjectId } = useParams();
   const navigate = useNavigate();
-  const [topics, setTopics] = useState<Topic[]>(data.topics);
+  const { subjects, loading } = useCurriculum();
+  const [completedIds, setCompletedIds] = useState<string[]>([]);
 
-  const subjectName = subjectId ? subjectId.charAt(0).toUpperCase() + subjectId.slice(1) : "Subject";
-
-  const handleToggleSubtopic = (topicId: string, subtopicId: string) => {
-    setTopics((prev) =>
-      prev.map((topic) =>
-        topic.id === topicId
-          ? {
-              ...topic,
-              subtopics: topic.subtopics.map((s) =>
-                s.id === subtopicId ? { ...s, completed: !s.completed } : s,
-              ),
-            }
-          : topic,
-      ),
+  const handleToggleSubtopic = (subtopicId: string) => {
+    setCompletedIds((prev) =>
+      prev.includes(subtopicId)
+        ? prev.filter((id) => id !== subtopicId)
+        : [...prev, subtopicId],
     );
   };
+
+  if (loading) return <div>loading...</div>;
+ 
+
+
+  const subject = subjects.find((s) => s.subject.toLowerCase() === subjectId);
 
   return (
     <div className="flex flex-col min-h-screen bg-amber-50">
@@ -36,20 +29,23 @@ export function SubjectScreen() {
         <button onClick={() => navigate("/dashboard")} className="mb-2 text-sm">
           ← Back
         </button>
-        <h1 className="text-xl font-bold">{subjectName}</h1>
+        <h1 className="text-xl font-bold">{subject.subject}</h1>
         <p className="text-sm mt-1">
           Build your reading, writing, and comprehension skills.
         </p>
-        <p className="text-xs mt-2">{topics.length} topics</p>
+        <p className="text-xs mt-2">{subject.topics.length} topics</p>
       </div>
 
       <div className="flex flex-col px-4">
-        {topics.map((topic) => (
+        {subject.topics.map((topic) => (
           <TopicItem
             key={topic.id}
             title={topic.title}
-            subtopics={topic.subtopics}
-            onToggleSubtopic={(subId) => handleToggleSubtopic(topic.id, subId)}
+            subtopics={topic.subtopics.map((s) => ({
+              ...s,
+              completed: completedIds.includes(s.id),
+            }))}
+            onToggleSubtopic={handleToggleSubtopic}
           />
         ))}
       </div>

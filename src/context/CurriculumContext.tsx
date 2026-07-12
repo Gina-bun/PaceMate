@@ -15,12 +15,12 @@ const CurriculumContext = createContext<CurriculumContextType | undefined>(undef
 export function CurriculumProvider({children}: {children: ReactNode}) {
     const {grade} = useGrade();
     const [subjects, setSubjects] = useState<SubjectData[]>([]);
-    const [loading, setLoading] = useState(true);
+    const [loading, setLoading] = useState(false);
 
     useEffect(() => {
         if(!grade) return;
 
-        setLoading(true);
+        setLoading(false);
 
         //import only the JSON files you need based on the student's grade.
         Promise.all([
