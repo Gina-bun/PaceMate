@@ -1,14 +1,9 @@
 import { useNavigate, useParams } from "react-router-dom";
 import { Accordion } from "../../components/Accordion";
 import { Checkbox } from "../../components/Checkbox";
+import type { Subtopic } from "../types";
 
-interface Subtopic {
-  id: string;
-  title: string;
-  completed: boolean;
-}
-
-interface TopicItemProps {
+export interface TopicItemProps {
   title: string;
   subtopics: Subtopic[];
   onToggleSubtopic: (subtopicId: string) => void;

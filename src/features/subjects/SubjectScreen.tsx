@@ -1,42 +1,17 @@
 import { useState } from "react";
 import { useNavigate, useParams } from "react-router-dom";
+import type { Topic } from "../types";
+import type { SubjectData } from "../types";
+import subjectData from "../../data/social-studies-jhs1.json";
 import { TopicItem } from "./TopicItem";
 
-interface Subtopic {
-  id: string;
-  title: string;
-  completed: boolean;
-}
-
-interface Topic {
-  id: string;
-  title: string;
-  subtopics: Subtopic[];
-}
-
-const initialTopics: Topic[] = [
-  {
-    id: "t1",
-    title: "Reading Comprehension",
-    subtopics: [
-      { id: "s1", title: "Identifying Main Ideas", completed: false },
-      { id: "s2", title: "Making Inferences", completed: false },
-    ],
-  },
-  {
-    id: "t2",
-    title: "Grammar Fundamentals",
-    subtopics: [
-      { id: "s3", title: "Parts of Speech", completed: false },
-      { id: "s4", title: "Sentence Structure", completed: false },
-    ],
-  },
-];
 
 export function SubjectScreen() {
+  const data = subjectData as SubjectData;
+
   const { subjectId } = useParams();
   const navigate = useNavigate();
-  const [topics, setTopics] = useState<Topic[]>(initialTopics);
+  const [topics, setTopics] = useState<Topic[]>(data.topics);
 
   const subjectName = subjectId ? subjectId.charAt(0).toUpperCase() + subjectId.slice(1) : "Subject";
 

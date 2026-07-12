@@ -2,17 +2,6 @@
 import { useNavigate, useParams } from "react-router-dom";
 import { Button } from "../../components/Button";
 
-const learningGoals = [
-  "Identify the main idea of a passage",
-  "Distinguish between fact and inference",
-  "Summarize a text in your own words",
-];
-
-const readingResources = [
-  { title: "Understanding Main Ideas", url: "#" },
-  { title: "How to Make Inferences While Reading", url: "#" },
-  { title: "Summary Writing Basics", url: "#" },
-];
 
 export function TopicScreen() {
   const navigate = useNavigate();
