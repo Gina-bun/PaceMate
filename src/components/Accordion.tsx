@@ -1,4 +1,5 @@
 
+import { ChevronDown } from "lucide-react";
 import { useState } from "react";
 
 interface AccordionProps {
@@ -13,7 +14,7 @@ export function Accordion({ title, children }: AccordionProps) {
     <div className="border-b border-gray-200">
       <button onClick={() => setOpen((prev) => !prev)} className="w-full flex justify-between items-center py-3 text-left">
         {title}
-        <span className={`transition-transform ${open ? "rotate-180" : ""}`}>▾</span>
+        <ChevronDown className={`transition-transform ${open ? "rotate-180" : ""}`} />
       </button>
       {open && <div className="pb-3 pl-4">{children}</div>}
     </div>
