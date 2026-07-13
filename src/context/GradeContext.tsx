@@ -1,4 +1,4 @@
-//what grade is the student in(grade?
+//what grade is the student in?
 
 import { createContext, useContext, useState, type ReactNode } from "react";
 

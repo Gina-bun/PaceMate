@@ -1,12 +1,13 @@
-
 import { useNavigate } from "react-router-dom";
 import { Button } from "../../components/Button";
+import { useGrade } from "../../context/GradeContext";
 
 export function SelectGradeScreen() {
   const navigate = useNavigate();
+  const {setGrade} = useGrade();
 
-  const handleSelectGrade = (grade: number) => {
-    console.log("Selected grade:", grade);
+  const handleSelectGrade = (grade: 7 | 8 | 9) => {
+    setGrade(grade);
     navigate("/dashboard");
   };
 
