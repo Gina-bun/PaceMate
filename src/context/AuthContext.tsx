@@ -13,7 +13,7 @@ interface AppUser {
   uid: string;
   name: string;
   email: string;
-  grade: string | null;
+  grade: number | null;
 }
 
 interface AuthContextType {
@@ -22,6 +22,7 @@ interface AuthContextType {
   login: (email: string, password: string) => Promise<void>;
   signup: (name: string, email: string, password: string) => Promise<void>;
   logout: () => Promise<void>;
+  setGrade: (grade: number) => Promise<void>;
 }
 
 const AuthContext = createContext<AuthContextType | undefined>(undefined);
@@ -62,8 +63,14 @@ export function AuthProvider({ children }: { children: ReactNode }) {
     await signOut(auth);
   };
 
+  const setGrade = async (grade: number) => {
+    if (!user) return;
+    await setDoc(doc(db, "users", user.uid), {grade}, {merge: true});
+    setUser((prev) => prev ? {...prev, grade} : null);
+  };
+
   return (
-    <AuthContext.Provider value={{ user, loading, login, signup, logout }}>
+    <AuthContext.Provider value={{ user, loading, login, signup, logout, setGrade }}>
       {children}
     </AuthContext.Provider>
   );

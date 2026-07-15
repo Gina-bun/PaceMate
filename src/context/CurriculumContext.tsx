@@ -2,7 +2,7 @@
 
 import { createContext, useContext, useEffect, useState, type ReactNode } from "react";
 import type { SubjectData } from "../features/types";
-import { useGrade } from "./GradeContext";
+import { useAuth } from "./AuthContext";
 
 
 interface CurriculumContextType {
@@ -14,7 +14,8 @@ interface CurriculumContextType {
 const CurriculumContext = createContext<CurriculumContextType | undefined>(undefined);
 
 export function CurriculumProvider({children}: {children: ReactNode}) {
-    const {grade} = useGrade();
+    const {user} = useAuth();
+    const grade = user?.grade;
     const [subjects, setSubjects] = useState<SubjectData[]>([]);
     const [loading, setLoading] = useState(true);
     const [error, setError] = useState<Error | null>(null);

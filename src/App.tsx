@@ -16,13 +16,11 @@ import { ProfileScreen } from "./features/profile/ProfileScreen";
 import { SettingsScreen } from "./features/settings/SettingsScreen";
 import "./App.css";
 import { AuthProvider } from "./context/AuthContext";
-import { GradeProvider } from "./context/GradeContext";
 import { CurriculumProvider } from "./context/CurriculumContext";
 
 function App() {
   return (
     <AuthProvider>
-      <GradeProvider>
         <CurriculumProvider>
       <BrowserRouter>
         <Routes>
@@ -60,7 +58,6 @@ function App() {
         </Routes>
       </BrowserRouter>
       </CurriculumProvider>
-      </GradeProvider>
     </AuthProvider>
   );
 }

@@ -1,10 +1,10 @@
 import { useNavigate } from "react-router-dom";
 import { Button } from "../../components/Button";
-import { useGrade } from "../../context/GradeContext";
+import { useAuth } from "../../context/AuthContext";
 
 export function SelectGradeScreen() {
   const navigate = useNavigate();
-  const {setGrade} = useGrade();
+  const {setGrade} = useAuth();
 
   const handleSelectGrade = (grade: 7 | 8 | 9) => {
     setGrade(grade);
