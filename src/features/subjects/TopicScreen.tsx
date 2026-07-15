@@ -82,7 +82,7 @@ export function TopicScreen() {
         </div>
 
         {/* CTA */}
-        <Button type="button" onClick={() => navigate(`/subject/${subjectId}/topic/${topicId}/quiz`)} styles="bg-orange-400 text-amber-50 mt-2">
+        <Button type="button" onClick={() => navigate(`/subject/${subjectId}/topic/${topicId}/subtopic/${subtopicId}/quiz`)} styles="bg-orange-400 text-amber-50 mt-2">
           READY FOR QUIZ
         </Button>
       </div>

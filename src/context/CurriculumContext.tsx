@@ -20,8 +20,6 @@ export function CurriculumProvider({children}: {children: ReactNode}) {
     const [error, setError] = useState<Error | null>(null);
 
     useEffect(() => {
-         console.log(grade)
-
         if(!grade) return;
 
         setLoading(true);

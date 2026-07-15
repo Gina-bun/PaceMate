@@ -4,38 +4,22 @@ import { useNavigate, useParams } from "react-router-dom";
 import { QuizQuestion } from "../../components/QuizQuestion";
 import { Button } from "../../components/Button";
 import { ProgressBar } from "../../components/ProgessBar";
+import { useCurriculum } from "../../context/CurriculumContext";
 
-const questions = [
-  {
-    id: "q1",
-    question: "Which of these is a noun?",
-    options: [
-      { id: "a", text: "Run" },
-      { id: "b", text: "Quickly" },
-      { id: "c", text: "Table" },
-      { id: "d", text: "Beautiful" },
-    ],
-    correctOptionId: "c",
-  },
-  {
-    id: "q2",
-    question: "Which of these is a verb?",
-    options: [
-      { id: "a", text: "Jump" },
-      { id: "b", text: "Chair" },
-      { id: "c", text: "Slow" },
-      { id: "d", text: "Green" },
-    ],
-    correctOptionId: "a",
-  },
-];
+
 
 export function QuizScreen() {
   const navigate = useNavigate();
-  const { subjectId, topicId } = useParams();
+  const {subjects, loading, error} = useCurriculum();
+  const { subjectId, topicId, subtopicId } = useParams();
   const [currentIndex, setCurrentIndex] = useState(0);
   const [selectedOptionId, setSelectedOptionId] = useState<string | null>(null);
   const [score, setScore] = useState(0);
+
+  const subject = subjects.find((s) => s.subject.toLowerCase() === subjectId);
+  const topic = subject?.topics.find((t) => t.id === topicId);
+  const subtopic = topic?.subtopics.find((s) => s.id === subtopicId);
+  const questions = subtopic?.quiz || [];
 
   const currentQuestion = questions[currentIndex];
   const isLastQuestion = currentIndex === questions.length - 1;
@@ -45,7 +29,7 @@ export function QuizScreen() {
     const updatedScore = gotItRight ? score + 1 : score;
 
     if (isLastQuestion) {
-      navigate(`/subject/${subjectId}/topic/${topicId}/quiz-score`, {
+      navigate(`/subject/${subjectId}/topic/${topicId}/subtopic/${subtopicId}/quiz-score`, {
         state: { score: updatedScore, total: questions.length },
       });
     } else {
@@ -63,7 +47,7 @@ export function QuizScreen() {
 
       <div>
         <h1 className="text-xl font-bold">Quiz</h1>
-        <p className="text-sm text-gray-600">English: Parts of Speech</p>
+        <p className="text-sm text-gray-600">{subtopic?.title}</p>
       </div>
 
       <ProgressBar value={currentIndex + 1} max={questions.length} />

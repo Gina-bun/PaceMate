@@ -49,11 +49,11 @@ function App() {
             element={<TopicScreen />}
           />
           <Route
-            path="/subject/:subjectId/topic/:topicId/quiz"
+            path="/subject/:subjectId/topic/:topicId/subtopic/:subtopicId/quiz"
             element={<QuizScreen />}
           />
           <Route
-            path="/subject/:subjectId/topic/:topicId/quiz-score"
+            path="/subject/:subjectId/topic/:topicId/subtopic/:subtopicId/quiz-score"
             element={<QuizScoreScreen />}
           />
           <Route path="/edit-profile" element={<EditProfileScreen />} />
