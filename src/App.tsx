@@ -45,7 +45,7 @@ function App() {
           {/* back buttons only for this screen */}
           <Route path="/subject/:subjectId" element={<SubjectScreen />} />
           <Route
-            path="/subject/:subjectId/topic/:topicId"
+            path="/subject/:subjectId/topic/:topicId/subtopic/:subtopicId"
             element={<TopicScreen />}
           />
           <Route

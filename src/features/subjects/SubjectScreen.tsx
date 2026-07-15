@@ -6,7 +6,7 @@ import { useState } from "react";
 export function SubjectScreen() {
   const { subjectId } = useParams();
   const navigate = useNavigate();
-  const { subjects, loading } = useCurriculum();
+  const { subjects, loading, error } = useCurriculum();
   const [completedIds, setCompletedIds] = useState<string[]>([]);
 
   const handleToggleSubtopic = (subtopicId: string) => {
@@ -18,6 +18,7 @@ export function SubjectScreen() {
   };
 
   if (loading) return <div>loading...</div>;
+  if (error) return <div>Error: {error.message}</div>; //judt for testing
  
 
 
@@ -40,6 +41,7 @@ export function SubjectScreen() {
         {subject.topics.map((topic) => (
           <TopicItem
             key={topic.id}
+            id={topic.id}
             title={topic.title}
             subtopics={topic.subtopics.map((s) => ({
               ...s,

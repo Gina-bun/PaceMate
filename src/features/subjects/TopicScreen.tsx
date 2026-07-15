@@ -1,12 +1,22 @@
 // features/subjects/TopicScreen.tsx
 import { useNavigate, useParams } from "react-router-dom";
 import { Button } from "../../components/Button";
+import { useCurriculum } from "../../context/CurriculumContext";
 
 
 export function TopicScreen() {
+  const {subjects, loading, error} = useCurriculum();
   const navigate = useNavigate();
-  const { subjectId, topicId } = useParams();
+  const { subjectId, topicId, subtopicId } = useParams();
 
+    const subject = subjects.find((s) => s.subject.toLowerCase() === subjectId);
+    console.log(subject.subject);
+
+    const topic = subject?.topics.find((t) => t.id === topicId);
+    console.log(topic.title);
+    
+    const subtopic = topic?.subtopics.find((s) => s.id === subtopicId);
+    console.log(subtopic.title)
   return (
     <div className="flex flex-col min-h-screen bg-amber-50">
       {/* Header zone — distinct background, same pattern as Subject screen */}
@@ -14,8 +24,8 @@ export function TopicScreen() {
         <button onClick={() => navigate(-1)} className="mb-2 text-sm">
           ← Back
         </button>
-        <p className="text-sm opacity-90">English</p>
-        <h1 className="text-xl font-bold">Reading Comprehension</h1>
+        <p className="text-sm opacity-90">{subject.subject}</p>
+        <h1 className="text-xl font-bold">{subtopic?.title}</h1>
       </div>
 
       <div className="flex flex-col gap-6 p-4">
@@ -27,8 +37,7 @@ export function TopicScreen() {
             
           </div>
           <p className="text-sm text-gray-700">
-            This topic covers how to identify the main idea of a passage, tell facts apart from
-            inferences, and summarize what you've read clearly and briefly.
+            {subtopic.keyConceptSummary}
           </p>
         </div>
 
@@ -36,7 +45,7 @@ export function TopicScreen() {
         <div>
           <h2 className="font-semibold mb-1">Learning Goals</h2>
           <ul className="list-disc list-inside text-sm text-gray-700 flex flex-col gap-1">
-            {learningGoals.map((goal) => (
+            {subtopic.learningGoals.map((goal) => (
               <li key={goal}>{goal}</li>
             ))}
           </ul>
@@ -56,7 +65,7 @@ export function TopicScreen() {
           </div>
 
           <ul className="flex flex-col gap-2">
-            {readingResources.map((resource) => (
+            {subtopic.resources.map((resource) => (
               <li key={resource.title}>
                 <a
                 

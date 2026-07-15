@@ -4,12 +4,14 @@ import { Checkbox } from "../../components/Checkbox";
 import type { Subtopic } from "../types";
 
 export interface TopicItemProps {
+  id: string;
   title: string;
   subtopics: Subtopic[];
   onToggleSubtopic: (subtopicId: string) => void;
 }
 
 export function TopicItem({
+  id,
   title,
   subtopics,
   onToggleSubtopic,
@@ -36,7 +38,7 @@ export function TopicItem({
             />
             <span
               className="text-sm text-gray-700"
-              onClick={() => navigate(`/subject/${subjectId}/topic/${sub.id}`)}
+              onClick={() => navigate(`/subject/${subjectId}/topic/${id}/subtopic/${sub.id}`)}
             >
               {sub.title}
             </span>

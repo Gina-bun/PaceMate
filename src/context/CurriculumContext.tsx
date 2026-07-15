@@ -8,6 +8,7 @@ import { useGrade } from "./GradeContext";
 interface CurriculumContextType {
     subjects: SubjectData[];
     loading: boolean;
+    error: Error | null;
 }
 
 const CurriculumContext = createContext<CurriculumContextType | undefined>(undefined);
@@ -15,28 +16,40 @@ const CurriculumContext = createContext<CurriculumContextType | undefined>(undef
 export function CurriculumProvider({children}: {children: ReactNode}) {
     const {grade} = useGrade();
     const [subjects, setSubjects] = useState<SubjectData[]>([]);
-    const [loading, setLoading] = useState(false);
+    const [loading, setLoading] = useState(true);
+    const [error, setError] = useState<Error | null>(null);
 
     useEffect(() => {
+         console.log(grade)
+
         if(!grade) return;
 
-        setLoading(false);
+        setLoading(true);
+        setError(null);
+
 
         //import only the JSON files you need based on the student's grade.
         Promise.all([
-            import(`../data/social-studies-jhs${grade}.json`),
-            import(`../data/mathematics-jhs${grade}.json`),
-            import(`../data/english-jhs${grade}.json`),
-            import(`../data/science-jhs${grade}.json`),
+            import(`../data/social-studies-grade${grade}.json`),
+            // import(`../data/mathematics-jhs${grade}.json`),
+            // import(`../data/english-jhs${grade}.json`),
+            // import(`../data/science-jhs${grade}.json`),
         ]).then((modules) => {
             setSubjects(modules.map((mod) => mod.default as SubjectData));
             setLoading(false);
 
         })
+        .catch((err) => {
+            console.error("Failed to load curriculum data:", err);
+            setError(err);
+        })
+        .finally(() => {
+            setLoading(false);
+        });
     }, [grade]);
 
     return (
-        <CurriculumContext.Provider value={{subjects, loading}}>
+        <CurriculumContext.Provider value={{subjects, loading, error}}>
             {children}
         </CurriculumContext.Provider>
     );
