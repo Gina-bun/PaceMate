@@ -5,16 +5,20 @@ import { ProfileAvatar } from "../../components/ProfileAvatar";
 import { TextInput } from "../../components/TextInput";
 import { Select } from "../../components/Select";
 import { Button } from "../../components/Button";
+import { useAuth } from "../../context/AuthContext";
 
 export function EditProfileScreen() {
   const navigate = useNavigate();
   const [fullName, setFullName] = useState("Philomena Cunk");
   const [username, setUsername] = useState("philomena_c");
   const [email, setEmail] = useState("philomena@example.com");
-  const [grade, setGrade] = useState("7");
+
+  const {user, setGrade: saveGrade} = useAuth();
+  const gradeValue = user?.grade ? user.grade.toString() : "7";
+  const [grade, setGrade] = useState(gradeValue);
 
   const handleSave = () => {
-    
+    saveGrade(Number(grade));
     navigate("/profile");
   };
 
