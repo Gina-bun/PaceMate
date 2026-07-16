@@ -5,6 +5,7 @@ import { QuizQuestion } from "../../components/QuizQuestion";
 import { Button } from "../../components/Button";
 import { ProgressBar } from "../../components/ProgessBar";
 import { useCurriculum } from "../../context/CurriculumContext";
+import { ArrowLeft } from "lucide-react";
 
 
 
@@ -42,7 +43,7 @@ export function QuizScreen() {
   return (
     <div className="flex flex-col min-h-screen bg-amber-50 p-4 gap-4">
       <button onClick={() => navigate(-1)} className="text-sm self-start">
-        ← Back
+          <ArrowLeft size={18} /> 
       </button>
 
       <div>

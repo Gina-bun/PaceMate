@@ -2,6 +2,7 @@ import { useNavigate, useParams } from "react-router-dom";
 import { useCurriculum } from "../../context/CurriculumContext";
 import { TopicItem } from "./TopicItem";
 import { useState } from "react";
+import { ArrowLeft } from "lucide-react";
 
 export function SubjectScreen() {
   const { subjectId } = useParams();
@@ -28,7 +29,7 @@ export function SubjectScreen() {
     <div className="flex flex-col min-h-screen bg-amber-50">
       <div className="bg-orange-400 text-white p-4">
         <button onClick={() => navigate("/dashboard")} className="mb-2 text-sm">
-          ← Back
+          <ArrowLeft size={18} />
         </button>
         <h1 className="text-xl font-bold">{subject.subject}</h1>
         <p className="text-sm mt-1">

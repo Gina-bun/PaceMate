@@ -1,6 +1,7 @@
 import { useState } from "react";
 import { useNavigate } from "react-router-dom";
 import { Accordion } from "../../components/Accordion";
+import { ArrowLeft } from "lucide-react";
 
 type AppearanceMode = "light" | "dark" | "system";
 
@@ -12,9 +13,9 @@ export function SettingsScreen() {
     <div className="flex flex-col min-h-screen bg-amber-50">
       <div className="p-4">
         <button onClick={() => navigate(-1)} className="text-sm mb-2">
-          ← Back
+          <ArrowLeft size={18} />
         </button>
-        <h1 className="text-xl font-bold">Settings</h1>
+        <h1 className="text-xl font-bold text-center">Settings</h1>
       </div>
 
       <div className="flex flex-col px-4">

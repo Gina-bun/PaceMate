@@ -2,6 +2,7 @@
 import { useNavigate, useParams } from "react-router-dom";
 import { Button } from "../../components/Button";
 import { useCurriculum } from "../../context/CurriculumContext";
+import { ArrowLeft } from "lucide-react";
 
 
 export function TopicScreen() {
@@ -22,7 +23,7 @@ export function TopicScreen() {
       {/* Header zone — distinct background, same pattern as Subject screen */}
       <div className="bg-orange-400 text-white p-4">
         <button onClick={() => navigate(-1)} className="mb-2 text-sm">
-          ← Back
+          <ArrowLeft size={18} />
         </button>
         <p className="text-sm opacity-90">{subject.subject}</p>
         <h1 className="text-xl font-bold">{subtopic?.title}</h1>

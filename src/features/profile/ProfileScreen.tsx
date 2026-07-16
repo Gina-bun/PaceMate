@@ -1,6 +1,7 @@
 
 import { useNavigate } from "react-router-dom";
 import { ProfileAvatar } from "../../components/ProfileAvatar";
+import { ArrowLeft } from "lucide-react";
 
 const user = { name: "Philomena Cunk", email: "philomena@example.com" }; // TODO: real user data later
 
@@ -11,9 +12,9 @@ export function ProfileScreen() {
     <div className="flex flex-col min-h-screen bg-amber-50">
       <div className="p-4">
         <button onClick={() => navigate(-1)} className="text-sm mb-2">
-          ← Back
+          <ArrowLeft size={18} />
         </button>
-        <h1 className="text-xl font-bold">Profile</h1>
+        <h1 className="text-xl font-bold text-center">Profile</h1>
       </div>
 
       <div className="bg-orange-400 rounded-md mx-4 p-4 flex flex-col items-center gap-2 text-white">

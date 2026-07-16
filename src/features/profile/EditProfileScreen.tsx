@@ -6,6 +6,7 @@ import { TextInput } from "../../components/TextInput";
 import { Select } from "../../components/Select";
 import { Button } from "../../components/Button";
 import { useAuth } from "../../context/AuthContext";
+import { ArrowLeft } from "lucide-react";
 
 export function EditProfileScreen() {
   const navigate = useNavigate();
@@ -26,9 +27,9 @@ export function EditProfileScreen() {
     <div className="flex flex-col min-h-screen bg-amber-50 p-4 gap-5">
       <div>
         <button onClick={() => navigate(-1)} className="text-sm mb-2">
-          ← Back
+          <ArrowLeft size={18} />
         </button>
-        <h1 className="text-xl font-bold">Edit Profile</h1>
+        <h1 className="text-xl text-center font-bold">Edit Profile</h1>
       </div>
 
       <div className="flex justify-center">
