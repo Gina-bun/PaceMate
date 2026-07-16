@@ -1,5 +1,4 @@
-
-import { useNavigate, useLocation } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 
 type NavVariant = "bottom" | "side";
 
@@ -19,25 +18,23 @@ const variantStyles: Record<NavVariant, string> = {
 };
 
 export function Nav({ variant }: NavProps) {
-  const navigate = useNavigate();
-  const location = useLocation();
+ 
 
   return (
     <nav className={`flex border-gray-200 bg-white ${variantStyles[variant]}`}>
-      {navItems.map((item) => {
-        const isActive = location.pathname === item.path;
-        return (
-          <button
+      {navItems.map((item) => (
+          <NavLink
             key={item.path}
-            onClick={() => navigate(item.path)}
-            className={`text-sm ${variant === "side" ? "text-left" : ""} ${
+            to={item.path}
+            className={({isActive}) => `text-sm ${variant === "side" ? "text-left" : ""} ${
               isActive ? "text-orange-500 font-semibold" : "text-gray-500"
-            }`}
+            }`
+          }
           >
             {item.label}
-          </button>
-        );
-      })}
+          </NavLink>
+        
+      ))}
     </nav>
   );
 }

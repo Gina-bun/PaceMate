@@ -1,4 +1,4 @@
-
+import { getInitials } from "../utils/getInitials";
 interface ProfileAvatarProps {
   name: string;
   imageUrl?: string;
@@ -6,15 +6,6 @@ interface ProfileAvatarProps {
   onEditClick?: () => void;
 }
 
-function getInitials(name: string) {
-  return name
-    .trim()
-    .split(" ")
-    .map((part) => part[0])
-    .join("")
-    .toUpperCase()
-    .slice(0, 2);
-}
 
 export function ProfileAvatar({ name, imageUrl, editable, onEditClick }: ProfileAvatarProps) {
   return (
