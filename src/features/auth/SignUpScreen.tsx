@@ -1,26 +1,43 @@
-
-import { useState } from "react";
 import { useNavigate } from "react-router-dom";
+import { useFormik } from "formik";
+import * as Yup from "yup";
 import { Button } from "../../components/Button";
 import { TextInput } from "../../components/TextInput";
 import { useAuth } from "../../context/AuthContext";
 
+const passwordRules = Yup.string()
+  .min(8, "Must be at least 8 characters")
+  .matches(/[a-z]/, "Must include a lowercase letter")
+  .matches(/[A-Z]/, "Must include an uppercase letter")
+  .matches(/[0-9]/, "Must include a number")
+  .matches(/[^a-zA-Z0-9]/, "Must include a symbol")
+  .required("Password is required");
+
+const signUpSchema = Yup.object({
+  fullName: Yup.string().trim().required("Full name is required"),
+  email: Yup.string().email("Enter a valid email").required("Email is required"),
+  password: passwordRules,
+});
+
 export function SignUpScreen() {
   const navigate = useNavigate();
-  const [fullName, setFullName] = useState("");
-  const [email, setEmail] = useState("");
-  const [password, setPassword] = useState("");
   const {signup} = useAuth();
 
-  const handleSignUp = async () => {
-    try {
-      await signup(fullName, email, password);
-      navigate("/select-grade");
-    } catch (error) {
-      console.error("Sign up failed:", error);
-    }
-    
-  };
+  const formik = useFormik({
+    initialValues: {fullName: "", email: "", password: ""},
+    validationSchema: signUpSchema,
+    onSubmit: async (mapValues, {setSubmitting}) => {
+      try {
+        await signup(mapValues.fullName, mapValues.email, mapValues.password);
+        navigate("/select-grade");
+      } catch (error) {
+        console.error("Sign up failed:", error);
+      } finally {
+        setSubmitting(false);
+      }
+    },
+  })
+
 
   return (
     <div className="flex flex-col gap-5 h-screen items-center justify-center bg-amber-50 px-6">
@@ -29,28 +46,41 @@ export function SignUpScreen() {
         <p className="text-gray-600">Create an account</p>
       </div>
 
-      <div className="flex flex-col gap-3 w-full sm:w-[50vw]">
-        <TextInput label="Full Name" value={fullName} onChange={setFullName} placeholder="Your full name" />
-        <TextInput label="Email" type="email" value={email} onChange={setEmail} placeholder="you@example.com" />
+      <form onSubmit={formik.handleSubmit} className="flex flex-col gap-3 w-full sm:w-[50vw]">
+        <TextInput 
+           label="Full Name" 
+           value={formik.values.fullName} 
+           onChange={(value) => formik.setFieldValue("fullName", value)} 
+           placeholder="Your full name"
+           error={formik.touched.fullName ? formik.errors.fullName : undefined}
+        />
+        <TextInput 
+           label="Email"
+           type="email" 
+           value={formik.values.email} 
+           onChange={(value) => formik.setFieldValue("email", value)} 
+           placeholder="you@example.com"
+            error={formik.touched.email ? formik.errors.email : undefined}
+        />
         <TextInput
           label="Password"
           type="password"
-          value={password}
-          onChange={setPassword}
+          value={formik.values.password}
+          onChange={(value) => formik.setFieldValue("password", value)}
           placeholder="••••••••"
-          helperText="Between 8 and 22 characters"
+           error={formik.touched.password ? formik.errors.password : undefined}
         />
 
-        <Button type="button" onClick={handleSignUp} styles="bg-orange-400 text-amber-50">
+        <Button type="submit" disabled={formik.isSubmitting} styles="bg-orange-400 text-amber-50">
           CREATE ACCOUNT
         </Button>
 
         <p className="text-center text-sm text-gray-500 uppercase">or continue with</p>
 
-        <Button type="button" onClick={() => {}} styles="bg-white border border-gray-300 text-gray-700">
+        <Button type="button" styles="bg-white border border-gray-300 text-gray-700">
           Continue with Google
         </Button>
-        <Button type="button" onClick={() => {}} styles="bg-black text-white">
+        <Button type="button" styles="bg-black text-white">
           Continue with Apple
         </Button>
 
@@ -63,7 +93,7 @@ export function SignUpScreen() {
             Login
           </span>
         </p>
-      </div>
+      </form>
     </div>
   );
 }
