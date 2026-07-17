@@ -1,9 +1,17 @@
-
 import { useNavigate } from "react-router-dom";
 import { ProfileAvatar } from "../../components/ProfileAvatar";
 import { ArrowLeft } from "lucide-react";
+import { Button } from "../../components/Button";
+import { routes } from "../../routes";
+import path from "path";
 
-const user = { name: "Philomena Cunk", email: "philomena@example.com" }; // TODO: real user data later
+const user = { name: "Philomena Cunk", email: "philomena@example.com" }; // add real user data later
+
+const menuItems = [
+  {label: "Edit Profile", path: routes.editProfile()},
+  {label: "Terms and Conditions", path: routes.terms()},
+  {label: "Help and Support", path: routes.help()},
+];
 
 export function ProfileScreen() {
   const navigate = useNavigate();
@@ -24,23 +32,24 @@ export function ProfileScreen() {
       </div>
 
       <div className="flex flex-col mt-6 px-4">
-        <button onClick={() => navigate("/edit-profile")} className="text-left py-3 border-b border-gray-200">
-          Edit Profile
-        </button>
-        <button onClick={() => navigate("/terms")} className="text-left py-3 border-b border-gray-200">
-          Terms and Conditions
-        </button>
-        <button onClick={() => navigate("/help")} className="text-left py-3 border-b border-gray-200">
-          Help and Support
-        </button>
-        <button
+        {menuItems.map((item) => (
+          <Button
+          key={item.path}
+          onClick={() => navigate(item.path)}
+          styles="text-left py-3 border-b border-gray-200"
+          >
+            {item.label}
+          </Button>
+        ))}
+
+        <Button
           onClick={() => {
-            // TODO: real logout logic later
+            // add real logout logic later
           }}
-          className="text-left py-3 text-orange-600 font-medium flex items-center gap-2 mt-2"
+          styles="text-left py-3 text-orange-600 font-medium flex items-center gap-2 mt-2"
         >
           Log Out ⎋
-        </button>
+        </Button>
       </div>
     </div>
   );
