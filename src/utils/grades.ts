@@ -1,0 +1,1 @@
+export const grades = [7, 8, 9] as const;
