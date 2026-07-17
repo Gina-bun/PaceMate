@@ -1,11 +1,8 @@
-
-interface ProgressBarProps {
-  value: number;
-  max: number;
-}
+import { getPercentage } from "../utils/getPercentage";
+import type { ProgressBarProps } from "./types";
 
 export function ProgressBar({ value, max }: ProgressBarProps) {
-  const percent = Math.min((value / max) * 100, 100);
+ const percent = getPercentage({value, max})
 
   return (
     <div className="w-full bg-gray-200 rounded-full h-2">

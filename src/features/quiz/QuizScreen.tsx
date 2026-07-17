@@ -3,7 +3,7 @@ import { useState } from "react";
 import { useNavigate, useParams } from "react-router-dom";
 import { QuizQuestion } from "../../components/QuizQuestion";
 import { Button } from "../../components/Button";
-import { ProgressBar } from "../../components/ProgessBar";
+import { ProgressBar } from "../../components/ProgressBar";
 import { useCurriculum } from "../../context/CurriculumContext";
 import { ArrowLeft } from "lucide-react";
 
