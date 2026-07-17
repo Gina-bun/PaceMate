@@ -4,6 +4,7 @@ import * as Yup from "yup";
 import { Button } from "../../components/Button";
 import { TextInput } from "../../components/TextInput";
 import { useAuth } from "../../context/AuthContext";
+import { routes } from "../../routes";
 
 const passwordRules = Yup.string()
   .min(8, "Must be at least 8 characters")
@@ -29,7 +30,7 @@ export function SignUpScreen() {
     onSubmit: async (mapValues, {setSubmitting}) => {
       try {
         await signup(mapValues.fullName, mapValues.email, mapValues.password);
-        navigate("/select-grade");
+        navigate(routes.selectGrade());
       } catch (error) {
         console.error("Sign up failed:", error);
       } finally {
@@ -88,7 +89,7 @@ export function SignUpScreen() {
           Already have an account?{" "}
           <span
             className="text-orange-500 font-medium cursor-pointer"
-            onClick={() => navigate("/login")}
+            onClick={() => navigate(routes.login())}
           >
             Login
           </span>

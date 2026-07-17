@@ -1,11 +1,11 @@
-
 import { useLocation, useNavigate, useParams } from "react-router-dom";
 import { Button } from "../../components/Button";
+import { routes } from "../../routes";
 
 export function QuizScoreScreen() {
   const location = useLocation();
   const navigate = useNavigate();
-  const { subjectId, topicId } = useParams();
+  const { subjectId, topicId, subtopicId } = useParams();
 
   const { score = 0, total = 0 } = (location.state as { score: number; total: number }) || {};
   const passed = total > 0 && score / total >= 0.5;
@@ -20,14 +20,16 @@ export function QuizScoreScreen() {
       <div className="flex flex-row gap-3 w-full sm:w-[50vw]">
         <Button
           type="button"
-          onClick={() => navigate(`/subject/${subjectId}/topic/${topicId}/quiz`)}
+          onClick={() => navigate(routes.quiz(subjectId!, topicId!, subtopicId!))}
           styles="bg-orange-400 text-amber-50 flex-1"
         >
           RETAKE QUIZ
         </Button>
         <Button
           type="button"
-          onClick={() => navigate(`/subject/${subjectId}/topic/${topicId}`)}
+          onClick={
+          {/*add route later */}
+          }
           styles="bg-white border border-gray-300 text-gray-700 flex-1"
         >
           SEE SUMMARY

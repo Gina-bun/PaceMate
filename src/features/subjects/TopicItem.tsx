@@ -2,6 +2,7 @@ import { useNavigate, useParams } from "react-router-dom";
 import { Accordion } from "../../components/Accordion";
 import { Checkbox } from "../../components/Checkbox";
 import type { Subtopic } from "../types";
+import { routes } from "../../routes";
 
 export interface TopicItemProps {
   id: string;
@@ -38,7 +39,7 @@ export function TopicItem({
             />
             <span
               className="text-sm text-gray-700"
-              onClick={() => navigate(`/subject/${subjectId}/topic/${id}/subtopic/${sub.id}`)}
+              onClick={() => navigate(routes.subtopic(subjectId!, id, sub.id ))}
             >
               {sub.title}
             </span>

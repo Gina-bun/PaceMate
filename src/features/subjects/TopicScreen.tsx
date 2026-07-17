@@ -3,6 +3,7 @@ import { useNavigate, useParams } from "react-router-dom";
 import { Button } from "../../components/Button";
 import { useCurriculum } from "../../context/CurriculumContext";
 import { ArrowLeft } from "lucide-react";
+import { routes } from "../../routes";
 
 
 export function TopicScreen() {
@@ -83,7 +84,7 @@ export function TopicScreen() {
         </div>
 
         {/* CTA */}
-        <Button type="button" onClick={() => navigate(`/subject/${subjectId}/topic/${topicId}/subtopic/${subtopicId}/quiz`)} styles="bg-orange-400 text-amber-50 mt-2">
+        <Button type="button" onClick={() => navigate(routes.quiz(subjectId!, topicId!, subtopicId!))} styles="bg-orange-400 text-amber-50 mt-2">
           READY FOR QUIZ
         </Button>
       </div>

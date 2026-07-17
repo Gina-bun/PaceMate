@@ -4,6 +4,7 @@ import * as Yup from "yup";
 import { Button } from "../../components/Button";
 import { TextInput } from "../../components/TextInput";
 import { useAuth } from "../../context/AuthContext";
+import { routes } from "../../routes";
 
 
 const loginSchema = Yup.object({
@@ -21,7 +22,7 @@ export function LoginScreen() {
     onSubmit: async (values, {setSubmitting}) => {
         try {
           await login(values.email, values.password);
-          navigate("/dashboard");
+          navigate(routes.dashboard());
         } catch (error) {
           console.error("Login failed:", error);
         } finally {
@@ -73,7 +74,7 @@ export function LoginScreen() {
           Don't have an account?{" "}
           <span
             className="text-orange-500 font-medium cursor-pointer"
-            onClick={() => navigate("/signup")}
+            onClick={() => navigate(routes.signup())}
           >
             Sign up
           </span>

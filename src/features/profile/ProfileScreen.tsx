@@ -3,7 +3,6 @@ import { ProfileAvatar } from "../../components/ProfileAvatar";
 import { ArrowLeft } from "lucide-react";
 import { Button } from "../../components/Button";
 import { routes } from "../../routes";
-import path from "path";
 
 const user = { name: "Philomena Cunk", email: "philomena@example.com" }; // add real user data later
 

@@ -6,6 +6,7 @@ import { Button } from "../../components/Button";
 import { ProgressBar } from "../../components/ProgressBar";
 import { useCurriculum } from "../../context/CurriculumContext";
 import { ArrowLeft } from "lucide-react";
+import { routes } from "../../routes";
 
 
 
@@ -30,7 +31,7 @@ export function QuizScreen() {
     const updatedScore = gotItRight ? score + 1 : score;
 
     if (isLastQuestion) {
-      navigate(`/subject/${subjectId}/topic/${topicId}/subtopic/${subtopicId}/quiz-score`, {
+      navigate(routes.quizScore(subjectId, topicId, subtopicId), {
         state: { score: updatedScore, total: questions.length },
       });
     } else {

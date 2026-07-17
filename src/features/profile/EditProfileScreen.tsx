@@ -7,6 +7,7 @@ import { Select } from "../../components/Select";
 import { Button } from "../../components/Button";
 import { useAuth } from "../../context/AuthContext";
 import { ArrowLeft } from "lucide-react";
+import { routes } from "../../routes";
 
 export function EditProfileScreen() {
   const navigate = useNavigate();
@@ -20,7 +21,7 @@ export function EditProfileScreen() {
 
   const handleSave = () => {
     saveGrade(Number(grade));
-    navigate("/profile");
+    navigate(routes.profile());
   };
 
   return (

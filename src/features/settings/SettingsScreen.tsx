@@ -2,6 +2,7 @@ import { useState } from "react";
 import { useNavigate } from "react-router-dom";
 import { Accordion } from "../../components/Accordion";
 import { ArrowLeft } from "lucide-react";
+import { routes } from "../../routes";
 
 type AppearanceMode = "light" | "dark" | "system";
 
@@ -22,7 +23,7 @@ export function SettingsScreen() {
         <Accordion title={<span className="font-medium">Account</span>}>
           <div className="flex flex-col gap-3">
             <button
-              onClick={() => navigate("/change-password")}
+              onClick={() => navigate(routes.changePassword())}
               className="text-left text-sm text-gray-700"
             >
               Change Password
@@ -57,7 +58,7 @@ export function SettingsScreen() {
         <Accordion title={<span className="font-medium">About</span>}>
           <div className="flex flex-col gap-3 text-sm text-gray-700">
             <p>App Version: 1.0.0</p>
-            <button onClick={() => navigate("/terms")} className="text-left">
+            <button onClick={() => navigate(routes.terms())} className="text-left">
               Terms and Privacy
             </button>
           </div>

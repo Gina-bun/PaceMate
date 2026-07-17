@@ -1,4 +1,5 @@
 import { NavLink } from "react-router-dom";
+import { routes } from "../routes";
 
 type NavVariant = "bottom" | "side";
 
@@ -7,9 +8,9 @@ interface NavProps {
 }
 
 const navItems = [
-  { label: "Home", path: "/dashboard" },
-  { label: "Profile", path: "/profile" },
-  { label: "Settings", path: "/settings" },
+  { label: "Home", path: routes.dashboard() },
+  { label: "Profile", path: routes.profile() },
+  { label: "Settings", path: routes.settings() },
 ];
 
 const variantStyles: Record<NavVariant, string> = {

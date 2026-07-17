@@ -2,6 +2,7 @@
 import { useNavigate } from "react-router-dom";
 import { Card } from "../../components/Card";
 import { StackedCard } from "./StackedCard";
+import { routes } from "../../routes";
 
 const welcomeCards = [
   { title: "Welcome to PaceMate", description: "Learn at your own pace, every day." },
@@ -32,7 +33,7 @@ export function DashboardScreen() {
             <Card 
             key={subject} 
             variant="subject"
-            onClick={() => navigate(`/subject/${subject.toLowerCase()}`)}
+            onClick={() => navigate(routes.subject(subject.toLowerCase()))}
             >
               <p className="font-medium">{subject}</p>
             </Card>
