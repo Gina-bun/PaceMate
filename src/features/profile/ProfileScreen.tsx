@@ -1,4 +1,4 @@
-import { useNavigate } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 import { ProfileAvatar } from "../../components/ProfileAvatar";
 import { ArrowLeft } from "lucide-react";
 import { Button } from "../../components/Button";
@@ -32,13 +32,13 @@ export function ProfileScreen() {
 
       <div className="flex flex-col mt-6 px-4">
         {menuItems.map((item) => (
-          <Button
+          <Link
           key={item.path}
-          onClick={() => navigate(item.path)}
-          styles="text-left py-3 border-b border-gray-200"
+          to={item.path}
+          className="text-left py-3 border-b border-gray-200"
           >
             {item.label}
-          </Button>
+          </Link>
         ))}
 
         <Button

@@ -3,6 +3,8 @@ import { useNavigate } from "react-router-dom";
 import { Accordion } from "../../components/Accordion";
 import { ArrowLeft } from "lucide-react";
 import { routes } from "../../routes";
+import { Link } from "react-router-dom";
+import { Button } from "../../components/Button";
 
 type AppearanceMode = "light" | "dark" | "system";
 
@@ -22,19 +24,19 @@ export function SettingsScreen() {
       <div className="flex flex-col px-4">
         <Accordion title={<span className="font-medium">Account</span>}>
           <div className="flex flex-col gap-3">
-            <button
-              onClick={() => navigate(routes.changePassword())}
+            <Link
+              to={routes.changePassword()}
               className="text-left text-sm text-gray-700"
             >
               Change Password
-            </button>
-            <button
+            </Link>
+            <Button
               onClick={() => {
               }}
-              className="text-left text-sm text-red-500 font-medium"
+              styles="text-left text-sm text-red-500 font-medium"
             >
               Delete Account
-            </button>
+            </Button>
           </div>
         </Accordion>
 
