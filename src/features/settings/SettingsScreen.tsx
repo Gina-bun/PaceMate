@@ -8,6 +8,8 @@ import { Button } from "../../components/Button";
 
 type AppearanceMode = "light" | "dark" | "system";
 
+const APPEARANCE_OPTIONS: AppearanceMode[] = ["light", "dark", "system"];
+
 export function SettingsScreen() {
   const navigate = useNavigate();
   const [appearance, setAppearance] = useState<AppearanceMode>("system");
@@ -42,7 +44,7 @@ export function SettingsScreen() {
 
         <Accordion title={<span className="font-medium">Appearance</span>}>
           <div className="flex flex-col gap-2">
-            {(["light", "dark", "system"] as AppearanceMode[]).map((mode) => (
+            {APPEARANCE_OPTIONS.map((mode) => (
               <label key={mode} className="flex items-center gap-2 text-sm text-gray-700 capitalize">
                 <input
                   type="radio"
@@ -59,7 +61,7 @@ export function SettingsScreen() {
 
         <Accordion title={<span className="font-medium">About</span>}>
           <div className="flex flex-col gap-3 text-sm text-gray-700">
-            <p>App Version: 1.0.0</p>
+            <p>App Version: {__APP_VERSION__}</p>
             <button onClick={() => navigate(routes.terms())} className="text-left">
               Terms and Privacy
             </button>
