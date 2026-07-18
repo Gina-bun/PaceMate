@@ -62,7 +62,7 @@ export function QuizScreen() {
         onSelect={setSelectedOptionId}
       />
 
-      <Button type="button" onClick={handleNext} styles="bg-orange-400 text-amber-50">
+      <Button type="button" onClick={handleNext} disabled={selectedOptionId === null} styles="bg-orange-400 text-amber-50">
         {isLastQuestion ? "SUBMIT" : "NEXT"}
       </Button>
     </div>
