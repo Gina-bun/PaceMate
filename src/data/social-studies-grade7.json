@@ -23,28 +23,21 @@
             { "type": "reading", "title": "Rise and Decline of Ghana's Precolonial Kingdoms", "url": "#" }
           ],
           "quiz": [
-            {
-              "id": "q1",
-              "question": "Which of these is one of the major ethnic groups of Ghana?",
-              "options": [
-                { "id": "a", "text": "Zulu" },
-                { "id": "b", "text": "Akan" },
-                { "id": "c", "text": "Maasai" },
-                { "id": "d", "text": "Yoruba" }
-              ],
-              "correctOptionId": "b"
-            },
-            {
-              "id": "q2",
-              "question": "A 'push factor' in migration refers to:",
-              "options": [
-                { "id": "a", "text": "A reason that attracts people to a new place" },
-                { "id": "b", "text": "A reason that forces people to leave their original home" },
-                { "id": "c", "text": "A type of historical map" },
-                { "id": "d", "text": "A festival celebrating a kingdom's founding" }
-              ],
-              "correctOptionId": "b"
-            }
+            { "id": "q1", "question": "Which of these is one of the major ethnic groups of Ghana?", "options": [{ "id": "a", "text": "Zulu" }, { "id": "b", "text": "Akan" }, { "id": "c", "text": "Maasai" }, { "id": "d", "text": "Yoruba" }], "correctOptionId": "b" },
+            { "id": "q2", "question": "A 'push factor' in migration refers to:", "options": [{ "id": "a", "text": "A reason that attracts people to a new place" }, { "id": "b", "text": "A reason that forces people to leave their original home" }, { "id": "c", "text": "A type of historical map" }, { "id": "d", "text": "A festival celebrating a kingdom's founding" }], "correctOptionId": "b" },
+            { "id": "q3", "question": "A 'pull factor' in migration refers to:", "options": [{ "id": "a", "text": "A reason that forces people to leave their home" }, { "id": "b", "text": "A reason that attracts people to a new place" }, { "id": "c", "text": "A type of historical map" }, { "id": "d", "text": "A festival" }], "correctOptionId": "b" },
+            { "id": "q4", "question": "Which of these is a major ethnic group originally settled mainly in northern Ghana?", "options": [{ "id": "a", "text": "Mole-Dagbani" }, { "id": "b", "text": "Akan" }, { "id": "c", "text": "Ga-Adangbe" }, { "id": "d", "text": "Ewe" }], "correctOptionId": "a" },
+            { "id": "q5", "question": "The Ewe people trace part of their migration history to which town?", "options": [{ "id": "a", "text": "Notsie" }, { "id": "b", "text": "Kumasi" }, { "id": "c", "text": "Tamale" }, { "id": "d", "text": "Cape Coast" }], "correctOptionId": "a" },
+            { "id": "q6", "question": "Which ethnic group is most associated with centralised kingdoms like Asante and Akwamu?", "options": [{ "id": "a", "text": "Akan" }, { "id": "b", "text": "Guan" }, { "id": "c", "text": "Kokomba" }, { "id": "d", "text": "Sisala" }], "correctOptionId": "a" },
+            { "id": "q7", "question": "The Ga-Adangbe people settled mainly in which part of Ghana?", "options": [{ "id": "a", "text": "The coastal/Greater Accra area" }, { "id": "b", "text": "The northern savanna" }, { "id": "c", "text": "The Volta highlands" }, { "id": "d", "text": "The western forest belt" }], "correctOptionId": "a" },
+            { "id": "q8", "question": "Which factor most contributed to the rise of major states and kingdoms in Ghana?", "options": [{ "id": "a", "text": "Control of trade routes and military strength" }, { "id": "b", "text": "Lack of leadership" }, { "id": "c", "text": "Absence of trade" }, { "id": "d", "text": "Isolation from neighbours" }], "correctOptionId": "a" },
+            { "id": "q9", "question": "A common factor in the decline of precolonial kingdoms was:", "options": [{ "id": "a", "text": "Internal conflict and succession disputes" }, { "id": "b", "text": "Too much unity" }, { "id": "c", "text": "Excess of resources" }, { "id": "d", "text": "Overpopulation only" }], "correctOptionId": "a" },
+            { "id": "q10", "question": "In many precolonial Akan states, who served as custodian of stool affairs and adviser to the chief?", "options": [{ "id": "a", "text": "The Queen mother" }, { "id": "b", "text": "A foreign trader" }, { "id": "c", "text": "A missionary" }, { "id": "d", "text": "A colonial governor" }], "correctOptionId": "a" },
+            { "id": "q11", "question": "The Guan people are historically associated with which type of political system?", "options": [{ "id": "a", "text": "Theocratic" }, { "id": "b", "text": "Purely military" }, { "id": "c", "text": "Foreign-imposed" }, { "id": "d", "text": "None" }], "correctOptionId": "a" },
+            { "id": "q12", "question": "Matriarchs in precolonial Ghanaian kingdoms mainly played a role in:", "options": [{ "id": "a", "text": "Succession and lineage matters" }, { "id": "b", "text": "Foreign trade only" }, { "id": "c", "text": "Military conquest only" }, { "id": "d", "text": "Tax collection only" }], "correctOptionId": "a" },
+            { "id": "q13", "question": "Patriarchs in precolonial states were primarily responsible for:", "options": [{ "id": "a", "text": "Leadership and decision-making for the community" }, { "id": "b", "text": "Farming only" }, { "id": "c", "text": "Religious rituals only" }, { "id": "d", "text": "Nothing of importance" }], "correctOptionId": "a" },
+            { "id": "q14", "question": "Historical maps are useful in studying migration because they help us:", "options": [{ "id": "a", "text": "Trace the movement patterns of ethnic groups" }, { "id": "b", "text": "Predict future population" }, { "id": "c", "text": "Measure rainfall" }, { "id": "d", "text": "Calculate land size" }], "correctOptionId": "a" },
+            { "id": "q15", "question": "Understanding the migration history of Ghana's ethnic groups helps citizens today to:", "options": [{ "id": "a", "text": "Appreciate cultural diversity and shared heritage" }, { "id": "b", "text": "Ignore other cultures" }, { "id": "c", "text": "Create conflict" }, { "id": "d", "text": "Avoid cooperation" }], "correctOptionId": "a" }
           ]
         },
         {
@@ -64,28 +57,16 @@
             { "type": "reading", "title": "Ways to Develop Your Personal Capabilities", "url": "#" }
           ],
           "quiz": [
-            {
-              "id": "q1",
-              "question": "Self-identity is best described as:",
-              "options": [
-                { "id": "a", "text": "A person's official ID card" },
-                { "id": "b", "text": "Understanding who you are, including your strengths and weaknesses" },
-                { "id": "c", "text": "A community's shared history" },
-                { "id": "d", "text": "A type of government document" }
-              ],
-              "correctOptionId": "b"
-            },
-            {
-              "id": "q2",
-              "question": "Which of these is an example of developing your personal capabilities?",
-              "options": [
-                { "id": "a", "text": "Avoiding new challenges" },
-                { "id": "b", "text": "Continuous practice and training" },
-                { "id": "c", "text": "Ignoring feedback from others" },
-                { "id": "d", "text": "Comparing yourself only to others" }
-              ],
-              "correctOptionId": "b"
-            }
+            { "id": "q1", "question": "Self-identity is best described as:", "options": [{ "id": "a", "text": "A person's official ID card" }, { "id": "b", "text": "Understanding who you are, including your strengths and weaknesses" }, { "id": "c", "text": "A community's shared history" }, { "id": "d", "text": "A type of government document" }], "correctOptionId": "b" },
+            { "id": "q2", "question": "Which of these is an example of developing your personal capabilities?", "options": [{ "id": "a", "text": "Avoiding new challenges" }, { "id": "b", "text": "Continuous practice and training" }, { "id": "c", "text": "Ignoring feedback from others" }, { "id": "d", "text": "Comparing yourself only to others" }], "correctOptionId": "b" },
+            { "id": "q3", "question": "Self-confidence is best described as:", "options": [{ "id": "a", "text": "Belief in one's own abilities" }, { "id": "b", "text": "Fear of failure" }, { "id": "c", "text": "Dependence on others" }, { "id": "d", "text": "Rejection of feedback" }], "correctOptionId": "a" },
+            { "id": "q4", "question": "Which of these is an attitude that enhances self-worth?", "options": [{ "id": "a", "text": "A positive attitude towards life" }, { "id": "b", "text": "Negative self-talk" }, { "id": "c", "text": "Avoiding all challenges" }, { "id": "d", "text": "Comparing yourself to others" }], "correctOptionId": "a" },
+            { "id": "q5", "question": "Education and training help individuals mainly by:", "options": [{ "id": "a", "text": "Developing their skills and capabilities" }, { "id": "b", "text": "Making them dependent on others" }, { "id": "c", "text": "Limiting their potential" }, { "id": "d", "text": "Isolating them from society" }], "correctOptionId": "a" },
+            { "id": "q6", "question": "Knowing oneself helps a person to:", "options": [{ "id": "a", "text": "Accept themselves and identify their potential" }, { "id": "b", "text": "Hide their weaknesses" }, { "id": "c", "text": "Copy others" }, { "id": "d", "text": "Avoid personal growth" }], "correctOptionId": "a" },
+            { "id": "q7", "question": "Continuous practice contributes to personal development because it:", "options": [{ "id": "a", "text": "Helps improve skills over time" }, { "id": "b", "text": "Wastes time" }, { "id": "c", "text": "Is unnecessary" }, { "id": "d", "text": "Only benefits other people" }], "correctOptionId": "a" },
+            { "id": "q8", "question": "Accepting one's weaknesses is important because it:", "options": [{ "id": "a", "text": "Allows a person to work on self-improvement" }, { "id": "b", "text": "Means giving up" }, { "id": "c", "text": "Shows failure" }, { "id": "d", "text": "Is a sign of low confidence" }], "correctOptionId": "a" },
+            { "id": "q9", "question": "Which of these best supports healthy personal growth?", "options": [{ "id": "a", "text": "Setting goals and working towards them" }, { "id": "b", "text": "Avoiding all challenges" }, { "id": "c", "text": "Ignoring feedback" }, { "id": "d", "text": "Isolating from the community" }], "correctOptionId": "a" },
+            { "id": "q10", "question": "Counselling can support personal development mainly by helping a person to:", "options": [{ "id": "a", "text": "Understand themselves better and make good decisions" }, { "id": "b", "text": "Avoid all responsibility" }, { "id": "c", "text": "Depend entirely on others" }, { "id": "d", "text": "Reject all guidance" }], "correctOptionId": "a" }
           ]
         }
       ]
@@ -111,28 +92,21 @@
             { "type": "reading", "title": "How Human Activities Impact the Environment", "url": "#" }
           ],
           "quiz": [
-            {
-              "id": "q1",
-              "question": "Which of these is an example of pollution?",
-              "options": [
-                { "id": "a", "text": "Planting trees" },
-                { "id": "b", "text": "Dumping waste into a river" },
-                { "id": "c", "text": "Recycling plastic" },
-                { "id": "d", "text": "Conserving water" }
-              ],
-              "correctOptionId": "b"
-            },
-            {
-              "id": "q2",
-              "question": "Environmental challenges are mostly caused by:",
-              "options": [
-                { "id": "a", "text": "Natural disasters only" },
-                { "id": "b", "text": "Human activities" },
-                { "id": "c", "text": "Weather patterns only" },
-                { "id": "d", "text": "Wild animals" }
-              ],
-              "correctOptionId": "b"
-            }
+            { "id": "q1", "question": "Which of these is an example of pollution?", "options": [{ "id": "a", "text": "Planting trees" }, { "id": "b", "text": "Dumping waste into a river" }, { "id": "c", "text": "Recycling plastic" }, { "id": "d", "text": "Conserving water" }], "correctOptionId": "b" },
+            { "id": "q2", "question": "Environmental challenges are mostly caused by:", "options": [{ "id": "a", "text": "Natural disasters only" }, { "id": "b", "text": "Human activities" }, { "id": "c", "text": "Weather patterns only" }, { "id": "d", "text": "Wild animals" }], "correctOptionId": "b" },
+            { "id": "q3", "question": "The term 'environment' refers to:", "options": [{ "id": "a", "text": "Everything around us, including land, water, air and living things" }, { "id": "b", "text": "Only buildings" }, { "id": "c", "text": "Only forests" }, { "id": "d", "text": "Only oceans" }], "correctOptionId": "a" },
+            { "id": "q4", "question": "Deforestation is an example of:", "options": [{ "id": "a", "text": "An environmental challenge caused by human activity" }, { "id": "b", "text": "A natural resource" }, { "id": "c", "text": "A type of pollution control" }, { "id": "d", "text": "A weather pattern" }], "correctOptionId": "a" },
+            { "id": "q5", "question": "Which of these is a way to reduce pollution?", "options": [{ "id": "a", "text": "Proper waste disposal" }, { "id": "b", "text": "Dumping waste in rivers" }, { "id": "c", "text": "Burning plastic in the open" }, { "id": "d", "text": "Ignoring recycling" }], "correctOptionId": "a" },
+            { "id": "q6", "question": "Air pollution can be caused by:", "options": [{ "id": "a", "text": "Smoke from vehicles and factories" }, { "id": "b", "text": "Planting trees" }, { "id": "c", "text": "Using clean energy" }, { "id": "d", "text": "Recycling" }], "correctOptionId": "a" },
+            { "id": "q7", "question": "One effect of environmental challenges on communities is:", "options": [{ "id": "a", "text": "Health problems from polluted water and air" }, { "id": "b", "text": "Increased farmland fertility" }, { "id": "c", "text": "Better housing" }, { "id": "d", "text": "More clean water" }], "correctOptionId": "a" },
+            { "id": "q8", "question": "Which human activity most contributes to land degradation in Ghana?", "options": [{ "id": "a", "text": "Illegal mining (galamsey)" }, { "id": "b", "text": "Tree planting" }, { "id": "c", "text": "Composting" }, { "id": "d", "text": "Water conservation" }], "correctOptionId": "a" },
+            { "id": "q9", "question": "Environmental challenges are best managed through:", "options": [{ "id": "a", "text": "Community awareness and responsible practices" }, { "id": "b", "text": "Ignoring the problem" }, { "id": "c", "text": "Increasing pollution" }, { "id": "d", "text": "Avoiding education" }], "correctOptionId": "a" },
+            { "id": "q10", "question": "Water pollution can result from:", "options": [{ "id": "a", "text": "Dumping industrial waste into rivers" }, { "id": "b", "text": "Planting trees near rivers" }, { "id": "c", "text": "Filtering drinking water" }, { "id": "d", "text": "Building dams only" }], "correctOptionId": "a" },
+            { "id": "q11", "question": "Which of these best describes a sustainable practice?", "options": [{ "id": "a", "text": "Using resources in a way that does not harm future generations" }, { "id": "b", "text": "Using all resources at once" }, { "id": "c", "text": "Ignoring waste management" }, { "id": "d", "text": "Avoiding conservation" }], "correctOptionId": "a" },
+            { "id": "q12", "question": "A key impact of environmental challenges on the economy is:", "options": [{ "id": "a", "text": "Loss of farmland and reduced productivity" }, { "id": "b", "text": "Increased tourism only" }, { "id": "c", "text": "Improved fishing" }, { "id": "d", "text": "Better roads" }], "correctOptionId": "a" },
+            { "id": "q13", "question": "Community projects to manage the environment can include:", "options": [{ "id": "a", "text": "Clean-up campaigns and tree planting" }, { "id": "b", "text": "Increasing waste dumping" }, { "id": "c", "text": "Building more unregulated factories" }, { "id": "d", "text": "Ignoring pollution" }], "correctOptionId": "a" },
+            { "id": "q14", "question": "Noise pollution is best described as:", "options": [{ "id": "a", "text": "Excessive or disturbing sound in the environment" }, { "id": "b", "text": "A type of water pollution" }, { "id": "c", "text": "A form of soil erosion" }, { "id": "d", "text": "A renewable resource" }], "correctOptionId": "a" },
+            { "id": "q15", "question": "Educating communities about pollution helps to:", "options": [{ "id": "a", "text": "Prevent and reduce environmental challenges" }, { "id": "b", "text": "Increase environmental damage" }, { "id": "c", "text": "Have no effect" }, { "id": "d", "text": "Only benefit industries" }], "correctOptionId": "a" }
           ]
         },
         {
@@ -153,28 +127,16 @@
             { "type": "reading", "title": "Sustainable Resource Development", "url": "#" }
           ],
           "quiz": [
-            {
-              "id": "q1",
-              "question": "Which of these is a renewable resource?",
-              "options": [
-                { "id": "a", "text": "Gold" },
-                { "id": "b", "text": "Forests" },
-                { "id": "c", "text": "Crude oil" },
-                { "id": "d", "text": "Bauxite" }
-              ],
-              "correctOptionId": "b"
-            },
-            {
-              "id": "q2",
-              "question": "A non-renewable resource is one that:",
-              "options": [
-                { "id": "a", "text": "Can be replaced quickly" },
-                { "id": "b", "text": "Cannot be replaced once used up" },
-                { "id": "c", "text": "Only exists in water" },
-                { "id": "d", "text": "Grows back every year" }
-              ],
-              "correctOptionId": "b"
-            }
+            { "id": "q1", "question": "Which of these is a renewable resource?", "options": [{ "id": "a", "text": "Gold" }, { "id": "b", "text": "Forests" }, { "id": "c", "text": "Crude oil" }, { "id": "d", "text": "Bauxite" }], "correctOptionId": "b" },
+            { "id": "q2", "question": "A non-renewable resource is one that:", "options": [{ "id": "a", "text": "Can be replaced quickly" }, { "id": "b", "text": "Cannot be replaced once used up" }, { "id": "c", "text": "Only exists in water" }, { "id": "d", "text": "Grows back every year" }], "correctOptionId": "b" },
+            { "id": "q3", "question": "Which of these is a non-renewable resource?", "options": [{ "id": "a", "text": "Bauxite" }, { "id": "b", "text": "Water" }, { "id": "c", "text": "Forests" }, { "id": "d", "text": "Sunlight" }], "correctOptionId": "a" },
+            { "id": "q4", "question": "Human resources refer to:", "options": [{ "id": "a", "text": "The skills and labour of people" }, { "id": "b", "text": "Mineral deposits" }, { "id": "c", "text": "Water bodies" }, { "id": "d", "text": "Forest reserves" }], "correctOptionId": "a" },
+            { "id": "q5", "question": "Sustainable resource development means:", "options": [{ "id": "a", "text": "Using resources without depleting them for future generations" }, { "id": "b", "text": "Using all resources quickly" }, { "id": "c", "text": "Avoiding resource use entirely" }, { "id": "d", "text": "Ignoring conservation" }], "correctOptionId": "a" },
+            { "id": "q6", "question": "Gold is an example of a resource that is:", "options": [{ "id": "a", "text": "Non-renewable" }, { "id": "b", "text": "Renewable" }, { "id": "c", "text": "Unlimited" }, { "id": "d", "text": "Self-replacing" }], "correctOptionId": "a" },
+            { "id": "q7", "question": "One challenge in developing Ghana's resources is:", "options": [{ "id": "a", "text": "Environmental degradation from mining" }, { "id": "b", "text": "Too many resources" }, { "id": "c", "text": "Lack of any resources" }, { "id": "d", "text": "Excess water" }], "correctOptionId": "a" },
+            { "id": "q8", "question": "Forests are considered renewable because they:", "options": [{ "id": "a", "text": "Can be replanted and regrow over time" }, { "id": "b", "text": "Never run out" }, { "id": "c", "text": "Are man-made" }, { "id": "d", "text": "Cannot be used" }], "correctOptionId": "a" },
+            { "id": "q9", "question": "Ghana's natural resources are important because they:", "options": [{ "id": "a", "text": "Contribute to the country's economic development" }, { "id": "b", "text": "Have no economic value" }, { "id": "c", "text": "Only benefit other countries" }, { "id": "d", "text": "Are not used" }], "correctOptionId": "a" },
+            { "id": "q10", "question": "Proper management of natural resources helps to:", "options": [{ "id": "a", "text": "Ensure resources remain available for future generations" }, { "id": "b", "text": "Increase pollution" }, { "id": "c", "text": "Reduce national income" }, { "id": "d", "text": "Eliminate all resources" }], "correctOptionId": "a" }
           ]
         }
       ]
@@ -200,28 +162,21 @@
             { "type": "reading", "title": "The Role of Chieftaincy in Ghana Today", "url": "#" }
           ],
           "quiz": [
-            {
-              "id": "q1",
-              "question": "Which of these is a branch of modern political institutions in Ghana?",
-              "options": [
-                { "id": "a", "text": "The judiciary" },
-                { "id": "b", "text": "The chieftaincy only" },
-                { "id": "c", "text": "The military only" },
-                { "id": "d", "text": "The clan system" }
-              ],
-              "correctOptionId": "a"
-            },
-            {
-              "id": "q2",
-              "question": "The Asante political system in precolonial Ghana is best described as:",
-              "options": [
-                { "id": "a", "text": "Non-centralised" },
-                { "id": "b", "text": "Centralised" },
-                { "id": "c", "text": "Theocratic only" },
-                { "id": "d", "text": "Foreign-controlled" }
-              ],
-              "correctOptionId": "b"
-            }
+            { "id": "q1", "question": "Which of these is a branch of modern political institutions in Ghana?", "options": [{ "id": "a", "text": "The judiciary" }, { "id": "b", "text": "The chieftaincy only" }, { "id": "c", "text": "The military only" }, { "id": "d", "text": "The clan system" }], "correctOptionId": "a" },
+            { "id": "q2", "question": "The Asante political system in precolonial Ghana is best described as:", "options": [{ "id": "a", "text": "Non-centralised" }, { "id": "b", "text": "Centralised" }, { "id": "c", "text": "Theocratic only" }, { "id": "d", "text": "Foreign-controlled" }], "correctOptionId": "b" },
+            { "id": "q3", "question": "Which precolonial Ghanaian society practiced a non-centralised political system?", "options": [{ "id": "a", "text": "Tallensi" }, { "id": "b", "text": "Asante" }, { "id": "c", "text": "Denkyira" }, { "id": "d", "text": "Akwamu" }], "correctOptionId": "a" },
+            { "id": "q4", "question": "The legislature's main function in Ghana's political system is to:", "options": [{ "id": "a", "text": "Make laws" }, { "id": "b", "text": "Enforce laws" }, { "id": "c", "text": "Interpret laws" }, { "id": "d", "text": "Collect taxes only" }], "correctOptionId": "a" },
+            { "id": "q5", "question": "The judiciary's main role is to:", "options": [{ "id": "a", "text": "Interpret and apply the law" }, { "id": "b", "text": "Make laws" }, { "id": "c", "text": "Enforce foreign policy" }, { "id": "d", "text": "Collect taxes" }], "correctOptionId": "a" },
+            { "id": "q6", "question": "The executive branch of government is mainly responsible for:", "options": [{ "id": "a", "text": "Implementing and enforcing laws" }, { "id": "b", "text": "Interpreting laws only" }, { "id": "c", "text": "Making all laws alone" }, { "id": "d", "text": "Writing the constitution alone" }], "correctOptionId": "a" },
+            { "id": "q7", "question": "Which of these describes a theocratic political system?", "options": [{ "id": "a", "text": "Governance based on religious authority" }, { "id": "b", "text": "Rule by a council of elders only" }, { "id": "c", "text": "Rule by military force only" }, { "id": "d", "text": "Rule by foreign powers" }], "correctOptionId": "a" },
+            { "id": "q8", "question": "Queen mothers in Akan political systems played a key role in:", "options": [{ "id": "a", "text": "Selecting and advising chiefs" }, { "id": "b", "text": "Foreign trade only" }, { "id": "c", "text": "Tax collection only" }, { "id": "d", "text": "None of the above" }], "correctOptionId": "a" },
+            { "id": "q9", "question": "The chieftaincy institution in Ghana today mainly serves to:", "options": [{ "id": "a", "text": "Preserve culture and support local governance" }, { "id": "b", "text": "Replace the national government" }, { "id": "c", "text": "Collect national taxes" }, { "id": "d", "text": "Control the judiciary" }], "correctOptionId": "a" },
+            { "id": "q10", "question": "A key feature of a centralised precolonial state was:", "options": [{ "id": "a", "text": "A strong central authority such as a king or paramount chief" }, { "id": "b", "text": "No leadership structure" }, { "id": "c", "text": "Rule by multiple foreign powers" }, { "id": "d", "text": "Lack of any government" }], "correctOptionId": "a" },
+            { "id": "q11", "question": "Power and authority in political institutions help to:", "options": [{ "id": "a", "text": "Maintain order and organise governance" }, { "id": "b", "text": "Create chaos" }, { "id": "c", "text": "Eliminate laws" }, { "id": "d", "text": "Reduce citizen participation" }], "correctOptionId": "a" },
+            { "id": "q12", "question": "Which of these is an example of a non-centralised precolonial society?", "options": [{ "id": "a", "text": "Kokomba" }, { "id": "b", "text": "Asante" }, { "id": "c", "text": "Akwamu" }, { "id": "d", "text": "Denkyira" }], "correctOptionId": "a" },
+            { "id": "q13", "question": "In modern Ghana, checks and balances exist to:", "options": [{ "id": "a", "text": "Prevent any one branch of government from having too much power" }, { "id": "b", "text": "Give all power to the executive" }, { "id": "c", "text": "Eliminate the judiciary" }, { "id": "d", "text": "Remove the legislature" }], "correctOptionId": "a" },
+            { "id": "q14", "question": "The role of traditional authorities today includes:", "options": [{ "id": "a", "text": "Settling local disputes and preserving customs" }, { "id": "b", "text": "Making national laws" }, { "id": "c", "text": "Controlling the military" }, { "id": "d", "text": "Managing foreign policy" }], "correctOptionId": "a" },
+            { "id": "q15", "question": "Understanding precolonial political systems helps modern Ghanaians to:", "options": [{ "id": "a", "text": "Appreciate the roots of governance structures today" }, { "id": "b", "text": "Reject all traditional leadership" }, { "id": "c", "text": "Ignore history" }, { "id": "d", "text": "Avoid civic participation" }], "correctOptionId": "a" }
           ]
         },
         {
@@ -241,28 +196,21 @@
             { "type": "reading", "title": "Responsibilities of a Ghanaian Citizen", "url": "#" }
           ],
           "quiz": [
-            {
-              "id": "q1",
-              "question": "Which of these is a way of acquiring citizenship in Ghana?",
-              "options": [
-                { "id": "a", "text": "By registration" },
-                { "id": "b", "text": "By owning property" },
-                { "id": "c", "text": "By visiting the country" },
-                { "id": "d", "text": "By attending school" }
-              ],
-              "correctOptionId": "a"
-            },
-            {
-              "id": "q2",
-              "question": "Which of these is a responsibility of a Ghanaian citizen?",
-              "options": [
-                { "id": "a", "text": "Avoiding taxes" },
-                { "id": "b", "text": "Respecting national symbols" },
-                { "id": "c", "text": "Ignoring laws" },
-                { "id": "d", "text": "Damaging state property" }
-              ],
-              "correctOptionId": "b"
-            }
+            { "id": "q1", "question": "Which of these is a way of acquiring citizenship in Ghana?", "options": [{ "id": "a", "text": "By registration" }, { "id": "b", "text": "By owning property" }, { "id": "c", "text": "By visiting the country" }, { "id": "d", "text": "By attending school" }], "correctOptionId": "a" },
+            { "id": "q2", "question": "Which of these is a responsibility of a Ghanaian citizen?", "options": [{ "id": "a", "text": "Avoiding taxes" }, { "id": "b", "text": "Respecting national symbols" }, { "id": "c", "text": "Ignoring laws" }, { "id": "d", "text": "Damaging state property" }], "correctOptionId": "b" },
+            { "id": "q3", "question": "Which of these is also a way of acquiring Ghanaian citizenship?", "options": [{ "id": "a", "text": "Birth" }, { "id": "b", "text": "Tourism" }, { "id": "c", "text": "Employment abroad" }, { "id": "d", "text": "Studying overseas" }], "correctOptionId": "a" },
+            { "id": "q4", "question": "A responsibility of a Ghanaian citizen includes:", "options": [{ "id": "a", "text": "Paying taxes" }, { "id": "b", "text": "Avoiding laws" }, { "id": "c", "text": "Damaging public property" }, { "id": "d", "text": "Ignoring civic duties" }], "correctOptionId": "a" },
+            { "id": "q5", "question": "Citizenship is important for nation-building because it:", "options": [{ "id": "a", "text": "Creates a sense of belonging and responsibility" }, { "id": "b", "text": "Divides communities" }, { "id": "c", "text": "Has no value" }, { "id": "d", "text": "Only benefits the government" }], "correctOptionId": "a" },
+            { "id": "q6", "question": "Which of these is a human right protected under Ghana's 1992 Constitution?", "options": [{ "id": "a", "text": "Freedom of speech" }, { "id": "b", "text": "Right to break the law" }, { "id": "c", "text": "Right to avoid taxes" }, { "id": "d", "text": "Right to ignore others" }], "correctOptionId": "a" },
+            { "id": "q7", "question": "Citizens contribute to national development mainly through:", "options": [{ "id": "a", "text": "Paying taxes and obeying laws" }, { "id": "b", "text": "Avoiding civic duties" }, { "id": "c", "text": "Ignoring national symbols" }, { "id": "d", "text": "Breaking laws" }], "correctOptionId": "a" },
+            { "id": "q8", "question": "Respecting national symbols, such as the flag, shows:", "options": [{ "id": "a", "text": "Patriotism and respect for the nation" }, { "id": "b", "text": "Disrespect" }, { "id": "c", "text": "Rebellion" }, { "id": "d", "text": "Indifference" }], "correctOptionId": "a" },
+            { "id": "q9", "question": "One way citizens can protect state property is by:", "options": [{ "id": "a", "text": "Reporting vandalism and misuse" }, { "id": "b", "text": "Damaging it themselves" }, { "id": "c", "text": "Ignoring it" }, { "id": "d", "text": "Selling it" }], "correctOptionId": "a" },
+            { "id": "q10", "question": "Which of these best describes a responsible citizen?", "options": [{ "id": "a", "text": "Someone who obeys laws and contributes to society" }, { "id": "b", "text": "Someone who avoids all civic duties" }, { "id": "c", "text": "Someone who breaks laws for personal gain" }, { "id": "d", "text": "Someone who ignores community needs" }], "correctOptionId": "a" },
+            { "id": "q11", "question": "The United Nations Declaration on Human Rights sets out standards for:", "options": [{ "id": "a", "text": "The basic rights every person is entitled to" }, { "id": "b", "text": "Only trade agreements" }, { "id": "c", "text": "Only military rules" }, { "id": "d", "text": "Only tax collection" }], "correctOptionId": "a" },
+            { "id": "q12", "question": "Which of these best describes a citizen's responsibility regarding crime?", "options": [{ "id": "a", "text": "Reporting crime to the appropriate authorities" }, { "id": "b", "text": "Ignoring all crime" }, { "id": "c", "text": "Covering up crimes" }, { "id": "d", "text": "Encouraging crime" }], "correctOptionId": "a" },
+            { "id": "q13", "question": "Citizenship acquired through marriage means:", "options": [{ "id": "a", "text": "A person may gain citizenship by marrying a citizen of the country" }, { "id": "b", "text": "Only birth grants citizenship" }, { "id": "c", "text": "Marriage has no effect on citizenship" }, { "id": "d", "text": "Only children can be citizens" }], "correctOptionId": "a" },
+            { "id": "q14", "question": "Human rights are best described as:", "options": [{ "id": "a", "text": "Basic freedoms and protections every person deserves" }, { "id": "b", "text": "Privileges given only to leaders" }, { "id": "c", "text": "Rules that apply only to adults" }, { "id": "d", "text": "Laws that can be ignored" }], "correctOptionId": "a" },
+            { "id": "q15", "question": "A community project on human rights awareness helps citizens to:", "options": [{ "id": "a", "text": "Understand and safeguard their rights" }, { "id": "b", "text": "Ignore their rights" }, { "id": "c", "text": "Avoid civic responsibility" }, { "id": "d", "text": "Reject the constitution" }], "correctOptionId": "a" }
           ]
         }
       ]
@@ -288,28 +236,21 @@
             { "type": "reading", "title": "The Role of Traditional Healers", "url": "#" }
           ],
           "quiz": [
-            {
-              "id": "q1",
-              "question": "Traditional medicine in precolonial Ghana relied mainly on:",
-              "options": [
-                { "id": "a", "text": "Imported pharmaceutical drugs" },
-                { "id": "b", "text": "Indigenous medicinal plants" },
-                { "id": "c", "text": "Hospital equipment" },
-                { "id": "d", "text": "Foreign doctors" }
-              ],
-              "correctOptionId": "b"
-            },
-            {
-              "id": "q2",
-              "question": "Who typically administered traditional medicine in precolonial Ghana?",
-              "options": [
-                { "id": "a", "text": "Traditional healers and herbalists" },
-                { "id": "b", "text": "Foreign missionaries" },
-                { "id": "c", "text": "School teachers" },
-                { "id": "d", "text": "Government officials" }
-              ],
-              "correctOptionId": "a"
-            }
+            { "id": "q1", "question": "Traditional medicine in precolonial Ghana relied mainly on:", "options": [{ "id": "a", "text": "Imported pharmaceutical drugs" }, { "id": "b", "text": "Indigenous medicinal plants" }, { "id": "c", "text": "Hospital equipment" }, { "id": "d", "text": "Foreign doctors" }], "correctOptionId": "b" },
+            { "id": "q2", "question": "Who typically administered traditional medicine in precolonial Ghana?", "options": [{ "id": "a", "text": "Traditional healers and herbalists" }, { "id": "b", "text": "Foreign missionaries" }, { "id": "c", "text": "School teachers" }, { "id": "d", "text": "Government officials" }], "correctOptionId": "a" },
+            { "id": "q3", "question": "In precolonial Ghana, herbal medicine was primarily derived from:", "options": [{ "id": "a", "text": "Local plants and roots" }, { "id": "b", "text": "Imported chemicals" }, { "id": "c", "text": "Synthetic drugs" }, { "id": "d", "text": "Foreign hospitals" }], "correctOptionId": "a" },
+            { "id": "q4", "question": "Traditional birth attendants were responsible for:", "options": [{ "id": "a", "text": "Assisting women during childbirth" }, { "id": "b", "text": "Teaching in schools" }, { "id": "c", "text": "Collecting taxes" }, { "id": "d", "text": "Leading armies" }], "correctOptionId": "a" },
+            { "id": "q5", "question": "Indigenous medicinal knowledge was mainly passed down through:", "options": [{ "id": "a", "text": "Oral tradition and apprenticeship" }, { "id": "b", "text": "Printed textbooks" }, { "id": "c", "text": "Foreign universities" }, { "id": "d", "text": "Television" }], "correctOptionId": "a" },
+            { "id": "q6", "question": "Traditional medicine remains important today because it:", "options": [{ "id": "a", "text": "Is still used alongside modern medicine in many communities" }, { "id": "b", "text": "Has completely disappeared" }, { "id": "c", "text": "Is banned everywhere" }, { "id": "d", "text": "Has no cultural value" }], "correctOptionId": "a" },
+            { "id": "q7", "question": "One method used by traditional healers to treat illness involved:", "options": [{ "id": "a", "text": "Use of herbs and rituals" }, { "id": "b", "text": "Surgery with modern equipment" }, { "id": "c", "text": "Imported pharmaceuticals" }, { "id": "d", "text": "X-ray machines" }], "correctOptionId": "a" },
+            { "id": "q8", "question": "Community elders were valuable sources of information on traditional medicine because they:", "options": [{ "id": "a", "text": "Preserved knowledge passed down through generations" }, { "id": "b", "text": "Had no knowledge of medicine" }, { "id": "c", "text": "Only knew modern medicine" }, { "id": "d", "text": "Were not involved in healthcare" }], "correctOptionId": "a" },
+            { "id": "q9", "question": "A challenge of relying solely on indigenous medicine could be:", "options": [{ "id": "a", "text": "Lack of standardised dosages and scientific testing" }, { "id": "b", "text": "Too much scientific testing" }, { "id": "c", "text": "Excessive government regulation" }, { "id": "d", "text": "Overuse of modern equipment" }], "correctOptionId": "a" },
+            { "id": "q10", "question": "Which of these best describes the role of a traditional healer in precolonial Ghana?", "options": [{ "id": "a", "text": "Diagnosing and treating illnesses using indigenous methods" }, { "id": "b", "text": "Teaching mathematics" }, { "id": "c", "text": "Leading trade expeditions" }, { "id": "d", "text": "Enforcing laws" }], "correctOptionId": "a" },
+            { "id": "q11", "question": "Documentaries on indigenous healthcare help learners to:", "options": [{ "id": "a", "text": "Understand different methods of providing traditional healthcare" }, { "id": "b", "text": "Ignore traditional practices" }, { "id": "c", "text": "Replace all modern medicine" }, { "id": "d", "text": "Avoid learning history" }], "correctOptionId": "a" },
+            { "id": "q12", "question": "Indigenous medicinal practices in precolonial Ghana were closely tied to:", "options": [{ "id": "a", "text": "Cultural and spiritual beliefs" }, { "id": "b", "text": "Foreign religions only" }, { "id": "c", "text": "Modern science only" }, { "id": "d", "text": "Government policy only" }], "correctOptionId": "a" },
+            { "id": "q13", "question": "One reason indigenous knowledge systems are valuable today is that they:", "options": [{ "id": "a", "text": "Contribute to Ghana's healthcare heritage" }, { "id": "b", "text": "Have no relevance today" }, { "id": "c", "text": "Are only historical curiosities" }, { "id": "d", "text": "Oppose modern medicine entirely" }], "correctOptionId": "a" },
+            { "id": "q14", "question": "Which of the following was a common method of providing indigenous healthcare?", "options": [{ "id": "a", "text": "Use of herbal concoctions" }, { "id": "b", "text": "Vaccination programs" }, { "id": "c", "text": "Hospital surgery" }, { "id": "d", "text": "Imported medicine only" }], "correctOptionId": "a" },
+            { "id": "q15", "question": "Investigating the methods of indigenous practitioners helps learners to:", "options": [{ "id": "a", "text": "Appreciate Ghana's traditional healthcare heritage" }, { "id": "b", "text": "Dismiss traditional knowledge" }, { "id": "c", "text": "Avoid research skills" }, { "id": "d", "text": "Ignore cultural history" }], "correctOptionId": "a" }
           ]
         },
         {
@@ -328,28 +269,16 @@
             { "type": "reading", "title": "The Role of Family and School in Socialisation", "url": "#" }
           ],
           "quiz": [
-            {
-              "id": "q1",
-              "question": "Which of these is an agency of socialisation?",
-              "options": [
-                { "id": "a", "text": "The family" },
-                { "id": "b", "text": "A shopping mall" },
-                { "id": "c", "text": "A traffic light" },
-                { "id": "d", "text": "A weather forecast" }
-              ],
-              "correctOptionId": "a"
-            },
-            {
-              "id": "q2",
-              "question": "Socialisation is best described as:",
-              "options": [
-                { "id": "a", "text": "Learning to drive" },
-                { "id": "b", "text": "The process of learning a society's values and norms" },
-                { "id": "c", "text": "A type of festival" },
-                { "id": "d", "text": "A government policy" }
-              ],
-              "correctOptionId": "b"
-            }
+            { "id": "q1", "question": "Which of these is an agency of socialisation?", "options": [{ "id": "a", "text": "The family" }, { "id": "b", "text": "A shopping mall" }, { "id": "c", "text": "A traffic light" }, { "id": "d", "text": "A weather forecast" }], "correctOptionId": "a" },
+            { "id": "q2", "question": "Socialisation is best described as:", "options": [{ "id": "a", "text": "Learning to drive" }, { "id": "b", "text": "The process of learning a society's values and norms" }, { "id": "c", "text": "A type of festival" }, { "id": "d", "text": "A government policy" }], "correctOptionId": "b" },
+            { "id": "q3", "question": "Which of these is an agent of socialisation?", "options": [{ "id": "a", "text": "A parent" }, { "id": "b", "text": "A traffic light" }, { "id": "c", "text": "A river" }, { "id": "d", "text": "A mountain" }], "correctOptionId": "a" },
+            { "id": "q4", "question": "The school serves as an agency of socialisation by:", "options": [{ "id": "a", "text": "Teaching values, discipline and knowledge" }, { "id": "b", "text": "Only teaching sports" }, { "id": "c", "text": "Ignoring values" }, { "id": "d", "text": "Replacing the family entirely" }], "correctOptionId": "a" },
+            { "id": "q5", "question": "Peers can influence socialisation by:", "options": [{ "id": "a", "text": "Shaping behaviour and attitudes through interaction" }, { "id": "b", "text": "Having no effect on behaviour" }, { "id": "c", "text": "Only teaching academic subjects" }, { "id": "d", "text": "Replacing parents completely" }], "correctOptionId": "a" },
+            { "id": "q6", "question": "Religious institutions contribute to socialisation by:", "options": [{ "id": "a", "text": "Teaching moral and spiritual values" }, { "id": "b", "text": "Only collecting donations" }, { "id": "c", "text": "Ignoring community needs" }, { "id": "d", "text": "Teaching only music" }], "correctOptionId": "a" },
+            { "id": "q7", "question": "The family is often considered the primary agency of socialisation because:", "options": [{ "id": "a", "text": "It is usually the first group a child interacts with" }, { "id": "b", "text": "It has no influence on children" }, { "id": "c", "text": "It only teaches academic skills" }, { "id": "d", "text": "It replaces the school" }], "correctOptionId": "a" },
+            { "id": "q8", "question": "Socialisation helps individuals to:", "options": [{ "id": "a", "text": "Learn the values and norms of their society" }, { "id": "b", "text": "Reject all social norms" }, { "id": "c", "text": "Live in isolation" }, { "id": "d", "text": "Avoid learning from others" }], "correctOptionId": "a" },
+            { "id": "q9", "question": "Which of these best describes an 'agent' of socialisation, as opposed to an 'agency'?", "options": [{ "id": "a", "text": "A teacher" }, { "id": "b", "text": "A school building" }, { "id": "c", "text": "A church building" }, { "id": "d", "text": "A government office" }], "correctOptionId": "a" },
+            { "id": "q10", "question": "A socialisation project involving the school and community helps learners to:", "options": [{ "id": "a", "text": "Practice applying social values in real life" }, { "id": "b", "text": "Avoid community involvement" }, { "id": "c", "text": "Ignore social norms" }, { "id": "d", "text": "Isolate themselves from society" }], "correctOptionId": "a" }
           ]
         }
       ]
@@ -375,28 +304,21 @@
             { "type": "reading", "title": "Sustainable Agriculture Practices in Ghana", "url": "#" }
           ],
           "quiz": [
-            {
-              "id": "q1",
-              "question": "Which of these was a common economic activity in precolonial Ghana?",
-              "options": [
-                { "id": "a", "text": "Salt production" },
-                { "id": "b", "text": "Software development" },
-                { "id": "c", "text": "Stock trading" },
-                { "id": "d", "text": "Air travel" }
-              ],
-              "correctOptionId": "a"
-            },
-            {
-              "id": "q2",
-              "question": "Precolonial economic activities in Ghana have:",
-              "options": [
-                { "id": "a", "text": "Disappeared completely" },
-                { "id": "b", "text": "Shaped Ghana's economy today" },
-                { "id": "c", "text": "No connection to modern Ghana" },
-                { "id": "d", "text": "Only existed in coastal areas" }
-              ],
-              "correctOptionId": "b"
-            }
+            { "id": "q1", "question": "Which of these was a common economic activity in precolonial Ghana?", "options": [{ "id": "a", "text": "Salt production" }, { "id": "b", "text": "Software development" }, { "id": "c", "text": "Stock trading" }, { "id": "d", "text": "Air travel" }], "correctOptionId": "a" },
+            { "id": "q2", "question": "Precolonial economic activities in Ghana have:", "options": [{ "id": "a", "text": "Disappeared completely" }, { "id": "b", "text": "Shaped Ghana's economy today" }, { "id": "c", "text": "No connection to modern Ghana" }, { "id": "d", "text": "Only existed in coastal areas" }], "correctOptionId": "b" },
+            { "id": "q3", "question": "Which of these was a major precolonial economic activity in Ghana?", "options": [{ "id": "a", "text": "Farming" }, { "id": "b", "text": "Software development" }, { "id": "c", "text": "Stock trading" }, { "id": "d", "text": "Air travel" }], "correctOptionId": "a" },
+            { "id": "q4", "question": "Fishing as an economic activity in precolonial Ghana was mainly practiced in:", "options": [{ "id": "a", "text": "Coastal and river communities" }, { "id": "b", "text": "Desert regions" }, { "id": "c", "text": "Mountain areas" }, { "id": "d", "text": "Urban centres only" }], "correctOptionId": "a" },
+            { "id": "q5", "question": "Craft industries in precolonial Ghana included activities such as:", "options": [{ "id": "a", "text": "Weaving and pottery" }, { "id": "b", "text": "Banking" }, { "id": "c", "text": "Insurance" }, { "id": "d", "text": "Software design" }], "correctOptionId": "a" },
+            { "id": "q6", "question": "Mining in precolonial Ghana was mainly associated with:", "options": [{ "id": "a", "text": "Gold extraction" }, { "id": "b", "text": "Oil drilling" }, { "id": "c", "text": "Coal mining" }, { "id": "d", "text": "Diamond cutting only" }], "correctOptionId": "a" },
+            { "id": "q7", "question": "Sustainable agricultural practices help to:", "options": [{ "id": "a", "text": "Preserve the land for future farming" }, { "id": "b", "text": "Deplete the soil quickly" }, { "id": "c", "text": "Increase pollution" }, { "id": "d", "text": "Reduce food production" }], "correctOptionId": "a" },
+            { "id": "q8", "question": "One continuity from precolonial to modern Ghanaian economy is:", "options": [{ "id": "a", "text": "Farming remains a major economic activity" }, { "id": "b", "text": "All trade has stopped" }, { "id": "c", "text": "Craft industries have disappeared" }, { "id": "d", "text": "Mining no longer occurs" }], "correctOptionId": "a" },
+            { "id": "q9", "question": "Precolonial trade routes in Ghana were important because they:", "options": [{ "id": "a", "text": "Connected communities for exchange of goods" }, { "id": "b", "text": "Isolated communities" }, { "id": "c", "text": "Prevented trade" }, { "id": "d", "text": "Had no economic value" }], "correctOptionId": "a" },
+            { "id": "q10", "question": "Which of these is an example of continuity in Ghana's economic activities?", "options": [{ "id": "a", "text": "Continued practice of farming and fishing" }, { "id": "b", "text": "Complete disappearance of trade" }, { "id": "c", "text": "End of craft industries" }, { "id": "d", "text": "Total halt of mining" }], "correctOptionId": "a" },
+            { "id": "q11", "question": "Hunting as an economic activity in precolonial Ghana mainly provided:", "options": [{ "id": "a", "text": "Food and materials for communities" }, { "id": "b", "text": "No benefits" }, { "id": "c", "text": "Only entertainment" }, { "id": "d", "text": "Foreign trade goods" }], "correctOptionId": "a" },
+            { "id": "q12", "question": "Salt production in precolonial Ghana was significant because it:", "options": [{ "id": "a", "text": "Was used for trade and food preservation" }, { "id": "b", "text": "Had no economic value" }, { "id": "c", "text": "Was only used for building" }, { "id": "d", "text": "Was banned" }], "correctOptionId": "a" },
+            { "id": "q13", "question": "Indigenous industries in Ghana contributed to the economy by:", "options": [{ "id": "a", "text": "Providing goods for local use and trade" }, { "id": "b", "text": "Producing nothing of value" }, { "id": "c", "text": "Replacing all farming" }, { "id": "d", "text": "Importing all goods" }], "correctOptionId": "a" },
+            { "id": "q14", "question": "A key challenge to sustainable economic activities today is:", "options": [{ "id": "a", "text": "Overexploitation of natural resources" }, { "id": "b", "text": "Too much conservation" }, { "id": "c", "text": "Lack of any economic activity" }, { "id": "d", "text": "Excess of resources" }], "correctOptionId": "a" },
+            { "id": "q15", "question": "Precolonial economic activities have shaped Ghana's economy today by:", "options": [{ "id": "a", "text": "Laying the foundation for agriculture and trade sectors" }, { "id": "b", "text": "Having no lasting impact" }, { "id": "c", "text": "Being completely replaced" }, { "id": "d", "text": "Being irrelevant to modern life" }], "correctOptionId": "a" }
           ]
         }
       ]
@@ -422,28 +344,21 @@
             { "type": "reading", "title": "Impact of the Slave Trade on Ghanaian Society", "url": "#" }
           ],
           "quiz": [
-            {
-              "id": "q1",
-              "question": "European traders first arrived on the coast now known as:",
-              "options": [
-                { "id": "a", "text": "The Gold Coast" },
-                { "id": "b", "text": "The Ivory Coast" },
-                { "id": "c", "text": "The Slave Coast" },
-                { "id": "d", "text": "The Cape Coast Colony" }
-              ],
-              "correctOptionId": "a"
-            },
-            {
-              "id": "q2",
-              "question": "One major impact of the Trans-Atlantic Slave Trade on Ghanaian society was:",
-              "options": [
-                { "id": "a", "text": "Rapid population growth" },
-                { "id": "b", "text": "Depopulation and disruption of social structures" },
-                { "id": "c", "text": "Increased trade with no negative effects" },
-                { "id": "d", "text": "Stronger indigenous political systems" }
-              ],
-              "correctOptionId": "b"
-            }
+            { "id": "q1", "question": "European traders first arrived on the coast now known as:", "options": [{ "id": "a", "text": "The Gold Coast" }, { "id": "b", "text": "The Ivory Coast" }, { "id": "c", "text": "The Slave Coast" }, { "id": "d", "text": "The Cape Coast Colony" }], "correctOptionId": "a" },
+            { "id": "q2", "question": "One major impact of the Trans-Atlantic Slave Trade on Ghanaian society was:", "options": [{ "id": "a", "text": "Rapid population growth" }, { "id": "b", "text": "Depopulation and disruption of social structures" }, { "id": "c", "text": "Increased trade with no negative effects" }, { "id": "d", "text": "Stronger indigenous political systems" }], "correctOptionId": "b" },
+            { "id": "q3", "question": "Which European nation is credited with first arriving on the Gold Coast?", "options": [{ "id": "a", "text": "Portugal" }, { "id": "b", "text": "Britain" }, { "id": "c", "text": "France" }, { "id": "d", "text": "Germany" }], "correctOptionId": "a" },
+            { "id": "q4", "question": "The Trans-Atlantic Slave Trade primarily involved the forced movement of enslaved Africans to:", "options": [{ "id": "a", "text": "The Americas" }, { "id": "b", "text": "Asia" }, { "id": "c", "text": "Australia" }, { "id": "d", "text": "Antarctica" }], "correctOptionId": "a" },
+            { "id": "q5", "question": "European traders initially came to the Gold Coast seeking:", "options": [{ "id": "a", "text": "Gold and other goods" }, { "id": "b", "text": "Only enslaved people" }, { "id": "c", "text": "Tourism" }, { "id": "d", "text": "Religious conversion only" }], "correctOptionId": "a" },
+            { "id": "q6", "question": "Forts and castles built by Europeans on the Gold Coast were mainly used for:", "options": [{ "id": "a", "text": "Trade and later the holding of enslaved people" }, { "id": "b", "text": "Farming" }, { "id": "c", "text": "Schools" }, { "id": "d", "text": "Hospitals" }], "correctOptionId": "a" },
+            { "id": "q7", "question": "One item Europeans exchanged for goods and enslaved people included:", "options": [{ "id": "a", "text": "Firearms and cloth" }, { "id": "b", "text": "Only food" }, { "id": "c", "text": "Only books" }, { "id": "d", "text": "Nothing" }], "correctOptionId": "a" },
+            { "id": "q8", "question": "Nana Kwamena Ansa I is historically associated with:", "options": [{ "id": "a", "text": "Early interactions between the Portuguese and the Elmina people" }, { "id": "b", "text": "The end of the Trans-Atlantic Slave Trade" }, { "id": "c", "text": "British colonisation" }, { "id": "d", "text": "The Fourth Republic" }], "correctOptionId": "a" },
+            { "id": "q9", "question": "The Trans-Atlantic Slave Trade increased significantly during which century?", "options": [{ "id": "a", "text": "The 18th century" }, { "id": "b", "text": "The 21st century" }, { "id": "c", "text": "The 10th century" }, { "id": "d", "text": "The 5th century" }], "correctOptionId": "a" },
+            { "id": "q10", "question": "A major social impact of the slave trade on Ghanaian society was:", "options": [{ "id": "a", "text": "Disruption of traditional social and economic structures" }, { "id": "b", "text": "Population growth" }, { "id": "c", "text": "Increased social stability" }, { "id": "d", "text": "Improved trade with no downsides" }], "correctOptionId": "a" },
+            { "id": "q11", "question": "The Triangular Trade connected which three regions?", "options": [{ "id": "a", "text": "Europe, Africa, and the Americas" }, { "id": "b", "text": "Asia, Europe, and Australia" }, { "id": "c", "text": "Africa, Asia, and Antarctica" }, { "id": "d", "text": "Only Europe and Africa" }], "correctOptionId": "a" },
+            { "id": "q12", "question": "European castles like Cape Coast Castle were located:", "options": [{ "id": "a", "text": "Along the coast of present-day Ghana" }, { "id": "b", "text": "In northern Ghana" }, { "id": "c", "text": "Inland, far from the coast" }, { "id": "d", "text": "Outside Africa" }], "correctOptionId": "a" },
+            { "id": "q13", "question": "Methods used to capture enslaved people included:", "options": [{ "id": "a", "text": "Raids and warfare" }, { "id": "b", "text": "Peaceful negotiation only" }, { "id": "c", "text": "Voluntary migration" }, { "id": "d", "text": "Trade agreements only" }], "correctOptionId": "a" },
+            { "id": "q14", "question": "The slave trade contributed to depopulation in Ghana by:", "options": [{ "id": "a", "text": "Forcibly removing large numbers of people from their communities" }, { "id": "b", "text": "Increasing the birth rate" }, { "id": "c", "text": "Improving healthcare" }, { "id": "d", "text": "Encouraging migration for education" }], "correctOptionId": "a" },
+            { "id": "q15", "question": "Studying the Trans-Atlantic Slave Trade helps learners understand:", "options": [{ "id": "a", "text": "The lasting impact of historical events on Ghanaian society" }, { "id": "b", "text": "That the slave trade had no effect on Ghana" }, { "id": "c", "text": "That history is unimportant" }, { "id": "d", "text": "That the trade only affected Europe" }], "correctOptionId": "a" }
           ]
         }
       ]
