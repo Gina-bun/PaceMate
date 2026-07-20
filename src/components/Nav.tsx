@@ -76,7 +76,7 @@ export function Nav({ variant }: NavProps) {
           </Button>
 
         {showTooltip && (
-          <div className="absolute top-full mt-2 right-0 whitespace-nowrap bg-gray-900 text-white text-xs px-2 py-1 rounded shadow-lg z-50">
+          <div className="absolute top-full mt-2 right-0 whitespace-nowrap bg-gray-900 text-white text-[9px] px-2 py-1 rounded shadow-lg z-50">
             {collapsed ? "Expand" : "Collapse"}
           </div>
         )}
