@@ -13,7 +13,7 @@ interface NavProps {
 }
 
 const navItems = [
-  { label: "Home", path: routes.dashboard(), icon: Home },
+  { label: "Dashboard", path: routes.dashboard(), icon: Home },
   { label: "Courses", path: routes.courses(), icon: BookOpen},
   { label: "Profile", path: routes.profile(), icon: User },
   { label: "Settings", path: routes.settings(), icon: Settings }, 

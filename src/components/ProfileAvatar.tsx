@@ -4,15 +4,17 @@ interface ProfileAvatarProps {
   imageUrl?: string;
   editable?: boolean;
   onEditClick?: () => void;
+  width?: number;
+  height?:number;
 }
 
 
-export function ProfileAvatar({ name, imageUrl, editable, onEditClick }: ProfileAvatarProps) {
+export function ProfileAvatar({ name, imageUrl, editable, onEditClick, height = 24, width = 24 }: ProfileAvatarProps) {
   return (
-    <div className="relative w-24 h-24">
+    <div className={`relative`}>
       <div
         onClick={editable ? onEditClick : undefined}
-        className={`w-24 h-24 rounded-md bg-orange-200 flex items-center justify-center text-2xl font-semibold text-orange-700 overflow-hidden ${
+        className={`w-${width} h-${height} rounded-md bg-orange-200 flex items-center justify-center text-2xl font-semibold text-orange-700 overflow-hidden ${
           editable ? "cursor-pointer" : ""
         }`}
       >
