@@ -1,0 +1,261 @@
+{
+  "subject": "Social Studies",
+  "grade": 8,
+  "topics": [
+    {
+      "id": "strand-1",
+      "title": "Identity, Significance and Purpose",
+      "subtopics": [
+        {
+          "id": "1-2-socio-cultural-practices",
+          "title": "Socio-Cultural Practices in Ghana",
+          "completed": false,
+          "learningGoals": [
+            "Assess socio-cultural practices or organisations that have shaped Ghanaian society since the precolonial era",
+            "Discuss inheritance and succession patterns in precolonial Ghana",
+            "Explain the cultural relevance of the Ghanaian family system",
+            "Discuss naming ceremonies and puberty rites and their effect on identity"
+          ],
+          "keyConceptSummary": "Ghanaian society has long been shaped by socio-cultural practices such as inheritance and succession patterns, the structure of the family system, and rites of passage like naming ceremonies and puberty rites. These practices have influenced how people relate to their identity and community.",
+          "resources": [
+            { "type": "video", "title": "Inheritance and Succession in Precolonial Ghana", "url": "REPLACE_WITH_REAL_URL" },
+            { "type": "reading", "title": "The Ghanaian Family System", "url": "#" },
+            { "type": "reading", "title": "Naming Ceremonies and Puberty Rites", "url": "#" }
+          ],
+          "quiz": [
+            { "id": "q1", "question": "Inheritance in many precolonial Akan societies followed which system?", "options": [{ "id": "a", "text": "Matrilineal inheritance" }, { "id": "b", "text": "No inheritance system" }, { "id": "c", "text": "Foreign-imposed inheritance" }, { "id": "d", "text": "Random selection" }], "correctOptionId": "a" },
+            { "id": "q2", "question": "The extended family system in Ghana traditionally includes:", "options": [{ "id": "a", "text": "Relatives beyond parents and children, such as uncles and grandparents" }, { "id": "b", "text": "Only parents and children" }, { "id": "c", "text": "Only unrelated neighbours" }, { "id": "d", "text": "No relatives at all" }], "correctOptionId": "a" },
+            { "id": "q3", "question": "Naming ceremonies in Ghanaian culture are significant because they:", "options": [{ "id": "a", "text": "Formally welcome a child into the family and community" }, { "id": "b", "text": "Have no cultural meaning" }, { "id": "c", "text": "Are only symbolic with no purpose" }, { "id": "d", "text": "Are unique to one ethnic group only" }], "correctOptionId": "a" },
+            { "id": "q4", "question": "Puberty rites in precolonial Ghana were mainly meant to:", "options": [{ "id": "a", "text": "Mark the transition from childhood to adulthood" }, { "id": "b", "text": "Punish young people" }, { "id": "c", "text": "Have no social significance" }, { "id": "d", "text": "Separate families" }], "correctOptionId": "a" },
+            { "id": "q5", "question": "Succession patterns in precolonial Ghana determined:", "options": [{ "id": "a", "text": "Who inherits leadership roles or property" }, { "id": "b", "text": "Only farming techniques" }, { "id": "c", "text": "Trade routes" }, { "id": "d", "text": "Weather patterns" }], "correctOptionId": "a" },
+            { "id": "q6", "question": "The Ghanaian family system is culturally relevant because it:", "options": [{ "id": "a", "text": "Provides support, identity, and continuity across generations" }, { "id": "b", "text": "Has no role in society" }, { "id": "c", "text": "Only matters for wealthy families" }, { "id": "d", "text": "Discourages community bonds" }], "correctOptionId": "a" },
+            { "id": "q7", "question": "Which of these best describes a patrilineal inheritance system?", "options": [{ "id": "a", "text": "Inheritance passed through the father's line" }, { "id": "b", "text": "Inheritance passed through the mother's line only" }, { "id": "c", "text": "No inheritance at all" }, { "id": "d", "text": "Inheritance determined by government" }], "correctOptionId": "a" },
+            { "id": "q8", "question": "Socio-cultural practices have shaped Ghanaian society by:", "options": [{ "id": "a", "text": "Influencing values, identity, and social structure" }, { "id": "b", "text": "Having no lasting impact" }, { "id": "c", "text": "Only affecting economic activities" }, { "id": "d", "text": "Being irrelevant to modern life" }], "correctOptionId": "a" },
+            { "id": "q9", "question": "Rites of passage such as puberty rites affect a person's identity by:", "options": [{ "id": "a", "text": "Shaping how they see themselves within their community" }, { "id": "b", "text": "Having no effect on identity" }, { "id": "c", "text": "Only affecting foreigners" }, { "id": "d", "text": "Erasing cultural identity" }], "correctOptionId": "a" },
+            { "id": "q10", "question": "The structure of the Ghanaian family system often includes:", "options": [{ "id": "a", "text": "Clan and lineage systems" }, { "id": "b", "text": "Only nuclear households" }, { "id": "c", "text": "No family structure" }, { "id": "d", "text": "Foreign-imposed structures only" }], "correctOptionId": "a" },
+            { "id": "q11", "question": "Studying inheritance and succession patterns helps learners understand:", "options": [{ "id": "a", "text": "How leadership and property have historically been passed on" }, { "id": "b", "text": "Nothing relevant to today" }, { "id": "c", "text": "Only foreign customs" }, { "id": "d", "text": "Modern banking systems" }], "correctOptionId": "a" },
+            { "id": "q12", "question": "A key symbol or object often used in Ghanaian marriage rites is:", "options": [{ "id": "a", "text": "Drinks and gifts presented to the bride's family" }, { "id": "b", "text": "Foreign currency exclusively" }, { "id": "c", "text": "Nothing of significance" }, { "id": "d", "text": "Only written contracts" }], "correctOptionId": "a" },
+            { "id": "q13", "question": "Which of these is a reason socio-cultural practices may change over time?", "options": [{ "id": "a", "text": "Influence of modernisation and globalisation" }, { "id": "b", "text": "Practices never change" }, { "id": "c", "text": "Complete rejection of all culture" }, { "id": "d", "text": "Isolation from all outside influence" }], "correctOptionId": "a" },
+            { "id": "q14", "question": "Analysing photographs and videos of marriage rites helps learners to:", "options": [{ "id": "a", "text": "Understand symbols, atmosphere, and significance of the practice" }, { "id": "b", "text": "Ignore cultural meaning" }, { "id": "c", "text": "Avoid critical thinking" }, { "id": "d", "text": "Reject Ghanaian culture" }], "correctOptionId": "a" },
+            { "id": "q15", "question": "Overall, socio-cultural practices in Ghana are best understood as:", "options": [{ "id": "a", "text": "Living traditions that continue to evolve while shaping identity" }, { "id": "b", "text": "Fixed customs that never change" }, { "id": "c", "text": "Practices with no connection to identity" }, { "id": "d", "text": "Foreign traditions imposed on Ghana" }], "correctOptionId": "a" }
+          ]
+        },
+        {
+          "id": "1-4-individual-community-development",
+          "title": "The Individual and Community Development",
+          "completed": false,
+          "learningGoals": [
+            "Examine the role of the individual in community development",
+            "Discuss how individual values, vision, initiative and drive contribute to community development",
+            "Discuss factors considered in community decision-making",
+            "Discuss the relevance of volunteerism to community development"
+          ],
+          "keyConceptSummary": "Individuals play a key role in community development through their values, vision, and initiative. Volunteerism and active participation in community decision-making strengthen the socio-economic wellbeing of communities.",
+          "resources": [
+            { "type": "video", "title": "The Individual's Role in Community Development", "url": "REPLACE_WITH_REAL_URL" },
+            { "type": "reading", "title": "Volunteerism and Its Benefits", "url": "#" },
+            { "type": "reading", "title": "How Communities Make Decisions", "url": "#" }
+          ],
+          "quiz": [
+            { "id": "q1", "question": "Community development refers to:", "options": [{ "id": "a", "text": "The process of improving the social and economic wellbeing of a community" }, { "id": "b", "text": "Building only roads" }, { "id": "c", "text": "A type of festival" }, { "id": "d", "text": "A government tax" }], "correctOptionId": "a" },
+            { "id": "q2", "question": "An individual can contribute to community development through:", "options": [{ "id": "a", "text": "Initiative, vision, and positive values" }, { "id": "b", "text": "Avoiding all community activities" }, { "id": "c", "text": "Ignoring community needs" }, { "id": "d", "text": "Working only for personal gain" }], "correctOptionId": "a" },
+            { "id": "q3", "question": "Volunteerism is best described as:", "options": [{ "id": "a", "text": "Offering one's time and effort to help the community without pay" }, { "id": "b", "text": "Working only for a salary" }, { "id": "c", "text": "Avoiding community service" }, { "id": "d", "text": "A government requirement" }], "correctOptionId": "a" },
+            { "id": "q4", "question": "Community decision-making should consider:", "options": [{ "id": "a", "text": "The needs and views of community members" }, { "id": "b", "text": "Only the opinion of one person" }, { "id": "c", "text": "Views from outside the community only" }, { "id": "d", "text": "No input from residents" }], "correctOptionId": "a" },
+            { "id": "q5", "question": "Which of these is an example of volunteering in a community?", "options": [{ "id": "a", "text": "Participating in a communal clean-up exercise" }, { "id": "b", "text": "Charging a fee for community help" }, { "id": "c", "text": "Avoiding all group activities" }, { "id": "d", "text": "Refusing to help neighbours" }], "correctOptionId": "a" },
+            { "id": "q6", "question": "An individual's drive and initiative can benefit a community by:", "options": [{ "id": "a", "text": "Inspiring positive change and new solutions" }, { "id": "b", "text": "Discouraging cooperation" }, { "id": "c", "text": "Creating division" }, { "id": "d", "text": "Having no effect" }], "correctOptionId": "a" },
+            { "id": "q7", "question": "Volunteerism contributes to socio-economic development by:", "options": [{ "id": "a", "text": "Supporting community projects without draining public funds" }, { "id": "b", "text": "Increasing government debt" }, { "id": "c", "text": "Reducing community participation" }, { "id": "d", "text": "Having no economic value" }], "correctOptionId": "a" },
+            { "id": "q8", "question": "Identifying community problems is an important first step because it helps residents to:", "options": [{ "id": "a", "text": "Find appropriate solutions to those problems" }, { "id": "b", "text": "Ignore the issues" }, { "id": "c", "text": "Blame outsiders" }, { "id": "d", "text": "Avoid taking action" }], "correctOptionId": "a" },
+            { "id": "q9", "question": "A community fundraising activity is an example of:", "options": [{ "id": "a", "text": "Volunteerism supporting community development" }, { "id": "b", "text": "A government tax" }, { "id": "c", "text": "A form of punishment" }, { "id": "d", "text": "Private business" }], "correctOptionId": "a" },
+            { "id": "q10", "question": "Individual values that support community development include:", "options": [{ "id": "a", "text": "Honesty, responsibility, and cooperation" }, { "id": "b", "text": "Selfishness" }, { "id": "c", "text": "Dishonesty" }, { "id": "d", "text": "Indifference to others" }], "correctOptionId": "a" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "strand-3",
+      "title": "Law and Order in the Ghanaian Society",
+      "subtopics": [
+        {
+          "id": "3-1-citizenship-human-rights",
+          "title": "Citizenship and Human Rights",
+          "completed": false,
+          "learningGoals": [
+            "Examine the importance of human rights and responsibilities in Ghanaian society",
+            "Discuss the United Nations Declaration on Human Rights",
+            "Identify human rights enshrined in the 1992 constitution",
+            "Discuss the rights and responsibilities of people in Ghana"
+          ],
+          "keyConceptSummary": "Human rights and responsibilities are central to a fair and just society. Ghana's 1992 Constitution enshrines key rights, echoing principles found in the United Nations Declaration on Human Rights, while balancing these with the responsibilities citizens owe to their communities.",
+          "resources": [
+            { "type": "video", "title": "Understanding Human Rights", "url": "REPLACE_WITH_REAL_URL" },
+            { "type": "reading", "title": "The UN Declaration on Human Rights", "url": "#" },
+            { "type": "reading", "title": "Human Rights in the 1992 Constitution", "url": "#" }
+          ],
+          "quiz": [
+            { "id": "q1", "question": "Human rights are best described as:", "options": [{ "id": "a", "text": "Basic freedoms and protections every person is entitled to" }, { "id": "b", "text": "Privileges given only to leaders" }, { "id": "c", "text": "Rules that apply only to adults" }, { "id": "d", "text": "Laws that can be freely ignored" }], "correctOptionId": "a" },
+            { "id": "q2", "question": "The United Nations Declaration on Human Rights was created to:", "options": [{ "id": "a", "text": "Set out basic rights for all people globally" }, { "id": "b", "text": "Only apply to one country" }, { "id": "c", "text": "Regulate trade" }, { "id": "d", "text": "Control military forces" }], "correctOptionId": "a" },
+            { "id": "q3", "question": "Which of these rights is enshrined in Ghana's 1992 Constitution?", "options": [{ "id": "a", "text": "Freedom of speech" }, { "id": "b", "text": "Right to avoid all laws" }, { "id": "c", "text": "Right to ignore taxes" }, { "id": "d", "text": "Right to harm others" }], "correctOptionId": "a" },
+            { "id": "q4", "question": "Responsibilities that come with human rights include:", "options": [{ "id": "a", "text": "Respecting the rights of others" }, { "id": "b", "text": "Ignoring the law" }, { "id": "c", "text": "Avoiding civic duties" }, { "id": "d", "text": "Harassing others" }], "correctOptionId": "a" },
+            { "id": "q5", "question": "Human rights are important in Ghanaian society because they:", "options": [{ "id": "a", "text": "Protect the dignity and freedom of every individual" }, { "id": "b", "text": "Only protect the wealthy" }, { "id": "c", "text": "Have no legal basis" }, { "id": "d", "text": "Apply only to citizens abroad" }], "correctOptionId": "a" },
+            { "id": "q6", "question": "Which of these is a civil right protected under Ghana's constitution?", "options": [{ "id": "a", "text": "The right to a fair trial" }, { "id": "b", "text": "The right to break the law without consequence" }, { "id": "c", "text": "The right to avoid taxation entirely" }, { "id": "d", "text": "The right to ignore court orders" }], "correctOptionId": "a" },
+            { "id": "q7", "question": "A key duty that balances human rights is:", "options": [{ "id": "a", "text": "Respecting the rights and freedoms of others" }, { "id": "b", "text": "Prioritising personal freedom over all laws" }, { "id": "c", "text": "Avoiding responsibility entirely" }, { "id": "d", "text": "Rejecting community standards" }], "correctOptionId": "a" },
+            { "id": "q8", "question": "Which agency in Ghana works to protect human rights and prevent corruption?", "options": [{ "id": "a", "text": "Commission on Human Rights and Administrative Justice (CHRAJ)" }, { "id": "b", "text": "The National Football Association" }, { "id": "c", "text": "A private company" }, { "id": "d", "text": "A local market association" }], "correctOptionId": "a" },
+            { "id": "q9", "question": "Collecting community data on human rights issues helps citizens to:", "options": [{ "id": "a", "text": "Identify and address violations in their area" }, { "id": "b", "text": "Ignore local problems" }, { "id": "c", "text": "Avoid civic engagement" }, { "id": "d", "text": "Increase rights violations" }], "correctOptionId": "a" },
+            { "id": "q10", "question": "Understanding both rights and responsibilities helps citizens to:", "options": [{ "id": "a", "text": "Live harmoniously and contribute positively to society" }, { "id": "b", "text": "Disregard the law" }, { "id": "c", "text": "Avoid community life" }, { "id": "d", "text": "Reject all authority" }], "correctOptionId": "a" }
+          ]
+        },
+        {
+          "id": "3-2-conflict-peace-security",
+          "title": "Conflict, Peace and Security",
+          "completed": false,
+          "learningGoals": [
+            "Use historical narratives to investigate the causes and effects of conflicts in Ghana",
+            "Analyse the causes of inter-ethnic conflicts in precolonial Ghana",
+            "Discuss the impact of inter-ethnic conflicts in the precolonial era",
+            "Examine ways of preventing and managing conflict in the community",
+            "Assess the role of women in conflict prevention and management"
+          ],
+          "keyConceptSummary": "Conflicts in precolonial Ghana often arose over land, power, and resources between ethnic groups, with significant social impacts. Understanding conflict prevention and management, including the role women play in peacebuilding, is key to maintaining harmony in communities today.",
+          "resources": [
+            { "type": "video", "title": "Causes of Inter-Ethnic Conflict in Precolonial Ghana", "url": "REPLACE_WITH_REAL_URL" },
+            { "type": "reading", "title": "Conflict Prevention and Management", "url": "#" },
+            { "type": "reading", "title": "The Role of Women in Peacebuilding", "url": "#" }
+          ],
+          "quiz": [
+            { "id": "q1", "question": "Conflict is best described as:", "options": [{ "id": "a", "text": "A disagreement or clash between individuals or groups" }, { "id": "b", "text": "A type of celebration" }, { "id": "c", "text": "A form of trade" }, { "id": "d", "text": "A government policy" }], "correctOptionId": "a" },
+            { "id": "q2", "question": "A common cause of inter-ethnic conflicts in precolonial Ghana was:", "options": [{ "id": "a", "text": "Disputes over land and resources" }, { "id": "b", "text": "Excess of resources" }, { "id": "c", "text": "Too much cooperation" }, { "id": "d", "text": "Lack of any interaction between groups" }], "correctOptionId": "a" },
+            { "id": "q3", "question": "One effect of inter-ethnic conflicts in the precolonial era was:", "options": [{ "id": "a", "text": "Loss of lives and displacement of people" }, { "id": "b", "text": "Increased unity with no drawbacks" }, { "id": "c", "text": "Improved trade with no losses" }, { "id": "d", "text": "No effect on communities" }], "correctOptionId": "a" },
+            { "id": "q4", "question": "Diplomacy and alliances were used in precolonial Ghana to:", "options": [{ "id": "a", "text": "Promote peace and stability between groups" }, { "id": "b", "text": "Increase conflict" }, { "id": "c", "text": "Isolate communities" }, { "id": "d", "text": "Avoid all cooperation" }], "correctOptionId": "a" },
+            { "id": "q5", "question": "Conflict prevention refers to:", "options": [{ "id": "a", "text": "Actions taken to stop conflict before it occurs" }, { "id": "b", "text": "Encouraging disputes" }, { "id": "c", "text": "Ignoring early warning signs" }, { "id": "d", "text": "Avoiding all communication" }], "correctOptionId": "a" },
+            { "id": "q6", "question": "Conflict management refers to:", "options": [{ "id": "a", "text": "Strategies used to resolve conflict once it has occurred" }, { "id": "b", "text": "Starting new conflicts" }, { "id": "c", "text": "Ignoring disputes entirely" }, { "id": "d", "text": "Avoiding all resolution efforts" }], "correctOptionId": "a" },
+            { "id": "q7", "question": "Women have historically played a role in conflict prevention through:", "options": [{ "id": "a", "text": "Mediation and peacebuilding efforts" }, { "id": "b", "text": "Starting conflicts" }, { "id": "c", "text": "Having no involvement" }, { "id": "d", "text": "Avoiding community roles" }], "correctOptionId": "a" },
+            { "id": "q8", "question": "A key attitude needed to prevent conflict in a community is:", "options": [{ "id": "a", "text": "Tolerance and respect for others' views" }, { "id": "b", "text": "Aggression" }, { "id": "c", "text": "Refusal to communicate" }, { "id": "d", "text": "Disregard for others" }], "correctOptionId": "a" },
+            { "id": "q9", "question": "Historical narratives are useful in studying conflict because they help learners:", "options": [{ "id": "a", "text": "Understand causes and effects from real events" }, { "id": "b", "text": "Ignore the past" }, { "id": "c", "text": "Avoid critical analysis" }, { "id": "d", "text": "Focus only on the present" }], "correctOptionId": "a" },
+            { "id": "q10", "question": "Which of these is a strategy for managing conflict in a community?", "options": [{ "id": "a", "text": "Dialogue and mediation" }, { "id": "b", "text": "Ignoring the issue completely" }, { "id": "c", "text": "Escalating tensions" }, { "id": "d", "text": "Avoiding all communication" }], "correctOptionId": "a" },
+            { "id": "q11", "question": "Competition for chieftaincy and political power was a common cause of:", "options": [{ "id": "a", "text": "Conflicts between groups in precolonial Ghana" }, { "id": "b", "text": "Peace treaties only" }, { "id": "c", "text": "Trade agreements only" }, { "id": "d", "text": "Foreign alliances only" }], "correctOptionId": "a" },
+            { "id": "q12", "question": "Alliances between ethnic groups in precolonial Ghana often served to:", "options": [{ "id": "a", "text": "Strengthen defence and promote peaceful coexistence" }, { "id": "b", "text": "Increase isolation" }, { "id": "c", "text": "Cause more war" }, { "id": "d", "text": "Eliminate trade" }], "correctOptionId": "a" },
+            { "id": "q13", "question": "Security in a community depends on:", "options": [{ "id": "a", "text": "Peaceful coexistence and effective conflict management" }, { "id": "b", "text": "Constant conflict" }, { "id": "c", "text": "Isolation from neighbours" }, { "id": "d", "text": "Ignoring disputes" }], "correctOptionId": "a" },
+            { "id": "q14", "question": "Concentric circle discussions on conflict help learners to:", "options": [{ "id": "a", "text": "Share and compare different viewpoints on peace and stability" }, { "id": "b", "text": "Avoid discussing conflict" }, { "id": "c", "text": "Reach no conclusions" }, { "id": "d", "text": "Only hear one perspective" }], "correctOptionId": "a" },
+            { "id": "q15", "question": "Understanding the causes of past conflicts helps modern Ghanaians to:", "options": [{ "id": "a", "text": "Prevent similar conflicts today" }, { "id": "b", "text": "Repeat the same mistakes" }, { "id": "c", "text": "Ignore lessons from history" }, { "id": "d", "text": "Avoid all peacebuilding" }], "correctOptionId": "a" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "strand-4",
+      "title": "Ethics and Human Development",
+      "subtopics": [
+        {
+          "id": "4-2-population-national-development",
+          "title": "Population and National Development",
+          "completed": false,
+          "learningGoals": [
+            "Examine the components of population growth",
+            "Discuss fertility, mortality, and migration as factors of population growth",
+            "Analyse the effects of rapid population growth on the community and nation",
+            "Analyse the population structure in Ghana and its related issues"
+          ],
+          "keyConceptSummary": "Population growth is influenced by fertility, mortality, and migration. Understanding Ghana's population structure and the effects of rapid population growth is important for planning national development and addressing related challenges.",
+          "resources": [
+            { "type": "video", "title": "Understanding Population Growth", "url": "REPLACE_WITH_REAL_URL" },
+            { "type": "reading", "title": "Ghana's Population Structure", "url": "#" },
+            { "type": "reading", "title": "Effects of Rapid Population Growth", "url": "#" }
+          ],
+          "quiz": [
+            { "id": "q1", "question": "Population growth refers to:", "options": [{ "id": "a", "text": "The increase in the number of people in an area over time" }, { "id": "b", "text": "The decrease in land size" }, { "id": "c", "text": "A type of migration only" }, { "id": "d", "text": "A government policy" }], "correctOptionId": "a" },
+            { "id": "q2", "question": "Which of these is a factor of population growth?", "options": [{ "id": "a", "text": "Fertility" }, { "id": "b", "text": "Weather" }, { "id": "c", "text": "Trade routes" }, { "id": "d", "text": "Mapping skills" }], "correctOptionId": "a" },
+            { "id": "q3", "question": "Mortality refers to:", "options": [{ "id": "a", "text": "The rate of deaths in a population" }, { "id": "b", "text": "The rate of births" }, { "id": "c", "text": "The movement of people" }, { "id": "d", "text": "The size of a country" }], "correctOptionId": "a" },
+            { "id": "q4", "question": "Migration as a factor of population change refers to:", "options": [{ "id": "a", "text": "The movement of people into or out of an area" }, { "id": "b", "text": "The death rate" }, { "id": "c", "text": "The birth rate" }, { "id": "d", "text": "Land size" }], "correctOptionId": "a" },
+            { "id": "q5", "question": "One effect of rapid population growth on a nation can be:", "options": [{ "id": "a", "text": "Increased pressure on resources and infrastructure" }, { "id": "b", "text": "Reduced need for schools" }, { "id": "c", "text": "Automatic economic growth with no challenges" }, { "id": "d", "text": "No effect on services" }], "correctOptionId": "a" },
+            { "id": "q6", "question": "Population structure refers to:", "options": [{ "id": "a", "text": "The composition of a population by age and sex" }, { "id": "b", "text": "The geography of a country" }, { "id": "c", "text": "The trade balance of a country" }, { "id": "d", "text": "The number of festivals held" }], "correctOptionId": "a" },
+            { "id": "q7", "question": "A large family size can affect a family by:", "options": [{ "id": "a", "text": "Straining household resources" }, { "id": "b", "text": "Always increasing wealth" }, { "id": "c", "text": "Having no effect" }, { "id": "d", "text": "Reducing all expenses" }], "correctOptionId": "a" },
+            { "id": "q8", "question": "Public education is often suggested as a way to:", "options": [{ "id": "a", "text": "Help manage rapid population growth" }, { "id": "b", "text": "Increase population growth" }, { "id": "c", "text": "Eliminate all population growth immediately" }, { "id": "d", "text": "Reduce literacy" }], "correctOptionId": "a" },
+            { "id": "q9", "question": "A population census is used to:", "options": [{ "id": "a", "text": "Collect data on the number and characteristics of people in an area" }, { "id": "b", "text": "Determine weather patterns" }, { "id": "c", "text": "Measure land size only" }, { "id": "d", "text": "Track trade goods" }], "correctOptionId": "a" },
+            { "id": "q10", "question": "Understanding population structure helps in national planning because it shows:", "options": [{ "id": "a", "text": "The needs of different age groups, such as schools or healthcare" }, { "id": "b", "text": "Only the size of the army" }, { "id": "c", "text": "Nothing useful" }, { "id": "d", "text": "Only trade statistics" }], "correctOptionId": "a" },
+            { "id": "q11", "question": "A bar chart showing district population changes helps learners to:", "options": [{ "id": "a", "text": "Visualise and compare population data" }, { "id": "b", "text": "Avoid using data" }, { "id": "c", "text": "Ignore population trends" }, { "id": "d", "text": "Predict weather" }], "correctOptionId": "a" },
+            { "id": "q12", "question": "High fertility rates combined with declining mortality rates generally lead to:", "options": [{ "id": "a", "text": "Rapid population growth" }, { "id": "b", "text": "Population decline" }, { "id": "c", "text": "No change in population" }, { "id": "d", "text": "Reduced birth rates" }], "correctOptionId": "a" },
+            { "id": "q13", "question": "Rural-urban migration in Ghana often results in:", "options": [{ "id": "a", "text": "Population pressure in urban areas" }, { "id": "b", "text": "Population pressure in rural areas only" }, { "id": "c", "text": "No change to any area" }, { "id": "d", "text": "Reduced urban population" }], "correctOptionId": "a" },
+            { "id": "q14", "question": "Ghana's population structure is often represented using:", "options": [{ "id": "a", "text": "Population pyramids or bar graphs" }, { "id": "b", "text": "Weather maps" }, { "id": "c", "text": "Trade balances" }, { "id": "d", "text": "Historical timelines only" }], "correctOptionId": "a" },
+            { "id": "q15", "question": "Analysing the relationship between population structure and development helps policymakers to:", "options": [{ "id": "a", "text": "Plan appropriately for healthcare, education, and jobs" }, { "id": "b", "text": "Ignore national needs" }, { "id": "c", "text": "Focus only on trade" }, { "id": "d", "text": "Avoid using data" }], "correctOptionId": "a" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "strand-6",
+      "title": "Nationalism and Nationhood",
+      "subtopics": [
+        {
+          "id": "6-2-colonialism-nationalism",
+          "title": "Colonialism and Nationalism",
+          "completed": false,
+          "learningGoals": [
+            "Use historical sources to examine the colonial period in Ghana (1874-1957)",
+            "Analyse the historical roots of Ghanaian nationalism, including traditional leaders and resistance movements",
+            "Analyse the activities of key nationalist movements in Ghana",
+            "Create a chronological timeline of key political events leading to independence",
+            "Assess the role of women in the struggle for Ghana's independence"
+          ],
+          "keyConceptSummary": "British colonial rule in Ghana (1874-1957) was met with resistance from traditional leaders and, later, organised nationalist movements such as the UGCC and CPP. Key events, including the 1948 Riots and the arrest of the Big Six, paved the way to independence in 1957, with women playing a notable role throughout the struggle.",
+          "resources": [
+            { "type": "video", "title": "The Road to Ghana's Independence", "url": "REPLACE_WITH_REAL_URL" },
+            { "type": "reading", "title": "Key Nationalist Movements in Ghana", "url": "#" },
+            { "type": "reading", "title": "Women in the Independence Struggle", "url": "#" }
+          ],
+          "quiz": [
+            { "id": "q1", "question": "The Gold Coast became a British Crown Colony in:", "options": [{ "id": "a", "text": "1874" }, { "id": "b", "text": "1957" }, { "id": "c", "text": "1900" }, { "id": "d", "text": "1948" }], "correctOptionId": "a" },
+            { "id": "q2", "question": "Which traditional leader famously led resistance against the British at Edweso?", "options": [{ "id": "a", "text": "Nana Yaa Asantewaa" }, { "id": "b", "text": "Kwame Nkrumah" }, { "id": "c", "text": "J.B. Danquah" }, { "id": "d", "text": "Otumfuo Prempeh I" }], "correctOptionId": "a" },
+            { "id": "q3", "question": "The 'Big Six' were arrested in connection with:", "options": [{ "id": "a", "text": "The 1948 Riots" }, { "id": "b", "text": "The 1992 referendum" }, { "id": "c", "text": "The Fourth Republic" }, { "id": "d", "text": "Military coups" }], "correctOptionId": "a" },
+            { "id": "q4", "question": "The United Gold Coast Convention (UGCC) was a:", "options": [{ "id": "a", "text": "Nationalist political movement" }, { "id": "b", "text": "Foreign trading company" }, { "id": "c", "text": "Military regime" }, { "id": "d", "text": "Religious organisation" }], "correctOptionId": "a" },
+            { "id": "q5", "question": "The Convention People's Party (CPP) was founded by:", "options": [{ "id": "a", "text": "Kwame Nkrumah" }, { "id": "b", "text": "J.B. Danquah" }, { "id": "c", "text": "Otumfuo Prempeh I" }, { "id": "d", "text": "Nana Yaa Asantewaa" }], "correctOptionId": "a" },
+            { "id": "q6", "question": "The Watson Commission was set up to:", "options": [{ "id": "a", "text": "Investigate the causes of the 1948 Riots" }, { "id": "b", "text": "Organise the 1992 referendum" }, { "id": "c", "text": "Establish military rule" }, { "id": "d", "text": "Draft the Fourth Republic constitution" }], "correctOptionId": "a" },
+            { "id": "q7", "question": "The Declaration of Positive Action was a strategy used to:", "options": [{ "id": "a", "text": "Push for self-government through organised protest" }, { "id": "b", "text": "Support continued colonial rule" }, { "id": "c", "text": "Establish a military government" }, { "id": "d", "text": "End the Trans-Atlantic Slave Trade" }], "correctOptionId": "a" },
+            { "id": "q8", "question": "Which woman is recognised for her role in Ghana's independence struggle?", "options": [{ "id": "a", "text": "Sophia Oboshie Doku" }, { "id": "b", "text": "Yaa Asantewaa" }, { "id": "c", "text": "Aba Dwomoh" }, { "id": "d", "text": "Efua Sutherland" }], "correctOptionId": "a" },
+            { "id": "q9", "question": "The Aborigines Rights Protection Society (ARPS) was formed mainly to:", "options": [{ "id": "a", "text": "Protect indigenous land rights from colonial encroachment" }, { "id": "b", "text": "Promote colonial rule" }, { "id": "c", "text": "Establish a monarchy" }, { "id": "d", "text": "Organise trade unions only" }], "correctOptionId": "a" },
+            { "id": "q10", "question": "Ghana gained independence from British colonial rule in:", "options": [{ "id": "a", "text": "1957" }, { "id": "b", "text": "1966" }, { "id": "c", "text": "1874" }, { "id": "d", "text": "1992" }], "correctOptionId": "a" },
+            { "id": "q11", "question": "The Trans-Volta Togoland plebiscite was held to decide:", "options": [{ "id": "a", "text": "Whether the territory would join Ghana or remain separate" }, { "id": "b", "text": "Who would be the first president" }, { "id": "c", "text": "The location of the capital" }, { "id": "d", "text": "Trade policy" }], "correctOptionId": "a" },
+            { "id": "q12", "question": "The National Congress of British West Africa (NCBWA) aimed to:", "options": [{ "id": "a", "text": "Advocate for political reforms across British West African colonies" }, { "id": "b", "text": "Support only economic trade" }, { "id": "c", "text": "Establish military rule" }, { "id": "d", "text": "Oppose independence" }], "correctOptionId": "a" },
+            { "id": "q13", "question": "The annexation of Asante by the British was significant because it:", "options": [{ "id": "a", "text": "Extended British colonial control over a powerful precolonial state" }, { "id": "b", "text": "Ended all colonial rule" }, { "id": "c", "text": "Had no impact" }, { "id": "d", "text": "Strengthened Asante independence" }], "correctOptionId": "a" },
+            { "id": "q14", "question": "The Gold Coast Youth Conference (GCYC) contributed to nationalism by:", "options": [{ "id": "a", "text": "Mobilising young people for political awareness" }, { "id": "b", "text": "Supporting colonial administration" }, { "id": "c", "text": "Organising the slave trade" }, { "id": "d", "text": "Establishing military rule" }], "correctOptionId": "a" },
+            { "id": "q15", "question": "Studying the road to independence helps learners understand:", "options": [{ "id": "a", "text": "How organised resistance and leadership led to nationhood" }, { "id": "b", "text": "That independence happened without any struggle" }, { "id": "c", "text": "That colonial rule had no lasting effects" }, { "id": "d", "text": "That nationalism played no role in independence" }], "correctOptionId": "a" }
+          ]
+        },
+        {
+          "id": "6-3-republics-military-rule",
+          "title": "The Republics and Military Rule",
+          "completed": false,
+          "learningGoals": [
+            "Assess the military rule era in Ghana (1966-1991)",
+            "Discuss factors that led to the overthrow of civilian regimes",
+            "Examine the impacts of military rule in Ghana",
+            "Explain how the First Republic came into being and its main features",
+            "Explain how the Second Republic came into being and its main features"
+          ],
+          "keyConceptSummary": "Ghana experienced periods of military rule between 1966 and 1991, interspersed with civilian republics. The First Republic (1960) introduced a presidential system, while the Second Republic (1969) introduced the office of Prime Minister — both eventually giving way to military intervention.",
+          "resources": [
+            { "type": "video", "title": "Military Rule in Ghana: 1966-1991", "url": "REPLACE_WITH_REAL_URL" },
+            { "type": "reading", "title": "The First and Second Republics Explained", "url": "#" },
+            { "type": "reading", "title": "Why Civilian Governments Were Overthrown", "url": "#" }
+          ],
+          "quiz": [
+            { "id": "q1", "question": "Military rule in Ghana is generally dated to the period:", "options": [{ "id": "a", "text": "1966-1991" }, { "id": "b", "text": "1874-1957" }, { "id": "c", "text": "1992-present" }, { "id": "d", "text": "1500-1800" }], "correctOptionId": "a" },
+            { "id": "q2", "question": "The 1960 Constitution of the First Republic introduced:", "options": [{ "id": "a", "text": "A presidential system of government" }, { "id": "b", "text": "A military government" }, { "id": "c", "text": "Colonial rule" }, { "id": "d", "text": "A monarchy" }], "correctOptionId": "a" },
+            { "id": "q3", "question": "The Second Republic's 1969 Constitution introduced the office of:", "options": [{ "id": "a", "text": "Prime Minister" }, { "id": "b", "text": "Colonial Governor" }, { "id": "c", "text": "Military Commander" }, { "id": "d", "text": "Paramount Chief" }], "correctOptionId": "a" },
+            { "id": "q4", "question": "A common factor leading to the overthrow of civilian regimes in Ghana was:", "options": [{ "id": "a", "text": "Economic hardship and political instability" }, { "id": "b", "text": "Excessive prosperity" }, { "id": "c", "text": "Too much political stability" }, { "id": "d", "text": "Lack of any government" }], "correctOptionId": "a" },
+            { "id": "q5", "question": "One impact of military rule in Ghana was:", "options": [{ "id": "a", "text": "Suspension of constitutional governance" }, { "id": "b", "text": "Strengthening of parliamentary democracy" }, { "id": "c", "text": "No change to governance" }, { "id": "d", "text": "Immediate economic growth with no challenges" }], "correctOptionId": "a" },
+            { "id": "q6", "question": "Ghana's First Republic was established under the leadership of:", "options": [{ "id": "a", "text": "Kwame Nkrumah" }, { "id": "b", "text": "Kofi Busia" }, { "id": "c", "text": "J.J. Rawlings" }, { "id": "d", "text": "Hilla Limann" }], "correctOptionId": "a" },
+            { "id": "q7", "question": "The Second Republic was led by:", "options": [{ "id": "a", "text": "Kofi Abrefa Busia" }, { "id": "b", "text": "Kwame Nkrumah" }, { "id": "c", "text": "J.J. Rawlings" }, { "id": "d", "text": "Nana Akufo-Addo" }], "correctOptionId": "a" },
+            { "id": "q8", "question": "A military regime governs mainly through:", "options": [{ "id": "a", "text": "Decree and armed forces authority rather than elected civilian institutions" }, { "id": "b", "text": "A fully elected parliament" }, { "id": "c", "text": "Traditional chieftaincy alone" }, { "id": "d", "text": "International bodies" }], "correctOptionId": "a" },
+            { "id": "q9", "question": "One major achievement often associated with the First Republic was:", "options": [{ "id": "a", "text": "Rapid infrastructural and educational development" }, { "id": "b", "text": "Total economic collapse" }, { "id": "c", "text": "Loss of independence" }, { "id": "d", "text": "Return to colonial rule" }], "certainOptionId": "a", "correctOptionId": "a" },
+            { "id": "q10", "question": "Studying military rule helps learners understand:", "options": [{ "id": "a", "text": "The challenges of political instability in Ghana's history" }, { "id": "b", "text": "That military rule had no impact" }, { "id": "c", "text": "That Ghana never had civilian rule" }, { "id": "d", "text": "That history has no relevance today" }], "correctOptionId": "a" },
+            { "id": "q11", "question": "The term 'Republic' generally refers to a state where:", "options": [{ "id": "a", "text": "Power is held by elected representatives rather than a monarch" }, { "id": "b", "text": "Power is held only by a king" }, { "id": "c", "text": "There is no government" }, { "id": "d", "text": "Only the military rules" }], "correctOptionId": "a" },
+            { "id": "q12", "question": "Political instability in the 1960s-70s in Ghana was partly driven by:", "options": [{ "id": "a", "text": "Economic difficulties and disputes over governance" }, { "id": "b", "text": "Excess of natural resources" }, { "id": "c", "text": "Absence of any political parties" }, { "id": "d", "text": "Total peace and prosperity" }], "correctOptionId": "a" },
+            { "id": "q13", "question": "Coups d'état in Ghana's history involved:", "options": [{ "id": "a", "text": "The military forcibly taking over government" }, { "id": "b", "text": "Peaceful elections" }, { "id": "c", "text": "Chieftaincy succession" }, { "id": "d", "text": "International intervention only" }], "correctOptionId": "a" },
+            { "id": "q14", "question": "Comparing the First and Second Republics shows that both:", "options": [{ "id": "a", "text": "Were eventually replaced by military intervention" }, { "id": "b", "text": "Lasted the entire 20th century uninterrupted" }, { "id": "c", "text": "Had no constitutions" }, { "id": "d", "text": "Were led by the same person" }], "correctOptionId": "a" },
+            { "id": "q15", "question": "The experience of alternating civilian and military rule shaped Ghana's later push for:", "options": [{ "id": "a", "text": "A more stable, lasting democratic constitution" }, { "id": "b", "text": "Permanent military government" }, { "id": "c", "text": "A return to colonial rule" }, { "id": "d", "text": "The elimination of all elections" }], "correctOptionId": "a" }
+          ]
+        }
+      ]
+    }
+  ]
+}

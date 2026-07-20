@@ -1,0 +1,664 @@
+{
+  "subject": "Science",
+  "grade": 7,
+  "topics": [
+    {
+      "id": "strand-1",
+      "title": "Diversity of Matter",
+      "subtopics": [
+        {
+          "id": "1-1-materials",
+          "title": "Materials",
+          "completed": false,
+          "learningGoals": [
+            "Classify materials into liquids, solids and gases",
+            "Discuss the importance of liquids in the life of humans",
+            "Discuss the importance of specific solids to life",
+            "Demonstrate knowledge of the orderly arrangement of metals, non-metals and noble gases in the periodic table"
+          ],
+          "keyConceptSummary": "Materials found in the environment can be grouped into liquids, solids and gases, each playing a distinct role in supporting human life. The periodic table arranges elements as metals, non-metals and noble gases in order of atomic number, with elements in the same group sharing common properties.",
+          "resources": [
+            { "type": "video", "title": "States of Matter: Solids, Liquids and Gases", "url": "REPLACE_WITH_REAL_URL" },
+            { "type": "reading", "title": "Why Liquids and Solids Matter to Humans", "url": "#" },
+            { "type": "reading", "title": "Introduction to the Periodic Table", "url": "#" }
+          ],
+          "quiz": [
+            { "id": "q1", "question": "Materials can be classified into which three states?", "options": [{ "id": "a", "text": "Liquids, solids and gases" }, { "id": "b", "text": "Hot, cold and warm" }, { "id": "c", "text": "Metals, plants and animals" }, { "id": "d", "text": "Heavy, light and medium" }], "correctOptionId": "a" },
+            { "id": "q2", "question": "A solid is best described as a material that:", "options": [{ "id": "a", "text": "Has a fixed shape and volume" }, { "id": "b", "text": "Takes the shape of its container only" }, { "id": "c", "text": "Has no shape or volume" }, { "id": "d", "text": "Spreads out to fill any space" }], "correctOptionId": "a" },
+            { "id": "q3", "question": "Liquids are important to humans mainly because they:", "options": [{ "id": "a", "text": "Support hydration and many life processes" }, { "id": "b", "text": "Cannot be consumed by humans" }, { "id": "c", "text": "Have no practical use" }, { "id": "d", "text": "Are always harmful" }], "correctOptionId": "a" },
+            { "id": "q4", "question": "Which of the following is an example of a gas found in the environment?", "options": [{ "id": "a", "text": "Oxygen" }, { "id": "b", "text": "Sand" }, { "id": "c", "text": "Iron" }, { "id": "d", "text": "Water" }], "correctOptionId": "a" },
+            { "id": "q5", "question": "The periodic table arranges elements mainly in order of their:", "options": [{ "id": "a", "text": "Atomic number" }, { "id": "b", "text": "Colour" }, { "id": "c", "text": "Cost" }, { "id": "d", "text": "Alphabetical name" }], "correctOptionId": "a" },
+            { "id": "q6", "question": "Elements in the same group of the periodic table tend to:", "options": [{ "id": "a", "text": "Share common properties" }, { "id": "b", "text": "Have nothing in common" }, { "id": "c", "text": "Always be liquids" }, { "id": "d", "text": "Be radioactive" }], "correctOptionId": "a" },
+            { "id": "q7", "question": "Noble gases are known for being:", "options": [{ "id": "a", "text": "Largely unreactive" }, { "id": "b", "text": "Extremely reactive metals" }, { "id": "c", "text": "Solid at room temperature" }, { "id": "d", "text": "Man-made only" }], "correctOptionId": "a" },
+            { "id": "q8", "question": "Metals are generally found on which side of the periodic table?", "options": [{ "id": "a", "text": "The left and middle" }, { "id": "b", "text": "The far right only" }, { "id": "c", "text": "Outside the table" }, { "id": "d", "text": "There is no pattern" }], "correctOptionId": "a" },
+            { "id": "q9", "question": "Solid materials such as wood and stone are useful to humans because they:", "options": [{ "id": "a", "text": "Can be used for building and tool-making" }, { "id": "b", "text": "Have no practical application" }, { "id": "c", "text": "Cannot be shaped" }, { "id": "d", "text": "Only exist underground" }], "correctOptionId": "a" },
+            { "id": "q10", "question": "Grouping materials found in the environment into liquids, solids and gases is an example of the science process skill of:", "options": [{ "id": "a", "text": "Classifying" }, { "id": "b", "text": "Predicting" }, { "id": "c", "text": "Measuring" }, { "id": "d", "text": "Generalising" }], "correctOptionId": "a" },
+            { "id": "q11", "question": "The first 20 elements of the periodic table can be identified by their:", "options": [{ "id": "a", "text": "Name and chemical symbol" }, { "id": "b", "text": "Colour only" }, { "id": "c", "text": "Country of discovery" }, { "id": "d", "text": "Price" }], "correctOptionId": "a" },
+            { "id": "q12", "question": "Which of these is a reason we need to preserve useful solid materials in the environment?", "options": [{ "id": "a", "text": "They support the survival of humans and other life forms" }, { "id": "b", "text": "They are unlimited in supply" }, { "id": "c", "text": "They have no impact on survival" }, { "id": "d", "text": "They cannot be depleted" }], "correctOptionId": "a" },
+            { "id": "q13", "question": "Non-metals in the periodic table are generally found:", "options": [{ "id": "a", "text": "Towards the right side of the table" }, { "id": "b", "text": "Only in the middle" }, { "id": "c", "text": "Outside the periodic table" }, { "id": "d", "text": "Nowhere in particular" }], "correctOptionId": "a" },
+            { "id": "q14", "question": "Recording the texture, appearance, colour and shape of materials helps learners to:", "options": [{ "id": "a", "text": "Compare and classify the materials accurately" }, { "id": "b", "text": "Destroy the materials" }, { "id": "c", "text": "Avoid studying them" }, { "id": "d", "text": "Ignore their properties" }], "correctOptionId": "a" },
+            { "id": "q15", "question": "Understanding the arrangement of the periodic table helps learners to:", "options": [{ "id": "a", "text": "Predict properties of elements based on their position" }, { "id": "b", "text": "Memorise prices of chemicals" }, { "id": "c", "text": "Avoid studying chemistry" }, { "id": "d", "text": "Ignore atomic structure" }], "correctOptionId": "a" }
+          ]
+        },
+        {
+          "id": "1-2-living-cells",
+          "title": "Living Cells",
+          "completed": false,
+          "learningGoals": [
+            "Describe the structure and function of the living cells of an animal",
+            "State the functions of each organelle in a plant cell",
+            "Compare the structures of animal and plant cells"
+          ],
+          "keyConceptSummary": "All living things are made up of cells, each containing organelles that perform specific functions. Animal and plant cells share several structures but also differ in important ways, such as the plant cell's cell wall and chloroplasts.",
+          "resources": [
+            { "type": "video", "title": "Animal Cells vs Plant Cells", "url": "REPLACE_WITH_REAL_URL" },
+            { "type": "reading", "title": "Structure and Function of Cell Organelles", "url": "#" },
+            { "type": "reading", "title": "How to Draw and Label a Cell", "url": "#" }
+          ],
+          "quiz": [
+            { "id": "q1", "question": "All living things are made up of:", "options": [{ "id": "a", "text": "Cells" }, { "id": "b", "text": "Rocks" }, { "id": "c", "text": "Gases only" }, { "id": "d", "text": "Metals" }], "correctOptionId": "a" },
+            { "id": "q2", "question": "Which structure is found in plant cells but not in animal cells?", "options": [{ "id": "a", "text": "Cell wall" }, { "id": "b", "text": "Nucleus" }, { "id": "c", "text": "Cell membrane" }, { "id": "d", "text": "Cytoplasm" }], "correctOptionId": "a" },
+            { "id": "q3", "question": "The nucleus of a cell mainly functions to:", "options": [{ "id": "a", "text": "Control the activities of the cell" }, { "id": "b", "text": "Produce sound" }, { "id": "c", "text": "Store water only" }, { "id": "d", "text": "Have no function" }], "correctOptionId": "a" },
+            { "id": "q4", "question": "Chloroplasts are found in plant cells and are responsible for:", "options": [{ "id": "a", "text": "Photosynthesis" }, { "id": "b", "text": "Digestion" }, { "id": "c", "text": "Respiration only" }, { "id": "d", "text": "Movement" }], "correctOptionId": "a" },
+            { "id": "q5", "question": "The cell membrane's main function is to:", "options": [{ "id": "a", "text": "Control what enters and leaves the cell" }, { "id": "b", "text": "Produce energy only" }, { "id": "c", "text": "Store genetic material" }, { "id": "d", "text": "Have no role in the cell" }], "correctOptionId": "a" },
+            { "id": "q6", "question": "Observing cells under a microscope helps learners to:", "options": [{ "id": "a", "text": "See structures too small for the naked eye" }, { "id": "b", "text": "Change the cell's function" }, { "id": "c", "text": "Destroy the cell" }, { "id": "d", "text": "Avoid studying biology" }], "correctOptionId": "a" },
+            { "id": "q7", "question": "The cytoplasm of a cell is best described as the:", "options": [{ "id": "a", "text": "Jelly-like substance where cell activities take place" }, { "id": "b", "text": "Outer covering of the cell only" }, { "id": "c", "text": "Genetic material of the cell" }, { "id": "d", "text": "Part that has no function" }], "correctOptionId": "a" },
+            { "id": "q8", "question": "Developing a model to represent an animal cell helps learners to:", "options": [{ "id": "a", "text": "Understand the arrangement of its structures" }, { "id": "b", "text": "Avoid learning about cells" }, { "id": "c", "text": "Confuse plant and animal cells" }, { "id": "d", "text": "Ignore cell organelles" }], "correctOptionId": "a" },
+            { "id": "q9", "question": "The vacuole in a plant cell is mainly used for:", "options": [{ "id": "a", "text": "Storing water and maintaining cell rigidity" }, { "id": "b", "text": "Producing sound" }, { "id": "c", "text": "Digesting food only" }, { "id": "d", "text": "Nothing important" }], "correctOptionId": "a" },
+            { "id": "q10", "question": "Both plant and animal cells contain which of the following?", "options": [{ "id": "a", "text": "Cytoplasm and a nucleus" }, { "id": "b", "text": "A cell wall only" }, { "id": "c", "text": "Chloroplasts only" }, { "id": "d", "text": "Nothing in common" }], "correctOptionId": "a" },
+            { "id": "q11", "question": "Drawing and labelling a plant cell helps learners to:", "options": [{ "id": "a", "text": "Identify and remember its parts and their functions" }, { "id": "b", "text": "Avoid understanding cell structure" }, { "id": "c", "text": "Confuse organelles" }, { "id": "d", "text": "Ignore scientific accuracy" }], "correctOptionId": "a" },
+            { "id": "q12", "question": "Mitochondria in a cell are mainly responsible for:", "options": [{ "id": "a", "text": "Releasing energy for the cell's activities" }, { "id": "b", "text": "Photosynthesis only" }, { "id": "c", "text": "Storing water" }, { "id": "d", "text": "Producing a cell wall" }], "correctOptionId": "a" },
+            { "id": "q13", "question": "Using a magnifier or microscope to view a cell sample from an animal helps learners conclude that:", "options": [{ "id": "a", "text": "Animals are made up of cells" }, { "id": "b", "text": "Animals have no structure" }, { "id": "c", "text": "Cells cannot be observed" }, { "id": "d", "text": "Animals are made only of liquid" }], "correctOptionId": "a" },
+            { "id": "q14", "question": "The rigid shape of a plant cell is mainly maintained by its:", "options": [{ "id": "a", "text": "Cell wall" }, { "id": "b", "text": "Nucleus" }, { "id": "c", "text": "Cytoplasm alone" }, { "id": "d", "text": "Mitochondria" }], "correctOptionId": "a" },
+            { "id": "q15", "question": "Understanding cell structure and function helps learners to:", "options": [{ "id": "a", "text": "Appreciate how living organisms are built and function" }, { "id": "b", "text": "Ignore biology entirely" }, { "id": "c", "text": "Avoid understanding living systems" }, { "id": "d", "text": "Confuse living and non-living things" }], "correctOptionId": "a" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "strand-2",
+      "title": "Cycles",
+      "subtopics": [
+        {
+          "id": "2-1-earth-science",
+          "title": "Earth Science",
+          "completed": false,
+          "learningGoals": [
+            "Explain how the water cycle occurs as a repeated pattern in nature",
+            "Describe the importance of the water cycle in nature"
+          ],
+          "keyConceptSummary": "The water cycle is a repeated pattern of change in nature involving evaporation, condensation, precipitation and transpiration. It plays a key role in warming the environment, carrying nutrients, regulating weather, and providing clean water.",
+          "resources": [
+            { "type": "video", "title": "The Water Cycle Explained", "url": "REPLACE_WITH_REAL_URL" },
+            { "type": "reading", "title": "Stages of the Water Cycle", "url": "#" },
+            { "type": "reading", "title": "Why the Water Cycle Matters", "url": "#" }
+          ],
+          "quiz": [
+            { "id": "q1", "question": "The water cycle is described as a repeated pattern because it:", "options": [{ "id": "a", "text": "Continuously recycles water through the environment" }, { "id": "b", "text": "Happens only once" }, { "id": "c", "text": "Destroys water permanently" }, { "id": "d", "text": "Has no defined stages" }], "correctOptionId": "a" },
+            { "id": "q2", "question": "Evaporation in the water cycle refers to:", "options": [{ "id": "a", "text": "Water changing from liquid to vapour" }, { "id": "b", "text": "Water freezing into ice" }, { "id": "c", "text": "Water falling as rain" }, { "id": "d", "text": "Water being absorbed by roots only" }], "correctOptionId": "a" },
+            { "id": "q3", "question": "Condensation in the water cycle refers to:", "options": [{ "id": "a", "text": "Water vapour changing into liquid droplets" }, { "id": "b", "text": "Water evaporating into the air" }, { "id": "c", "text": "Water flowing in rivers" }, { "id": "d", "text": "Plants losing water" }], "correctOptionId": "a" },
+            { "id": "q4", "question": "Precipitation is best described as:", "options": [{ "id": "a", "text": "Water falling from clouds as rain, snow or hail" }, { "id": "b", "text": "Water rising as vapour" }, { "id": "c", "text": "Water stored underground only" }, { "id": "d", "text": "Water changing into a solid" }], "correctOptionId": "a" },
+            { "id": "q5", "question": "Transpiration refers to:", "options": [{ "id": "a", "text": "The loss of water vapour from plants" }, { "id": "b", "text": "Water freezing in winter" }, { "id": "c", "text": "Rainfall over the ocean" }, { "id": "d", "text": "Water stored in rocks" }], "correctOptionId": "a" },
+            { "id": "q6", "question": "One importance of the water cycle is that it:", "options": [{ "id": "a", "text": "Helps regulate weather patterns" }, { "id": "b", "text": "Has no effect on weather" }, { "id": "c", "text": "Destroys all clean water sources" }, { "id": "d", "text": "Removes water from the environment permanently" }], "correctOptionId": "a" },
+            { "id": "q7", "question": "The water cycle contributes to improving the water table by:", "options": [{ "id": "a", "text": "Allowing water to seep back into the ground" }, { "id": "b", "text": "Removing all groundwater" }, { "id": "c", "text": "Preventing rainfall" }, { "id": "d", "text": "Having no effect on groundwater" }], "correctOptionId": "a" },
+            { "id": "q8", "question": "Drawing a flow chart of the water cycle helps learners to:", "options": [{ "id": "a", "text": "See the order and connections between its stages" }, { "id": "b", "text": "Avoid understanding the process" }, { "id": "c", "text": "Confuse the stages" }, { "id": "d", "text": "Ignore how water moves" }], "correctOptionId": "a" },
+            { "id": "q9", "question": "The water cycle acts as a carrier of:", "options": [{ "id": "a", "text": "Nutrients across the environment" }, { "id": "b", "text": "Only pollutants" }, { "id": "c", "text": "Nothing useful" }, { "id": "d", "text": "Solid rocks only" }], "correctOptionId": "a" },
+            { "id": "q10", "question": "The main natural sources of water for the water cycle include:", "options": [{ "id": "a", "text": "Oceans, rivers and lakes" }, { "id": "b", "text": "Only underground pipes" }, { "id": "c", "text": "Man-made tanks only" }, { "id": "d", "text": "None; water has no natural source" }], "correctOptionId": "a" },
+            { "id": "q11", "question": "Which of these best shows why the water cycle is important to humans?", "options": [{ "id": "a", "text": "It provides a continuous supply of clean water" }, { "id": "b", "text": "It removes water from the planet" }, { "id": "c", "text": "It has no connection to daily life" }, { "id": "d", "text": "It only affects the ocean" }], "correctOptionId": "a" },
+            { "id": "q12", "question": "Searching the internet and books for information on the water cycle helps learners to:", "options": [{ "id": "a", "text": "Understand why it is a repeated pattern in nature" }, { "id": "b", "text": "Avoid the topic entirely" }, { "id": "c", "text": "Confuse it with the carbon cycle" }, { "id": "d", "text": "Ignore scientific evidence" }], "correctOptionId": "a" },
+            { "id": "q13", "question": "The water cycle can be considered a source of energy because it:", "options": [{ "id": "a", "text": "Releases energy that warms the environment" }, { "id": "b", "text": "Cools the earth permanently" }, { "id": "c", "text": "Has no link to energy" }, { "id": "d", "text": "Removes heat from the atmosphere entirely" }], "correctOptionId": "a" },
+            { "id": "q14", "question": "Illustrating the importance of the water cycle to a community with a diagram helps learners to:", "options": [{ "id": "a", "text": "Communicate scientific ideas clearly" }, { "id": "b", "text": "Avoid using visuals" }, { "id": "c", "text": "Ignore community relevance" }, { "id": "d", "text": "Confuse audiences" }], "correctOptionId": "a" },
+            { "id": "q15", "question": "Understanding the water cycle helps learners to appreciate that:", "options": [{ "id": "a", "text": "Natural processes in the environment repeat in predictable patterns" }, { "id": "b", "text": "Water disappears permanently after use" }, { "id": "c", "text": "Nature has no repeating processes" }, { "id": "d", "text": "Rainfall has no connection to evaporation" }], "correctOptionId": "a" }
+          ]
+        },
+        {
+          "id": "2-2-life-cycle-organisms",
+          "title": "Life Cycle of Organisms",
+          "completed": false,
+          "learningGoals": [
+            "Describe the life cycle of the housefly",
+            "Discuss the activities of the housefly as a menace to humans and how to reduce those effects"
+          ],
+          "keyConceptSummary": "The housefly develops through a complete life cycle of egg, larva, pupa and adult stages. Its feeding habits make it a carrier of disease and a nuisance to humans, but interventions can reduce its harmful effects.",
+          "resources": [
+            { "type": "video", "title": "The Life Cycle of the Housefly", "url": "REPLACE_WITH_REAL_URL" },
+            { "type": "reading", "title": "How Houseflies Spread Disease", "url": "#" },
+            { "type": "reading", "title": "Reducing Housefly Menace in the Home", "url": "#" }
+          ],
+          "quiz": [
+            { "id": "q1", "question": "The correct order of the housefly's life cycle stages is:", "options": [{ "id": "a", "text": "Egg, larva, pupa, adult" }, { "id": "b", "text": "Adult, egg, pupa, larva" }, { "id": "c", "text": "Larva, egg, adult, pupa" }, { "id": "d", "text": "Pupa, adult, egg, larva" }], "correctOptionId": "a" },
+            { "id": "q2", "question": "The housefly's life cycle is described as complete metamorphosis because it:", "options": [{ "id": "a", "text": "Passes through clearly distinct stages including a pupa" }, { "id": "b", "text": "Has only one stage" }, { "id": "c", "text": "Never changes form" }, { "id": "d", "text": "Skips the larva stage" }], "correctOptionId": "a" },
+            { "id": "q3", "question": "Houseflies commonly feed on:", "options": [{ "id": "a", "text": "Dead animals, rotten food and waste" }, { "id": "b", "text": "Fresh clean water only" }, { "id": "c", "text": "Rocks and sand" }, { "id": "d", "text": "Nothing at all" }], "correctOptionId": "a" },
+            { "id": "q4", "question": "Houseflies are considered a menace to humans mainly because they can:", "options": [{ "id": "a", "text": "Transfer diseases such as dysentery" }, { "id": "b", "text": "Improve food hygiene" }, { "id": "c", "text": "Have no effect on health" }, { "id": "d", "text": "Clean the environment" }], "correctOptionId": "a" },
+            { "id": "q5", "question": "One way to reduce the effects of houseflies is to:", "options": [{ "id": "a", "text": "Properly dispose of waste and cover food" }, { "id": "b", "text": "Leave waste exposed" }, { "id": "c", "text": "Encourage flies to breed" }, { "id": "d", "text": "Ignore sanitation" }], "correctOptionId": "a" },
+            { "id": "q6", "question": "The larva stage of the housefly is commonly known as a:", "options": [{ "id": "a", "text": "Maggot" }, { "id": "b", "text": "Nymph" }, { "id": "c", "text": "Tadpole" }, { "id": "d", "text": "Caterpillar" }], "correctOptionId": "a" },
+            { "id": "q7", "question": "Arranging flashcards to show the housefly's life cycle stages helps learners to:", "options": [{ "id": "a", "text": "Understand the correct sequence of development" }, { "id": "b", "text": "Confuse the order of stages" }, { "id": "c", "text": "Avoid learning the topic" }, { "id": "d", "text": "Ignore the pupa stage" }], "correctOptionId": "a" },
+            { "id": "q8", "question": "Food poisoning linked to houseflies mainly occurs because they:", "options": [{ "id": "a", "text": "Carry germs from waste onto food" }, { "id": "b", "text": "Clean food surfaces" }, { "id": "c", "text": "Have no contact with food" }, { "id": "d", "text": "Only feed on plants" }], "correctOptionId": "a" },
+            { "id": "q9", "question": "Designing an intervention to reduce housefly activity involves:", "options": [{ "id": "a", "text": "Identifying and addressing their breeding and feeding sources" }, { "id": "b", "text": "Encouraging more waste accumulation" }, { "id": "c", "text": "Ignoring the problem" }, { "id": "d", "text": "Avoiding community education" }], "correctOptionId": "a" },
+            { "id": "q10", "question": "Educating a community about housefly control is important because it helps to:", "options": [{ "id": "a", "text": "Reduce the spread of disease" }, { "id": "b", "text": "Increase disease spread" }, { "id": "c", "text": "Have no impact on health" }, { "id": "d", "text": "Encourage poor sanitation" }], "correctOptionId": "a" },
+            { "id": "q11", "question": "The pupa stage of the housefly can be described as a:", "options": [{ "id": "a", "text": "Resting stage before becoming an adult" }, { "id": "b", "text": "Feeding stage only" }, { "id": "c", "text": "Stage that does not exist" }, { "id": "d", "text": "Final adult stage" }], "correctOptionId": "a" },
+            { "id": "q12", "question": "Writing notes on each stage of the housefly's life cycle helps learners to:", "options": [{ "id": "a", "text": "Communicate their understanding clearly" }, { "id": "b", "text": "Avoid recording information" }, { "id": "c", "text": "Confuse the process" }, { "id": "d", "text": "Ignore scientific detail" }], "correctOptionId": "a" },
+            { "id": "q13", "question": "A key nuisance caused by houseflies in the environment is:", "options": [{ "id": "a", "text": "Their persistent presence around waste and food" }, { "id": "b", "text": "Their complete absence from human settlements" }, { "id": "c", "text": "Their role in pollination only" }, { "id": "d", "text": "Their inability to move" }], "correctOptionId": "a" },
+            { "id": "q14", "question": "Linking the stages of the housefly's life cycle with arrows in a diagram helps to show that the cycle is:", "options": [{ "id": "a", "text": "Continuous and repeating" }, { "id": "b", "text": "A one-time event" }, { "id": "c", "text": "Random with no order" }, { "id": "d", "text": "Unrelated to reproduction" }], "correctOptionId": "a" },
+            { "id": "q15", "question": "Understanding the housefly's life cycle helps learners to:", "options": [{ "id": "a", "text": "Develop effective ways to control its harmful effects" }, { "id": "b", "text": "Encourage its spread" }, { "id": "c", "text": "Ignore public health concerns" }, { "id": "d", "text": "Avoid studying insects" }], "correctOptionId": "a" }
+          ]
+        },
+        {
+          "id": "2-3-crop-production",
+          "title": "Crop Production",
+          "completed": false,
+          "learningGoals": [
+            "Observe and categorise plant nutrient sources into organic and inorganic",
+            "Describe the physical characteristics of different plant nutrients and how each is applied to plants in the field"
+          ],
+          "keyConceptSummary": "Plants require nutrients from organic sources (such as compost and manure) and inorganic sources (such as fertilisers) to grow well. The physical characteristics of each nutrient source affect how it should be applied in the field or school garden.",
+          "resources": [
+            { "type": "video", "title": "Organic vs Inorganic Plant Nutrients", "url": "REPLACE_WITH_REAL_URL" },
+            { "type": "reading", "title": "Applying Nutrients in a School Garden", "url": "#" },
+            { "type": "reading", "title": "Comparing Nutrient Sources for Crops", "url": "#" }
+          ],
+          "quiz": [
+            { "id": "q1", "question": "Organic plant nutrients typically come from:", "options": [{ "id": "a", "text": "Natural sources such as compost and manure" }, { "id": "b", "text": "Chemically manufactured factories only" }, { "id": "c", "text": "Rocks with no nutrient value" }, { "id": "d", "text": "Nowhere; plants need no nutrients" }], "correctOptionId": "a" },
+            { "id": "q2", "question": "Inorganic plant nutrients are typically:", "options": [{ "id": "a", "text": "Manufactured chemical fertilisers" }, { "id": "b", "text": "Animal droppings" }, { "id": "c", "text": "Decomposed plant matter" }, { "id": "d", "text": "Compost only" }], "correctOptionId": "a" },
+            { "id": "q3", "question": "Comparing the volumes of organic and inorganic nutrients needed by plants helps farmers to:", "options": [{ "id": "a", "text": "Apply the right amount for healthy growth" }, { "id": "b", "text": "Waste resources" }, { "id": "c", "text": "Ignore plant needs" }, { "id": "d", "text": "Avoid using any nutrients" }], "correctOptionId": "a" },
+            { "id": "q4", "question": "The physical structure of a nutrient source affects:", "options": [{ "id": "a", "text": "How it should be applied to plants" }, { "id": "b", "text": "Nothing about its use" }, { "id": "c", "text": "Only its market price" }, { "id": "d", "text": "The colour of the plant only" }], "correctOptionId": "a" },
+            { "id": "q5", "question": "Demonstrating practical application of nutrient sources in a school garden helps learners to:", "options": [{ "id": "a", "text": "Gain hands-on farming skills" }, { "id": "b", "text": "Avoid learning agriculture" }, { "id": "c", "text": "Damage the garden" }, { "id": "d", "text": "Ignore plant nutrition" }], "correctOptionId": "a" },
+            { "id": "q6", "question": "A key difference between organic and inorganic nutrients is that organic nutrients:", "options": [{ "id": "a", "text": "Come from living or once-living material" }, { "id": "b", "text": "Are always synthetic" }, { "id": "c", "text": "Contain no nutrients" }, { "id": "d", "text": "Cannot be used on crops" }], "correctOptionId": "a" },
+            { "id": "q7", "question": "Compost is an example of which type of plant nutrient source?", "options": [{ "id": "a", "text": "Organic" }, { "id": "b", "text": "Inorganic" }, { "id": "c", "text": "Neither organic nor inorganic" }, { "id": "d", "text": "Synthetic only" }], "correctOptionId": "a" },
+            { "id": "q8", "question": "Chemical fertilisers are examples of which type of plant nutrient source?", "options": [{ "id": "a", "text": "Inorganic" }, { "id": "b", "text": "Organic" }, { "id": "c", "text": "Neither type" }, { "id": "d", "text": "Water-based only" }], "correctOptionId": "a" },
+            { "id": "q9", "question": "Creating a table to compare organic and inorganic nutrients helps learners to:", "options": [{ "id": "a", "text": "Clearly see the differences between them" }, { "id": "b", "text": "Avoid comparing information" }, { "id": "c", "text": "Confuse the two categories" }, { "id": "d", "text": "Ignore plant nutrition" }], "correctOptionId": "a" },
+            { "id": "q10", "question": "Proper nutrient application in school farming is important because it:", "options": [{ "id": "a", "text": "Supports healthy crop growth" }, { "id": "b", "text": "Damages plants intentionally" }, { "id": "c", "text": "Has no effect on crops" }, { "id": "d", "text": "Replaces the need for water" }], "correctOptionId": "a" },
+            { "id": "q11", "question": "Observing all plant nutrient sources available in a community helps learners to:", "options": [{ "id": "a", "text": "Identify what is locally accessible for farming" }, { "id": "b", "text": "Avoid using local resources" }, { "id": "c", "text": "Ignore their community" }, { "id": "d", "text": "Rely only on imported nutrients" }], "correctOptionId": "a" },
+            { "id": "q12", "question": "Manure applied to soil mainly helps to:", "options": [{ "id": "a", "text": "Improve soil fertility for plant growth" }, { "id": "b", "text": "Harm the soil" }, { "id": "c", "text": "Have no effect on soil" }, { "id": "d", "text": "Replace the need for sunlight" }], "correctOptionId": "a" },
+            { "id": "q13", "question": "Different plants may require different amounts of nutrients because they:", "options": [{ "id": "a", "text": "Have different growth needs" }, { "id": "b", "text": "Are all identical" }, { "id": "c", "text": "Need no nutrients at all" }, { "id": "d", "text": "Only need water" }], "correctOptionId": "a" },
+            { "id": "q14", "question": "Categorising nutrient sources found in a community into organic and inorganic is an example of the science process skill of:", "options": [{ "id": "a", "text": "Classifying" }, { "id": "b", "text": "Predicting" }, { "id": "c", "text": "Measuring" }, { "id": "d", "text": "Designing" }], "correctOptionId": "a" },
+            { "id": "q15", "question": "Understanding plant nutrients helps learners to appreciate that:", "options": [{ "id": "a", "text": "Healthy crop production depends on proper nutrition" }, { "id": "b", "text": "Plants need no support to grow" }, { "id": "c", "text": "All nutrient sources are the same" }, { "id": "d", "text": "Nutrients have no role in farming" }], "correctOptionId": "a" }
+          ]
+        },
+        {
+          "id": "2-4-animal-production",
+          "title": "Animal Production",
+          "completed": false,
+          "learningGoals": [
+            "Examine and list domestic animals found in the community",
+            "Show the differences and similarities among domestic animals (ruminants, monogastrics and poultry)",
+            "Discuss the domestic and commercial uses of different types of animals"
+          ],
+          "keyConceptSummary": "Domestic animals in a community can be classified into ruminants, monogastrics and poultry based on their characteristics. Each type has domestic and commercial uses, including food, income and by-products.",
+          "resources": [
+            { "type": "video", "title": "Types of Domestic Animals", "url": "REPLACE_WITH_REAL_URL" },
+            { "type": "reading", "title": "Ruminants vs Monogastrics vs Poultry", "url": "#" },
+            { "type": "reading", "title": "Domestic and Commercial Uses of Animals", "url": "#" }
+          ],
+          "quiz": [
+            { "id": "q1", "question": "Ruminant animals are best described as those that:", "options": [{ "id": "a", "text": "Have a multi-chambered stomach for digesting plant material" }, { "id": "b", "text": "Have no stomach at all" }, { "id": "c", "text": "Only eat meat" }, { "id": "d", "text": "Are always birds" }], "correctOptionId": "a" },
+            { "id": "q2", "question": "Which of these is an example of a ruminant animal?", "options": [{ "id": "a", "text": "Cattle" }, { "id": "b", "text": "Chicken" }, { "id": "c", "text": "Pig" }, { "id": "d", "text": "Duck" }], "correctOptionId": "a" },
+            { "id": "q3", "question": "Poultry refers to domestic animals that are mainly:", "options": [{ "id": "a", "text": "Birds kept for meat and eggs" }, { "id": "b", "text": "Fish species" }, { "id": "c", "text": "Reptiles" }, { "id": "d", "text": "Wild animals" }], "correctOptionId": "a" },
+            { "id": "q4", "question": "A monogastric animal is one that has:", "options": [{ "id": "a", "text": "A single-chambered stomach" }, { "id": "b", "text": "Four stomach chambers" }, { "id": "c", "text": "No digestive system" }, { "id": "d", "text": "Wings for flight" }], "correctOptionId": "a" },
+            { "id": "q5", "question": "The pig is an example of which classification of domestic animal?", "options": [{ "id": "a", "text": "Monogastric" }, { "id": "b", "text": "Ruminant" }, { "id": "c", "text": "Poultry" }, { "id": "d", "text": "None of the above" }], "correctOptionId": "a" },
+            { "id": "q6", "question": "Domestic uses of animals typically include:", "options": [{ "id": "a", "text": "Providing food such as milk, meat and eggs" }, { "id": "b", "text": "No practical use" }, { "id": "c", "text": "Only decoration" }, { "id": "d", "text": "Producing electricity" }], "correctOptionId": "a" },
+            { "id": "q7", "question": "Commercial uses of domestic animals may include:", "options": [{ "id": "a", "text": "Selling animal products for income" }, { "id": "b", "text": "Keeping them only as pets" }, { "id": "c", "text": "Having no economic value" }, { "id": "d", "text": "Avoiding trade entirely" }], "correctOptionId": "a" },
+            { "id": "q8", "question": "Matching domestic animals with their breeds helps learners to:", "options": [{ "id": "a", "text": "Recognise variety within animal types" }, { "id": "b", "text": "Confuse different species" }, { "id": "c", "text": "Avoid studying animals" }, { "id": "d", "text": "Ignore classification" }], "correctOptionId": "a" },
+            { "id": "q9", "question": "Animal by-products such as waste can be useful for:", "options": [{ "id": "a", "text": "Producing manure for crops" }, { "id": "b", "text": "Nothing at all" }, { "id": "c", "text": "Polluting the environment only" }, { "id": "d", "text": "Replacing water" }], "correctOptionId": "a" },
+            { "id": "q10", "question": "Classifying domestic animals into ruminants, monogastrics and poultry is an example of the process skill of:", "options": [{ "id": "a", "text": "Classifying" }, { "id": "b", "text": "Predicting" }, { "id": "c", "text": "Measuring" }, { "id": "d", "text": "Recording" }], "correctOptionId": "a" },
+            { "id": "q11", "question": "Characteristics used to classify domestic animals include:", "options": [{ "id": "a", "text": "Shape, colour, size and feeding habits" }, { "id": "b", "text": "Only their names" }, { "id": "c", "text": "Their market price alone" }, { "id": "d", "text": "Nothing observable" }], "correctOptionId": "a" },
+            { "id": "q12", "question": "Comparing the uses of different domestic animals helps learners to:", "options": [{ "id": "a", "text": "Understand their value to humans" }, { "id": "b", "text": "Avoid appreciating animal husbandry" }, { "id": "c", "text": "Ignore economic importance" }, { "id": "d", "text": "Confuse animal types" }], "correctOptionId": "a" },
+            { "id": "q13", "question": "A poster showing the domestic uses of animals is useful because it can:", "options": [{ "id": "a", "text": "Communicate information clearly to others" }, { "id": "b", "text": "Hide important information" }, { "id": "c", "text": "Confuse the viewer" }, { "id": "d", "text": "Serve no educational purpose" }], "correctOptionId": "a" },
+            { "id": "q14", "question": "Observing animals in the community to discuss their different uses helps learners to:", "options": [{ "id": "a", "text": "Connect classroom learning to real life" }, { "id": "b", "text": "Avoid practical learning" }, { "id": "c", "text": "Ignore their environment" }, { "id": "d", "text": "Rely only on textbooks" }], "correctOptionId": "a" },
+            { "id": "q15", "question": "Understanding the classification of domestic animals helps learners to:", "options": [{ "id": "a", "text": "Appreciate their differing roles in agriculture and the economy" }, { "id": "b", "text": "Treat all animals identically" }, { "id": "c", "text": "Ignore agricultural science" }, { "id": "d", "text": "Avoid animal production topics" }], "correctOptionId": "a" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "strand-3",
+      "title": "Systems",
+      "subtopics": [
+        {
+          "id": "3-1-human-body-system",
+          "title": "The Human Body System",
+          "completed": false,
+          "learningGoals": [
+            "Explain the concept of food and the need for humans to eat",
+            "Examine what happens to food at the stages of digestion in humans",
+            "Identify the end products of digestion of starchy, protein and oily foods and explain how absorption occurs"
+          ],
+          "keyConceptSummary": "Food provides the nutrients humans need to survive and stay healthy. During digestion, starches, proteins and oils are broken down into sugars, amino acids and fatty acids, which are then absorbed into the body.",
+          "resources": [
+            { "type": "video", "title": "How the Digestive System Works", "url": "REPLACE_WITH_REAL_URL" },
+            { "type": "reading", "title": "The Stages of Digestion", "url": "#" },
+            { "type": "reading", "title": "Absorption of Digested Food", "url": "#" }
+          ],
+          "quiz": [
+            { "id": "q1", "question": "Food is important to humans mainly because it:", "options": [{ "id": "a", "text": "Provides nutrients needed for growth and energy" }, { "id": "b", "text": "Has no role in the body" }, { "id": "c", "text": "Only satisfies taste" }, { "id": "d", "text": "Prevents digestion" }], "correctOptionId": "a" },
+            { "id": "q2", "question": "The alimentary canal is best described as the:", "options": [{ "id": "a", "text": "Pathway food travels through during digestion" }, { "id": "b", "text": "Part of the body used for breathing only" }, { "id": "c", "text": "Structure that has no role in digestion" }, { "id": "d", "text": "Bone that supports the body" }], "correctOptionId": "a" },
+            { "id": "q3", "question": "Starch is digested into which end product?", "options": [{ "id": "a", "text": "Sugar" }, { "id": "b", "text": "Amino acids" }, { "id": "c", "text": "Fatty acids" }, { "id": "d", "text": "Water" }], "correctOptionId": "a" },
+            { "id": "q4", "question": "Proteins are digested into which end product?", "options": [{ "id": "a", "text": "Amino acids" }, { "id": "b", "text": "Sugar" }, { "id": "c", "text": "Fatty acids" }, { "id": "d", "text": "Starch" }], "correctOptionId": "a" },
+            { "id": "q5", "question": "Oils and fats are digested into which end products?", "options": [{ "id": "a", "text": "Fatty acids" }, { "id": "b", "text": "Amino acids" }, { "id": "c", "text": "Sugar" }, { "id": "d", "text": "Starch" }], "correctOptionId": "a" },
+            { "id": "q6", "question": "Absorption of digested food mainly occurs in the:", "options": [{ "id": "a", "text": "Small intestine" }, { "id": "b", "text": "Mouth only" }, { "id": "c", "text": "Skin" }, { "id": "d", "text": "Lungs" }], "correctOptionId": "a" },
+            { "id": "q7", "question": "Comparing starved individuals with well-fed ones helps learners to understand:", "options": [{ "id": "a", "text": "The importance of feeding to human health" }, { "id": "b", "text": "That food has no effect on health" }, { "id": "c", "text": "That starvation is beneficial" }, { "id": "d", "text": "That appearance is unrelated to nutrition" }], "correctOptionId": "a" },
+            { "id": "q8", "question": "Performing practical tests on food helps learners to:", "options": [{ "id": "a", "text": "Identify the nutrients present, such as starch or protein" }, { "id": "b", "text": "Avoid understanding nutrition" }, { "id": "c", "text": "Destroy the food sample only" }, { "id": "d", "text": "Confuse food types" }], "correctOptionId": "a" },
+            { "id": "q9", "question": "Drawing and labelling the digestive system helps learners to:", "options": [{ "id": "a", "text": "Understand the parts involved in digestion" }, { "id": "b", "text": "Avoid learning about the body" }, { "id": "c", "text": "Confuse body systems" }, { "id": "d", "text": "Ignore the digestive process" }], "correctOptionId": "a" },
+            { "id": "q10", "question": "The stomach's main role in digestion is to:", "options": [{ "id": "a", "text": "Break down food further using acids and enzymes" }, { "id": "b", "text": "Store food permanently" }, { "id": "c", "text": "Have no digestive function" }, { "id": "d", "text": "Absorb all nutrients directly" }], "correctOptionId": "a" },
+            { "id": "q11", "question": "A flow chart showing that starch is digested to sugar, protein to amino acids, and oils to fatty acids helps learners to:", "options": [{ "id": "a", "text": "See the relationship between food types and their end products" }, { "id": "b", "text": "Confuse nutrient categories" }, { "id": "c", "text": "Avoid understanding digestion" }, { "id": "d", "text": "Ignore the digestive process" }], "correctOptionId": "a" },
+            { "id": "q12", "question": "Researching what happens to food such as yam or egg when eaten helps learners to:", "options": [{ "id": "a", "text": "Understand the practical stages of digestion" }, { "id": "b", "text": "Avoid real-life application" }, { "id": "c", "text": "Confuse different digestive stages" }, { "id": "d", "text": "Ignore the topic" }], "correctOptionId": "a" },
+            { "id": "q13", "question": "Digestion can generally be described as the process of:", "options": [{ "id": "a", "text": "Breaking down food into simpler, absorbable substances" }, { "id": "b", "text": "Storing food unchanged in the body" }, { "id": "c", "text": "Producing energy without food" }, { "id": "d", "text": "Removing all nutrients from food" }], "correctOptionId": "a" },
+            { "id": "q14", "question": "Understanding the digestion of food helps learners appreciate that:", "options": [{ "id": "a", "text": "The body needs to break food down before it can be used" }, { "id": "b", "text": "Food is used by the body without any changes" }, { "id": "c", "text": "Digestion has no biological importance" }, { "id": "d", "text": "The stomach plays no role in digestion" }], "correctOptionId": "a" },
+            { "id": "q15", "question": "The large intestine mainly functions to:", "options": [{ "id": "a", "text": "Absorb water and form waste for excretion" }, { "id": "b", "text": "Digest starch into sugar" }, { "id": "c", "text": "Produce saliva" }, { "id": "d", "text": "Have no digestive role" }], "correctOptionId": "a" }
+          ]
+        },
+        {
+          "id": "3-2-solar-system",
+          "title": "The Solar System",
+          "completed": false,
+          "learningGoals": [
+            "Identify the inner planets of the solar system and describe their properties",
+            "Discuss the properties and relative motions of the planets Mercury and Venus"
+          ],
+          "keyConceptSummary": "The inner planets of the solar system, including Mercury and Venus, have distinct properties and follow elliptical paths as they orbit the sun. Understanding their structure and movement helps explain the wider organisation of the solar system.",
+          "resources": [
+            { "type": "video", "title": "Exploring the Inner Planets", "url": "REPLACE_WITH_REAL_URL" },
+            { "type": "reading", "title": "Mercury and Venus: Properties and Motion", "url": "#" },
+            { "type": "reading", "title": "How the Solar System is Organised", "url": "#" }
+          ],
+          "quiz": [
+            { "id": "q1", "question": "The inner planets of the solar system are those that are:", "options": [{ "id": "a", "text": "Closest to the sun" }, { "id": "b", "text": "Farthest from the sun" }, { "id": "c", "text": "Not part of the solar system" }, { "id": "d", "text": "Made only of gas" }], "correctOptionId": "a" },
+            { "id": "q2", "question": "Which of these is one of the inner planets?", "options": [{ "id": "a", "text": "Mercury" }, { "id": "b", "text": "Jupiter" }, { "id": "c", "text": "Saturn" }, { "id": "d", "text": "Neptune" }], "correctOptionId": "a" },
+            { "id": "q3", "question": "The path a planet follows as it orbits the sun is generally described as:", "options": [{ "id": "a", "text": "Elliptical" }, { "id": "b", "text": "Perfectly square" }, { "id": "c", "text": "A straight line" }, { "id": "d", "text": "Random with no shape" }], "correctOptionId": "a" },
+            { "id": "q4", "question": "Venus is often noted for being:", "options": [{ "id": "a", "text": "One of the hottest planets in the solar system" }, { "id": "b", "text": "The farthest planet from the sun" }, { "id": "c", "text": "A planet with rings like Saturn" }, { "id": "d", "text": "Outside the solar system" }], "correctOptionId": "a" },
+            { "id": "q5", "question": "Mercury is notable among the planets for being:", "options": [{ "id": "a", "text": "The closest planet to the sun" }, { "id": "b", "text": "The largest planet" }, { "id": "c", "text": "A planet with many moons" }, { "id": "d", "text": "Located outside the solar system" }], "correctOptionId": "a" },
+            { "id": "q6", "question": "The 'milky way' refers to:", "options": [{ "id": "a", "text": "The galaxy that contains our solar system" }, { "id": "b", "text": "A single planet" }, { "id": "c", "text": "A type of star only" }, { "id": "d", "text": "A moon of Earth" }], "correctOptionId": "a" },
+            { "id": "q7", "question": "Constructing a model of the solar system helps learners to:", "options": [{ "id": "a", "text": "Visualise the arrangement and relative positions of planets" }, { "id": "b", "text": "Avoid understanding astronomy" }, { "id": "c", "text": "Confuse planetary order" }, { "id": "d", "text": "Ignore the sun's role" }], "correctOptionId": "a" },
+            { "id": "q8", "question": "Describing the movement of Mercury and Venus around the sun helps learners to understand:", "options": [{ "id": "a", "text": "How planetary motion follows predictable patterns" }, { "id": "b", "text": "That planets do not move" }, { "id": "c", "text": "That motion in space is random" }, { "id": "d", "text": "That only Earth moves around the sun" }], "correctOptionId": "a" },
+            { "id": "q9", "question": "A galaxy can be described as:", "options": [{ "id": "a", "text": "A huge collection of stars, planets and other space objects" }, { "id": "b", "text": "A single planet" }, { "id": "c", "text": "A type of moon" }, { "id": "d", "text": "Part of the ocean" }], "correctOptionId": "a" },
+            { "id": "q10", "question": "Using pictures and videos to study the inner planets helps learners to:", "options": [{ "id": "a", "text": "Better visualise objects they cannot see directly" }, { "id": "b", "text": "Avoid learning about space" }, { "id": "c", "text": "Confuse planets with stars" }, { "id": "d", "text": "Ignore visual evidence" }], "correctOptionId": "a" },
+            { "id": "q11", "question": "Outlining properties peculiar to Mercury and Venus helps learners to:", "options": [{ "id": "a", "text": "Distinguish between the two planets" }, { "id": "b", "text": "Treat all planets as identical" }, { "id": "c", "text": "Avoid studying planetary science" }, { "id": "d", "text": "Ignore planetary differences" }], "correctOptionId": "a" },
+            { "id": "q12", "question": "The solar system is best described as:", "options": [{ "id": "a", "text": "The sun and all the objects that orbit it" }, { "id": "b", "text": "Only the planets with no sun" }, { "id": "c", "text": "A single galaxy" }, { "id": "d", "text": "A type of weather system" }], "correctOptionId": "a" },
+            { "id": "q13", "question": "Understanding the properties of inner planets can help scientists to:", "options": [{ "id": "a", "text": "Compare conditions across different planets" }, { "id": "b", "text": "Ignore planetary research" }, { "id": "c", "text": "Confuse planets with asteroids" }, { "id": "d", "text": "Avoid space exploration" }], "correctOptionId": "a" },
+            { "id": "q14", "question": "Searching the internet for accurate data on planetary motion is an example of the competency of:", "options": [{ "id": "a", "text": "Digital literacy" }, { "id": "b", "text": "Physical fitness" }, { "id": "c", "text": "Cultural identity" }, { "id": "d", "text": "None of the above" }], "correctOptionId": "a" },
+            { "id": "q15", "question": "Understanding the solar system helps learners to appreciate that:", "options": [{ "id": "a", "text": "Earth is part of a larger, structured system of planets" }, { "id": "b", "text": "Earth exists in isolation from other planets" }, { "id": "c", "text": "Planets have no order or pattern" }, { "id": "d", "text": "The solar system has no sun" }], "correctOptionId": "a" }
+          ]
+        },
+        {
+          "id": "3-3-ecosystem",
+          "title": "Ecosystem",
+          "completed": false,
+          "learningGoals": [
+            "Analyse the components of ecosystems and identify the interactions within them"
+          ],
+          "keyConceptSummary": "An ecosystem is a self-sustaining unit made up of biotic and abiotic components that interact with one another. Ecosystems can be grouped into terrestrial, aquatic and arboreal categories, each with organisms suited to that environment.",
+          "resources": [
+            { "type": "video", "title": "What is an Ecosystem?", "url": "REPLACE_WITH_REAL_URL" },
+            { "type": "reading", "title": "Biotic and Abiotic Components Explained", "url": "#" },
+            { "type": "reading", "title": "Types of Ecosystems: Terrestrial, Aquatic and Arboreal", "url": "#" }
+          ],
+          "quiz": [
+            { "id": "q1", "question": "An ecosystem is best described as:", "options": [{ "id": "a", "text": "A self-sustaining unit where components interact" }, { "id": "b", "text": "A single organism" }, { "id": "c", "text": "A place with no living things" }, { "id": "d", "text": "A man-made structure only" }], "correctOptionId": "a" },
+            { "id": "q2", "question": "Biotic components of an ecosystem refer to:", "options": [{ "id": "a", "text": "Living organisms such as plants and animals" }, { "id": "b", "text": "Non-living things like rocks and water" }, { "id": "c", "text": "Only sunlight" }, { "id": "d", "text": "Man-made buildings" }], "correctOptionId": "a" },
+            { "id": "q3", "question": "Abiotic components of an ecosystem refer to:", "options": [{ "id": "a", "text": "Non-living factors such as water, air and soil" }, { "id": "b", "text": "Living organisms only" }, { "id": "c", "text": "Animals exclusively" }, { "id": "d", "text": "Plants exclusively" }], "correctOptionId": "a" },
+            { "id": "q4", "question": "A pond is an example of which category of ecosystem?", "options": [{ "id": "a", "text": "Aquatic" }, { "id": "b", "text": "Terrestrial" }, { "id": "c", "text": "Arboreal" }, { "id": "d", "text": "None of the above" }], "correctOptionId": "a" },
+            { "id": "q5", "question": "A forest is an example of which category of ecosystem?", "options": [{ "id": "a", "text": "Terrestrial" }, { "id": "b", "text": "Aquatic" }, { "id": "c", "text": "Underground only" }, { "id": "d", "text": "None of the above" }], "correctOptionId": "a" },
+            { "id": "q6", "question": "Organisms in an ecosystem interact with each other mainly through relationships such as:", "options": [{ "id": "a", "text": "Feeding and competition" }, { "id": "b", "text": "Complete isolation from one another" }, { "id": "c", "text": "No interaction at all" }, { "id": "d", "text": "Random unrelated events" }], "correctOptionId": "a" },
+            { "id": "q7", "question": "Describing an ecosystem as 'self-sustaining' means that it:", "options": [{ "id": "a", "text": "Can maintain balance through the interaction of its components" }, { "id": "b", "text": "Needs constant human intervention to survive" }, { "id": "c", "text": "Has no living components" }, { "id": "d", "text": "Cannot support life" }], "correctOptionId": "a" },
+            { "id": "q8", "question": "Identifying and listing the biotic and abiotic components of an ecosystem is an example of the skill of:", "options": [{ "id": "a", "text": "Classifying" }, { "id": "b", "text": "Predicting" }, { "id": "c", "text": "Measuring" }, { "id": "d", "text": "Designing" }], "correctOptionId": "a" },
+            { "id": "q9", "question": "Differentiating among organisms in different ecosystems helps learners to:", "options": [{ "id": "a", "text": "Understand how organisms adapt to their environment" }, { "id": "b", "text": "Assume all organisms are identical" }, { "id": "c", "text": "Ignore environmental differences" }, { "id": "d", "text": "Avoid studying ecosystems" }], "correctOptionId": "a" },
+            { "id": "q10", "question": "How components of different ecosystems affect one another is best understood through:", "options": [{ "id": "a", "text": "Studying their interactions and interdependence" }, { "id": "b", "text": "Assuming they have no effect on each other" }, { "id": "c", "text": "Ignoring their relationships" }, { "id": "d", "text": "Focusing only on abiotic factors" }], "correctOptionId": "a" },
+            { "id": "q11", "question": "An arboreal ecosystem is one that is primarily associated with:", "options": [{ "id": "a", "text": "Trees" }, { "id": "b", "text": "Oceans" }, { "id": "c", "text": "Deserts only" }, { "id": "d", "text": "Ice caps" }], "correctOptionId": "a" },
+            { "id": "q12", "question": "Sunlight in an ecosystem is considered a(n):", "options": [{ "id": "a", "text": "Abiotic factor" }, { "id": "b", "text": "Biotic factor" }, { "id": "c", "text": "Man-made factor" }, { "id": "d", "text": "Irrelevant factor" }], "correctOptionId": "a" },
+            { "id": "q13", "question": "Understanding ecosystems helps learners to appreciate that:", "options": [{ "id": "a", "text": "Living and non-living things depend on each other for balance" }, { "id": "b", "text": "Living things exist independently of their environment" }, { "id": "c", "text": "Ecosystems have no practical importance" }, { "id": "d", "text": "Non-living factors have no influence on life" }], "correctOptionId": "a" },
+            { "id": "q14", "question": "Grouping ecosystems into terrestrial, aquatic and arboreal categories is an example of:", "options": [{ "id": "a", "text": "Classification based on environment type" }, { "id": "b", "text": "Random labelling with no basis" }, { "id": "c", "text": "A method with no scientific value" }, { "id": "d", "text": "Predicting future events" }], "correctOptionId": "a" },
+            { "id": "q15", "question": "Analysing ecosystem components helps learners to build skills in:", "options": [{ "id": "a", "text": "Communication and collaboration while studying nature" }, { "id": "b", "text": "Avoiding teamwork" }, { "id": "c", "text": "Ignoring collaborative learning" }, { "id": "d", "text": "Working in isolation only" }], "correctOptionId": "a" }
+          ]
+        },
+        {
+          "id": "3-4-farming-systems",
+          "title": "Farming Systems",
+          "completed": false,
+          "learningGoals": [
+            "Examine and discuss the differences among farming systems: Land Rotation, Crop Rotation, Mixed Cropping, Mixed Farming and Organic Farming",
+            "Categorise different farming systems",
+            "Discuss the usefulness of different farming systems"
+          ],
+          "keyConceptSummary": "Farming systems such as Land Rotation, Crop Rotation, Mixed Cropping, Mixed Farming and Organic Farming each have distinct characteristics and benefits. Understanding these systems helps farmers choose approaches suited to their land and goals.",
+          "resources": [
+            { "type": "video", "title": "Overview of Common Farming Systems", "url": "REPLACE_WITH_REAL_URL" },
+            { "type": "reading", "title": "Crop Rotation and Mixed Cropping Explained", "url": "#" },
+            { "type": "reading", "title": "Benefits of Organic Farming", "url": "#" }
+          ],
+          "quiz": [
+            { "id": "q1", "question": "Crop Rotation is best described as:", "options": [{ "id": "a", "text": "Growing different crops in a planned sequence on the same land" }, { "id": "b", "text": "Growing the same crop forever on the same land" }, { "id": "c", "text": "Never planting crops" }, { "id": "d", "text": "Farming only with animals" }], "correctOptionId": "a" },
+            { "id": "q2", "question": "Mixed Cropping refers to:", "options": [{ "id": "a", "text": "Growing two or more crops together on the same piece of land" }, { "id": "b", "text": "Growing only one crop type" }, { "id": "c", "text": "Raising animals exclusively" }, { "id": "d", "text": "Leaving land completely unused" }], "correctOptionId": "a" },
+            { "id": "q3", "question": "Mixed Farming involves:", "options": [{ "id": "a", "text": "Combining crop production with animal rearing" }, { "id": "b", "text": "Only rearing animals" }, { "id": "c", "text": "Only growing crops" }, { "id": "d", "text": "Avoiding both crops and animals" }], "correctOptionId": "a" },
+            { "id": "q4", "question": "Organic Farming relies mainly on:", "options": [{ "id": "a", "text": "Natural methods and materials instead of synthetic chemicals" }, { "id": "b", "text": "Only chemical fertilisers" }, { "id": "c", "text": "No nutrients at all" }, { "id": "d", "text": "Artificial materials exclusively" }], "correctOptionId": "a" },
+            { "id": "q5", "question": "Land Rotation involves:", "options": [{ "id": "a", "text": "Alternating the use of different plots of land for farming and rest" }, { "id": "b", "text": "Using the same plot forever without rest" }, { "id": "c", "text": "Avoiding land use entirely" }, { "id": "d", "text": "Growing crops only in one season" }], "correctOptionId": "a" },
+            { "id": "q6", "question": "One benefit of Crop Rotation is that it can help to:", "options": [{ "id": "a", "text": "Maintain soil fertility" }, { "id": "b", "text": "Deplete the soil completely" }, { "id": "c", "text": "Have no effect on soil" }, { "id": "d", "text": "Increase pest problems only" }], "correctOptionId": "a" },
+            { "id": "q7", "question": "A key advantage of Mixed Farming is that it can:", "options": [{ "id": "a", "text": "Provide multiple sources of income and food" }, { "id": "b", "text": "Limit farmers to a single product" }, { "id": "c", "text": "Reduce farm productivity" }, { "id": "d", "text": "Eliminate the need for planning" }], "correctOptionId": "a" },
+            { "id": "q8", "question": "Debating the merits and demerits of different farming systems helps learners to:", "options": [{ "id": "a", "text": "Critically evaluate agricultural choices" }, { "id": "b", "text": "Avoid considering different viewpoints" }, { "id": "c", "text": "Ignore agricultural science" }, { "id": "d", "text": "Accept one system without question" }], "correctOptionId": "a" },
+            { "id": "q9", "question": "Classifying descriptions of farming systems under their correct categories is an example of the skill of:", "options": [{ "id": "a", "text": "Classifying" }, { "id": "b", "text": "Predicting" }, { "id": "c", "text": "Measuring" }, { "id": "d", "text": "Recording" }], "correctOptionId": "a" },
+            { "id": "q10", "question": "Comparing and contrasting the characteristics of different farming systems helps learners to:", "options": [{ "id": "a", "text": "Understand which systems suit different situations" }, { "id": "b", "text": "Assume all farming systems are identical" }, { "id": "c", "text": "Ignore agricultural diversity" }, { "id": "d", "text": "Avoid learning about farming" }], "correctOptionId": "a" },
+            { "id": "q11", "question": "Farming systems used in a community are often influenced by:", "options": [{ "id": "a", "text": "Local resources, land type and traditional practices" }, { "id": "b", "text": "Nothing at all" }, { "id": "c", "text": "Random selection" }, { "id": "d", "text": "Foreign decisions only" }], "correctOptionId": "a" },
+            { "id": "q12", "question": "One reason farmers might choose Organic Farming is to:", "options": [{ "id": "a", "text": "Reduce reliance on synthetic chemicals" }, { "id": "b", "text": "Increase use of artificial inputs" }, { "id": "c", "text": "Avoid growing crops altogether" }, { "id": "d", "text": "Eliminate the need for soil" }], "correctOptionId": "a" },
+            { "id": "q13", "question": "Grouping farming systems prevailing in a learner's own community helps them to:", "options": [{ "id": "a", "text": "Connect classroom learning to local practices" }, { "id": "b", "text": "Avoid engaging with their community" }, { "id": "c", "text": "Ignore local agricultural knowledge" }, { "id": "d", "text": "Rely only on textbook examples" }], "correctOptionId": "a" },
+            { "id": "q14", "question": "Understanding the usefulness of different farming systems helps farmers to:", "options": [{ "id": "a", "text": "Make informed decisions suited to their land and needs" }, { "id": "b", "text": "Use one system regardless of context" }, { "id": "c", "text": "Ignore productivity concerns" }, { "id": "d", "text": "Avoid planning their farms" }], "correctOptionId": "a" },
+            { "id": "q15", "question": "Studying farming systems supports Ghana's development mainly by helping to:", "options": [{ "id": "a", "text": "Improve agricultural productivity and sustainability" }, { "id": "b", "text": "Discourage all forms of farming" }, { "id": "c", "text": "Ignore the agricultural sector" }, { "id": "d", "text": "Rely solely on imported food" }], "correctOptionId": "a" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "strand-4",
+      "title": "Forces and Energy",
+      "subtopics": [
+        {
+          "id": "4-1-energy",
+          "title": "Energy",
+          "completed": false,
+          "learningGoals": [
+            "Identify the various forms of energy and show how they are related",
+            "Explain daily applications of forms of energy",
+            "Explain and demonstrate how heat is transferred in various media",
+            "Demonstrate the characteristics of light, including travelling in a straight line, reflection, refraction and dispersion"
+          ],
+          "keyConceptSummary": "Energy exists in many forms, including potential, kinetic, heat, sound, solar, electrical, nuclear, chemical and light energy, all of which are applied in daily life. Heat can transfer through different media, and light has properties such as travelling in straight lines, reflecting, refracting and dispersing into colours.",
+          "resources": [
+            { "type": "video", "title": "Forms of Energy and Their Uses", "url": "REPLACE_WITH_REAL_URL" },
+            { "type": "reading", "title": "How Heat Transfers Through Materials", "url": "#" },
+            { "type": "reading", "title": "Properties of Light", "url": "#" }
+          ],
+          "quiz": [
+            { "id": "q1", "question": "Potential energy is best described as energy that is:", "options": [{ "id": "a", "text": "Stored due to an object's position or state" }, { "id": "b", "text": "Always in motion" }, { "id": "c", "text": "Only found in liquids" }, { "id": "d", "text": "Never able to be converted" }], "correctOptionId": "a" },
+            { "id": "q2", "question": "Kinetic energy is best described as the energy:", "options": [{ "id": "a", "text": "Of an object in motion" }, { "id": "b", "text": "Stored in a battery only" }, { "id": "c", "text": "Found only in solids" }, { "id": "d", "text": "That never changes form" }], "correctOptionId": "a" },
+            { "id": "q3", "question": "Which of the following is a form of energy?", "options": [{ "id": "a", "text": "Solar energy" }, { "id": "b", "text": "Gravity only" }, { "id": "c", "text": "Mass" }, { "id": "d", "text": "Volume" }], "correctOptionId": "a" },
+            { "id": "q4", "question": "Mechanical energy is the sum of:", "options": [{ "id": "a", "text": "Potential energy and kinetic energy" }, { "id": "b", "text": "Only heat energy" }, { "id": "c", "text": "Only sound energy" }, { "id": "d", "text": "Chemical energy alone" }], "correctOptionId": "a" },
+            { "id": "q5", "question": "Heat can be transferred through media by processes such as:", "options": [{ "id": "a", "text": "Conduction, convection and radiation" }, { "id": "b", "text": "Reflection only" }, { "id": "c", "text": "Absorption of light only" }, { "id": "d", "text": "No process; heat cannot transfer" }], "correctOptionId": "a" },
+            { "id": "q6", "question": "Light travelling in a straight line can be demonstrated using:", "options": [{ "id": "a", "text": "A simple experiment with a light source and a straight edge" }, { "id": "b", "text": "No experiment is possible" }, { "id": "c", "text": "Only mathematical formulas" }, { "id": "d", "text": "Sound waves" }], "correctOptionId": "a" },
+            { "id": "q7", "question": "Dispersion of light refers to:", "options": [{ "id": "a", "text": "The splitting of light into its component colours" }, { "id": "b", "text": "Light disappearing completely" }, { "id": "c", "text": "Sound being absorbed" }, { "id": "d", "text": "Heat being reflected" }], "correctOptionId": "a" },
+            { "id": "q8", "question": "Reflection of light occurs when light:", "options": [{ "id": "a", "text": "Bounces off a surface" }, { "id": "b", "text": "Disappears entirely" }, { "id": "c", "text": "Changes into sound" }, { "id": "d", "text": "Cannot travel at all" }], "correctOptionId": "a" },
+            { "id": "q9", "question": "Refraction of light occurs when light:", "options": [{ "id": "a", "text": "Bends as it passes from one medium to another" }, { "id": "b", "text": "Stops moving completely" }, { "id": "c", "text": "Turns into heat only" }, { "id": "d", "text": "Has no interaction with matter" }], "correctOptionId": "a" },
+            { "id": "q10", "question": "Everyday appliances that use electrical energy include:", "options": [{ "id": "a", "text": "Televisions and refrigerators" }, { "id": "b", "text": "Only candles" }, { "id": "c", "text": "Only manual tools" }, { "id": "d", "text": "Nothing in daily life" }], "correctOptionId": "a" },
+            { "id": "q11", "question": "The formula for Kinetic Energy is:", "options": [{ "id": "a", "text": "KE = ½ mv²" }, { "id": "b", "text": "KE = mgh" }, { "id": "c", "text": "KE = IV" }, { "id": "d", "text": "KE = ma" }], "correctOptionId": "a" },
+            { "id": "q12", "question": "The formula for Potential Energy is:", "options": [{ "id": "a", "text": "PE = mgh" }, { "id": "b", "text": "PE = ½ mv²" }, { "id": "c", "text": "PE = IV" }, { "id": "d", "text": "PE = ma" }], "correctOptionId": "a" },
+            { "id": "q13", "question": "Matching forms of energy to appliances used at home and school helps learners to:", "options": [{ "id": "a", "text": "Connect scientific concepts to everyday life" }, { "id": "b", "text": "Avoid real-world application" }, { "id": "c", "text": "Ignore daily energy use" }, { "id": "d", "text": "Confuse energy types" }], "correctOptionId": "a" },
+            { "id": "q14", "question": "Understanding how heat transfers through different media helps learners to explain why:", "options": [{ "id": "a", "text": "Some materials heat up faster than others" }, { "id": "b", "text": "All materials heat identically" }, { "id": "c", "text": "Heat cannot move through solids" }, { "id": "d", "text": "Heat has no practical relevance" }], "correctOptionId": "a" },
+            { "id": "q15", "question": "Studying forms of energy and their applications helps learners to appreciate that:", "options": [{ "id": "a", "text": "Energy is essential to many everyday activities" }, { "id": "b", "text": "Energy has no relevance to daily life" }, { "id": "c", "text": "Only one form of energy exists" }, { "id": "d", "text": "Energy cannot be applied practically" }], "correctOptionId": "a" }
+          ]
+        },
+        {
+          "id": "4-2-electricity-electronics",
+          "title": "Electricity and Electronics",
+          "completed": false,
+          "learningGoals": [
+            "Describe the various forms of electricity generation and their impact on the environment",
+            "Demonstrate how to assemble basic electronic components in an electronic circuit and discuss their functions"
+          ],
+          "keyConceptSummary": "Electricity can be generated through methods such as thermal and nuclear generation, each with environmental impacts. Basic electronic components such as LEDs, diodes, resistors and inductors work together within a circuit, and their interdependence affects how the circuit functions.",
+          "resources": [
+            { "type": "video", "title": "How Electricity is Generated", "url": "REPLACE_WITH_REAL_URL" },
+            { "type": "reading", "title": "Environmental Impact of Electricity Generation", "url": "#" },
+            { "type": "reading", "title": "Basic Electronic Components Explained", "url": "#" }
+          ],
+          "quiz": [
+            { "id": "q1", "question": "Thermal electricity generation typically involves:", "options": [{ "id": "a", "text": "Burning fuel to produce heat that generates electricity" }, { "id": "b", "text": "Using only wind power" }, { "id": "c", "text": "No fuel at all" }, { "id": "d", "text": "Only solar panels" }], "correctOptionId": "a" },
+            { "id": "q2", "question": "Nuclear electricity generation uses:", "options": [{ "id": "a", "text": "Nuclear reactions to produce heat for electricity" }, { "id": "b", "text": "Only wind turbines" }, { "id": "c", "text": "Only rainwater" }, { "id": "d", "text": "No scientific process" }], "correctOptionId": "a" },
+            { "id": "q3", "question": "A negative environmental effect of some forms of electricity generation is:", "options": [{ "id": "a", "text": "Pollution of air and water" }, { "id": "b", "text": "Zero impact on the environment" }, { "id": "c", "text": "Improved air quality always" }, { "id": "d", "text": "No connection to the environment" }], "correctOptionId": "a" },
+            { "id": "q4", "question": "An LED in an electronic circuit mainly functions to:", "options": [{ "id": "a", "text": "Emit light when current passes through it" }, { "id": "b", "text": "Store large amounts of water" }, { "id": "c", "text": "Absorb sound" }, { "id": "d", "text": "Generate heat only, with no light" }], "correctOptionId": "a" },
+            { "id": "q5", "question": "A resistor in a circuit mainly functions to:", "options": [{ "id": "a", "text": "Control the flow of electric current" }, { "id": "b", "text": "Store data" }, { "id": "c", "text": "Produce sound" }, { "id": "d", "text": "Have no effect on current" }], "correctOptionId": "a" },
+            { "id": "q6", "question": "A P-N junction diode is used in a circuit to:", "options": [{ "id": "a", "text": "Allow current to flow mainly in one direction" }, { "id": "b", "text": "Block all current at all times" }, { "id": "c", "text": "Store excess heat" }, { "id": "d", "text": "Generate light without power" }], "correctOptionId": "a" },
+            { "id": "q7", "question": "Closing a switch in an electronic circuit typically causes:", "options": [{ "id": "a", "text": "Current to flow and components like an LED to light up" }, { "id": "b", "text": "The circuit to stop working permanently" }, { "id": "c", "text": "No change in the circuit" }, { "id": "d", "text": "The battery to be destroyed" }], "correctOptionId": "a" },
+            { "id": "q8", "question": "Dismantling old electronic gadgets to identify their parts helps learners to:", "options": [{ "id": "a", "text": "Understand real-world applications of electronic components" }, { "id": "b", "text": "Avoid learning about electronics" }, { "id": "c", "text": "Damage components with no purpose" }, { "id": "d", "text": "Ignore circuit design" }], "correctOptionId": "a" },
+            { "id": "q9", "question": "Debating the effects of electricity generation on the environment helps learners to:", "options": [{ "id": "a", "text": "Consider both benefits and drawbacks of energy sources" }, { "id": "b", "text": "Avoid critical thinking" }, { "id": "c", "text": "Ignore environmental issues" }, { "id": "d", "text": "Accept one viewpoint only" }], "correctOptionId": "a" },
+            { "id": "q10", "question": "An inductor in an electronic circuit is generally used to:", "options": [{ "id": "a", "text": "Store energy in a magnetic field" }, { "id": "b", "text": "Produce light only" }, { "id": "c", "text": "Have no function in circuits" }, { "id": "d", "text": "Absorb sound waves" }], "correctOptionId": "a" },
+            { "id": "q11", "question": "Constructing a simple circuit with a battery, switch and LED helps learners to:", "options": [{ "id": "a", "text": "Apply theoretical knowledge of circuits practically" }, { "id": "b", "text": "Avoid hands-on learning" }, { "id": "c", "text": "Ignore circuit components" }, { "id": "d", "text": "Confuse electrical concepts" }], "correctOptionId": "a" },
+            { "id": "q12", "question": "Adding more resistors to a circuit generally affects an LED's brightness by:", "options": [{ "id": "a", "text": "Reducing the current and dimming the LED" }, { "id": "b", "text": "Always making it brighter" }, { "id": "c", "text": "Having no effect at all" }, { "id": "d", "text": "Destroying the circuit instantly" }], "correctOptionId": "a" },
+            { "id": "q13", "question": "Understanding the interdependence of electronic components helps learners to:", "options": [{ "id": "a", "text": "See how each part affects the overall function of a circuit" }, { "id": "b", "text": "Assume components work in isolation" }, { "id": "c", "text": "Avoid studying circuits" }, { "id": "d", "text": "Ignore how circuits operate" }], "correctOptionId": "a" },
+            { "id": "q14", "question": "Producing posters on the impact of thermal and nuclear electricity generation helps learners to:", "options": [{ "id": "a", "text": "Communicate research findings clearly" }, { "id": "b", "text": "Avoid presenting information" }, { "id": "c", "text": "Ignore audience needs" }, { "id": "d", "text": "Confuse key findings" }], "correctOptionId": "a" },
+            { "id": "q15", "question": "Studying electricity generation and electronics helps learners to appreciate that:", "options": [{ "id": "a", "text": "Modern life depends heavily on electrical and electronic systems" }, { "id": "b", "text": "Electricity has no relevance to daily life" }, { "id": "c", "text": "Circuits have no practical use" }, { "id": "d", "text": "Electricity generation has no environmental impact" }], "correctOptionId": "a" }
+          ]
+        },
+        {
+          "id": "4-3-conversion-conservation-energy",
+          "title": "Conversion and Conservation of Energy",
+          "completed": false,
+          "learningGoals": [
+            "Explain the principle underlying conservation and conversion of energy",
+            "Demonstrate the conversion of energy into useable forms",
+            "Explain how energy could be conserved for future use"
+          ],
+          "keyConceptSummary": "The law of conservation of energy states that energy is not lost but changes from one form to another, such as chemical energy converting to electrical, heat and light energy in a battery. Understanding this principle helps in applying and conserving energy for future use.",
+          "resources": [
+            { "type": "video", "title": "The Law of Conservation of Energy", "url": "REPLACE_WITH_REAL_URL" },
+            { "type": "reading", "title": "Everyday Examples of Energy Conversion", "url": "#" },
+            { "type": "reading", "title": "Ways to Conserve Energy", "url": "#" }
+          ],
+          "quiz": [
+            { "id": "q1", "question": "The law of conservation of energy states that energy:", "options": [{ "id": "a", "text": "Cannot be created or destroyed, only converted" }, { "id": "b", "text": "Disappears completely over time" }, { "id": "c", "text": "Can be created from nothing" }, { "id": "d", "text": "Never changes form" }], "correctOptionId": "a" },
+            { "id": "q2", "question": "In a dry cell battery, chemical energy is mainly converted into:", "options": [{ "id": "a", "text": "Electrical, heat and light energy" }, { "id": "b", "text": "Only sound energy" }, { "id": "c", "text": "Nuclear energy" }, { "id": "d", "text": "Nothing; it remains chemical" }], "correctOptionId": "a" },
+            { "id": "q3", "question": "Energy conversion refers to the process of:", "options": [{ "id": "a", "text": "Changing energy from one form to another" }, { "id": "b", "text": "Destroying energy completely" }, { "id": "c", "text": "Creating energy from nothing" }, { "id": "d", "text": "Keeping energy in one form forever" }], "correctOptionId": "a" },
+            { "id": "q4", "question": "A solar panel converts:", "options": [{ "id": "a", "text": "Light energy into electrical energy" }, { "id": "b", "text": "Sound into heat" }, { "id": "c", "text": "Electrical energy into sunlight" }, { "id": "d", "text": "Nothing; it has no energy conversion" }], "correctOptionId": "a" },
+            { "id": "q5", "question": "Conserving energy for future use can involve:", "options": [{ "id": "a", "text": "Reducing unnecessary energy use" }, { "id": "b", "text": "Using as much energy as possible" }, { "id": "c", "text": "Wasting energy resources" }, { "id": "d", "text": "Ignoring energy-saving practices" }], "correctOptionId": "a" },
+            { "id": "q6", "question": "Illustrating everyday energy conversions with diagrams helps learners to:", "options": [{ "id": "a", "text": "Visualise how energy changes form in daily life" }, { "id": "b", "text": "Avoid understanding energy processes" }, { "id": "c", "text": "Confuse types of energy" }, { "id": "d", "text": "Ignore practical examples" }], "correctOptionId": "a" },
+            { "id": "q7", "question": "Explaining the benefits of conserving energy helps humans and other life forms mainly by:", "options": [{ "id": "a", "text": "Preserving resources for future needs" }, { "id": "b", "text": "Depleting all resources quickly" }, { "id": "c", "text": "Having no impact on sustainability" }, { "id": "d", "text": "Increasing energy waste" }], "correctOptionId": "a" },
+            { "id": "q8", "question": "A closed system, in relation to energy conservation, is one in which:", "options": [{ "id": "a", "text": "Total energy remains constant even as it changes form" }, { "id": "b", "text": "Energy constantly increases without limit" }, { "id": "c", "text": "Energy disappears entirely" }, { "id": "d", "text": "No energy conversion can take place" }], "correctOptionId": "a" },
+            { "id": "q9", "question": "Reflecting on the thinking behind energy conversion processes helps learners to:", "options": [{ "id": "a", "text": "Deepen their understanding of scientific concepts" }, { "id": "b", "text": "Avoid critical reflection" }, { "id": "c", "text": "Ignore the reasoning behind processes" }, { "id": "d", "text": "Memorise facts without understanding" }], "correctOptionId": "a" },
+            { "id": "q10", "question": "A common everyday example of energy conversion is:", "options": [{ "id": "a", "text": "A light bulb converting electrical energy into light and heat" }, { "id": "b", "text": "A rock remaining unchanged" }, { "id": "c", "text": "Water staying frozen forever" }, { "id": "d", "text": "A process with no energy involved" }], "correctOptionId": "a" },
+            { "id": "q11", "question": "Understanding energy conservation encourages people to:", "options": [{ "id": "a", "text": "Use energy more responsibly" }, { "id": "b", "text": "Use energy without any thought" }, { "id": "c", "text": "Avoid using energy at all" }, { "id": "d", "text": "Ignore future energy needs" }], "correctOptionId": "a" },
+            { "id": "q12", "question": "The application of energy conversion to daily life can be seen in:", "options": [{ "id": "a", "text": "Vehicles converting fuel into motion" }, { "id": "b", "text": "Objects that never use energy" }, { "id": "c", "text": "Processes with no scientific basis" }, { "id": "d", "text": "Only theoretical examples with no real use" }], "correctOptionId": "a" },
+            { "id": "q13", "question": "Recognising patterns in how energy is used and converted helps learners to:", "options": [{ "id": "a", "text": "Apply their learning to new situations" }, { "id": "b", "text": "Avoid recognising patterns" }, { "id": "c", "text": "Ignore related concepts" }, { "id": "d", "text": "Confuse unrelated topics" }], "correctOptionId": "a" },
+            { "id": "q14", "question": "Describing how energy can be conserved for the benefit of humans and other life forms helps learners to:", "options": [{ "id": "a", "text": "Understand sustainability principles" }, { "id": "b", "text": "Avoid discussing sustainability" }, { "id": "c", "text": "Ignore future generations" }, { "id": "d", "text": "Encourage energy waste" }], "correctOptionId": "a" },
+            { "id": "q15", "question": "Studying conversion and conservation of energy helps learners to appreciate that:", "options": [{ "id": "a", "text": "Responsible energy use benefits both people and the environment" }, { "id": "b", "text": "Energy use has no consequences" }, { "id": "c", "text": "Conservation has no scientific basis" }, { "id": "d", "text": "Energy conversion never occurs in real life" }], "correctOptionId": "a" }
+          ]
+        },
+        {
+          "id": "4-4-force-motion",
+          "title": "Force and Motion",
+          "completed": false,
+          "learningGoals": [
+            "Understand that unbalanced forces acting on an object cause it to move",
+            "State and explain Newton's First Law of motion and its application in life",
+            "Demonstrate the behaviour of magnets and their use in life",
+            "Identify simple machines and describe types of levers, work input, output and efficiency"
+          ],
+          "keyConceptSummary": "Unbalanced forces cause objects to move, a principle central to Newton's First Law of motion, which has many everyday applications such as seatbelt use. Magnets have distinct behaviours and practical uses, while simple machines like levers make work easier by affecting efficiency.",
+          "resources": [
+            { "type": "video", "title": "Newton's First Law of Motion", "url": "REPLACE_WITH_REAL_URL" },
+            { "type": "reading", "title": "Understanding Magnets and Their Uses", "url": "#" },
+            { "type": "reading", "title": "Simple Machines: Levers and Efficiency", "url": "#" }
+          ],
+          "quiz": [
+            { "id": "q1", "question": "Newton's First Law of motion states that an object will remain at rest or in uniform motion unless:", "options": [{ "id": "a", "text": "Acted upon by an unbalanced force" }, { "id": "b", "text": "It is left alone forever" }, { "id": "c", "text": "It is painted a different colour" }, { "id": "d", "text": "It stops receiving sunlight" }], "correctOptionId": "a" },
+            { "id": "q2", "question": "Inertia can be described as:", "options": [{ "id": "a", "text": "A body's tendency to resist a change in motion" }, { "id": "b", "text": "The force that always speeds objects up" }, { "id": "c", "text": "A type of energy" }, { "id": "d", "text": "A property only liquids have" }], "correctOptionId": "a" },
+            { "id": "q3", "question": "Seatbelts in vehicles are a practical application of:", "options": [{ "id": "a", "text": "Newton's First Law of motion" }, { "id": "b", "text": "The water cycle" }, { "id": "c", "text": "Photosynthesis" }, { "id": "d", "text": "The nitrogen cycle" }], "correctOptionId": "a" },
+            { "id": "q4", "question": "A magnet's characteristic behaviour includes:", "options": [{ "id": "a", "text": "Attracting or repelling certain materials" }, { "id": "b", "text": "Having no interaction with metals" }, { "id": "c", "text": "Only working underwater" }, { "id": "d", "text": "Changing colour when near metal" }], "correctOptionId": "a" },
+            { "id": "q5", "question": "A simple machine is best described as a device that:", "options": [{ "id": "a", "text": "Makes work easier to perform" }, { "id": "b", "text": "Always increases the amount of work needed" }, { "id": "c", "text": "Has no practical use" }, { "id": "d", "text": "Cannot be used by humans" }], "correctOptionId": "a" },
+            { "id": "q6", "question": "Levers are generally classified into how many classes?", "options": [{ "id": "a", "text": "Three (first, second and third class)" }, { "id": "b", "text": "One class only" }, { "id": "c", "text": "Five classes" }, { "id": "d", "text": "No classification exists" }], "correctOptionId": "a" },
+            { "id": "q7", "question": "The efficiency of a machine is best defined as:", "options": [{ "id": "a", "text": "The ratio of work output to work input, expressed as a percentage" }, { "id": "b", "text": "The total weight of the machine" }, { "id": "c", "text": "The colour of the machine" }, { "id": "d", "text": "The number of parts it has" }], "correctOptionId": "a" },
+            { "id": "q8", "question": "One way to improve the efficiency of a simple machine is to:", "options": [{ "id": "a", "text": "Oil its parts to reduce friction" }, { "id": "b", "text": "Add more friction" }, { "id": "c", "text": "Remove all moving parts" }, { "id": "d", "text": "Ignore maintenance entirely" }], "correctOptionId": "a" },
+            { "id": "q9", "question": "Demonstrating how unbalanced forces cause motion helps learners to:", "options": [{ "id": "a", "text": "See a physical principle in action" }, { "id": "b", "text": "Avoid understanding physics concepts" }, { "id": "c", "text": "Confuse force and motion" }, { "id": "d", "text": "Ignore practical demonstrations" }], "correctOptionId": "a" },
+            { "id": "q10", "question": "The uses of magnets in everyday life include devices such as:", "options": [{ "id": "a", "text": "Compasses and loudspeakers" }, { "id": "b", "text": "Only wooden furniture" }, { "id": "c", "text": "Items with no electronic or directional use" }, { "id": "d", "text": "Nothing practical" }], "correctOptionId": "a" },
+            { "id": "q11", "question": "Work input in relation to machines refers to:", "options": [{ "id": "a", "text": "The effort put into a machine to perform work" }, { "id": "b", "text": "The final result of the work only" }, { "id": "c", "text": "A measure unrelated to machines" }, { "id": "d", "text": "The weight of the machine" }], "correctOptionId": "a" },
+            { "id": "q12", "question": "Work output in relation to machines refers to:", "options": [{ "id": "a", "text": "The useful work produced by a machine" }, { "id": "b", "text": "The effort needed to operate the machine" }, { "id": "c", "text": "A measure with no relevance to machines" }, { "id": "d", "text": "The size of the machine" }], "correctOptionId": "a" },
+            { "id": "q13", "question": "Researching Newton's First Law and discussing it as a group helps learners to develop skills in:", "options": [{ "id": "a", "text": "Communication and collaboration" }, { "id": "b", "text": "Avoiding teamwork" }, { "id": "c", "text": "Working in isolation only" }, { "id": "d", "text": "Ignoring scientific research" }], "correctOptionId": "a" },
+            { "id": "q14", "question": "Understanding types of levers helps learners to:", "options": [{ "id": "a", "text": "See how different designs make specific tasks easier" }, { "id": "b", "text": "Assume all levers work identically" }, { "id": "c", "text": "Avoid using tools in daily life" }, { "id": "d", "text": "Ignore mechanical advantage" }], "correctOptionId": "a" },
+            { "id": "q15", "question": "Studying force and motion helps learners to appreciate that:", "options": [{ "id": "a", "text": "Physical laws explain many everyday phenomena" }, { "id": "b", "text": "Forces have no connection to daily life" }, { "id": "c", "text": "Motion cannot be explained scientifically" }, { "id": "d", "text": "Machines have no real-world relevance" }], "correctOptionId": "a" }
+          ]
+        },
+        {
+          "id": "4-5-agricultural-tools",
+          "title": "Agricultural Tools",
+          "completed": false,
+          "learningGoals": [
+            "Explain the basic rules in handling and maintaining simple agricultural tools",
+            "Apply the handling and maintenance of basic and simple agricultural tools in their community"
+          ],
+          "keyConceptSummary": "Simple agricultural tools require proper handling and maintenance to remain safe and effective for farm use. Understanding and practising these basic rules helps preserve tools and supports safer, more effective farming in the community.",
+          "resources": [
+            { "type": "video", "title": "Handling Basic Farm Tools Safely", "url": "REPLACE_WITH_REAL_URL" },
+            { "type": "reading", "title": "Rules for Maintaining Agricultural Tools", "url": "#" },
+            { "type": "reading", "title": "Common Farm Tools and Their Uses", "url": "#" }
+          ],
+          "quiz": [
+            { "id": "q1", "question": "Proper maintenance of agricultural tools is important mainly because it:", "options": [{ "id": "a", "text": "Extends the life and effectiveness of the tools" }, { "id": "b", "text": "Makes tools break faster" }, { "id": "c", "text": "Has no effect on tool life" }, { "id": "d", "text": "Is unnecessary for farming" }], "correctOptionId": "a" },
+            { "id": "q2", "question": "A basic rule in handling agricultural tools includes:", "options": [{ "id": "a", "text": "Using the correct tool for the correct task" }, { "id": "b", "text": "Using any tool for any task regardless of fit" }, { "id": "c", "text": "Ignoring safety when handling tools" }, { "id": "d", "text": "Avoiding tool use altogether" }], "correctOptionId": "a" },
+            { "id": "q3", "question": "Simple agricultural tools commonly found on farms include:", "options": [{ "id": "a", "text": "Hoes and cutlasses" }, { "id": "b", "text": "Computers and printers" }, { "id": "c", "text": "Televisions" }, { "id": "d", "text": "Kitchen utensils only" }], "correctOptionId": "a" },
+            { "id": "q4", "question": "Cleaning a tool after use is a maintenance practice that helps to:", "options": [{ "id": "a", "text": "Prevent rust and damage" }, { "id": "b", "text": "Speed up tool decay" }, { "id": "c", "text": "Have no effect on the tool" }, { "id": "d", "text": "Make the tool unusable" }], "correctOptionId": "a" },
+            { "id": "q5", "question": "Storing agricultural tools properly after use mainly helps to:", "options": [{ "id": "a", "text": "Protect them from damage and prolong their use" }, { "id": "b", "text": "Encourage rust and breakage" }, { "id": "c", "text": "Have no impact on tool condition" }, { "id": "d", "text": "Make tools disappear" }], "correctOptionId": "a" },
+            { "id": "q6", "question": "Matching basic rules of handling with specific tools helps learners to:", "options": [{ "id": "a", "text": "Apply the correct maintenance practice for each tool" }, { "id": "b", "text": "Confuse tool types" }, { "id": "c", "text": "Ignore proper handling" }, { "id": "d", "text": "Avoid learning practical skills" }], "correctOptionId": "a" },
+            { "id": "q7", "question": "Observing how agricultural tools are handled and maintained on farms in the community helps learners to:", "options": [{ "id": "a", "text": "Learn practical, real-world farming skills" }, { "id": "b", "text": "Avoid engaging with their community" }, { "id": "c", "text": "Ignore local farming knowledge" }, { "id": "d", "text": "Rely solely on textbooks" }], "correctOptionId": "a" },
+            { "id": "q8", "question": "Assembling agricultural tools and practicing their use helps learners to:", "options": [{ "id": "a", "text": "Build hands-on farming competence" }, { "id": "b", "text": "Avoid practical experience" }, { "id": "c", "text": "Damage tools unnecessarily" }, { "id": "d", "text": "Ignore agricultural skills" }], "correctOptionId": "a" },
+            { "id": "q9", "question": "Writing down the operational rules of handling agricultural tools helps learners to:", "options": [{ "id": "a", "text": "Remember and apply safe practices consistently" }, { "id": "b", "text": "Avoid recording useful information" }, { "id": "c", "text": "Confuse safety practices" }, { "id": "d", "text": "Ignore documentation skills" }], "correctOptionId": "a" },
+            { "id": "q10", "question": "Poor handling of agricultural tools can lead to:", "options": [{ "id": "a", "text": "Accidents or damage to the tools" }, { "id": "b", "text": "Improved tool lifespan" }, { "id": "c", "text": "No consequences at all" }, { "id": "d", "text": "Increased farm productivity always" }], "correctOptionId": "a" },
+            { "id": "q11", "question": "The importance of handling and maintenance of agricultural tools relates mainly to:", "options": [{ "id": "a", "text": "Safety and efficiency on the farm" }, { "id": "b", "text": "Decoration of the farm" }, { "id": "c", "text": "Entertainment purposes" }, { "id": "d", "text": "Nothing relevant to farming" }], "correctOptionId": "a" },
+            { "id": "q12", "question": "Discussing the meaning of tool maintenance with peers helps learners to:", "options": [{ "id": "a", "text": "Build shared understanding through collaboration" }, { "id": "b", "text": "Avoid working with others" }, { "id": "c", "text": "Ignore teamwork skills" }, { "id": "d", "text": "Work only in isolation" }], "correctOptionId": "a" },
+            { "id": "q13", "question": "Cultural knowledge about agricultural tools in a community reflects:", "options": [{ "id": "a", "text": "Traditional farming practices passed down over time" }, { "id": "b", "text": "Practices with no connection to culture" }, { "id": "c", "text": "Only modern imported methods" }, { "id": "d", "text": "Knowledge with no value" }], "correctOptionId": "a" },
+            { "id": "q14", "question": "Understanding basic rules for agricultural tools supports learners' development of:", "options": [{ "id": "a", "text": "Practical and safety-related skills useful for farming" }, { "id": "b", "text": "Skills irrelevant to real life" }, { "id": "c", "text": "No transferable knowledge" }, { "id": "d", "text": "Skills only useful in a classroom" }], "correctOptionId": "a" },
+            { "id": "q15", "question": "Applying handling and maintenance practices to real tools in the community helps learners to:", "options": [{ "id": "a", "text": "Transfer classroom knowledge into practical action" }, { "id": "b", "text": "Avoid using what they have learned" }, { "id": "c", "text": "Ignore practical application" }, { "id": "d", "text": "Confuse theory with practice" }], "correctOptionId": "a" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "strand-5",
+      "title": "Humans and the Environment",
+      "subtopics": [
+        {
+          "id": "5-1-waste-management",
+          "title": "Waste Management",
+          "completed": false,
+          "learningGoals": [
+            "Apply information from research on good management practices of waste to make the environment clean",
+            "Discuss how to manage types of waste and explain the science underlying it"
+          ],
+          "keyConceptSummary": "Good waste management practices, grounded in scientific understanding, help keep the environment clean and healthy. Researching and applying these practices allows communities to manage different types of waste effectively.",
+          "resources": [
+            { "type": "video", "title": "Good Waste Management Practices", "url": "REPLACE_WITH_REAL_URL" },
+            { "type": "reading", "title": "The Science Behind Waste Management", "url": "#" },
+            { "type": "reading", "title": "Keeping Your Community Clean", "url": "#" }
+          ],
+          "quiz": [
+            { "id": "q1", "question": "Good waste management practices mainly help to:", "options": [{ "id": "a", "text": "Keep the environment clean and healthy" }, { "id": "b", "text": "Increase pollution" }, { "id": "c", "text": "Have no impact on health" }, { "id": "d", "text": "Encourage littering" }], "correctOptionId": "a" },
+            { "id": "q2", "question": "Poor waste management can lead to:", "options": [{ "id": "a", "text": "Pollution and the spread of disease" }, { "id": "b", "text": "A cleaner environment" }, { "id": "c", "text": "No negative consequences" }, { "id": "d", "text": "Improved public health" }], "correctOptionId": "a" },
+            { "id": "q3", "question": "Researching waste management practices before carrying out a clean-up project helps learners to:", "options": [{ "id": "a", "text": "Apply evidence-based methods effectively" }, { "id": "b", "text": "Avoid using research" }, { "id": "c", "text": "Guess at solutions randomly" }, { "id": "d", "text": "Ignore scientific approaches" }], "correctOptionId": "a" },
+            { "id": "q4", "question": "Presenting a report on a waste management project helps learners to:", "options": [{ "id": "a", "text": "Communicate their findings and outcomes clearly" }, { "id": "b", "text": "Avoid sharing information" }, { "id": "c", "text": "Confuse the audience" }, { "id": "d", "text": "Ignore presentation skills" }], "correctOptionId": "a" },
+            { "id": "q5", "question": "The science underlying waste management includes understanding:", "options": [{ "id": "a", "text": "How different waste types decompose or can be recycled" }, { "id": "b", "text": "Nothing scientific; it is purely a matter of opinion" }, { "id": "c", "text": "Only how to dispose of waste in rivers" }, { "id": "d", "text": "That all waste behaves identically" }], "correctOptionId": "a" },
+            { "id": "q6", "question": "Types of waste in the environment can include:", "options": [{ "id": "a", "text": "Solid, liquid and organic waste" }, { "id": "b", "text": "Only paper waste" }, { "id": "c", "text": "Nothing that needs managing" }, { "id": "d", "text": "Only waste from farms" }], "correctOptionId": "a" },
+            { "id": "q7", "question": "Analysing viewpoints on waste management approaches helps learners to:", "options": [{ "id": "a", "text": "Make more informed judgements about best practices" }, { "id": "b", "text": "Avoid considering different opinions" }, { "id": "c", "text": "Accept one viewpoint blindly" }, { "id": "d", "text": "Ignore reasoning skills" }], "correctOptionId": "a" },
+            { "id": "q8", "question": "A community project on waste management can help learners to:", "options": [{ "id": "a", "text": "Apply scientific knowledge to solve a real environmental problem" }, { "id": "b", "text": "Avoid engaging with their community" }, { "id": "c", "text": "Increase environmental harm" }, { "id": "d", "text": "Ignore practical application of science" }], "correctOptionId": "a" },
+            { "id": "q9", "question": "Explaining how to manage waste to others in the community helps to:", "options": [{ "id": "a", "text": "Spread awareness of good environmental practices" }, { "id": "b", "text": "Discourage clean practices" }, { "id": "c", "text": "Have no community impact" }, { "id": "d", "text": "Increase pollution" }], "correctOptionId": "a" },
+            { "id": "q10", "question": "Understanding waste management helps learners to appreciate that:", "options": [{ "id": "a", "text": "Individual and community actions affect environmental health" }, { "id": "b", "text": "Waste has no effect on the environment" }, { "id": "c", "text": "Only governments are responsible for waste" }, { "id": "d", "text": "Waste management has no scientific basis" }], "correctOptionId": "a" }
+          ]
+        },
+        {
+          "id": "5-2-human-health",
+          "title": "Human Health",
+          "completed": false,
+          "learningGoals": [
+            "Explain the relationship between food nutrients and common deficiency diseases and how they affect humans",
+            "Explain the nature of viral diseases, with special emphasis on Corona virus (COVID-19), Ebola and H1N1: their causes, symptoms, effects and prevention"
+          ],
+          "keyConceptSummary": "A lack of specific food nutrients can lead to deficiency diseases such as kwashiorkor and anaemia, each with distinct symptoms and prevention methods. Viral diseases like COVID-19, Ebola and H1N1 spread from person to person and community to community, making prevention and management important at individual, community and government levels.",
+          "resources": [
+            { "type": "video", "title": "Nutrient Deficiency Diseases Explained", "url": "REPLACE_WITH_REAL_URL" },
+            { "type": "reading", "title": "Understanding Viral Diseases: COVID-19, Ebola and H1N1", "url": "#" },
+            { "type": "reading", "title": "Preventing the Spread of Viral Diseases", "url": "#" }
+          ],
+          "quiz": [
+            { "id": "q1", "question": "Kwashiorkor is commonly linked to a deficiency of:", "options": [{ "id": "a", "text": "Protein" }, { "id": "b", "text": "Vitamin C only" }, { "id": "c", "text": "Water" }, { "id": "d", "text": "Sunlight" }], "correctOptionId": "a" },
+            { "id": "q2", "question": "Anaemia is commonly linked to a deficiency of:", "options": [{ "id": "a", "text": "Iron" }, { "id": "b", "text": "Carbohydrates" }, { "id": "c", "text": "Fats only" }, { "id": "d", "text": "Oxygen alone" }], "correctOptionId": "a" },
+            { "id": "q3", "question": "A viral disease is caused by:", "options": [{ "id": "a", "text": "A virus" }, { "id": "b", "text": "A lack of exercise" }, { "id": "c", "text": "Weather changes only" }, { "id": "d", "text": "Eating too much food" }], "correctOptionId": "a" },
+            { "id": "q4", "question": "COVID-19, Ebola and H1N1 can all be described as:", "options": [{ "id": "a", "text": "Viral diseases that can spread between people" }, { "id": "b", "text": "Nutrient deficiency conditions" }, { "id": "c", "text": "Non-infectious conditions" }, { "id": "d", "text": "Conditions with no known cause" }], "correctOptionId": "a" },
+            { "id": "q5", "question": "Preventing the spread of viral diseases like COVID-19 can involve:", "options": [{ "id": "a", "text": "Good hygiene practices and following health guidance" }, { "id": "b", "text": "Ignoring hygiene entirely" }, { "id": "c", "text": "Avoiding all healthcare information" }, { "id": "d", "text": "Spreading misinformation" }], "correctOptionId": "a" },
+            { "id": "q6", "question": "Night blindness is a deficiency disease commonly linked to a lack of:", "options": [{ "id": "a", "text": "Vitamin A" }, { "id": "b", "text": "Protein only" }, { "id": "c", "text": "Water" }, { "id": "d", "text": "Carbohydrates alone" }], "correctOptionId": "a" },
+            { "id": "q7", "question": "Government's role in managing viral disease outbreaks often includes:", "options": [{ "id": "a", "text": "Providing public health guidance and resources" }, { "id": "b", "text": "Ignoring the outbreak" }, { "id": "c", "text": "Encouraging misinformation" }, { "id": "d", "text": "Having no role at all" }], "correctOptionId": "a" },
+            { "id": "q8", "question": "Designing a poster to educate the community about a viral disease helps to:", "options": [{ "id": "a", "text": "Raise awareness of prevention measures" }, { "id": "b", "text": "Spread confusion" }, { "id": "c", "text": "Discourage safe practices" }, { "id": "d", "text": "Have no educational value" }], "correctOptionId": "a" },
+            { "id": "q9", "question": "Rickets is a deficiency disease commonly linked to a lack of:", "options": [{ "id": "a", "text": "Vitamin D and calcium" }, { "id": "b", "text": "Only water" }, { "id": "c", "text": "Only carbohydrates" }, { "id": "d", "text": "Only fibre" }], "correctOptionId": "a" },
+            { "id": "q10", "question": "Understanding the mode of transmission of a viral disease helps individuals to:", "options": [{ "id": "a", "text": "Take appropriate steps to prevent its spread" }, { "id": "b", "text": "Ignore how it spreads" }, { "id": "c", "text": "Assume it cannot be prevented" }, { "id": "d", "text": "Avoid learning about health" }], "correctOptionId": "a" },
+            { "id": "q11", "question": "Relating specific foods eaten to nutrients gained or lacked helps learners to:", "options": [{ "id": "a", "text": "Understand practical links between diet and health" }, { "id": "b", "text": "Ignore the role of nutrition" }, { "id": "c", "text": "Assume diet has no effect on health" }, { "id": "d", "text": "Avoid studying deficiency diseases" }], "correctOptionId": "a" },
+            { "id": "q12", "question": "Why diseases such as COVID-19 were declared pandemics relates to their:", "options": [{ "id": "a", "text": "Widespread transmission across countries and continents" }, { "id": "b", "text": "Complete absence of transmission" }, { "id": "c", "text": "Limited effect on only one household" }, { "id": "d", "text": "Total lack of symptoms" }], "correctOptionId": "a" },
+            { "id": "q13", "question": "Scurvy is a deficiency disease commonly linked to a lack of:", "options": [{ "id": "a", "text": "Vitamin C" }, { "id": "b", "text": "Protein only" }, { "id": "c", "text": "Iron alone" }, { "id": "d", "text": "Fats only" }], "correctOptionId": "a" },
+            { "id": "q14", "question": "Community members can help manage viral disease outbreaks by:", "options": [{ "id": "a", "text": "Following recommended health and safety practices" }, { "id": "b", "text": "Ignoring health advice" }, { "id": "c", "text": "Spreading rumours instead of facts" }, { "id": "d", "text": "Avoiding all precautions" }], "correctOptionId": "a" },
+            { "id": "q15", "question": "Understanding both deficiency diseases and viral diseases helps learners to appreciate that:", "options": [{ "id": "a", "text": "Human health depends on both nutrition and disease prevention" }, { "id": "b", "text": "Nutrition has no link to health" }, { "id": "c", "text": "Diseases cannot be prevented" }, { "id": "d", "text": "Only viral diseases matter for health" }], "correctOptionId": "a" }
+          ]
+        },
+        {
+          "id": "5-3-science-and-industry",
+          "title": "Science and Industry",
+          "completed": false,
+          "learningGoals": [
+            "Discover and explain how careers in science can improve human conditions and relate these careers to the work of great national and international scientists and science educators"
+          ],
+          "keyConceptSummary": "Careers in science contribute to improving human conditions and are shaped by the work of notable Ghanaian and international scientists and science educators. Understanding these careers and contributions can inspire learners toward science and technology pathways.",
+          "resources": [
+            { "type": "video", "title": "Careers in Science", "url": "REPLACE_WITH_REAL_URL" },
+            { "type": "reading", "title": "Notable Ghanaian Scientists and Educators", "url": "#" },
+            { "type": "reading", "title": "Famous International Scientists", "url": "#" }
+          ],
+          "quiz": [
+            { "id": "q1", "question": "Careers in science can improve human conditions mainly through:", "options": [{ "id": "a", "text": "Innovations and solutions to real-world problems" }, { "id": "b", "text": "Having no practical impact" }, { "id": "c", "text": "Avoiding all research" }, { "id": "d", "text": "Ignoring technology" }], "correctOptionId": "a" },
+            { "id": "q2", "question": "Prof. Francis Allotey is known as a notable:", "options": [{ "id": "a", "text": "Ghanaian scientist" }, { "id": "b", "text": "International sports figure" }, { "id": "c", "text": "Foreign politician" }, { "id": "d", "text": "Business executive with no science background" }], "correctOptionId": "a" },
+            { "id": "q3", "question": "Charles Darwin is internationally recognised for his contributions to:", "options": [{ "id": "a", "text": "The theory of evolution" }, { "id": "b", "text": "Electricity generation" }, { "id": "c", "text": "Space exploration only" }, { "id": "d", "text": "Agricultural tools" }], "correctOptionId": "a" },
+            { "id": "q4", "question": "Alexander Fleming is well known for his discovery of:", "options": [{ "id": "a", "text": "Penicillin" }, { "id": "b", "text": "The periodic table" }, { "id": "c", "text": "The water cycle" }, { "id": "d", "text": "Gravity" }], "correctOptionId": "a" },
+            { "id": "q5", "question": "Researching the impact of science and technology in homes and communities helps learners to:", "options": [{ "id": "a", "text": "Recognise its relevance to everyday life" }, { "id": "b", "text": "Assume science has no relevance to daily life" }, { "id": "c", "text": "Avoid appreciating innovation" }, { "id": "d", "text": "Ignore technological progress" }], "correctOptionId": "a" },
+            { "id": "q6", "question": "Science educationists mentioned in relation to Ghana's science education include figures such as:", "options": [{ "id": "a", "text": "Prof. Anamuah-Mensah" }, { "id": "b", "text": "Only foreign scientists" }, { "id": "c", "text": "No Ghanaian figures at all" }, { "id": "d", "text": "Sports personalities only" }], "correctOptionId": "a" },
+            { "id": "q7", "question": "Identifying science and technology careers that Ghana should focus on requires considering:", "options": [{ "id": "a", "text": "The country's development needs and available resources" }, { "id": "b", "text": "Random selection with no reasoning" }, { "id": "c", "text": "Only foreign career trends" }, { "id": "d", "text": "No planning at all" }], "correctOptionId": "a" },
+            { "id": "q8", "question": "Building a portfolio on the impact of science and technology helps learners to:", "options": [{ "id": "a", "text": "Organise and present research findings" }, { "id": "b", "text": "Avoid documenting their learning" }, { "id": "c", "text": "Ignore research skills" }, { "id": "d", "text": "Confuse unrelated topics" }], "correctOptionId": "a" },
+            { "id": "q9", "question": "Stephen Hawking is internationally recognised for his contributions to the field of:", "options": [{ "id": "a", "text": "Physics and cosmology" }, { "id": "b", "text": "Agriculture" }, { "id": "c", "text": "Music" }, { "id": "d", "text": "Waste management" }], "correctOptionId": "a" },
+            { "id": "q10", "question": "Learning about the work of national and international scientists helps students to:", "options": [{ "id": "a", "text": "See science as a field with real career possibilities" }, { "id": "b", "text": "Avoid considering science careers" }, { "id": "c", "text": "Assume science has no notable contributors" }, { "id": "d", "text": "Ignore role models in science" }], "correctOptionId": "a" }
+          ]
+        },
+        {
+          "id": "5-4-climate-change-green-economy",
+          "title": "Climate Change and Green Economy",
+          "completed": false,
+          "learningGoals": [
+            "Search for information on ways sustainable energy choices and scientific ideas are used to protect the environment"
+          ],
+          "keyConceptSummary": "Sustainable energy choices and scientific ideas play a key role in protecting the environment and reducing greenhouse effects. Designing projects around locally sustained energy sources helps put these scientific ideas into action.",
+          "resources": [
+            { "type": "video", "title": "Sustainable Energy Choices", "url": "REPLACE_WITH_REAL_URL" },
+            { "type": "reading", "title": "Understanding Greenhouse Effects", "url": "#" },
+            { "type": "reading", "title": "Locally Sustained Energy Projects", "url": "#" }
+          ],
+          "quiz": [
+            { "id": "q1", "question": "Sustainable energy choices are important mainly because they help to:", "options": [{ "id": "a", "text": "Protect the environment for future generations" }, { "id": "b", "text": "Increase environmental harm" }, { "id": "c", "text": "Have no environmental impact" }, { "id": "d", "text": "Deplete resources faster" }], "correctOptionId": "a" },
+            { "id": "q2", "question": "The greenhouse effect is best described as:", "options": [{ "id": "a", "text": "The trapping of heat in the atmosphere by certain gases" }, { "id": "b", "text": "The cooling of the earth's surface only" }, { "id": "c", "text": "A process with no connection to climate" }, { "id": "d", "text": "A type of farming system" }], "correctOptionId": "a" },
+            { "id": "q3", "question": "Analysing greenhouse effects on the environment helps learners to:", "options": [{ "id": "a", "text": "Understand how they can be minimised" }, { "id": "b", "text": "Ignore climate science" }, { "id": "c", "text": "Assume greenhouse gases have no effect" }, { "id": "d", "text": "Avoid environmental study" }], "correctOptionId": "a" },
+            { "id": "q4", "question": "Designing a project to show locally sustained energy use helps learners to:", "options": [{ "id": "a", "text": "Apply scientific ideas to protect the environment practically" }, { "id": "b", "text": "Avoid practical application" }, { "id": "c", "text": "Ignore environmental protection" }, { "id": "d", "text": "Increase environmental harm" }], "correctOptionId": "a" },
+            { "id": "q5", "question": "Describing how people use scientific ideas to protect the environment helps learners to:", "options": [{ "id": "a", "text": "Connect science to real environmental solutions" }, { "id": "b", "text": "Assume science has no environmental role" }, { "id": "c", "text": "Avoid environmental responsibility" }, { "id": "d", "text": "Ignore scientific evidence" }], "correctOptionId": "a" },
+            { "id": "q6", "question": "Examples of sustainable energy choices include:", "options": [{ "id": "a", "text": "Solar and wind energy use" }, { "id": "b", "text": "Excessive use of non-renewable fuels only" }, { "id": "c", "text": "No energy use at all" }, { "id": "d", "text": "Ignoring energy sources entirely" }], "correctOptionId": "a" },
+            { "id": "q7", "question": "Minimising greenhouse effects can involve:", "options": [{ "id": "a", "text": "Reducing emissions of certain gases" }, { "id": "b", "text": "Increasing emissions" }, { "id": "c", "text": "Ignoring environmental data" }, { "id": "d", "text": "Avoiding all scientific processes" }], "correctOptionId": "a" },
+            { "id": "q8", "question": "Searching for credible information on sustainable energy helps learners to build the competency of:", "options": [{ "id": "a", "text": "Digital literacy" }, { "id": "b", "text": "Physical fitness" }, { "id": "c", "text": "Cultural identity only" }, { "id": "d", "text": "None of the above" }], "correctOptionId": "a" },
+            { "id": "q9", "question": "Sustainable energy choices are relevant to a green economy because they:", "options": [{ "id": "a", "text": "Support environmentally friendly economic growth" }, { "id": "b", "text": "Are unrelated to economic development" }, { "id": "c", "text": "Increase environmental degradation" }, { "id": "d", "text": "Have no connection to sustainability" }], "correctOptionId": "a" },
+            { "id": "q10", "question": "Understanding climate change and green economy topics helps learners to appreciate that:", "options": [{ "id": "a", "text": "Human choices can influence environmental outcomes" }, { "id": "b", "text": "Human activity has no effect on climate" }, { "id": "c", "text": "The environment cannot be protected" }, { "id": "d", "text": "Sustainability has no scientific basis" }], "correctOptionId": "a" }
+          ]
+        },
+        {
+          "id": "5-5-understanding-the-environment",
+          "title": "Understanding the Environment",
+          "completed": false,
+          "learningGoals": [
+            "List and describe the different types of plants and animals that live in different landforms, with emphasis on landforms in Ghana",
+            "Explain the nature of associations that exist among plants and animals in different landforms and their mechanisms for survival"
+          ],
+          "keyConceptSummary": "Different landforms such as plateaus, plains, mountains and valleys support distinct types of plants and animals, each adapted to survive in that environment. Associations such as mutualism, parasitism and commensalism shape how these organisms interact and survive together.",
+          "resources": [
+            { "type": "video", "title": "Plants and Animals of Ghana's Landforms", "url": "REPLACE_WITH_REAL_URL" },
+            { "type": "reading", "title": "Mutualism, Parasitism and Commensalism Explained", "url": "#" },
+            { "type": "reading", "title": "How Organisms Adapt to Different Landforms", "url": "#" }
+          ],
+          "quiz": [
+            { "id": "q1", "question": "A landform can be described as a:", "options": [{ "id": "a", "text": "Natural feature of the earth's surface, such as a plain or mountain" }, { "id": "b", "text": "Type of animal" }, { "id": "c", "text": "Man-made structure only" }, { "id": "d", "text": "Type of plant" }], "correctOptionId": "a" },
+            { "id": "q2", "question": "Mutualism is a relationship in which:", "options": [{ "id": "a", "text": "Both organisms benefit from the association" }, { "id": "b", "text": "One organism harms the other with no benefit to either" }, { "id": "c", "text": "Neither organism is affected" }, { "id": "d", "text": "Only plants are involved" }], "correctOptionId": "a" },
+            { "id": "q3", "question": "Parasitism is a relationship in which:", "options": [{ "id": "a", "text": "One organism benefits while harming the other" }, { "id": "b", "text": "Both organisms benefit equally" }, { "id": "c", "text": "Neither organism is affected" }, { "id": "d", "text": "Only animals are involved, never plants" }], "correctOptionId": "a" },
+            { "id": "q4", "question": "Commensalism is a relationship in which:", "options": [{ "id": "a", "text": "One organism benefits while the other is neither helped nor harmed" }, { "id": "b", "text": "Both organisms are harmed" }, { "id": "c", "text": "Both organisms always die" }, { "id": "d", "text": "No interaction takes place" }], "correctOptionId": "a" },
+            { "id": "q5", "question": "Plants and animals in mountainous landforms often show adaptations for:", "options": [{ "id": "a", "text": "Surviving in cooler or steeper conditions" }, { "id": "b", "text": "Living only underwater" }, { "id": "c", "text": "Surviving without any adaptation" }, { "id": "d", "text": "Existing without any environmental influence" }], "correctOptionId": "a" },
+            { "id": "q6", "question": "Making an album of plants and animals found in different landforms helps learners to:", "options": [{ "id": "a", "text": "Document and compare species across environments" }, { "id": "b", "text": "Avoid studying biodiversity" }, { "id": "c", "text": "Ignore species differences" }, { "id": "d", "text": "Confuse unrelated species" }], "correctOptionId": "a" },
+            { "id": "q7", "question": "Plateaus, plains, mountains and valleys are all examples of:", "options": [{ "id": "a", "text": "Landforms" }, { "id": "b", "text": "Types of animals" }, { "id": "c", "text": "Farming systems" }, { "id": "d", "text": "Energy sources" }], "correctOptionId": "a" },
+            { "id": "q8", "question": "Characteristics that enable animals to survive in specific landforms may include:", "options": [{ "id": "a", "text": "Physical adaptations suited to that environment" }, { "id": "b", "text": "No adaptations at all" }, { "id": "c", "text": "Random unrelated traits" }, { "id": "d", "text": "Traits shared identically by all species" }], "correctOptionId": "a" },
+            { "id": "q9", "question": "Researching how different plants and animals survive in various landforms helps learners to:", "options": [{ "id": "a", "text": "Deepen their understanding of ecological adaptation" }, { "id": "b", "text": "Avoid studying survival mechanisms" }, { "id": "c", "text": "Assume survival requires no adaptation" }, { "id": "d", "text": "Ignore environmental influences" }], "correctOptionId": "a" },
+            { "id": "q10", "question": "Understanding associations among plants and animals in different landforms helps learners to appreciate that:", "options": [{ "id": "a", "text": "Organisms often depend on each other to survive" }, { "id": "b", "text": "Organisms never interact with each other" }, { "id": "c", "text": "Survival is unrelated to relationships between species" }, { "id": "d", "text": "Only humans depend on other organisms" }], "correctOptionId": "a" }
+          ]
+        }
+      ]
+    }
+  ]
+}

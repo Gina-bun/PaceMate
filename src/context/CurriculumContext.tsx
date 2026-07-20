@@ -32,7 +32,7 @@ export function CurriculumProvider({children}: {children: ReactNode}) {
             import(`../data/social-studies-grade${grade}.json`),
             // import(`../data/mathematics-jhs${grade}.json`),
             // import(`../data/english-jhs${grade}.json`),
-            // import(`../data/science-jhs${grade}.json`),
+            import(`../data/science-grade${grade}.json`),
         ]).then((modules) => {
             setSubjects(modules.map((mod) => mod.default as SubjectData));
             setLoading(false);

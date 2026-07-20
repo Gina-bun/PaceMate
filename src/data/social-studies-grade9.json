@@ -1,0 +1,265 @@
+{
+  "subject": "Social Studies",
+  "grade": 9,
+  "topics": [
+    {
+      "id": "strand-1",
+      "title": "Identity, Significance and Purpose",
+      "subtopics": [
+        {
+          "id": "1-2-socio-cultural-practices",
+          "title": "Socio-Cultural Practices in Ghana",
+          "completed": false,
+          "learningGoals": [
+            "Assess changes and continuity in indigenous Ghanaian marriages and funeral rites",
+            "Discuss the significance of funeral rites and how they have changed over time",
+            "Discuss the origins and purpose of selected Ghanaian festivals",
+            "Discuss contemporary adaptations of Ghanaian festivals"
+          ],
+          "keyConceptSummary": "Ghanaian marriage and funeral rites, along with festivals, carry deep cultural significance and have evolved over time while retaining core traditions. Festivals in particular commemorate historical events and continue to unite communities today, even as their celebration adapts to modern contexts.",
+          "resources": [
+            { "type": "video", "title": "Ghanaian Marriage and Funeral Rites", "url": "REPLACE_WITH_REAL_URL" },
+            { "type": "reading", "title": "Origins of Ghana's Major Festivals", "url": "#" },
+            { "type": "reading", "title": "How Ghanaian Festivals Have Changed", "url": "#" }
+          ],
+          "quiz": [
+            { "id": "q1", "question": "Traditional Ghanaian marriage rites typically involve:", "options": [{ "id": "a", "text": "Presentation of drinks and gifts to the bride's family" }, { "id": "b", "text": "No family involvement" }, { "id": "c", "text": "Only a civil ceremony" }, { "id": "d", "text": "Foreign customs exclusively" }], "correctOptionId": "a" },
+            { "id": "q2", "question": "Funeral rites in Ghanaian culture are significant because they:", "options": [{ "id": "a", "text": "Honour the deceased and support grieving families" }, { "id": "b", "text": "Have no social meaning" }, { "id": "c", "text": "Are only ceremonial with no purpose" }, { "id": "d", "text": "Are identical across all ethnic groups" }], "correctOptionId": "a" },
+            { "id": "q3", "question": "Which of these best describes 'continuity' in cultural practices?", "options": [{ "id": "a", "text": "Traditions that persist over time" }, { "id": "b", "text": "Practices that disappear completely" }, { "id": "c", "text": "Foreign customs replacing local ones entirely" }, { "id": "d", "text": "A one-time event" }], "correctOptionId": "a" },
+            { "id": "q4", "question": "Ghanaian festivals often originate from:", "options": [{ "id": "a", "text": "Historical events, harvests, or ancestral remembrance" }, { "id": "b", "text": "Foreign holidays only" }, { "id": "c", "text": "Random modern inventions" }, { "id": "d", "text": "Government decrees only" }], "correctOptionId": "a" },
+            { "id": "q5", "question": "Homowo is a festival celebrated mainly by which ethnic group?", "options": [{ "id": "a", "text": "Ga-Adangbe" }, { "id": "b", "text": "Asante" }, { "id": "c", "text": "Dagomba" }, { "id": "d", "text": "Ewe" }], "correctOptionId": "a" },
+            { "id": "q6", "question": "The Akwasidae festival is associated with which ethnic group?", "options": [{ "id": "a", "text": "Asante" }, { "id": "b", "text": "Ga" }, { "id": "c", "text": "Dagomba" }, { "id": "d", "text": "Nzema" }], "correctOptionId": "a" },
+            { "id": "q7", "question": "Contemporary adaptations of Ghanaian festivals may include:", "options": [{ "id": "a", "text": "Use of modern media and larger public celebrations" }, { "id": "b", "text": "Complete elimination of all traditions" }, { "id": "c", "text": "No change whatsoever" }, { "id": "d", "text": "Banning of all festivals" }], "correctOptionId": "a" },
+            { "id": "q8", "question": "One reason funeral rites have changed over time is:", "options": [{ "id": "a", "text": "The influence of religion and modernisation" }, { "id": "b", "text": "Total rejection of all tradition" }, { "id": "c", "text": "Isolation from outside influence" }, { "id": "d", "text": "No reason at all" }], "correctOptionId": "a" },
+            { "id": "q9", "question": "Marriage rites across Ghana's ethnic groups tend to:", "options": [{ "id": "a", "text": "Share common elements while having unique cultural variations" }, { "id": "b", "text": "Be identical everywhere" }, { "id": "c", "text": "Have no cultural significance" }, { "id": "d", "text": "Be entirely foreign in origin" }], "correctOptionId": "a" },
+            { "id": "q10", "question": "The symbols and objects used in marriage rites often represent:", "options": [{ "id": "a", "text": "Values such as respect, unity, and commitment" }, { "id": "b", "text": "Nothing meaningful" }, { "id": "c", "text": "Only monetary value" }, { "id": "d", "text": "Foreign traditions" }], "correctOptionId": "a" },
+            { "id": "q11", "question": "Mapping the locations of Ghanaian festivals helps learners understand:", "options": [{ "id": "a", "text": "The geographic and cultural diversity of celebrations across Ghana" }, { "id": "b", "text": "That all festivals occur in one place" }, { "id": "c", "text": "That festivals have no location" }, { "id": "d", "text": "Only foreign festivals" }], "correctOptionId": "a" },
+            { "id": "q12", "question": "Studying photographs of marriage ceremonies helps learners to analyse:", "options": [{ "id": "a", "text": "Symbols, atmosphere and significance conveyed in the images" }, { "id": "b", "text": "Nothing of value" }, { "id": "c", "text": "Only clothing styles" }, { "id": "d", "text": "Weather conditions" }], "correctOptionId": "a" },
+            { "id": "q13", "question": "Festivals in Ghana often serve to:", "options": [{ "id": "a", "text": "Unite communities and preserve cultural heritage" }, { "id": "b", "text": "Divide communities" }, { "id": "c", "text": "Have no social function" }, { "id": "d", "text": "Replace all other traditions" }], "correctOptionId": "a" },
+            { "id": "q14", "question": "Some Ghanaian festivals commemorate:", "options": [{ "id": "a", "text": "Historical migrations or victories of an ethnic group" }, { "id": "b", "text": "Foreign national holidays" }, { "id": "c", "text": "Nothing historical" }, { "id": "d", "text": "Only modern inventions" }], "correctOptionId": "a" },
+            { "id": "q15", "question": "Understanding changes and continuity in cultural practices helps learners to:", "options": [{ "id": "a", "text": "Appreciate how tradition adapts while retaining core values" }, { "id": "b", "text": "Reject all tradition" }, { "id": "c", "text": "Believe culture never changes" }, { "id": "d", "text": "Ignore cultural heritage" }], "correctOptionId": "a" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "strand-2",
+      "title": "Environment and Sustainability",
+      "subtopics": [
+        {
+          "id": "2-1-environmental-issues",
+          "title": "Environmental Issues",
+          "completed": false,
+          "learningGoals": [
+            "Examine ways of conserving energy",
+            "Identify and categorise renewable and non-renewable sources of energy",
+            "Discuss the effects of irresponsible use of energy",
+            "Assess the significance of weather and climate",
+            "Identify factors that affect weather and climate"
+          ],
+          "keyConceptSummary": "Energy conservation is essential for sustainable living, distinguishing between renewable and non-renewable sources. Understanding weather and climate, along with the instruments used to measure them, helps communities prepare for and respond to environmental changes.",
+          "resources": [
+            { "type": "video", "title": "Energy Conservation Explained", "url": "REPLACE_WITH_REAL_URL" },
+            { "type": "reading", "title": "Weather vs Climate", "url": "#" },
+            { "type": "reading", "title": "Ghana's Climatic Zones", "url": "#" }
+          ],
+          "quiz": [
+            { "id": "q1", "question": "Energy conservation refers to:", "options": [{ "id": "a", "text": "Using energy wisely to reduce waste" }, { "id": "b", "text": "Using as much energy as possible" }, { "id": "c", "text": "Avoiding all energy use" }, { "id": "d", "text": "Wasting resources deliberately" }], "correctOptionId": "a" },
+            { "id": "q2", "question": "Which of these is a renewable source of energy?", "options": [{ "id": "a", "text": "Solar power" }, { "id": "b", "text": "Crude oil" }, { "id": "c", "text": "Coal" }, { "id": "d", "text": "Natural gas" }], "correctOptionId": "a" },
+            { "id": "q3", "question": "Which of these is a non-renewable source of energy?", "options": [{ "id": "a", "text": "Crude oil" }, { "id": "b", "text": "Wind" }, { "id": "c", "text": "Solar power" }, { "id": "d", "text": "Hydropower" }], "correctOptionId": "a" },
+            { "id": "q4", "question": "Irresponsible use of energy can lead to:", "options": [{ "id": "a", "text": "Resource depletion and environmental harm" }, { "id": "b", "text": "Unlimited energy supply" }, { "id": "c", "text": "No negative effects" }, { "id": "d", "text": "Improved environmental health" }], "correctOptionId": "a" },
+            { "id": "q5", "question": "Weather refers to:", "options": [{ "id": "a", "text": "The short-term state of the atmosphere at a given time" }, { "id": "b", "text": "The long-term pattern of atmospheric conditions" }, { "id": "c", "text": "A type of energy" }, { "id": "d", "text": "A festival" }], "correctOptionId": "a" },
+            { "id": "q6", "question": "Climate refers to:", "options": [{ "id": "a", "text": "The long-term average weather pattern of a region" }, { "id": "b", "text": "The weather on a single day" }, { "id": "c", "text": "A type of renewable energy" }, { "id": "d", "text": "A form of pollution" }], "correctOptionId": "a" },
+            { "id": "q7", "question": "A thermometer is used to measure:", "options": [{ "id": "a", "text": "Temperature" }, { "id": "b", "text": "Wind speed" }, { "id": "c", "text": "Rainfall" }, { "id": "d", "text": "Humidity" }], "correctOptionId": "a" },
+            { "id": "q8", "question": "A rain gauge is used to measure:", "options": [{ "id": "a", "text": "Rainfall" }, { "id": "b", "text": "Temperature" }, { "id": "c", "text": "Wind direction" }, { "id": "d", "text": "Air pressure" }], "correctOptionId": "a" },
+            { "id": "q9", "question": "Which of these can affect weather and climate?", "options": [{ "id": "a", "text": "Altitude and proximity to the sea" }, { "id": "b", "text": "Type of currency used" }, { "id": "c", "text": "Political party in power" }, { "id": "d", "text": "Language spoken" }], "correctOptionId": "a" },
+            { "id": "q10", "question": "Weather-related disasters can include:", "options": [{ "id": "a", "text": "Floods and storms" }, { "id": "b", "text": "Festivals" }, { "id": "c", "text": "Elections" }, { "id": "d", "text": "Trade agreements" }], "correctOptionId": "a" },
+            { "id": "q11", "question": "Practicing energy conservation at home can include:", "options": [{ "id": "a", "text": "Turning off unused appliances" }, { "id": "b", "text": "Leaving all lights on constantly" }, { "id": "c", "text": "Using more energy than needed" }, { "id": "d", "text": "Ignoring energy use" }], "correctOptionId": "a" },
+            { "id": "q12", "question": "A key challenge to energy conservation efforts is:", "options": [{ "id": "a", "text": "Lack of public awareness" }, { "id": "b", "text": "Too much awareness" }, { "id": "c", "text": "Excess of renewable resources" }, { "id": "d", "text": "No challenges exist" }], "correctOptionId": "a" },
+            { "id": "q13", "question": "Ghana's climate is generally classified as:", "options": [{ "id": "a", "text": "Tropical, with variations across regions" }, { "id": "b", "text": "Arctic" }, { "id": "c", "text": "Desert only" }, { "id": "d", "text": "Polar" }], "correctOptionId": "a" },
+            { "id": "q14", "question": "Educating the community on energy conservation helps to:", "options": [{ "id": "a", "text": "Promote sustainable and responsible energy use" }, { "id": "b", "text": "Increase energy waste" }, { "id": "c", "text": "Have no impact" }, { "id": "d", "text": "Discourage sustainability" }], "correctOptionId": "a" },
+            { "id": "q15", "question": "Understanding weather and climate is significant because it helps communities to:", "options": [{ "id": "a", "text": "Plan agricultural and daily activities effectively" }, { "id": "b", "text": "Ignore environmental conditions" }, { "id": "c", "text": "Avoid all planning" }, { "id": "d", "text": "Increase weather-related disasters" }], "correctOptionId": "a" }
+          ]
+        },
+        {
+          "id": "2-2-mapping-skills",
+          "title": "Mapping Skills",
+          "completed": false,
+          "learningGoals": [
+            "Examine ways of creating and interpreting maps",
+            "Identify and describe the features of a map, including scale, key, and compass directions",
+            "Analyse ways of using maps to locate places and get directions",
+            "Discuss the challenges of map making and use in Ghana"
+          ],
+          "keyConceptSummary": "Maps are essential tools for locating places and navigating, made up of key features such as scale, a key/legend, and compass directions. Modern geo-techniques like GPS and GIS have expanded how people use maps, though challenges in mapmaking and accuracy remain.",
+          "resources": [
+            { "type": "video", "title": "How to Read and Create a Map", "url": "REPLACE_WITH_REAL_URL" },
+            { "type": "reading", "title": "Features of a Map Explained", "url": "#" },
+            { "type": "reading", "title": "Using GPS and GIS for Navigation", "url": "#" }
+          ],
+          "quiz": [
+            { "id": "q1", "question": "A map is best described as:", "options": [{ "id": "a", "text": "A representation of an area showing its features" }, { "id": "b", "text": "A type of festival" }, { "id": "c", "text": "A government document" }, { "id": "d", "text": "A historical timeline" }], "correctOptionId": "a" },
+            { "id": "q2", "question": "The scale of a map shows:", "options": [{ "id": "a", "text": "The relationship between map distance and real-world distance" }, { "id": "b", "text": "The weather in the area" }, { "id": "c", "text": "The population of the area" }, { "id": "d", "text": "The date the map was made only" }], "correctOptionId": "a" },
+            { "id": "q3", "question": "The key (or legend) on a map is used to:", "options": [{ "id": "a", "text": "Explain the symbols used on the map" }, { "id": "b", "text": "Show the temperature" }, { "id": "c", "text": "Show population data only" }, { "id": "d", "text": "Lock the map" }], "correctOptionId": "a" },
+            { "id": "q4", "question": "An eight-point compass includes which of these directions?", "options": [{ "id": "a", "text": "North East" }, { "id": "b", "text": "Central" }, { "id": "c", "text": "Middle" }, { "id": "d", "text": "Interior" }], "correctOptionId": "a" },
+            { "id": "q5", "question": "GPS stands for:", "options": [{ "id": "a", "text": "Global Positioning System" }, { "id": "b", "text": "General Public Service" }, { "id": "c", "text": "Ghana Postal System" }, { "id": "d", "text": "Global Political Structure" }], "correctOptionId": "a" },
+            { "id": "q6", "question": "GIS stands for:", "options": [{ "id": "a", "text": "Geographic Information System" }, { "id": "b", "text": "General Information Service" }, { "id": "c", "text": "Global Internet System" }, { "id": "d", "text": "Government Information Source" }], "correctOptionId": "a" },
+            { "id": "q7", "question": "Google Maps and Google Earth are examples of:", "options": [{ "id": "a", "text": "Digital geo-technology tools for navigation" }, { "id": "b", "text": "Traditional paper maps only" }, { "id": "c", "text": "Weather forecasting tools" }, { "id": "d", "text": "Historical documents" }], "correctOptionId": "a" },
+            { "id": "q8", "question": "A challenge of mapmaking and use in Ghana can include:", "options": [{ "id": "a", "text": "Limited access to updated geographic data" }, { "id": "b", "text": "Too much accurate data" }, { "id": "c", "text": "No challenges exist" }, { "id": "d", "text": "Excess of trained cartographers" }], "correctOptionId": "a" },
+            { "id": "q9", "question": "Maps are important for navigation because they help people to:", "options": [{ "id": "a", "text": "Locate places and plan routes" }, { "id": "b", "text": "Predict the weather" }, { "id": "c", "text": "Measure population" }, { "id": "d", "text": "Grow crops" }], "correctOptionId": "a" },
+            { "id": "q10", "question": "A political map typically shows:", "options": [{ "id": "a", "text": "Boundaries of countries, regions, or districts" }, { "id": "b", "text": "Only rainfall patterns" }, { "id": "c", "text": "Only mountain ranges" }, { "id": "d", "text": "Only ocean currents" }], "correctOptionId": "a" },
+            { "id": "q11", "question": "A physical map typically shows:", "options": [{ "id": "a", "text": "Natural features like rivers, mountains, and forests" }, { "id": "b", "text": "Only political boundaries" }, { "id": "c", "text": "Only population data" }, { "id": "d", "text": "Only trade routes" }], "correctOptionId": "a" },
+            { "id": "q12", "question": "Creating a map of a school compound requires including:", "options": [{ "id": "a", "text": "A scale, key, and compass directions" }, { "id": "b", "text": "Only colours with no labels" }, { "id": "c", "text": "No directional information" }, { "id": "d", "text": "Only a title" }], "correctOptionId": "a" },
+            { "id": "q13", "question": "Remote sensing is a technique used to:", "options": [{ "id": "a", "text": "Gather geographic information from a distance, e.g., via satellite" }, { "id": "b", "text": "Draw maps by hand only" }, { "id": "c", "text": "Predict elections" }, { "id": "d", "text": "Measure trade volume" }], "correctOptionId": "a" },
+            { "id": "q14", "question": "Understanding map features helps learners to:", "options": [{ "id": "a", "text": "Accurately interpret and use maps for real-life navigation" }, { "id": "b", "text": "Avoid using maps" }, { "id": "c", "text": "Ignore geography" }, { "id": "d", "text": "Only memorise symbols with no application" }], "correctOptionId": "a" },
+            { "id": "q15", "question": "Maps are useful tools in society because they:", "options": [{ "id": "a", "text": "Help with planning, navigation, and resource management" }, { "id": "b", "text": "Have no practical use" }, { "id": "c", "text": "Only serve decorative purposes" }, { "id": "d", "text": "Cannot be used for real-world tasks" }], "correctOptionId": "a" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "strand-3",
+      "title": "Law and Order in the Ghanaian Society",
+      "subtopics": [
+        {
+          "id": "3-2-conflict-peace-security",
+          "title": "Conflict, Peace and Security",
+          "completed": false,
+          "learningGoals": [
+            "Examine the relevance of peace and security to the development of Ghana",
+            "Discuss ways of promoting peace and security in the community",
+            "Discuss the need for peace and security in Ghana",
+            "Compare a country destroyed by conflict with one that has enjoyed peace"
+          ],
+          "keyConceptSummary": "Peace and security are essential foundations for national development. Communities that promote peace tend to experience stronger economic and social progress, while conflict-affected areas often face setbacks in development.",
+          "resources": [
+            { "type": "video", "title": "Why Peace and Security Matter for Development", "url": "REPLACE_WITH_REAL_URL" },
+            { "type": "reading", "title": "Promoting Peace in the Community", "url": "#" },
+            { "type": "reading", "title": "Case Studies: Conflict vs Peaceful Nations", "url": "#" }
+          ],
+          "quiz": [
+            { "id": "q1", "question": "Peace is best described as:", "options": [{ "id": "a", "text": "A state of harmony free from conflict or violence" }, { "id": "b", "text": "A type of trade agreement" }, { "id": "c", "text": "A form of taxation" }, { "id": "d", "text": "A government office" }], "correctOptionId": "a" },
+            { "id": "q2", "question": "Security refers to:", "options": [{ "id": "a", "text": "Protection from threats or danger" }, { "id": "b", "text": "A type of festival" }, { "id": "c", "text": "A form of currency" }, { "id": "d", "text": "A trade route" }], "correctOptionId": "a" },
+            { "id": "q3", "question": "Peace and security contribute to national development by:", "options": [{ "id": "a", "text": "Creating a stable environment for economic growth" }, { "id": "b", "text": "Discouraging investment" }, { "id": "c", "text": "Having no relevance to development" }, { "id": "d", "text": "Increasing instability" }], "correctOptionId": "a" },
+            { "id": "q4", "question": "Countries affected by prolonged conflict often experience:", "options": [{ "id": "a", "text": "Destroyed infrastructure and slowed development" }, { "id": "b", "text": "Automatic economic growth" }, { "id": "c", "text": "No negative effects" }, { "id": "d", "text": "Increased peace immediately" }], "correctOptionId": "a" },
+            { "id": "q5", "question": "One way of promoting peace in a community is:", "options": [{ "id": "a", "text": "Encouraging dialogue and tolerance among residents" }, { "id": "b", "text": "Ignoring disputes" }, { "id": "c", "text": "Encouraging division" }, { "id": "d", "text": "Avoiding all communication" }], "correctOptionId": "a" },
+            { "id": "q6", "question": "A peaceful country is more likely to attract:", "options": [{ "id": "a", "text": "Foreign investment and tourism" }, { "id": "b", "text": "No investment at all" }, { "id": "c", "text": "Only conflict" }, { "id": "d", "text": "Isolation from the world" }], "correctOptionId": "a" },
+            { "id": "q7", "question": "Comparing conflict-affected and peaceful nations helps learners understand:", "options": [{ "id": "a", "text": "The real impact of peace and security on development" }, { "id": "b", "text": "Nothing useful" }, { "id": "c", "text": "That conflict has no effect on nations" }, { "id": "d", "text": "That peace is unimportant" }], "correctOptionId": "a" },
+            { "id": "q8", "question": "Security agencies in Ghana, such as the police, mainly work to:", "options": [{ "id": "a", "text": "Maintain law and order and protect citizens" }, { "id": "b", "text": "Create conflict" }, { "id": "c", "text": "Collect taxes only" }, { "id": "d", "text": "Manage trade agreements" }], "correctOptionId": "a" },
+            { "id": "q9", "question": "Citizens can contribute to peace and security by:", "options": [{ "id": "a", "text": "Reporting crime and respecting the law" }, { "id": "b", "text": "Ignoring the law" }, { "id": "c", "text": "Encouraging violence" }, { "id": "d", "text": "Avoiding all civic duties" }], "correctOptionId": "a" },
+            { "id": "q10", "question": "The relationship between peace and development in Ghana shows that:", "options": [{ "id": "a", "text": "Stability supports long-term national growth" }, { "id": "b", "text": "Instability always helps growth" }, { "id": "c", "text": "Peace has no economic impact" }, { "id": "d", "text": "Development happens regardless of stability" }], "correctOptionId": "a" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "strand-5",
+      "title": "Production, Exchange and Creativity",
+      "subtopics": [
+        {
+          "id": "5-3-consumer-rights",
+          "title": "Consumer Rights, Protection, and Responsibilities",
+          "completed": false,
+          "learningGoals": [
+            "Explore what consumer rights are and why they matter",
+            "Discuss the rights of the consumer, including information, choice, safety, and redress",
+            "Discuss the responsibilities that come with consumer rights",
+            "Discuss common consumer frauds and scams"
+          ],
+          "keyConceptSummary": "Consumers have specific rights — including the right to information, choice, safety, and redress — but these rights come with responsibilities, such as making informed choices and understanding product information. Awareness of common scams helps protect consumers from fraud.",
+          "resources": [
+            { "type": "video", "title": "Know Your Consumer Rights", "url": "REPLACE_WITH_REAL_URL" },
+            { "type": "reading", "title": "Consumer Responsibilities Explained", "url": "#" },
+            { "type": "reading", "title": "Common Consumer Scams in Ghana", "url": "#" }
+          ],
+          "quiz": [
+            { "id": "q1", "question": "Consumer rights are best described as:", "options": [{ "id": "a", "text": "Protections given to buyers of goods and services" }, { "id": "b", "text": "Rules only for sellers" }, { "id": "c", "text": "A type of tax" }, { "id": "d", "text": "A government office" }], "correctOptionId": "a" },
+            { "id": "q2", "question": "The right to safety as a consumer means:", "options": [{ "id": "a", "text": "Products and services should not be hazardous to health" }, { "id": "b", "text": "Consumers have no protection" }, { "id": "c", "text": "Only sellers are protected" }, { "id": "d", "text": "Safety does not apply to products" }], "correctOptionId": "a" },
+            { "id": "q3", "question": "The right to choose means consumers should be able to:", "options": [{ "id": "a", "text": "Select from a variety of products and services at competitive prices" }, { "id": "b", "text": "Only buy from one seller" }, { "id": "c", "text": "Have no options" }, { "id": "d", "text": "Be forced into purchases" }], "correctOptionId": "a" },
+            { "id": "q4", "question": "The right to redress means consumers can:", "options": [{ "id": "a", "text": "Seek compensation for faulty goods or services" }, { "id": "b", "text": "Never complain" }, { "id": "c", "text": "Only accept faulty products" }, { "id": "d", "text": "Be denied refunds always" }], "correctOptionId": "a" },
+            { "id": "q5", "question": "The right to information means consumers should:", "options": [{ "id": "a", "text": "Have access to accurate details about a product before buying" }, { "id": "b", "text": "Be kept unaware of product details" }, { "id": "c", "text": "Rely only on guesswork" }, { "id": "d", "text": "Have no access to labels" }], "correctOptionId": "a" },
+            { "id": "q6", "question": "A responsibility that comes with consumer rights is:", "options": [{ "id": "a", "text": "Making informed choices before purchasing" }, { "id": "b", "text": "Ignoring product information" }, { "id": "c", "text": "Avoiding responsibility entirely" }, { "id": "d", "text": "Blaming sellers for all decisions" }], "correctOptionId": "a" },
+            { "id": "q7", "question": "Checking expiration dates on products is important because it:", "options": [{ "id": "a", "text": "Helps ensure the product is safe to use" }, { "id": "b", "text": "Has no importance" }, { "id": "c", "text": "Is only relevant for sellers" }, { "id": "d", "text": "Should always be ignored" }], "correctOptionId": "a" },
+            { "id": "q8", "question": "A common consumer scam involves:", "options": [{ "id": "a", "text": "False advertising or fake products" }, { "id": "b", "text": "Accurate product labelling" }, { "id": "c", "text": "Fair pricing" }, { "id": "d", "text": "Verified sellers only" }], "correctOptionId": "a" },
+            { "id": "q9", "question": "Reading product labels and safety instructions helps consumers to:", "options": [{ "id": "a", "text": "Use products correctly and safely" }, { "id": "b", "text": "Waste time" }, { "id": "c", "text": "Avoid using the product entirely" }, { "id": "d", "text": "Ignore safety concerns" }], "correctOptionId": "a" },
+            { "id": "q10", "question": "Consumer protection agencies exist mainly to:", "options": [{ "id": "a", "text": "Safeguard the rights and interests of consumers" }, { "id": "b", "text": "Protect sellers exclusively" }, { "id": "c", "text": "Increase scams" }, { "id": "d", "text": "Eliminate consumer rights" }], "correctOptionId": "a" },
+            { "id": "q11", "question": "Field trips to markets or consumer protection agencies help learners to:", "options": [{ "id": "a", "text": "Gain practical exposure to consumer rights issues" }, { "id": "b", "text": "Avoid learning about consumer rights" }, { "id": "c", "text": "Only observe prices" }, { "id": "d", "text": "Ignore real-world application" }], "correctOptionId": "a" },
+            { "id": "q12", "question": "A responsible consumer would typically:", "options": [{ "id": "a", "text": "Compare products and verify sellers before purchasing" }, { "id": "b", "text": "Buy without any research" }, { "id": "c", "text": "Ignore product safety" }, { "id": "d", "text": "Avoid checking receipts" }], "correctOptionId": "a" },
+            { "id": "q13", "question": "Understanding consumer rights is important because it helps people to:", "options": [{ "id": "a", "text": "Avoid exploitation and make informed decisions" }, { "id": "b", "text": "Accept unfair treatment" }, { "id": "c", "text": "Ignore product quality" }, { "id": "d", "text": "Avoid making purchases" }], "correctOptionId": "a" },
+            { "id": "q14", "question": "Role-playing consumer scenarios in class helps learners to:", "options": [{ "id": "a", "text": "Practice handling real-life consumer situations" }, { "id": "b", "text": "Avoid learning practical skills" }, { "id": "c", "text": "Ignore consumer issues" }, { "id": "d", "text": "Only memorise definitions" }], "correctOptionId": "a" },
+            { "id": "q15", "question": "Educating the public about consumer fraud helps to:", "options": [{ "id": "a", "text": "Reduce the number of people affected by scams" }, { "id": "b", "text": "Increase scams" }, { "id": "c", "text": "Have no effect" }, { "id": "d", "text": "Only benefit scammers" }], "correctOptionId": "a" }
+          ]
+        },
+        {
+          "id": "5-4-citizen-investment",
+          "title": "The Citizen and Investment",
+          "completed": false,
+          "learningGoals": [
+            "Explain investment and why there is a need to invest",
+            "Discuss the difference between saving and investing",
+            "Discuss the importance of investment in personal and national development",
+            "Discuss forms of investment scams in Ghana"
+          ],
+          "keyConceptSummary": "Investment involves putting resources into ventures with the expectation of future returns, distinct from simple saving. Understanding investment opportunities and recognising common investment scams helps citizens make sound financial decisions that support both personal and national development.",
+          "resources": [
+            { "type": "video", "title": "Saving vs Investing", "url": "REPLACE_WITH_REAL_URL" },
+            { "type": "reading", "title": "Investment Opportunities for Citizens", "url": "#" },
+            { "type": "reading", "title": "Avoiding Investment Scams in Ghana", "url": "#" }
+          ],
+          "quiz": [
+            { "id": "q1", "question": "Investment is best described as:", "options": [{ "id": "a", "text": "Putting money or resources into a venture to gain future returns" }, { "id": "b", "text": "Spending money with no expectation of return" }, { "id": "c", "text": "A type of tax" }, { "id": "d", "text": "A government policy" }], "correctOptionId": "a" },
+            { "id": "q2", "question": "The main difference between saving and investing is that investing:", "options": [{ "id": "a", "text": "Involves risk with the potential for higher returns" }, { "id": "b", "text": "Has no risk at all" }, { "id": "c", "text": "Guarantees no loss" }, { "id": "d", "text": "Is identical to saving" }], "correctOptionId": "a" },
+            { "id": "q3", "question": "Investment is important for national development because it:", "options": [{ "id": "a", "text": "Creates jobs and boosts economic growth" }, { "id": "b", "text": "Has no economic impact" }, { "id": "c", "text": "Only benefits foreign investors" }, { "id": "d", "text": "Reduces employment" }], "correctOptionId": "a" },
+            { "id": "q4", "question": "A common form of investment scam involves:", "options": [{ "id": "a", "text": "Promises of unrealistically high returns with little risk" }, { "id": "b", "text": "Transparent, regulated financial institutions" }, { "id": "c", "text": "Government-backed savings accounts" }, { "id": "d", "text": "Verified investment licenses" }], "correctOptionId": "a" },
+            { "id": "q5", "question": "Which of these is an example of a legitimate investment opportunity?", "options": [{ "id": "a", "text": "Shares in a regulated company" }, { "id": "b", "text": "An unregistered scheme promising guaranteed profits" }, { "id": "c", "text": "A pyramid scheme" }, { "id": "d", "text": "An unverified online offer" }], "correctOptionId": "a" },
+            { "id": "q6", "question": "Investment in personal development can include spending on:", "options": [{ "id": "a", "text": "Education and skills training" }, { "id": "b", "text": "Unnecessary luxury items only" }, { "id": "c", "text": "Nothing productive" }, { "id": "d", "text": "Gambling" }], "correctOptionId": "a" },
+            { "id": "q7", "question": "Before investing, a wise citizen should:", "options": [{ "id": "a", "text": "Research and verify the legitimacy of the opportunity" }, { "id": "b", "text": "Invest without any research" }, { "id": "c", "text": "Trust every offer received" }, { "id": "d", "text": "Ignore all risks" }], "correctOptionId": "a" },
+            { "id": "q8", "question": "Financial experts or entrepreneurs are useful resource persons because they can:", "options": [{ "id": "a", "text": "Share real experiences and insights on investment opportunities" }, { "id": "b", "text": "Provide no useful information" }, { "id": "c", "text": "Only discuss unrelated topics" }, { "id": "d", "text": "Encourage risky decisions" }], "correctOptionId": "a" },
+            { "id": "q9", "question": "Investment simulations in the classroom help learners to:", "options": [{ "id": "a", "text": "Practice making financial decisions in a safe environment" }, { "id": "b", "text": "Avoid learning about finance" }, { "id": "c", "text": "Lose real money" }, { "id": "d", "text": "Ignore financial literacy" }], "correctOptionId": "a" },
+            { "id": "q10", "question": "Understanding investment scams helps citizens to:", "options": [{ "id": "a", "text": "Protect their money from fraudulent schemes" }, { "id": "b", "text": "Fall for more scams" }, { "id": "c", "text": "Avoid saving altogether" }, { "id": "d", "text": "Trust every investment offer" }], "correctOptionId": "a" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "strand-6",
+      "title": "Nationalism and Nationhood",
+      "subtopics": [
+        {
+          "id": "6-3-republics-military-rule",
+          "title": "The Republics and Military Rule",
+          "completed": false,
+          "learningGoals": [
+            "Describe how the Third Republic came into being (1979-1981)",
+            "Examine the major events that led to the emergence of the Fourth Republic",
+            "Discuss the relevance of the 28th April 1992 referendum",
+            "Assess the lessons and prospects of the Fourth Republic"
+          ],
+          "keyConceptSummary": "The Third Republic (1979-1981) was short-lived, giving way to further military rule before the establishment of the Fourth Republic in 1992 through a new constitution, a referendum, and multiparty elections — the system of government Ghana still operates under today.",
+          "resources": [
+            { "type": "video", "title": "The Path to the Fourth Republic", "url": "REPLACE_WITH_REAL_URL" },
+            { "type": "reading", "title": "The Third Republican Constitution", "url": "#" },
+            { "type": "reading", "title": "The 1992 Referendum and Its Significance", "url": "#" }
+          ],
+          "quiz": [
+            { "id": "q1", "question": "The Third Republic of Ghana existed during the period:", "options": [{ "id": "a", "text": "1979-1981" }, { "id": "b", "text": "1957-1966" }, { "id": "c", "text": "1992-present" }, { "id": "d", "text": "1966-1969" }], "correctOptionId": "a" },
+            { "id": "q2", "question": "The Third Republican Constitution included a provision:", "options": [{ "id": "a", "text": "Prohibiting a one-party state" }, { "id": "b", "text": "Establishing a monarchy" }, { "id": "c", "text": "Banning all elections" }, { "id": "d", "text": "Restoring colonial rule" }], "correctOptionId": "a" },
+            { "id": "q3", "question": "The Fourth Republic of Ghana began in:", "options": [{ "id": "a", "text": "1992" }, { "id": "b", "text": "1979" }, { "id": "c", "text": "1957" }, { "id": "d", "text": "1966" }], "correctOptionId": "a" },
+            { "id": "q4", "question": "The 28th April 1992 referendum was held to decide on:", "options": [{ "id": "a", "text": "Adoption of the new 1992 Constitution" }, { "id": "b", "text": "Independence from Britain" }, { "id": "c", "text": "Joining a foreign union" }, { "id": "d", "text": "Ending all elections" }], "correctOptionId": "a" },
+            { "id": "q5", "question": "The lifting of the ban on political parties in 1992 allowed:", "options": [{ "id": "a", "text": "The return of multiparty democracy" }, { "id": "b", "text": "Only one party to exist" }, { "id": "c", "text": "Continued military rule" }, { "id": "d", "text": "A return to colonial rule" }], "correctOptionId": "a" },
+            { "id": "q6", "question": "District Assembly elections held in the late 1980s were significant because they:", "options": [{ "id": "a", "text": "Introduced local-level democratic participation" }, { "id": "b", "text": "Ended all democracy" }, { "id": "c", "text": "Restored colonial governance" }, { "id": "d", "text": "Had no impact on governance" }], "correctOptionId": "a" },
+            { "id": "q7", "question": "The Consultative Assembly of 1991 was tasked with:", "options": [{ "id": "a", "text": "Helping draft the 1992 Constitution" }, { "id": "b", "text": "Running the 1979 election" }, { "id": "c", "text": "Establishing colonial rule" }, { "id": "d", "text": "Ending Ghana's independence" }], "correctOptionId": "a" },
+            { "id": "q8", "question": "The 1992 general elections marked:", "options": [{ "id": "a", "text": "The start of continuous democratic governance under the Fourth Republic" }, { "id": "b", "text": "A return to colonial rule" }, { "id": "c", "text": "The end of Ghana's independence" }, { "id": "d", "text": "The start of the First Republic" }], "correctOptionId": "a" },
+            { "id": "q9", "question": "A key feature of the Fourth Republic's governance system is:", "options": [{ "id": "a", "text": "A multiparty democratic system with checks and balances" }, { "id": "b", "text": "A one-party military state" }, { "id": "c", "text": "Direct colonial administration" }, { "id": "d", "text": "Rule without a constitution" }], "correctOptionId": "a" },
+            { "id": "q10", "question": "One lesson learned from Ghana's political history is the importance of:", "options": [{ "id": "a", "text": "Stable constitutional governance for national development" }, { "id": "b", "text": "Frequent coups" }, { "id": "c", "text": "Avoiding all elections" }, { "id": "d", "text": "Rejecting constitutions" }], "correctOptionId": "a" },
+            { "id": "q11", "question": "The committee of experts formed in May 1991 was tasked with:", "options": [{ "id": "a", "text": "Making recommendations toward a new constitution" }, { "id": "b", "text": "Organising the Third Republic" }, { "id": "c", "text": "Running military operations" }, { "id": "d", "text": "Managing colonial affairs" }], "correctOptionId": "a" },
+            { "id": "q12", "question": "The Fourth Republic has seen Ghana experience:", "options": [{ "id": "a", "text": "Multiple peaceful transfers of power between political parties" }, { "id": "b", "text": "No elections at all" }, { "id": "c", "text": "Continuous military rule" }, { "id": "d", "text": "A single unbroken presidency" }], "correctOptionId": "a" },
+            { "id": "q13", "question": "A panel discussion on achievements and setbacks of the Fourth Republic helps learners to:", "options": [{ "id": "a", "text": "Critically evaluate Ghana's democratic progress" }, { "id": "b", "text": "Avoid discussing governance" }, { "id": "c", "text": "Ignore historical events" }, { "id": "d", "text": "Only memorise dates" }], "correctOptionId": "a" },
+            { "id": "q14", "question": "Comparing the number of parliaments within the Fourth Republic helps learners understand:", "options": [{ "id": "a", "text": "How the composition of government has changed over time" }, { "id": "b", "text": "That parliament has never changed" }, { "id": "c", "text": "That there is only one parliament ever" }, { "id": "d", "text": "Nothing relevant to governance" }], "correctOptionId": "a" },
+            { "id": "q15", "question": "The overall prospects of the Fourth Republic depend on:", "options": [{ "id": "a", "text": "Continued commitment to democratic principles and the rule of law" }, { "id": "b", "text": "A return to military rule" }, { "id": "c", "text": "Eliminating all political parties" }, { "id": "d", "text": "Rejecting the constitution" }], "correctOptionId": "a" }
+          ]
+        }
+      ]
+    }
+  ]
+}

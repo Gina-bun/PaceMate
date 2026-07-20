@@ -1,0 +1,675 @@
+{
+  "subject": "Science",
+  "grade": 8,
+  "topics": [
+    {
+      "id": "strand-1",
+      "title": "Diversity of Matter",
+      "subtopics": [
+        {
+          "id": "1-1-materials",
+          "title": "Materials",
+          "completed": false,
+          "learningGoals": [
+            "Identify types of mixtures by name and characteristics",
+            "Design and perform processes for separating kinds of mixtures",
+            "Describe atoms as composed of sub-atomic particles",
+            "Explain the arrangement of elements in terms of the number of protons in the nuclei of atoms"
+          ],
+          "keyConceptSummary": "Materials can combine to form mixtures such as solutions, suspensions and colloids, which can be separated using physical processes like filtering, sieving and distilling. Atoms, the building blocks of elements, are made up of protons, neutrons and electrons, and elements in the periodic table are arranged according to the number of protons in their nuclei.",
+          "resources": [
+            { "type": "video", "title": "Mixtures and How to Separate Them", "url": "REPLACE_WITH_REAL_URL" },
+            { "type": "reading", "title": "Solutions, Suspensions and Colloids Explained", "url": "#" },
+            { "type": "reading", "title": "Understanding Atomic Structure", "url": "#" }
+          ],
+          "quiz": [
+            { "id": "q1", "question": "A mixture is best described as:", "options": [{ "id": "a", "text": "Two or more substances combined without a fixed chemical bond" }, { "id": "b", "text": "A single pure substance" }, { "id": "c", "text": "An atom on its own" }, { "id": "d", "text": "A substance with no properties" }], "correctOptionId": "a" },
+            { "id": "q2", "question": "A solution is a type of mixture in which:", "options": [{ "id": "a", "text": "A solute is fully dissolved in a solvent" }, { "id": "b", "text": "Particles settle out over time" }, { "id": "c", "text": "No solvent is present" }, { "id": "d", "text": "The substances never combine" }], "correctOptionId": "a" },
+            { "id": "q3", "question": "A suspension differs from a solution because in a suspension:", "options": [{ "id": "a", "text": "Particles do not fully dissolve and can settle" }, { "id": "b", "text": "Particles dissolve completely" }, { "id": "c", "text": "There is no solvent involved" }, { "id": "d", "text": "No mixture is formed" }], "correctOptionId": "a" },
+            { "id": "q4", "question": "A colloid is best described as a mixture where:", "options": [{ "id": "a", "text": "Particles are spread throughout but do not settle like a suspension" }, { "id": "b", "text": "Only gases are involved" }, { "id": "c", "text": "Particles always dissolve completely" }, { "id": "d", "text": "No particles are present at all" }], "correctOptionId": "a" },
+            { "id": "q5", "question": "Filtration is a process used to:", "options": [{ "id": "a", "text": "Separate insoluble solids from a liquid" }, { "id": "b", "text": "Create new elements" }, { "id": "c", "text": "Combine two liquids permanently" }, { "id": "d", "text": "Destroy a mixture" }], "correctOptionId": "a" },
+            { "id": "q6", "question": "Distillation is mainly used to separate mixtures based on differences in:", "options": [{ "id": "a", "text": "Boiling points" }, { "id": "b", "text": "Colour only" }, { "id": "c", "text": "Weight alone" }, { "id": "d", "text": "Smell" }], "correctOptionId": "a" },
+            { "id": "q7", "question": "An atom is composed of which three sub-atomic particles?", "options": [{ "id": "a", "text": "Protons, neutrons and electrons" }, { "id": "b", "text": "Only protons and neutrons" }, { "id": "c", "text": "Only electrons and molecules" }, { "id": "d", "text": "Ions and compounds only" }], "correctOptionId": "a" },
+            { "id": "q8", "question": "Protons carry which type of electrical charge?", "options": [{ "id": "a", "text": "Positive" }, { "id": "b", "text": "Negative" }, { "id": "c", "text": "No charge" }, { "id": "d", "text": "Both positive and negative" }], "correctOptionId": "a" },
+            { "id": "q9", "question": "Electrons carry which type of electrical charge?", "options": [{ "id": "a", "text": "Negative" }, { "id": "b", "text": "Positive" }, { "id": "c", "text": "No charge" }, { "id": "d", "text": "Neutral only" }], "correctOptionId": "a" },
+            { "id": "q10", "question": "Neutrons in an atom carry:", "options": [{ "id": "a", "text": "No electrical charge" }, { "id": "b", "text": "A positive charge" }, { "id": "c", "text": "A negative charge" }, { "id": "d", "text": "Both charges equally" }], "correctOptionId": "a" },
+            { "id": "q11", "question": "The atomic number of an element refers to the number of:", "options": [{ "id": "a", "text": "Protons in the nucleus" }, { "id": "b", "text": "Electrons only, ignoring protons" }, { "id": "c", "text": "Molecules in a compound" }, { "id": "d", "text": "Mixtures it can form" }], "correctOptionId": "a" },
+            { "id": "q12", "question": "Elements in the periodic table are arranged mainly according to:", "options": [{ "id": "a", "text": "The number of protons in the nuclei of their atoms" }, { "id": "b", "text": "Their colour" }, { "id": "c", "text": "Alphabetical order of their names" }, { "id": "d", "text": "Their market price" }], "correctOptionId": "a" },
+            { "id": "q13", "question": "A molecule can be described as:", "options": [{ "id": "a", "text": "A combination of two or more atoms bonded together" }, { "id": "b", "text": "A single sub-atomic particle" }, { "id": "c", "text": "A type of mixture only" }, { "id": "d", "text": "An element with no structure" }], "correctOptionId": "a" },
+            { "id": "q14", "question": "Performing activities such as sieving and filtering to separate mixtures helps learners to:", "options": [{ "id": "a", "text": "Apply practical separation techniques based on physical properties" }, { "id": "b", "text": "Avoid understanding separation methods" }, { "id": "c", "text": "Destroy the mixture with no scientific value" }, { "id": "d", "text": "Confuse elements with mixtures" }], "correctOptionId": "a" },
+            { "id": "q15", "question": "Understanding atomic structure helps learners to appreciate that:", "options": [{ "id": "a", "text": "All matter is built from small, structured particles" }, { "id": "b", "text": "Atoms have no internal structure" }, { "id": "c", "text": "Elements cannot be studied scientifically" }, { "id": "d", "text": "Mixtures and atoms are the same thing" }], "correctOptionId": "a" }
+          ]
+        },
+        {
+          "id": "1-2-living-cells",
+          "title": "Living Cells",
+          "completed": false,
+          "learningGoals": [
+            "Examine and describe the structure of prokaryotic and eukaryotic cells",
+            "Classify organisms as prokaryotic or eukaryotic based on the type of cells they are made of"
+          ],
+          "keyConceptSummary": "Cells can be classified as prokaryotic or eukaryotic based on their structure, particularly whether they have a defined nucleus. Understanding this classification helps in identifying whether an organism is prokaryotic or eukaryotic and appreciating the health implications of each type.",
+          "resources": [
+            { "type": "video", "title": "Prokaryotic vs Eukaryotic Cells", "url": "REPLACE_WITH_REAL_URL" },
+            { "type": "reading", "title": "Classifying Organisms by Cell Type", "url": "#" },
+            { "type": "reading", "title": "Prokaryotes and Human Health", "url": "#" }
+          ],
+          "quiz": [
+            { "id": "q1", "question": "A prokaryotic cell is best described as one that:", "options": [{ "id": "a", "text": "Lacks a defined nucleus" }, { "id": "b", "text": "Always has a large nucleus" }, { "id": "c", "text": "Has no cell membrane" }, { "id": "d", "text": "Cannot exist in nature" }], "correctOptionId": "a" },
+            { "id": "q2", "question": "A eukaryotic cell is best described as one that:", "options": [{ "id": "a", "text": "Has a clearly defined, membrane-bound nucleus" }, { "id": "b", "text": "Has no organelles at all" }, { "id": "c", "text": "Lacks any genetic material" }, { "id": "d", "text": "Cannot be observed under a microscope" }], "correctOptionId": "a" },
+            { "id": "q3", "question": "Bacteria are generally classified as:", "options": [{ "id": "a", "text": "Prokaryotic organisms" }, { "id": "b", "text": "Eukaryotic organisms" }, { "id": "c", "text": "Neither prokaryotic nor eukaryotic" }, { "id": "d", "text": "Non-living structures" }], "correctOptionId": "a" },
+            { "id": "q4", "question": "Animals and plants are generally classified as:", "options": [{ "id": "a", "text": "Eukaryotic organisms" }, { "id": "b", "text": "Prokaryotic organisms" }, { "id": "c", "text": "Neither type of organism" }, { "id": "d", "text": "Organisms without cells" }], "correctOptionId": "a" },
+            { "id": "q5", "question": "Comparing prokaryotic and eukaryotic cells helps learners to:", "options": [{ "id": "a", "text": "Identify structural differences between types of organisms" }, { "id": "b", "text": "Assume all cells are identical" }, { "id": "c", "text": "Avoid studying cell biology" }, { "id": "d", "text": "Ignore microscopic structures" }], "correctOptionId": "a" },
+            { "id": "q6", "question": "Creating a chart or slideshow of prokaryotic and eukaryotic cells helps learners to:", "options": [{ "id": "a", "text": "Visually organise and compare cell features" }, { "id": "b", "text": "Avoid organising information" }, { "id": "c", "text": "Confuse the two cell types" }, { "id": "d", "text": "Ignore visual learning tools" }], "correctOptionId": "a" },
+            { "id": "q7", "question": "Some prokaryotes can impact human health by:", "options": [{ "id": "a", "text": "Causing infections that require safety measures" }, { "id": "b", "text": "Having no effect on humans whatsoever" }, { "id": "c", "text": "Always being beneficial with no risk" }, { "id": "d", "text": "Existing only in plants" }], "correctOptionId": "a" },
+            { "id": "q8", "question": "Devising safety measures related to prokaryotic organisms helps learners to:", "options": [{ "id": "a", "text": "Apply scientific understanding to protect health" }, { "id": "b", "text": "Avoid considering health impacts" }, { "id": "c", "text": "Ignore microbiology entirely" }, { "id": "d", "text": "Assume all microbes are harmless" }], "correctOptionId": "a" },
+            { "id": "q9", "question": "Observing and listing organisms as prokaryotic or eukaryotic based on cell type is an example of the skill of:", "options": [{ "id": "a", "text": "Classifying" }, { "id": "b", "text": "Predicting" }, { "id": "c", "text": "Measuring" }, { "id": "d", "text": "Designing" }], "correctOptionId": "a" },
+            { "id": "q10", "question": "Drawing and labelling a prokaryotic and a eukaryotic cell helps learners to:", "options": [{ "id": "a", "text": "Reinforce understanding of their key structural differences" }, { "id": "b", "text": "Avoid learning cell structures" }, { "id": "c", "text": "Confuse the organelles present" }, { "id": "d", "text": "Ignore structural detail" }], "correctOptionId": "a" },
+            { "id": "q11", "question": "A key structural feature missing in prokaryotic cells, compared to eukaryotic cells, is:", "options": [{ "id": "a", "text": "A membrane-bound nucleus" }, { "id": "b", "text": "A cell membrane" }, { "id": "c", "text": "Cytoplasm" }, { "id": "d", "text": "Genetic material" }], "correctOptionId": "a" },
+            { "id": "q12", "question": "Understanding the classification of prokaryotic and eukaryotic organisms helps learners to appreciate that:", "options": [{ "id": "a", "text": "Living things vary widely in cellular complexity" }, { "id": "b", "text": "All living things have identical cells" }, { "id": "c", "text": "Cell classification has no scientific basis" }, { "id": "d", "text": "Only plants can be classified by cell type" }], "correctOptionId": "a" },
+            { "id": "q13", "question": "Evaluating the quality and validity of information about cell types is an example of the competency of:", "options": [{ "id": "a", "text": "Digital literacy" }, { "id": "b", "text": "Physical education" }, { "id": "c", "text": "Cultural identity" }, { "id": "d", "text": "None of the above" }], "correctOptionId": "a" },
+            { "id": "q14", "question": "Organisms made of eukaryotic cells generally have organelles that are:", "options": [{ "id": "a", "text": "Enclosed within membranes" }, { "id": "b", "text": "Never enclosed within membranes" }, { "id": "c", "text": "Absent entirely" }, { "id": "d", "text": "Found outside the cell" }], "correctOptionId": "a" },
+            { "id": "q15", "question": "Studying cell types helps learners build a foundation for understanding:", "options": [{ "id": "a", "text": "Broader topics in biology, such as disease and genetics" }, { "id": "b", "text": "Topics unrelated to living things" }, { "id": "c", "text": "Only non-living matter" }, { "id": "d", "text": "Nothing beyond cell shape" }], "correctOptionId": "a" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "strand-2",
+      "title": "Cycles",
+      "subtopics": [
+        {
+          "id": "2-1-earth-science",
+          "title": "Earth Science",
+          "completed": false,
+          "learningGoals": [
+            "Explain the process of the carbon cycle",
+            "Describe the role of the carbon cycle in the environment"
+          ],
+          "keyConceptSummary": "The carbon cycle describes how carbon moves through the environment via processes such as photosynthesis, respiration, burning and decay. It plays an important role in maintaining balance in the air, supporting food chains, and relating to greenhouse gases.",
+          "resources": [
+            { "type": "video", "title": "The Carbon Cycle Explained", "url": "REPLACE_WITH_REAL_URL" },
+            { "type": "reading", "title": "Photosynthesis, Respiration and the Carbon Cycle", "url": "#" },
+            { "type": "reading", "title": "The Carbon Cycle and Greenhouse Gases", "url": "#" }
+          ],
+          "quiz": [
+            { "id": "q1", "question": "The carbon cycle is best described as the process by which carbon:", "options": [{ "id": "a", "text": "Moves continuously through living things, air, soil and water" }, { "id": "b", "text": "Disappears from the environment permanently" }, { "id": "c", "text": "Is created from nothing" }, { "id": "d", "text": "Remains fixed in one place forever" }], "correctOptionId": "a" },
+            { "id": "q2", "question": "During photosynthesis, plants mainly:", "options": [{ "id": "a", "text": "Absorb carbon (IV) oxide and release oxygen" }, { "id": "b", "text": "Absorb oxygen and release carbon (IV) oxide only" }, { "id": "c", "text": "Release no gases at all" }, { "id": "d", "text": "Absorb nitrogen exclusively" }], "correctOptionId": "a" },
+            { "id": "q3", "question": "During respiration, living things mainly:", "options": [{ "id": "a", "text": "Release carbon (IV) oxide into the air" }, { "id": "b", "text": "Absorb only oxygen with no output" }, { "id": "c", "text": "Remove all carbon from the atmosphere" }, { "id": "d", "text": "Have no gas exchange" }], "correctOptionId": "a" },
+            { "id": "q4", "question": "Burning of fuels contributes to the carbon cycle mainly by:", "options": [{ "id": "a", "text": "Releasing carbon (IV) oxide into the atmosphere" }, { "id": "b", "text": "Removing all carbon from the air" }, { "id": "c", "text": "Having no connection to carbon" }, { "id": "d", "text": "Producing oxygen exclusively" }], "correctOptionId": "a" },
+            { "id": "q5", "question": "Decay of dead organisms contributes to the carbon cycle by:", "options": [{ "id": "a", "text": "Releasing carbon back into the soil and air" }, { "id": "b", "text": "Permanently trapping all carbon" }, { "id": "c", "text": "Having no role in the cycle" }, { "id": "d", "text": "Creating new elements" }], "correctOptionId": "a" },
+            { "id": "q6", "question": "The carbon cycle is described as a repeated pattern because carbon is:", "options": [{ "id": "a", "text": "Continuously recycled through the environment" }, { "id": "b", "text": "Used once and then destroyed" }, { "id": "c", "text": "Created anew each time" }, { "id": "d", "text": "Never involved in any natural process" }], "correctOptionId": "a" },
+            { "id": "q7", "question": "The carbon cycle affects food chains by:", "options": [{ "id": "a", "text": "Supplying the carbon that plants use to grow, which passes to consumers" }, { "id": "b", "text": "Having no connection to food chains" }, { "id": "c", "text": "Removing all nutrients from producers" }, { "id": "d", "text": "Preventing plant growth entirely" }], "correctOptionId": "a" },
+            { "id": "q8", "question": "Greenhouse gases are related to the carbon cycle because they include:", "options": [{ "id": "a", "text": "Carbon (IV) oxide released through natural and human activities" }, { "id": "b", "text": "Only oxygen" }, { "id": "c", "text": "Gases unrelated to carbon" }, { "id": "d", "text": "Only water vapour" }], "correctOptionId": "a" },
+            { "id": "q9", "question": "Producing a flow chart to trace the carbon cycle helps learners to:", "options": [{ "id": "a", "text": "Understand the sequence and connections between its stages" }, { "id": "b", "text": "Confuse the stages of the cycle" }, { "id": "c", "text": "Avoid learning the process" }, { "id": "d", "text": "Ignore how carbon moves" }], "correctOptionId": "a" },
+            { "id": "q10", "question": "Compiling information to explain why the carbon cycle is a repeated pattern helps learners to:", "options": [{ "id": "a", "text": "Support their explanation with evidence" }, { "id": "b", "text": "Avoid using evidence" }, { "id": "c", "text": "Rely only on guesswork" }, { "id": "d", "text": "Ignore scientific reasoning" }], "correctOptionId": "a" },
+            { "id": "q11", "question": "The carbon cycle helps maintain balance in the environment mainly by:", "options": [{ "id": "a", "text": "Regulating the composition of gases in the air" }, { "id": "b", "text": "Removing all air from the environment" }, { "id": "c", "text": "Having no effect on air composition" }, { "id": "d", "text": "Creating a vacuum in the atmosphere" }], "correctOptionId": "a" },
+            { "id": "q12", "question": "Searching the internet and using charts to study the carbon cycle helps learners to:", "options": [{ "id": "a", "text": "Gather accurate information to explain the process" }, { "id": "b", "text": "Avoid research skills" }, { "id": "c", "text": "Rely on unverified guesses" }, { "id": "d", "text": "Ignore digital tools" }], "correctOptionId": "a" },
+            { "id": "q13", "question": "A key link between the carbon cycle and climate is that excess carbon (IV) oxide can:", "options": [{ "id": "a", "text": "Contribute to the greenhouse effect" }, { "id": "b", "text": "Have no impact on climate" }, { "id": "c", "text": "Cool the atmosphere directly" }, { "id": "d", "text": "Remove all heat from the earth" }], "correctOptionId": "a" },
+            { "id": "q14", "question": "Explaining the role of the carbon cycle to the environment helps learners to appreciate that:", "options": [{ "id": "a", "text": "Natural cycles support the balance of ecosystems" }, { "id": "b", "text": "Cycles have no ecological importance" }, { "id": "c", "text": "The environment functions independently of natural cycles" }, { "id": "d", "text": "Carbon has no biological role" }], "correctOptionId": "a" },
+            { "id": "q15", "question": "Understanding the carbon cycle connects to human activity because:", "options": [{ "id": "a", "text": "Human actions such as burning fuel can affect the cycle's balance" }, { "id": "b", "text": "Humans have no influence on natural cycles" }, { "id": "c", "text": "The cycle exists independently of any external influence" }, { "id": "d", "text": "The carbon cycle only involves plants" }], "correctOptionId": "a" }
+          ]
+        },
+        {
+          "id": "2-2-life-cycle-organisms",
+          "title": "Life Cycle of Organisms",
+          "completed": false,
+          "learningGoals": [
+            "Describe the life cycle and economic importance of the Anopheles mosquito",
+            "Discuss the impact of the Anopheles mosquito on humans and how it can be controlled"
+          ],
+          "keyConceptSummary": "The Anopheles mosquito develops through distinct life cycle stages and is significant as a vector for malaria, affecting human health. Understanding its life cycle and impact helps in generating effective solutions for malaria control.",
+          "resources": [
+            { "type": "video", "title": "The Life Cycle of the Anopheles Mosquito", "url": "REPLACE_WITH_REAL_URL" },
+            { "type": "reading", "title": "How Malaria Spreads", "url": "#" },
+            { "type": "reading", "title": "Strategies for Controlling Malaria in Ghana", "url": "#" }
+          ],
+          "quiz": [
+            { "id": "q1", "question": "The Anopheles mosquito is significant mainly because the female is a vector for:", "options": [{ "id": "a", "text": "Plasmodium, the parasite that causes malaria" }, { "id": "b", "text": "The common cold" }, { "id": "c", "text": "Tooth decay" }, { "id": "d", "text": "No disease at all" }], "correctOptionId": "a" },
+            { "id": "q2", "question": "The Anopheles mosquito's life cycle can be observed by:", "options": [{ "id": "a", "text": "Breeding it in a glass jar and observing its stages" }, { "id": "b", "text": "Ignoring its development entirely" }, { "id": "c", "text": "Assuming it has no distinct stages" }, { "id": "d", "text": "Studying only adult mosquitoes" }], "correctOptionId": "a" },
+            { "id": "q3", "question": "Malaria is transmitted to humans mainly through:", "options": [{ "id": "a", "text": "The bite of an infected female Anopheles mosquito" }, { "id": "b", "text": "Drinking contaminated water only" }, { "id": "c", "text": "Airborne transmission" }, { "id": "d", "text": "Physical contact with another person" }], "correctOptionId": "a" },
+            { "id": "q4", "question": "One way to help control the Anopheles mosquito population is to:", "options": [{ "id": "a", "text": "Eliminate stagnant water where they breed" }, { "id": "b", "text": "Create more stagnant water sources" }, { "id": "c", "text": "Ignore breeding sites" }, { "id": "d", "text": "Encourage mosquito breeding" }], "correctOptionId": "a" },
+            { "id": "q5", "question": "Generating solutions to control malaria in Ghana requires understanding:", "options": [{ "id": "a", "text": "The mosquito's life cycle and transmission methods" }, { "id": "b", "text": "Nothing related to the mosquito" }, { "id": "c", "text": "Only unrelated diseases" }, { "id": "d", "text": "Random guesses with no scientific basis" }], "correctOptionId": "a" },
+            { "id": "q6", "question": "Discussing the impact of the Anopheles mosquito on humans helps learners to:", "options": [{ "id": "a", "text": "Understand real public health challenges" }, { "id": "b", "text": "Avoid discussing health issues" }, { "id": "c", "text": "Ignore the mosquito's importance" }, { "id": "d", "text": "Assume mosquitoes have no health impact" }], "correctOptionId": "a" },
+            { "id": "q7", "question": "The economic importance of studying the Anopheles mosquito relates to its:", "options": [{ "id": "a", "text": "Impact on healthcare costs and productivity through malaria" }, { "id": "b", "text": "Total absence of any economic effect" }, { "id": "c", "text": "Role in producing crops" }, { "id": "d", "text": "Use as a form of currency" }], "correctOptionId": "a" },
+            { "id": "q8", "question": "Observing and drawing the different stages of the mosquito's life cycle helps learners to:", "options": [{ "id": "a", "text": "Understand its stages of development" }, { "id": "b", "text": "Confuse its life cycle" }, { "id": "c", "text": "Avoid studying insects" }, { "id": "d", "text": "Ignore scientific observation" }], "correctOptionId": "a" },
+            { "id": "q9", "question": "Mosquito nets are commonly used as a method to:", "options": [{ "id": "a", "text": "Prevent mosquito bites, especially at night" }, { "id": "b", "text": "Attract more mosquitoes" }, { "id": "c", "text": "Provide no protection" }, { "id": "d", "text": "Increase malaria transmission" }], "correctOptionId": "a" },
+            { "id": "q10", "question": "The Anopheles mosquito's larval stage typically develops in:", "options": [{ "id": "a", "text": "Stagnant water" }, { "id": "b", "text": "Dry sand" }, { "id": "c", "text": "Solid rock" }, { "id": "d", "text": "The air" }], "correctOptionId": "a" },
+            { "id": "q11", "question": "Understanding the life cycle of the Anopheles mosquito supports malaria control by helping identify:", "options": [{ "id": "a", "text": "The best stage to target for effective intervention" }, { "id": "b", "text": "That intervention is impossible" }, { "id": "c", "text": "That the mosquito has no life cycle" }, { "id": "d", "text": "Random, unhelpful information" }], "correctOptionId": "a" },
+            { "id": "q12", "question": "Public health campaigns about malaria in Ghana often focus on:", "options": [{ "id": "a", "text": "Prevention, early treatment and reducing mosquito breeding" }, { "id": "b", "text": "Ignoring the disease entirely" }, { "id": "c", "text": "Increasing mosquito populations" }, { "id": "d", "text": "Avoiding public education" }], "correctOptionId": "a" },
+            { "id": "q13", "question": "Studying vector-borne diseases like malaria helps learners understand the connection between:", "options": [{ "id": "a", "text": "Insect biology and human health" }, { "id": "b", "text": "Insects and unrelated topics only" }, { "id": "c", "text": "Weather and currency" }, { "id": "d", "text": "Nothing scientifically relevant" }], "correctOptionId": "a" },
+            { "id": "q14", "question": "One reason malaria remains a public health concern in some regions is:", "options": [{ "id": "a", "text": "Continued mosquito breeding in favourable conditions" }, { "id": "b", "text": "The complete absence of mosquitoes" }, { "id": "c", "text": "No connection between mosquitoes and malaria" }, { "id": "d", "text": "Malaria not being transmissible" }], "correctOptionId": "a" },
+            { "id": "q15", "question": "Understanding the Anopheles mosquito's life cycle helps learners to appreciate that:", "options": [{ "id": "a", "text": "Scientific knowledge can inform effective disease control strategies" }, { "id": "b", "text": "Insects have no relevance to public health" }, { "id": "c", "text": "Malaria control requires no scientific understanding" }, { "id": "d", "text": "Mosquitoes have no life stages" }], "correctOptionId": "a" }
+          ]
+        },
+        {
+          "id": "2-3-crop-production",
+          "title": "Crop Production",
+          "completed": false,
+          "learningGoals": [
+            "Explore the different seed beds for planting crops in the community",
+            "Plant different types of crops on different seed beds",
+            "Compare and contrast the differences in height, size and flowering of crops grown in different seed beds"
+          ],
+          "keyConceptSummary": "Different types of seed beds are suited to different crops and planting methods, and the choice of seed bed can affect how crops grow, including their height, size and flowering. Observing and comparing these differences helps farmers make informed planting decisions.",
+          "resources": [
+            { "type": "video", "title": "Types of Seed Beds for Planting", "url": "REPLACE_WITH_REAL_URL" },
+            { "type": "reading", "title": "Matching Crops to the Right Seed Bed", "url": "#" },
+            { "type": "reading", "title": "How Seed Beds Affect Crop Growth", "url": "#" }
+          ],
+          "quiz": [
+            { "id": "q1", "question": "A seed bed is best described as:", "options": [{ "id": "a", "text": "A prepared area of soil used for planting seeds or seedlings" }, { "id": "b", "text": "A place with no connection to farming" }, { "id": "c", "text": "A storage container for tools" }, { "id": "d", "text": "A type of animal shelter" }], "correctOptionId": "a" },
+            { "id": "q2", "question": "Different types of seed beds are generally suited to:", "options": [{ "id": "a", "text": "Different crops and planting methods" }, { "id": "b", "text": "Only one type of crop, regardless of conditions" }, { "id": "c", "text": "No particular crop type" }, { "id": "d", "text": "Livestock only, not crops" }], "correctOptionId": "a" },
+            { "id": "q3", "question": "Plant parts commonly used for planting on seed beds include:", "options": [{ "id": "a", "text": "Seeds, seedlings and cuttings" }, { "id": "b", "text": "Only fully grown plants" }, { "id": "c", "text": "Rocks and sand" }, { "id": "d", "text": "Nothing from the plant itself" }], "correctOptionId": "a" },
+            { "id": "q4", "question": "Comparing the height and size of crops grown in different seed beds helps farmers to:", "options": [{ "id": "a", "text": "Identify which seed bed supports better growth for a crop" }, { "id": "b", "text": "Avoid understanding crop growth" }, { "id": "c", "text": "Ignore differences between seed beds" }, { "id": "d", "text": "Assume all seed beds are identical" }], "correctOptionId": "a" },
+            { "id": "q5", "question": "Recording the number of flowers and fruits on crops grown in different seed beds is useful because it:", "options": [{ "id": "a", "text": "Provides measurable evidence for comparing plant growth" }, { "id": "b", "text": "Has no scientific value" }, { "id": "c", "text": "Confuses the comparison" }, { "id": "d", "text": "Only applies to animals" }], "correctOptionId": "a" },
+            { "id": "q6", "question": "One factor that can cause differences in the growth of crops in different seed beds is:", "options": [{ "id": "a", "text": "Differences in soil composition, moisture and drainage" }, { "id": "b", "text": "The colour of the seed bed" }, { "id": "c", "text": "The name given to the seed bed" }, { "id": "d", "text": "No factor at all; growth is always identical" }], "correctOptionId": "a" },
+            { "id": "q7", "question": "Using tables and graphs to discuss differences in crop growth across seed beds helps learners to:", "options": [{ "id": "a", "text": "Organise and interpret data clearly" }, { "id": "b", "text": "Avoid interpreting information" }, { "id": "c", "text": "Confuse the presentation of results" }, { "id": "d", "text": "Ignore data analysis skills" }], "astatus_removed": true, "correctOptionId": "a" },
+            { "id": "q8", "question": "Observing the practice of planting different crops in different seed beds in the community helps learners to:", "options": [{ "id": "a", "text": "Connect classroom learning with real agricultural practice" }, { "id": "b", "text": "Avoid engaging with local practices" }, { "id": "c", "text": "Ignore practical farming methods" }, { "id": "d", "text": "Rely only on theory" }], "correctOptionId": "a" },
+            { "id": "q9", "question": "Selecting appropriate plant parts to plant in different seed beds is an example of applying the skill of:", "options": [{ "id": "a", "text": "Designing an experiment or activity" }, { "id": "b", "text": "Ignoring plant biology" }, { "id": "c", "text": "Avoiding planning" }, { "id": "d", "text": "Random selection with no criteria" }], "correctOptionId": "a" },
+            { "id": "q10", "question": "Presenting reasons for differences in crop growth across seed beds helps learners to:", "options": [{ "id": "a", "text": "Communicate scientific findings effectively" }, { "id": "b", "text": "Avoid presenting their findings" }, { "id": "c", "text": "Ignore communication skills" }, { "id": "d", "text": "Confuse their audience" }], "correctOptionId": "a" },
+            { "id": "q11", "question": "Measuring the height and size of plants over time in different seed beds is an example of the science process skill of:", "options": [{ "id": "a", "text": "Measuring" }, { "id": "b", "text": "Predicting" }, { "id": "c", "text": "Classifying" }, { "id": "d", "text": "Generalising" }], "correctOptionId": "a" },
+            { "id": "q12", "question": "Understanding differences in crops grown on different seed beds can help a farmer to:", "options": [{ "id": "a", "text": "Choose the best method for a particular crop" }, { "id": "b", "text": "Randomly select seed beds with no reasoning" }, { "id": "c", "text": "Ignore crop health entirely" }, { "id": "d", "text": "Avoid improving farming outcomes" }], "correctOptionId": "a" },
+            { "id": "q13", "question": "A raised seed bed is sometimes used mainly to help with:", "options": [{ "id": "a", "text": "Drainage in areas where water can collect" }, { "id": "b", "text": "Trapping all water permanently" }, { "id": "c", "text": "Preventing any crop growth" }, { "id": "d", "text": "Eliminating the need for soil" }], "correctOptionId": "a" },
+            { "id": "q14", "question": "Discussing similarities among different seed beds in the community helps learners to:", "options": [{ "id": "a", "text": "Recognise shared farming practices" }, { "id": "b", "text": "Avoid recognising any common ground" }, { "id": "c", "text": "Ignore local agricultural knowledge" }, { "id": "d", "text": "Assume no similarities exist" }], "correctOptionId": "a" },
+            { "id": "q15", "question": "Understanding how seed beds affect crop growth helps learners to appreciate that:", "options": [{ "id": "a", "text": "Careful planning improves agricultural outcomes" }, { "id": "b", "text": "Planting method has no effect on crop growth" }, { "id": "c", "text": "All planting conditions produce identical results" }, { "id": "d", "text": "Farming requires no scientific understanding" }], "correctOptionId": "a" }
+          ]
+        },
+        {
+          "id": "2-4-animal-production",
+          "title": "Animal Production",
+          "completed": false,
+          "learningGoals": [
+            "Compare and contrast the different types of feed for different types of animals",
+            "Explain the importance of water and animal feed to the growth of animals"
+          ],
+          "keyConceptSummary": "Different types of animals require specific kinds of feed with appropriate nutrients, and adequate water is essential to their growth and reproduction. Understanding the right feed and water needs for animals supports healthier and more productive livestock.",
+          "resources": [
+            { "type": "video", "title": "Feeding Different Types of Farm Animals", "url": "REPLACE_WITH_REAL_URL" },
+            { "type": "reading", "title": "Why Water Matters for Animal Growth", "url": "#" },
+            { "type": "reading", "title": "Matching Nutrients to Animal Needs", "url": "#" }
+          ],
+          "quiz": [
+            { "id": "q1", "question": "Different types of animals generally require:", "options": [{ "id": "a", "text": "Different types and amounts of feed" }, { "id": "b", "text": "The exact same feed regardless of species" }, { "id": "c", "text": "No feed at all" }, { "id": "d", "text": "Only water, with no solid feed" }], "correctOptionId": "a" },
+            { "id": "q2", "question": "Feed labels or packages typically indicate:", "options": [{ "id": "a", "text": "The proportions of nutrients in the feed" }, { "id": "b", "text": "Nothing useful about the feed" }, { "id": "c", "text": "Only the price of the feed" }, { "id": "d", "text": "The colour of the feed only" }], "correctOptionId": "a" },
+            { "id": "q3", "question": "Inadequate water supply to animals can result in:", "options": [{ "id": "a", "text": "Poor growth and health problems" }, { "id": "b", "text": "Improved growth automatically" }, { "id": "c", "text": "No effect on the animal" }, { "id": "d", "text": "Faster reproduction with no downside" }], "correctOptionId": "a" },
+            { "id": "q4", "question": "Matching feed types with different animals helps farmers to:", "options": [{ "id": "a", "text": "Provide appropriate nutrition for each type of animal" }, { "id": "b", "text": "Avoid understanding animal needs" }, { "id": "c", "text": "Assume all animals eat the same food" }, { "id": "d", "text": "Ignore nutrition entirely" }], "correctOptionId": "a" },
+            { "id": "q5", "question": "Water is important to animal growth mainly because it:", "options": [{ "id": "a", "text": "Supports essential biological processes in the body" }, { "id": "b", "text": "Has no biological role" }, { "id": "c", "text": "Is only needed for drinking pleasure" }, { "id": "d", "text": "Can be entirely replaced by feed" }], "correctOptionId": "a" },
+            { "id": "q6", "question": "Predicting what happens to animals without adequate water helps learners to:", "options": [{ "id": "a", "text": "Understand the consequences of poor animal care" }, { "id": "b", "text": "Avoid considering animal welfare" }, { "id": "c", "text": "Ignore basic animal needs" }, { "id": "d", "text": "Assume water has no importance" }], "correctOptionId": "a" },
+            { "id": "q7", "question": "Discussing the types of nutrients found in animal feed helps learners to:", "options": [{ "id": "a", "text": "Understand what supports healthy animal growth" }, { "id": "b", "text": "Avoid studying animal nutrition" }, { "id": "c", "text": "Ignore feed composition" }, { "id": "d", "text": "Assume nutrients are irrelevant to animals" }], "correctOptionId": "a" },
+            { "id": "q8", "question": "Selecting appropriate feed for an animal based on nutrient proportions is an example of applying:", "options": [{ "id": "a", "text": "Critical thinking and problem solving" }, { "id": "b", "text": "Random guessing" }, { "id": "c", "text": "No particular reasoning skill" }, { "id": "d", "text": "Avoidance of decision-making" }], "correctOptionId": "a" },
+            { "id": "q9", "question": "Farmers who provide adequate water and feed to their animals are more likely to see:", "options": [{ "id": "a", "text": "Healthier animals with better productivity" }, { "id": "b", "text": "No difference in outcomes" }, { "id": "c", "text": "Weaker and less productive animals" }, { "id": "d", "text": "Animals that reject all care" }], "correctOptionId": "a" },
+            { "id": "q10", "question": "Discussing the usefulness of water and feed for reproduction in animals helps learners to:", "options": [{ "id": "a", "text": "Understand their role in supporting healthy animal populations" }, { "id": "b", "text": "Assume reproduction is unaffected by care" }, { "id": "c", "text": "Ignore animal husbandry practices" }, { "id": "d", "text": "Avoid learning about livestock care" }], "correctOptionId": "a" },
+            { "id": "q11", "question": "Feed nutrient content generally varies because:", "options": [{ "id": "a", "text": "Different animals have different nutritional needs" }, { "id": "b", "text": "All feeds are nutritionally identical" }, { "id": "c", "text": "Nutrient content has no relevance to animals" }, { "id": "d", "text": "Feed composition never changes" }], "correctOptionId": "a" },
+            { "id": "q12", "question": "Comparing and contrasting different types of animal feed is an example of the skill of:", "options": [{ "id": "a", "text": "Comparing" }, { "id": "b", "text": "Ignoring" }, { "id": "c", "text": "Predicting only" }, { "id": "d", "text": "Recording only" }], "correctOptionId": "a" },
+            { "id": "q13", "question": "A likely consequence of feeding an animal an inappropriate type of feed is:", "options": [{ "id": "a", "text": "Poor growth or health issues" }, { "id": "b", "text": "Guaranteed improved health" }, { "id": "c", "text": "No consequence at all" }, { "id": "d", "text": "Faster and healthier growth always" }], "correctOptionId": "a" },
+            { "id": "q14", "question": "Understanding the nutritional needs of animals supports commercial animal production by helping to:", "options": [{ "id": "a", "text": "Improve productivity and product quality" }, { "id": "b", "text": "Reduce productivity intentionally" }, { "id": "c", "text": "Have no economic benefit" }, { "id": "d", "text": "Avoid feeding animals altogether" }], "correctOptionId": "a" },
+            { "id": "q15", "question": "Studying feed and water needs of animals helps learners to appreciate that:", "options": [{ "id": "a", "text": "Proper animal care depends on meeting specific biological needs" }, { "id": "b", "text": "All animals can be cared for identically" }, { "id": "c", "text": "Animal care has no scientific basis" }, { "id": "d", "text": "Feed and water have no impact on animal health" }], "correctOptionId": "a" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "strand-3",
+      "title": "Systems",
+      "subtopics": [
+        {
+          "id": "3-1-human-body-system",
+          "title": "The Human Body System",
+          "completed": false,
+          "learningGoals": [
+            "Identify parts of a mammalian tooth and explain the functions of each part",
+            "Discuss the functions of the different types of teeth: incisors, canines, premolars and molars",
+            "Explain the causes and prevention of tooth and gum decay"
+          ],
+          "keyConceptSummary": "A mammalian tooth is made up of parts such as the crown, neck and root, each with specific functions, while different types of teeth serve different roles in feeding. Understanding the causes of tooth and gum decay helps in practising proper oral hygiene.",
+          "resources": [
+            { "type": "video", "title": "Parts and Types of Teeth", "url": "REPLACE_WITH_REAL_URL" },
+            { "type": "reading", "title": "Preventing Tooth and Gum Decay", "url": "#" },
+            { "type": "reading", "title": "How to Properly Clean Your Teeth", "url": "#" }
+          ],
+          "quiz": [
+            { "id": "q1", "question": "The crown of a tooth refers to:", "options": [{ "id": "a", "text": "The visible part above the gum line" }, { "id": "b", "text": "The part hidden entirely in the jawbone" }, { "id": "c", "text": "A separate organ unrelated to teeth" }, { "id": "d", "text": "The root only" }], "correctOptionId": "a" },
+            { "id": "q2", "question": "The root of a tooth mainly functions to:", "options": [{ "id": "a", "text": "Anchor the tooth in the jawbone" }, { "id": "b", "text": "Chew food directly" }, { "id": "c", "text": "Produce saliva" }, { "id": "d", "text": "Have no function at all" }], "correctOptionId": "a" },
+            { "id": "q3", "question": "Incisors are mainly used for:", "options": [{ "id": "a", "text": "Cutting food" }, { "id": "b", "text": "Grinding food only" }, { "id": "c", "text": "Tearing food exclusively" }, { "id": "d", "text": "Nothing related to feeding" }], "correctOptionId": "a" },
+            { "id": "q4", "question": "Canines are mainly used for:", "options": [{ "id": "a", "text": "Tearing food" }, { "id": "b", "text": "Cutting only" }, { "id": "c", "text": "Grinding exclusively" }, { "id": "d", "text": "Producing saliva" }], "correctOptionId": "a" },
+            { "id": "q5", "question": "Molars are mainly used for:", "options": [{ "id": "a", "text": "Grinding food" }, { "id": "b", "text": "Cutting food only" }, { "id": "c", "text": "Tearing food exclusively" }, { "id": "d", "text": "Producing enamel" }], "correctOptionId": "a" },
+            { "id": "q6", "question": "A common cause of tooth decay is:", "options": [{ "id": "a", "text": "Build-up of plaque from food particles and bacteria" }, { "id": "b", "text": "Drinking clean water" }, { "id": "c", "text": "Brushing regularly" }, { "id": "d", "text": "Eating fruits and vegetables" }], "correctOptionId": "a" },
+            { "id": "q7", "question": "Proper cleaning of the teeth generally helps to:", "options": [{ "id": "a", "text": "Prevent plaque build-up and decay" }, { "id": "b", "text": "Increase the risk of decay" }, { "id": "c", "text": "Have no effect on oral health" }, { "id": "d", "text": "Damage the teeth" }], "correctOptionId": "a" },
+            { "id": "q8", "question": "Gum disease can be linked to:", "options": [{ "id": "a", "text": "Poor oral hygiene over time" }, { "id": "b", "text": "Excellent, consistent oral hygiene" }, { "id": "c", "text": "Drinking water regularly" }, { "id": "d", "text": "No identifiable cause" }], "correctOptionId": "a" },
+            { "id": "q9", "question": "Premolars generally function to:", "options": [{ "id": "a", "text": "Help crush and grind food" }, { "id": "b", "text": "Cut food exclusively" }, { "id": "c", "text": "Serve no chewing function" }, { "id": "d", "text": "Produce saliva only" }], "correctOptionId": "a" },
+            { "id": "q10", "question": "Labelling the parts of a mammalian tooth helps learners to:", "options": [{ "id": "a", "text": "Understand its structure and function" }, { "id": "b", "text": "Avoid learning tooth anatomy" }, { "id": "c", "text": "Confuse different tooth types" }, { "id": "d", "text": "Ignore dental health" }], "correctOptionId": "a" },
+            { "id": "q11", "question": "Demonstrating proper ways of cleaning the teeth helps learners to:", "options": [{ "id": "a", "text": "Practise habits that support long-term oral health" }, { "id": "b", "text": "Encourage poor dental hygiene" }, { "id": "c", "text": "Avoid caring for their teeth" }, { "id": "d", "text": "Ignore dental care practices" }], "correctOptionId": "a" },
+            { "id": "q12", "question": "The neck of a tooth is located:", "options": [{ "id": "a", "text": "Between the crown and the root, near the gum line" }, { "id": "b", "text": "At the very tip of the crown" }, { "id": "c", "text": "Only inside the jawbone" }, { "id": "d", "text": "Outside the mouth entirely" }], "correctOptionId": "a" },
+            { "id": "q13", "question": "Discussing the functions of different types of human teeth helps learners to:", "options": [{ "id": "a", "text": "Understand how each tooth type supports feeding" }, { "id": "b", "text": "Assume all teeth serve the same purpose" }, { "id": "c", "text": "Ignore the role of different teeth" }, { "id": "d", "text": "Avoid understanding digestion" }], "correctOptionId": "a" },
+            { "id": "q14", "question": "Explaining causes and prevention of tooth decay to others helps to:", "options": [{ "id": "a", "text": "Promote awareness of good oral hygiene practices" }, { "id": "b", "text": "Discourage healthy habits" }, { "id": "c", "text": "Have no impact on community health" }, { "id": "d", "text": "Spread misinformation" }], "correctOptionId": "a" },
+            { "id": "q15", "question": "Understanding the structure and function of teeth helps learners to appreciate that:", "options": [{ "id": "a", "text": "Oral health is connected to good daily habits" }, { "id": "b", "text": "Teeth require no maintenance" }, { "id": "c", "text": "Tooth decay cannot be prevented" }, { "id": "d", "text": "All teeth are structurally identical" }], "correctOptionId": "a" }
+          ]
+        },
+        {
+          "id": "3-2-solar-system",
+          "title": "The Solar System",
+          "completed": false,
+          "learningGoals": [
+            "Identify the outer planets of the solar system and describe their properties"
+          ],
+          "keyConceptSummary": "The outer planets of the solar system — Jupiter, Saturn, Uranus and Neptune — each have distinct properties that differ from the inner planets, including conditions unsuitable for life as we know it.",
+          "resources": [
+            { "type": "video", "title": "Exploring the Outer Planets", "url": "REPLACE_WITH_REAL_URL" },
+            { "type": "reading", "title": "Jupiter, Saturn, Uranus and Neptune Compared", "url": "#" },
+            { "type": "reading", "title": "Why There Is No Life on the Outer Planets", "url": "#" }
+          ],
+          "quiz": [
+            { "id": "q1", "question": "The outer planets of the solar system include:", "options": [{ "id": "a", "text": "Jupiter, Saturn, Uranus and Neptune" }, { "id": "b", "text": "Only Mercury and Venus" }, { "id": "c", "text": "The sun and the moon" }, { "id": "d", "text": "Earth and Mars only" }], "correctOptionId": "a" },
+            { "id": "q2", "question": "Jupiter is notable among the planets for being:", "options": [{ "id": "a", "text": "The largest planet in the solar system" }, { "id": "b", "text": "The smallest planet" }, { "id": "c", "text": "Closest to the sun" }, { "id": "d", "text": "Outside the solar system" }], "correctOptionId": "a" },
+            { "id": "q3", "question": "Saturn is best known for having:", "options": [{ "id": "a", "text": "Prominent rings" }, { "id": "b", "text": "No moons at all" }, { "id": "c", "text": "The hottest surface of all planets" }, { "id": "d", "text": "A location closest to the sun" }], "correctOptionId": "a" },
+            { "id": "q4", "question": "Uranus and Neptune are often grouped together because they:", "options": [{ "id": "a", "text": "Share similar icy compositions and are both outer planets" }, { "id": "b", "text": "Are the two closest planets to the sun" }, { "id": "c", "text": "Have no atmosphere at all" }, { "id": "d", "text": "Are located inside the asteroid belt only" }], "correctOptionId": "a" },
+            { "id": "q5", "question": "Life as we know it does not exist on the outer planets mainly because of:", "options": [{ "id": "a", "text": "Extreme temperatures and unsuitable atmospheric conditions" }, { "id": "b", "text": "Their closeness to the sun" }, { "id": "c", "text": "Their small size" }, { "id": "d", "text": "A complete lack of gravity" }], "correctOptionId": "a" },
+            { "id": "q6", "question": "Constructing a model of the outer solar system helps learners to:", "options": [{ "id": "a", "text": "Visualise the relative arrangement of the outer planets" }, { "id": "b", "text": "Avoid understanding planetary structure" }, { "id": "c", "text": "Confuse inner and outer planets" }, { "id": "d", "text": "Ignore scientific modelling" }], "correctOptionId": "a" },
+            { "id": "q7", "question": "Describing the composition of the solar system using charts and digital content helps learners to:", "options": [{ "id": "a", "text": "Understand its structure using multiple resources" }, { "id": "b", "text": "Avoid using visual aids" }, { "id": "c", "text": "Rely only on memory with no evidence" }, { "id": "d", "text": "Ignore available information sources" }], "correctOptionId": "a" },
+            { "id": "q8", "question": "Compared to the inner planets, the outer planets are generally:", "options": [{ "id": "a", "text": "Larger and located farther from the sun" }, { "id": "b", "text": "Smaller and located closer to the sun" }, { "id": "c", "text": "Identical in every property" }, { "id": "d", "text": "Non-existent" }], "correctOptionId": "a" },
+            { "id": "q9", "question": "Discussing properties peculiar to each outer planet helps learners to:", "options": [{ "id": "a", "text": "Recognise the diversity within the solar system" }, { "id": "b", "text": "Assume all planets are identical" }, { "id": "c", "text": "Avoid studying planetary science" }, { "id": "d", "text": "Ignore planetary differences" }], "correctOptionId": "a" },
+            { "id": "q10", "question": "Researching why there is no life on Jupiter, Saturn, Uranus and Neptune helps learners to:", "options": [{ "id": "a", "text": "Apply scientific reasoning to real astronomical questions" }, { "id": "b", "text": "Avoid using evidence-based reasoning" }, { "id": "c", "text": "Assume all planets can support life" }, { "id": "d", "text": "Ignore planetary conditions" }], "correctOptionId": "a" },
+            { "id": "q11", "question": "Displaying a constructed model of the outer solar system for discussion helps learners to:", "options": [{ "id": "a", "text": "Communicate their understanding to others" }, { "id": "b", "text": "Avoid sharing their learning" }, { "id": "c", "text": "Confuse their audience" }, { "id": "d", "text": "Ignore presentation skills" }], "correctOptionId": "a" },
+            { "id": "q12", "question": "The order of the outer planets from closest to farthest from the sun is:", "options": [{ "id": "a", "text": "Jupiter, Saturn, Uranus, Neptune" }, { "id": "b", "text": "Neptune, Uranus, Saturn, Jupiter" }, { "id": "c", "text": "Saturn, Jupiter, Neptune, Uranus" }, { "id": "d", "text": "Uranus, Jupiter, Saturn, Neptune" }], "correctOptionId": "a" },
+            { "id": "q13", "question": "Drawing the planets that form the outer solar system helps learners to:", "options": [{ "id": "a", "text": "Reinforce their identification and relative positions" }, { "id": "b", "text": "Avoid learning planetary order" }, { "id": "c", "text": "Confuse planetary identification" }, { "id": "d", "text": "Ignore visual representation" }], "correctOptionId": "a" },
+            { "id": "q14", "question": "Understanding the outer planets contributes to a fuller picture of the solar system by:", "options": [{ "id": "a", "text": "Showing the range of conditions across different planets" }, { "id": "b", "text": "Suggesting all planets have identical conditions" }, { "id": "c", "text": "Focusing only on Earth" }, { "id": "d", "text": "Ignoring planetary diversity" }], "correctOptionId": "a" },
+            { "id": "q15", "question": "Studying the outer planets helps learners to appreciate that:", "options": [{ "id": "a", "text": "The solar system contains a wide variety of planetary environments" }, { "id": "b", "text": "All planets are suitable for life" }, { "id": "c", "text": "The solar system has only inner planets" }, { "id": "d", "text": "Outer planets have no scientific interest" }], "correctOptionId": "a" }
+          ]
+        },
+        {
+          "id": "3-3-ecosystem",
+          "title": "Ecosystem",
+          "completed": false,
+          "learningGoals": [
+            "Explore the feeding relationships within an ecosystem, including producers, consumers, food chains and food webs"
+          ],
+          "keyConceptSummary": "Energy from the sun flows through an ecosystem via feeding relationships involving producers, primary consumers and secondary consumers, forming food chains and food webs. Understanding these relationships shows how energy and nutrients move through living systems.",
+          "resources": [
+            { "type": "video", "title": "Food Chains and Food Webs Explained", "url": "REPLACE_WITH_REAL_URL" },
+            { "type": "reading", "title": "Producers, Consumers and Energy Flow", "url": "#" },
+            { "type": "reading", "title": "Why the Sun Matters to Every Ecosystem", "url": "#" }
+          ],
+          "quiz": [
+            { "id": "q1", "question": "A producer in an ecosystem is best described as an organism that:", "options": [{ "id": "a", "text": "Makes its own food, usually through photosynthesis" }, { "id": "b", "text": "Feeds only on other animals" }, { "id": "c", "text": "Cannot survive without eating meat" }, { "id": "d", "text": "Produces no energy at all" }], "correctOptionId": "a" },
+            { "id": "q2", "question": "A primary consumer is best described as an organism that:", "options": [{ "id": "a", "text": "Feeds directly on producers" }, { "id": "b", "text": "Feeds only on other consumers" }, { "id": "c", "text": "Makes its own food" }, { "id": "d", "text": "Does not require any energy source" }], "correctOptionId": "a" },
+            { "id": "q3", "question": "A secondary consumer is best described as an organism that:", "options": [{ "id": "a", "text": "Feeds on primary consumers" }, { "id": "b", "text": "Feeds only on sunlight" }, { "id": "c", "text": "Makes its own food through photosynthesis" }, { "id": "d", "text": "Has no role in the food chain" }], "correctOptionId": "a" },
+            { "id": "q4", "question": "A food chain is best described as:", "options": [{ "id": "a", "text": "A simple sequence showing how energy passes from one organism to another" }, { "id": "b", "text": "A random collection of unrelated organisms" }, { "id": "c", "text": "A structure with no connection to feeding" }, { "id": "d", "text": "A single organism acting alone" }], "correctOptionId": "a" },
+            { "id": "q5", "question": "A food web is best described as:", "options": [{ "id": "a", "text": "A network of interconnected food chains in an ecosystem" }, { "id": "b", "text": "A single food chain with no connections" }, { "id": "c", "text": "A term unrelated to feeding relationships" }, { "id": "d", "text": "A description of only producers" }], "correctOptionId": "a" },
+            { "id": "q6", "question": "The sun is important to almost all ecosystems because it:", "options": [{ "id": "a", "text": "Provides the energy that producers use to make food" }, { "id": "b", "text": "Has no role in energy flow" }, { "id": "c", "text": "Only affects the weather" }, { "id": "d", "text": "Is unrelated to living organisms" }], "correctOptionId": "a" },
+            { "id": "q7", "question": "Discussing how life on earth would be without the sun helps learners to:", "options": [{ "id": "a", "text": "Appreciate the sun's central role in supporting ecosystems" }, { "id": "b", "text": "Assume the sun has no ecological importance" }, { "id": "c", "text": "Ignore energy flow in nature" }, { "id": "d", "text": "Avoid studying ecosystems" }], "correctOptionId": "a" },
+            { "id": "q8", "question": "Illustrating energy flow through a food chain with a diagram helps learners to:", "options": [{ "id": "a", "text": "Visualise how energy passes between organisms" }, { "id": "b", "text": "Confuse feeding relationships" }, { "id": "c", "text": "Avoid understanding ecosystems" }, { "id": "d", "text": "Ignore energy transfer" }], "correctOptionId": "a" },
+            { "id": "q9", "question": "In a food chain, energy generally flows from:", "options": [{ "id": "a", "text": "Producers to primary consumers to secondary consumers" }, { "id": "b", "text": "Secondary consumers to the sun" }, { "id": "c", "text": "Nowhere; energy does not flow in ecosystems" }, { "id": "d", "text": "Consumers to producers only" }], "correctOptionId": "a" },
+            { "id": "q10", "question": "A food web gives a more complete picture of feeding relationships than a single food chain because it:", "options": [{ "id": "a", "text": "Shows multiple interconnected feeding pathways" }, { "id": "b", "text": "Shows only one organism" }, { "id": "c", "text": "Ignores energy transfer" }, { "id": "d", "text": "Has no connection to real ecosystems" }], "correctOptionId": "a" },
+            { "id": "q11", "question": "Explaining the terms producer, primary consumer and secondary consumer helps learners to:", "options": [{ "id": "a", "text": "Build a shared vocabulary for discussing ecosystems" }, { "id": "b", "text": "Avoid using scientific terms" }, { "id": "c", "text": "Confuse ecological roles" }, { "id": "d", "text": "Ignore feeding relationships" }], "correctOptionId": "a" },
+            { "id": "q12", "question": "Without producers, an ecosystem's food chain would generally:", "options": [{ "id": "a", "text": "Collapse due to a lack of an initial energy source" }, { "id": "b", "text": "Continue unaffected" }, { "id": "c", "text": "Improve significantly" }, { "id": "d", "text": "Have no change at all" }], "correctOptionId": "a" },
+            { "id": "q13", "question": "Understanding feeding relationships within an ecosystem helps learners to appreciate that:", "options": [{ "id": "a", "text": "Organisms are interconnected and dependent on one another" }, { "id": "b", "text": "Organisms exist independently of each other" }, { "id": "c", "text": "Feeding relationships have no ecological importance" }, { "id": "d", "text": "Only producers matter in an ecosystem" }], "correctOptionId": "a" },
+            { "id": "q14", "question": "Identifying important criteria to evaluate feeding relationships in an ecosystem is an example of the competency of:", "options": [{ "id": "a", "text": "Critical thinking and problem solving" }, { "id": "b", "text": "Physical fitness" }, { "id": "c", "text": "Cultural identity" }, { "id": "d", "text": "None of the above" }], "correctOptionId": "a" },
+            { "id": "q15", "question": "Studying food chains and food webs helps learners to appreciate that:", "options": [{ "id": "a", "text": "Disruption to one part of an ecosystem can affect the whole system" }, { "id": "b", "text": "Ecosystems function independently of their parts" }, { "id": "c", "text": "Feeding relationships have no wider effect" }, { "id": "d", "text": "Only the largest organisms matter in an ecosystem" }], "correctOptionId": "a" }
+          ]
+        },
+        {
+          "id": "3-4-farming-systems",
+          "title": "Farming Systems",
+          "completed": false,
+          "learningGoals": [
+            "Identify and describe the types of crops, animals and land combinations for different farming systems",
+            "Discuss the usefulness of different crops and animals involved in different farming systems"
+          ],
+          "keyConceptSummary": "Different farming systems combine specific types of crops, animals and land use, and each component contributes to the sustainability and productivity of the system. Understanding these combinations helps learners appreciate the advantages and disadvantages of each farming system.",
+          "resources": [
+            { "type": "video", "title": "Crop, Animal and Land Combinations in Farming", "url": "REPLACE_WITH_REAL_URL" },
+            { "type": "reading", "title": "The Advantages and Disadvantages of Farming Systems", "url": "#" },
+            { "type": "reading", "title": "How Crops and Animals Support Each Other on a Farm", "url": "#" }
+          ],
+          "quiz": [
+            { "id": "q1", "question": "In a mixed farming system, crops and animals are typically:", "options": [{ "id": "a", "text": "Combined on the same farm to support each other" }, { "id": "b", "text": "Never combined under any circumstances" }, { "id": "c", "text": "Kept in entirely separate countries" }, { "id": "d", "text": "Unrelated to land use" }], "correctOptionId": "a" },
+            { "id": "q2", "question": "Animal waste on a mixed farm can be useful because it:", "options": [{ "id": "a", "text": "Can be used as manure for crops" }, { "id": "b", "text": "Has no agricultural use" }, { "id": "c", "text": "Damages all crops" }, { "id": "d", "text": "Cannot be applied to soil" }], "correctOptionId": "a" },
+            { "id": "q3", "question": "Describing land combinations in a farming system involves considering:", "options": [{ "id": "a", "text": "How land is allocated among crops, animals and rest periods" }, { "id": "b", "text": "Only the size of the land" }, { "id": "c", "text": "Nothing related to land use" }, { "id": "d", "text": "The colour of the soil only" }], "correctOptionId": "a" },
+            { "id": "q4", "question": "One advantage of combining crops and animals on the same farm is:", "options": [{ "id": "a", "text": "Waste from animals can support crop growth" }, { "id": "b", "text": "It always reduces farm productivity" }, { "id": "c", "text": "It eliminates the need for land" }, { "id": "d", "text": "It has no agricultural benefit" }], "correctOptionId": "a" },
+            { "id": "q5", "question": "A disadvantage that may be associated with certain farming systems is:", "options": [{ "id": "a", "text": "Higher initial costs of setting up the system" }, { "id": "b", "text": "Complete elimination of all farming costs" }, { "id": "c", "text": "No downsides of any kind" }, { "id": "d", "text": "Guaranteed profit with no risk" }], "correctOptionId": "a" },
+            { "id": "q6", "question": "Discussing how components of a farming system contribute to each other helps learners to:", "options": [{ "id": "a", "text": "Understand the interdependence within farming systems" }, { "id": "b", "text": "Assume components work in isolation" }, { "id": "c", "text": "Ignore agricultural relationships" }, { "id": "d", "text": "Avoid studying farming systems" }], "correctOptionId": "a" },
+            { "id": "q7", "question": "Describing types of crops, animals and land combinations in the community helps learners to:", "options": [{ "id": "a", "text": "Connect scientific concepts to local agricultural practices" }, { "id": "b", "text": "Avoid engaging with their community" }, { "id": "c", "text": "Ignore local farming knowledge" }, { "id": "d", "text": "Rely only on textbook examples" }], "correctOptionId": "a" },
+            { "id": "q8", "question": "The sustainability of a farming system often depends on:", "options": [{ "id": "a", "text": "How well its components support one another over time" }, { "id": "b", "text": "Ignoring the needs of crops and animals" }, { "id": "c", "text": "Using land without any planning" }, { "id": "d", "text": "Avoiding all forms of maintenance" }], "correctOptionId": "a" },
+            { "id": "q9", "question": "Writing down the contributions of crops and animals to a farming system's sustainability helps learners to:", "options": [{ "id": "a", "text": "Document and analyse agricultural relationships" }, { "id": "b", "text": "Avoid recording useful information" }, { "id": "c", "text": "Confuse crop and animal roles" }, { "id": "d", "text": "Ignore sustainability concepts" }], "correctOptionId": "a" },
+            { "id": "q10", "question": "Discussing advantages and disadvantages of different farming systems helps learners to:", "options": [{ "id": "a", "text": "Critically evaluate agricultural choices" }, { "id": "b", "text": "Accept one system without question" }, { "id": "c", "text": "Avoid weighing different viewpoints" }, { "id": "d", "text": "Ignore agricultural decision-making" }], "correctOptionId": "a" },
+            { "id": "q11", "question": "The specific crops chosen for a farming system often depend on:", "options": [{ "id": "a", "text": "Local soil, climate and market needs" }, { "id": "b", "text": "Random selection only" }, { "id": "c", "text": "No identifiable factors" }, { "id": "d", "text": "Foreign decisions exclusively" }], "correctOptionId": "a" },
+            { "id": "q12", "question": "Comparing crop and animal combinations across different farming systems helps learners to:", "options": [{ "id": "a", "text": "See how different approaches suit different needs" }, { "id": "b", "text": "Assume all systems are identical" }, { "id": "c", "text": "Ignore agricultural diversity" }, { "id": "d", "text": "Avoid studying different systems" }], "correctOptionId": "a" },
+            { "id": "q13", "question": "Understanding land combinations in farming systems is important because land:", "options": [{ "id": "a", "text": "Is a limited resource that must be managed carefully" }, { "id": "b", "text": "Is unlimited and requires no planning" }, { "id": "c", "text": "Has no role in agricultural productivity" }, { "id": "d", "text": "Cannot be shared among crops and animals" }], "correctOptionId": "a" },
+            { "id": "q14", "question": "A key reason for studying different farming systems is to help farmers:", "options": [{ "id": "a", "text": "Choose systems suited to their resources and goals" }, { "id": "b", "text": "Use the same system regardless of context" }, { "id": "c", "text": "Ignore productivity and sustainability" }, { "id": "d", "text": "Avoid using scientific reasoning in farming" }], "correctOptionId": "a" },
+            { "id": "q15", "question": "Understanding crop, animal and land combinations in farming systems helps learners to appreciate that:", "options": [{ "id": "a", "text": "Effective agriculture depends on careful combination of resources" }, { "id": "b", "text": "Farming success has no connection to planning" }, { "id": "c", "text": "Crops and animals have no relationship on a farm" }, { "id": "d", "text": "Land use has no impact on farming outcomes" }], "correctOptionId": "a" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "strand-4",
+      "title": "Forces and Energy",
+      "subtopics": [
+        {
+          "id": "4-1-energy",
+          "title": "Energy",
+          "completed": false,
+          "learningGoals": [
+            "Describe energy conversion and discuss its importance",
+            "Describe renewable and non-renewable forms of energy and how to manage renewable sources sustainably",
+            "Discuss the differences and the relationship between heat and temperature"
+          ],
+          "keyConceptSummary": "Energy can be converted from one form to another, and understanding this process supports better use of resources such as renewable and non-renewable energy sources. Heat and temperature are related but distinct concepts, both important to understanding energy in the environment.",
+          "resources": [
+            { "type": "video", "title": "Renewable vs Non-Renewable Energy", "url": "REPLACE_WITH_REAL_URL" },
+            { "type": "reading", "title": "Heat vs Temperature: What's the Difference?", "url": "#" },
+            { "type": "reading", "title": "Managing Renewable Energy Sources Sustainably", "url": "#" }
+          ],
+          "quiz": [
+            { "id": "q1", "question": "Renewable energy sources are best described as those that:", "options": [{ "id": "a", "text": "Can be naturally replenished over time" }, { "id": "b", "text": "Will eventually run out permanently" }, { "id": "c", "text": "Cannot be used for electricity" }, { "id": "d", "text": "Only exist underground" }], "correctOptionId": "a" },
+            { "id": "q2", "question": "Non-renewable energy sources are best described as those that:", "options": [{ "id": "a", "text": "Exist in limited supply and cannot be quickly replenished" }, { "id": "b", "text": "Are always naturally replenished" }, { "id": "c", "text": "Include only wind and solar power" }, { "id": "d", "text": "Have no environmental impact" }], "correctOptionId": "a" },
+            { "id": "q3", "question": "Which of these is an example of a renewable energy source?", "options": [{ "id": "a", "text": "Solar power" }, { "id": "b", "text": "Coal" }, { "id": "c", "text": "Natural gas" }, { "id": "d", "text": "Crude oil" }], "astatus_removed": true, "correctOptionId": "a" },
+            { "id": "q4", "question": "Which of these is an example of a non-renewable energy source?", "options": [{ "id": "a", "text": "Crude oil" }, { "id": "b", "text": "Wind" }, { "id": "c", "text": "Hydro" }, { "id": "d", "text": "Biogas" }], "correctOptionId": "a" },
+            { "id": "q5", "question": "Temperature is best described as a measure of:", "options": [{ "id": "a", "text": "How hot or cold something is" }, { "id": "b", "text": "The total amount of energy stored in an object" }, { "id": "c", "text": "The mass of an object" }, { "id": "d", "text": "The colour of an object" }], "correctOptionId": "a" },
+            { "id": "q6", "question": "Heat is best described as:", "options": [{ "id": "a", "text": "Energy that flows from a hotter object to a cooler one" }, { "id": "b", "text": "A measure of how hot or cold an object feels only" }, { "id": "c", "text": "Something with no connection to energy" }, { "id": "d", "text": "A property only liquids have" }], "correctOptionId": "a" },
+            { "id": "q7", "question": "The relationship between heat and temperature is that:", "options": [{ "id": "a", "text": "Heat is energy transfer, while temperature measures its intensity" }, { "id": "b", "text": "They mean exactly the same thing" }, { "id": "c", "text": "They have no relationship at all" }, { "id": "d", "text": "Temperature is a form of light" }], "correctOptionId": "a" },
+            { "id": "q8", "question": "Managing renewable energy sources sustainably can involve:", "options": [{ "id": "a", "text": "Careful planning to avoid overusing natural resources" }, { "id": "b", "text": "Using resources without any consideration for the future" }, { "id": "c", "text": "Avoiding renewable energy altogether" }, { "id": "d", "text": "Ignoring environmental impact entirely" }], "correctOptionId": "a" },
+            { "id": "q9", "question": "A challenge associated with managing renewable energy sources can include:", "options": [{ "id": "a", "text": "High initial costs of infrastructure" }, { "id": "b", "text": "Guaranteed unlimited funding" }, { "id": "c", "text": "No challenges of any kind" }, { "id": "d", "text": "Complete absence of technology needs" }], "correctOptionId": "a" },
+            { "id": "q10", "question": "Energy conversion is important in daily life mainly because it allows:", "options": [{ "id": "a", "text": "Energy to be used in forms suited to different tasks" }, { "id": "b", "text": "Energy to be destroyed completely" }, { "id": "c", "text": "No practical benefit to society" }, { "id": "d", "text": "Energy to remain unusable" }], "correctOptionId": "a" },
+            { "id": "q11", "question": "A dammed river used to generate electricity is an example of converting:", "options": [{ "id": "a", "text": "The kinetic energy of moving water into electrical energy" }, { "id": "b", "text": "Sound energy into light energy" }, { "id": "c", "text": "Chemical energy into nuclear energy" }, { "id": "d", "text": "No energy conversion; rivers cannot generate electricity" }], "correctOptionId": "a" },
+            { "id": "q12", "question": "Creating a table describing distinguishing features of heat and temperature helps learners to:", "options": [{ "id": "a", "text": "Clearly differentiate between the two related concepts" }, { "id": "b", "text": "Confuse heat and temperature" }, { "id": "c", "text": "Avoid understanding thermal concepts" }, { "id": "d", "text": "Ignore their relationship" }], "correctOptionId": "a" },
+            { "id": "q13", "question": "Identifying various sources of renewable and non-renewable energy is an example of the skill of:", "options": [{ "id": "a", "text": "Classifying" }, { "id": "b", "text": "Predicting" }, { "id": "c", "text": "Measuring" }, { "id": "d", "text": "Recording" }], "correctOptionId": "a" },
+            { "id": "q14", "question": "Understanding renewable and non-renewable energy helps learners to appreciate the importance of:", "options": [{ "id": "a", "text": "Making informed choices about energy use" }, { "id": "b", "text": "Ignoring energy resource management" }, { "id": "c", "text": "Assuming all energy sources are equally sustainable" }, { "id": "d", "text": "Avoiding energy-related decisions" }], "correctOptionId": "a" },
+            { "id": "q15", "question": "Studying heat, temperature and energy conversion helps learners to appreciate that:", "options": [{ "id": "a", "text": "These concepts explain many everyday physical processes" }, { "id": "b", "text": "These concepts have no real-world relevance" }, { "id": "c", "text": "Heat and temperature are entirely unrelated" }, { "id": "d", "text": "Energy conversion never occurs naturally" }], "correctOptionId": "a" }
+          ]
+        },
+        {
+          "id": "4-2-electricity-electronics",
+          "title": "Electricity and Electronics",
+          "completed": false,
+          "learningGoals": [
+            "Explain how electricity transmission occurs",
+            "Demonstrate the charging and discharging action of a capacitor in a DC electronic circuit and explain the roles of LEDs, diodes and resistors"
+          ],
+          "keyConceptSummary": "Electricity transmission moves generated power from its source to the point of consumption through several stages. Capacitors store and release electrical energy in a circuit, working alongside components like LEDs, diodes and resistors to control current flow.",
+          "resources": [
+            { "type": "video", "title": "How Electricity Transmission Works", "url": "REPLACE_WITH_REAL_URL" },
+            { "type": "reading", "title": "Capacitors: Charging and Discharging", "url": "#" },
+            { "type": "reading", "title": "Roles of LEDs, Diodes and Resistors in Circuits", "url": "#" }
+          ],
+          "quiz": [
+            { "id": "q1", "question": "Electricity transmission refers to the process of:", "options": [{ "id": "a", "text": "Moving generated electricity from its source to consumers" }, { "id": "b", "text": "Creating electricity from nothing" }, { "id": "c", "text": "Destroying excess electricity" }, { "id": "d", "text": "Storing electricity permanently with no use" }], "correctOptionId": "a" },
+            { "id": "q2", "question": "A capacitor in a circuit mainly functions to:", "options": [{ "id": "a", "text": "Store and release electrical energy" }, { "id": "b", "text": "Produce sound only" }, { "id": "c", "text": "Generate light with no power source" }, { "id": "d", "text": "Have no function at all" }], "correctOptionId": "a" },
+            { "id": "q3", "question": "Charging a capacitor refers to the process of it:", "options": [{ "id": "a", "text": "Accumulating electrical energy" }, { "id": "b", "text": "Releasing all stored energy instantly" }, { "id": "c", "text": "Losing its ability to store energy" }, { "id": "d", "text": "Producing sound waves" }], "correctOptionId": "a" },
+            { "id": "q4", "question": "Discharging a capacitor refers to the process of it:", "options": [{ "id": "a", "text": "Releasing its stored electrical energy" }, { "id": "b", "text": "Absorbing more energy than before" }, { "id": "c", "text": "Becoming permanently non-functional" }, { "id": "d", "text": "Producing new electrical charge from nothing" }], "correctOptionId": "a" },
+            { "id": "q5", "question": "In a DC electronic circuit, diodes are mainly used to:", "options": [{ "id": "a", "text": "Allow current to flow in a particular direction" }, { "id": "b", "text": "Block all current permanently" }, { "id": "c", "text": "Convert electricity into sound" }, { "id": "d", "text": "Generate mechanical motion" }], "correctOptionId": "a" },
+            { "id": "q6", "question": "Resistors in a circuit mainly function to:", "options": [{ "id": "a", "text": "Control or limit the flow of current" }, { "id": "b", "text": "Store data" }, { "id": "c", "text": "Amplify sound" }, { "id": "d", "text": "Have no effect on current" }], "correctOptionId": "a" },
+            { "id": "q7", "question": "Drawing a flow chart to show the stages of electricity transmission helps learners to:", "options": [{ "id": "a", "text": "Understand the process from generation to consumption" }, { "id": "b", "text": "Confuse the stages involved" }, { "id": "c", "text": "Avoid learning about electricity" }, { "id": "d", "text": "Ignore how power reaches homes" }], "correctOptionId": "a" },
+            { "id": "q8", "question": "Researching how capacitors function in a circuit helps learners to:", "options": [{ "id": "a", "text": "Understand their practical role alongside other components" }, { "id": "b", "text": "Avoid understanding circuit design" }, { "id": "c", "text": "Confuse capacitors with resistors" }, { "id": "d", "text": "Ignore electronic components" }], "correctOptionId": "a" },
+            { "id": "q9", "question": "Electricity generally moves from a power station to homes through stages that include:", "options": [{ "id": "a", "text": "Transformation to higher and then lower voltages for safe use" }, { "id": "b", "text": "No stages at all; it moves instantly" }, { "id": "c", "text": "Conversion into a completely different form of energy that cannot be used" }, { "id": "d", "text": "Only manual delivery by trucks" }], "correctOptionId": "a" },
+            { "id": "q10", "question": "Understanding the interaction between capacitors, diodes and resistors helps learners to:", "options": [{ "id": "a", "text": "See how components work together in a functioning circuit" }, { "id": "b", "text": "Assume each component works alone with no interaction" }, { "id": "c", "text": "Ignore how circuits are designed" }, { "id": "d", "text": "Confuse the roles of each component" }], "correctOptionId": "a" },
+            { "id": "q11", "question": "Explaining their findings on capacitors clearly to others is an example of applying the competency of:", "options": [{ "id": "a", "text": "Communication and collaboration" }, { "id": "b", "text": "Physical education" }, { "id": "c", "text": "Cultural identity" }, { "id": "d", "text": "None of the above" }], "correctOptionId": "a" },
+            { "id": "q12", "question": "Understanding electricity transmission helps learners to appreciate why:", "options": [{ "id": "a", "text": "Power must travel through multiple stages before reaching consumers" }, { "id": "b", "text": "Electricity has no connection to daily life" }, { "id": "c", "text": "Power stations are unnecessary" }, { "id": "d", "text": "Transmission has no scientific basis" }], "correctOptionId": "a" },
+            { "id": "q13", "question": "The functioning of an LED in a circuit with a capacitor depends on:", "options": [{ "id": "a", "text": "The interaction of all connected components" }, { "id": "b", "text": "The LED alone, with no other influence" }, { "id": "c", "text": "Nothing; LEDs work independently of circuits" }, { "id": "d", "text": "Sound waves only" }], "correctOptionId": "a" },
+            { "id": "q14", "question": "Researching capacitors from books and other sources before explaining their function is an example of applying:", "options": [{ "id": "a", "text": "Digital literacy" }, { "id": "b", "text": "Physical fitness" }, { "id": "c", "text": "Cultural identity" }, { "id": "d", "text": "None of the above" }], "correctOptionId": "a" },
+            { "id": "q15", "question": "Studying electricity transmission and circuit components helps learners to appreciate that:", "options": [{ "id": "a", "text": "Modern electrical systems rely on carefully engineered processes" }, { "id": "b", "text": "Electricity systems require no engineering" }, { "id": "c", "text": "Circuits have no real-world application" }, { "id": "d", "text": "Transmission and circuit design are unrelated topics" }], "correctOptionId": "a" }
+          ]
+        },
+        {
+          "id": "4-3-conversion-conservation-energy",
+          "title": "Conversion and Conservation of Energy",
+          "completed": false,
+          "learningGoals": [
+            "Explain the importance of conversion of energy and energy conservation in daily life, and evaluate their impact on the environment"
+          ],
+          "keyConceptSummary": "Energy conversion and conservation both play important roles in daily life, affecting how resources are used and how the environment is impacted. Understanding this importance helps individuals and communities make more sustainable energy choices.",
+          "resources": [
+            { "type": "video", "title": "The Importance of Energy Conversion and Conservation", "url": "REPLACE_WITH_REAL_URL" },
+            { "type": "reading", "title": "How Energy Choices Affect the Environment", "url": "#" },
+            { "type": "reading", "title": "Everyday Ways to Conserve Energy", "url": "#" }
+          ],
+          "quiz": [
+            { "id": "q1", "question": "Energy conversion in daily life is important mainly because it:", "options": [{ "id": "a", "text": "Allows energy to be used in the form best suited to a task" }, { "id": "b", "text": "Destroys energy completely" }, { "id": "c", "text": "Has no relevance to daily activities" }, { "id": "d", "text": "Creates energy from nothing" }], "correctOptionId": "a" },
+            { "id": "q2", "question": "Energy conservation in daily life is important mainly because it helps to:", "options": [{ "id": "a", "text": "Reduce unnecessary waste of resources" }, { "id": "b", "text": "Increase unnecessary energy use" }, { "id": "c", "text": "Have no effect on resource use" }, { "id": "d", "text": "Eliminate the need for any energy source" }], "correctOptionId": "a" },
+            { "id": "q3", "question": "One environmental impact of poor energy conversion and conservation practices is:", "options": [{ "id": "a", "text": "Increased depletion of natural resources" }, { "id": "b", "text": "Guaranteed environmental improvement" }, { "id": "c", "text": "No environmental effect whatsoever" }, { "id": "d", "text": "Automatic reduction in pollution" }], "correctOptionId": "a" },
+            { "id": "q4", "question": "Classifying the importance of energy conversion and conservation in daily life helps learners to:", "options": [{ "id": "a", "text": "Organise their understanding of the topic" }, { "id": "b", "text": "Avoid organising information" }, { "id": "c", "text": "Confuse related concepts" }, { "id": "d", "text": "Ignore practical relevance" }], "correctOptionId": "a" },
+            { "id": "q5", "question": "Searching multimedia sources for information on energy conversion and conservation helps learners to:", "options": [{ "id": "a", "text": "Gather well-supported evidence for their findings" }, { "id": "b", "text": "Avoid using credible sources" }, { "id": "c", "text": "Rely only on assumptions" }, { "id": "d", "text": "Ignore research skills" }], "correctOptionId": "a" },
+            { "id": "q6", "question": "Making a poster presentation on the impact of energy conversion and conservation helps learners to:", "options": [{ "id": "a", "text": "Communicate their findings to an audience effectively" }, { "id": "b", "text": "Avoid sharing information" }, { "id": "c", "text": "Confuse their audience" }, { "id": "d", "text": "Ignore presentation skills" }], "correctOptionId": "a" },
+            { "id": "q7", "question": "A simple daily example of energy conservation is:", "options": [{ "id": "a", "text": "Switching off appliances when they are not in use" }, { "id": "b", "text": "Leaving all appliances on permanently" }, { "id": "c", "text": "Using more energy than necessary" }, { "id": "d", "text": "Ignoring energy use altogether" }], "correctOptionId": "a" },
+            { "id": "q8", "question": "Evaluating the impact of energy conversion and conservation on the environment involves considering:", "options": [{ "id": "a", "text": "Both positive and negative effects on natural resources" }, { "id": "b", "text": "Only positive effects, with no downsides" }, { "id": "c", "text": "No environmental considerations at all" }, { "id": "d", "text": "Effects unrelated to natural resources" }], "correctOptionId": "a" },
+            { "id": "q9", "question": "The importance of energy conservation to future generations lies in:", "options": [{ "id": "a", "text": "Preserving resources for continued use" }, { "id": "b", "text": "Depleting all resources as quickly as possible" }, { "id": "c", "text": "Having no connection to the future" }, { "id": "d", "text": "Removing the need for any energy planning" }], "correctOptionId": "a" },
+            { "id": "q10", "question": "Understanding energy conversion and conservation helps learners to appreciate that:", "options": [{ "id": "a", "text": "Individual choices about energy use can have wider environmental effects" }, { "id": "b", "text": "Energy use has no connection to the environment" }, { "id": "c", "text": "Conservation efforts make no real difference" }, { "id": "d", "text": "Only large industries affect energy use" }], "correctOptionId": "a" }
+          ]
+        },
+        {
+          "id": "4-4-force-motion",
+          "title": "Force and Motion",
+          "completed": false,
+          "learningGoals": [
+            "Demonstrate simple ways of making magnets and show how magnetic force can be applied in domestic and industrial activities",
+            "Explain the relationship between magnetic force and Newton's Second Law of motion, and show its application to life",
+            "Identify complex machines and describe their functions in life"
+          ],
+          "keyConceptSummary": "Magnets can be produced using magnetic materials and electricity, and magnetic force has both domestic and industrial applications. Newton's Second Law of motion relates force, mass and acceleration, while complex machines combine simple machines to perform more advanced tasks.",
+          "resources": [
+            { "type": "video", "title": "Making Magnets and Their Uses", "url": "REPLACE_WITH_REAL_URL" },
+            { "type": "reading", "title": "Newton's Second Law of Motion Explained", "url": "#" },
+            { "type": "reading", "title": "Complex Machines in Everyday Life", "url": "#" }
+          ],
+          "quiz": [
+            { "id": "q1", "question": "One simple way to produce a magnet is to use:", "options": [{ "id": "a", "text": "Electricity passed through a piece of iron" }, { "id": "b", "text": "Water alone" }, { "id": "c", "text": "Only wood" }, { "id": "d", "text": "Sound waves" }], "correctOptionId": "a" },
+            { "id": "q2", "question": "Magnetic force is applied in domestic and industrial activities through devices such as:", "options": [{ "id": "a", "text": "Compasses and loudspeakers" }, { "id": "b", "text": "Wooden furniture only" }, { "id": "c", "text": "Items with no electrical or directional purpose" }, { "id": "d", "text": "Nothing practical" }], "correctOptionId": "a" },
+            { "id": "q3", "question": "Newton's Second Law of motion relates force to:", "options": [{ "id": "a", "text": "Mass and acceleration" }, { "id": "b", "text": "Colour and shape" }, { "id": "c", "text": "Temperature only" }, { "id": "d", "text": "Sound intensity" }], "correctOptionId": "a" },
+            { "id": "q4", "question": "According to Newton's Second Law, a greater force applied to the same mass will generally result in:", "options": [{ "id": "a", "text": "Greater acceleration" }, { "id": "b", "text": "No change in motion" }, { "id": "c", "text": "Reduced acceleration" }, { "id": "d", "text": "The object becoming heavier" }], "correctOptionId": "a" },
+            { "id": "q5", "question": "A complex machine is best described as one that:", "options": [{ "id": "a", "text": "Combines two or more simple machines" }, { "id": "b", "text": "Has only one moving part with no combination" }, { "id": "c", "text": "Cannot perform any useful work" }, { "id": "d", "text": "Is unrelated to simple machines" }], "correctOptionId": "a" },
+            { "id": "q6", "question": "Complex machines can improve quality of life mainly by:", "options": [{ "id": "a", "text": "Making complicated tasks easier or more efficient" }, { "id": "b", "text": "Making all tasks harder to perform" }, { "id": "c", "text": "Having no practical benefit" }, { "id": "d", "text": "Eliminating the need for any tools" }], "correctOptionId": "a" },
+            { "id": "q7", "question": "Demonstrating some applications of magnetic force in industrial activities helps learners to:", "options": [{ "id": "a", "text": "See real-world uses of a scientific concept" }, { "id": "b", "text": "Avoid understanding magnetism" }, { "id": "c", "text": "Confuse magnetism with electricity" }, { "id": "d", "text": "Ignore practical applications" }], "correctOptionId": "a" },
+            { "id": "q8", "question": "Performing an experiment to show the relationship between force and motion using magnetic force helps learners to:", "options": [{ "id": "a", "text": "Connect Newton's Second Law to a practical demonstration" }, { "id": "b", "text": "Avoid practical experimentation" }, { "id": "c", "text": "Ignore the principles of motion" }, { "id": "d", "text": "Confuse force with mass" }], "correctOptionId": "a" },
+            { "id": "q9", "question": "Recapping what simple machines are before studying complex machines helps learners to:", "options": [{ "id": "a", "text": "Build new understanding on existing knowledge" }, { "id": "b", "text": "Avoid connecting prior learning" }, { "id": "c", "text": "Ignore foundational concepts" }, { "id": "d", "text": "Confuse simple and complex machines" }], "correctOptionId": "a" },
+            { "id": "q10", "question": "Identifying simple machines within complex machines helps learners to:", "options": [{ "id": "a", "text": "See how basic principles combine to form advanced tools" }, { "id": "b", "text": "Assume complex machines have no simple components" }, { "id": "c", "text": "Ignore mechanical relationships" }, { "id": "d", "text": "Avoid studying machines" }], "correctOptionId": "a" },
+            { "id": "q11", "question": "Exploring further industrial and domestic applications of magnetic force helps learners to:", "options": [{ "id": "a", "text": "Broaden their understanding of practical uses of magnetism" }, { "id": "b", "text": "Limit their understanding to one use only" }, { "id": "c", "text": "Avoid researching real applications" }, { "id": "d", "text": "Ignore scientific relevance" }], "correctOptionId": "a" },
+            { "id": "q12", "question": "Explaining Newton's Second Law with examples from daily life helps learners to:", "options": [{ "id": "a", "text": "Connect an abstract law to real experiences" }, { "id": "b", "text": "Avoid applying the law practically" }, { "id": "c", "text": "Confuse the law with unrelated concepts" }, { "id": "d", "text": "Ignore real-world relevance" }], "correctOptionId": "a" },
+            { "id": "q13", "question": "A vehicle's engine can be considered an example of:", "options": [{ "id": "a", "text": "A complex machine" }, { "id": "b", "text": "A simple lever only" }, { "id": "c", "text": "A magnet only" }, { "id": "d", "text": "Something unrelated to machines" }], "correctOptionId": "a" },
+            { "id": "q14", "question": "Understanding the relationship between magnetic force and motion helps learners to appreciate that:", "options": [{ "id": "a", "text": "Different areas of physics can be interconnected" }, { "id": "b", "text": "Magnetism and motion are completely unrelated" }, { "id": "c", "text": "Only one law of physics ever applies at a time" }, { "id": "d", "text": "Physics concepts have no real connections" }], "correctOptionId": "a" },
+            { "id": "q15", "question": "Studying magnets, motion and complex machines helps learners to appreciate that:", "options": [{ "id": "a", "text": "Scientific principles underpin many tools and technologies we use daily" }, { "id": "b", "text": "Machines have no scientific basis" }, { "id": "c", "text": "Magnetism has no practical use" }, { "id": "d", "text": "Motion cannot be explained or applied" }], "correctOptionId": "a" }
+          ]
+        },
+        {
+          "id": "4-5-agricultural-tools",
+          "title": "Agricultural Tools",
+          "completed": false,
+          "learningGoals": [
+            "Show and discuss the use of basic and simple agricultural tools for basic on-farm activities",
+            "Engage in the use of basic and simple agricultural tools for basic farm activities"
+          ],
+          "keyConceptSummary": "Basic agricultural tools are matched to specific on-farm activities, and using the correct tool properly supports efficient and safe farm work. Practising the use of these tools on a farm or school garden builds practical agricultural skills.",
+          "resources": [
+            { "type": "video", "title": "Using Basic Agricultural Tools Correctly", "url": "REPLACE_WITH_REAL_URL" },
+            { "type": "reading", "title": "Matching Tools to Farm Activities", "url": "#" },
+            { "type": "reading", "title": "Practical Tips for Farm Tool Use", "url": "#" }
+          ],
+          "quiz": [
+            { "id": "q1", "question": "Matching an agricultural tool to the correct activity is important mainly because it:", "options": [{ "id": "a", "text": "Improves efficiency and reduces the risk of accidents" }, { "id": "b", "text": "Has no effect on farm work" }, { "id": "c", "text": "Makes all tasks harder" }, { "id": "d", "text": "Is unnecessary in farming" }], "correctOptionId": "a" },
+            { "id": "q2", "question": "A hoe is commonly used on a farm for:", "options": [{ "id": "a", "text": "Weeding and preparing soil" }, { "id": "b", "text": "Harvesting fruit from trees only" }, { "id": "c", "text": "Storing crops" }, { "id": "d", "text": "Feeding animals exclusively" }], "correctOptionId": "a" },
+            { "id": "q3", "question": "Collecting and listing agricultural tools used for on-farm activities helps learners to:", "options": [{ "id": "a", "text": "Identify what tools are needed for specific tasks" }, { "id": "b", "text": "Avoid learning about farm tools" }, { "id": "c", "text": "Confuse the purpose of different tools" }, { "id": "d", "text": "Ignore agricultural practices" }], "correctOptionId": "a" },
+            { "id": "q4", "question": "Practising the use of agricultural tools on a school garden helps learners to:", "options": [{ "id": "a", "text": "Build practical, hands-on farming skills" }, { "id": "b", "text": "Avoid practical experience" }, { "id": "c", "text": "Damage the school garden" }, { "id": "d", "text": "Ignore farm safety" }], "correctOptionId": "a" },
+            { "id": "q5", "question": "Selecting appropriate tools for a specific agricultural task is an example of applying:", "options": [{ "id": "a", "text": "Critical thinking and problem solving" }, { "id": "b", "text": "Random guessing" }, { "id": "c", "text": "No particular reasoning skill" }, { "id": "d", "text": "Avoidance of decision-making" }], "correctOptionId": "a" },
+            { "id": "q6", "question": "Explaining how different agricultural tools are used on a farm helps learners to:", "options": [{ "id": "a", "text": "Communicate practical agricultural knowledge clearly" }, { "id": "b", "text": "Avoid sharing information" }, { "id": "c", "text": "Confuse the purposes of tools" }, { "id": "d", "text": "Ignore communication skills" }], "correctOptionId": "a" },
+            { "id": "q7", "question": "Trying new approaches to using agricultural tools for specific activities can help learners to:", "options": [{ "id": "a", "text": "Improve efficiency through creative problem solving" }, { "id": "b", "text": "Avoid improving their techniques" }, { "id": "c", "text": "Ignore alternative methods" }, { "id": "d", "text": "Repeat mistakes without reflection" }], "correctOptionId": "a" },
+            { "id": "q8", "question": "Creating an album of agricultural tools matched to their uses helps learners to:", "options": [{ "id": "a", "text": "Organise and remember practical farming knowledge" }, { "id": "b", "text": "Confuse tool functions" }, { "id": "c", "text": "Avoid organising information" }, { "id": "d", "text": "Ignore agricultural learning" }], "correctOptionId": "a" },
+            { "id": "q9", "question": "Using the wrong tool for a farm task can lead to:", "options": [{ "id": "a", "text": "Inefficient work or possible injury" }, { "id": "b", "text": "Guaranteed improved efficiency" }, { "id": "c", "text": "No consequences at all" }, { "id": "d", "text": "Perfect results every time" }], "correctOptionId": "a" },
+            { "id": "q10", "question": "Understanding the use of basic agricultural tools helps learners to appreciate that:", "options": [{ "id": "a", "text": "Proper technique supports safe and productive farm work" }, { "id": "b", "text": "Any tool can be used for any task equally well" }, { "id": "c", "text": "Tools have no impact on farm productivity" }, { "id": "d", "text": "Farm work requires no particular skill" }], "correctOptionId": "a" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "strand-5",
+      "title": "Humans and the Environment",
+      "subtopics": [
+        {
+          "id": "5-1-waste-management",
+          "title": "Waste Management",
+          "completed": false,
+          "learningGoals": [
+            "Explain sustainable waste management practices",
+            "Apply knowledge of waste management practices to manage waste in a community"
+          ],
+          "keyConceptSummary": "Sustainable waste management practices promote responsible handling and disposal of waste to protect the environment and public health. Applying this knowledge in a community involves practical action and evaluation of results.",
+          "resources": [
+            { "type": "video", "title": "Sustainable Waste Management Approaches", "url": "REPLACE_WITH_REAL_URL" },
+            { "type": "reading", "title": "Waste Management Surveys in Communities", "url": "#" },
+            { "type": "reading", "title": "Evaluating Waste Management Practices", "url": "#" }
+          ],
+          "quiz": [
+            { "id": "q1", "question": "Sustainable waste management mainly aims to:", "options": [{ "id": "a", "text": "Reduce environmental harm while managing waste responsibly" }, { "id": "b", "text": "Increase pollution deliberately" }, { "id": "c", "text": "Ignore the effects of waste on health" }, { "id": "d", "text": "Encourage indiscriminate dumping" }], "correctOptionId": "a" },
+            { "id": "q2", "question": "Conducting a survey on a community's waste management practices helps learners to:", "options": [{ "id": "a", "text": "Gather real data to understand current practices" }, { "id": "b", "text": "Avoid engaging with their community" }, { "id": "c", "text": "Ignore actual waste management conditions" }, { "id": "d", "text": "Rely solely on assumptions" }], "correctOptionId": "a" },
+            { "id": "q3", "question": "Applying waste management knowledge in a community can involve activities such as:", "options": [{ "id": "a", "text": "Organising proper waste disposal or clean-up efforts" }, { "id": "b", "text": "Increasing littering" }, { "id": "c", "text": "Ignoring waste altogether" }, { "id": "d", "text": "Avoiding all community involvement" }], "correctOptionId": "a" },
+            { "id": "q4", "question": "Evaluating waste management practices carried out in a community helps learners to:", "options": [{ "id": "a", "text": "Assess what worked well and what needs improvement" }, { "id": "b", "text": "Avoid reflecting on outcomes" }, { "id": "c", "text": "Assume all practices are equally effective" }, { "id": "d", "text": "Ignore the impact of their efforts" }], "correctOptionId": "a" },
+            { "id": "q5", "question": "Presenting a report on waste management activities helps learners to:", "options": [{ "id": "a", "text": "Communicate their findings and outcomes clearly" }, { "id": "b", "text": "Avoid sharing their work" }, { "id": "c", "text": "Confuse their audience" }, { "id": "d", "text": "Ignore presentation skills" }], "correctOptionId": "a" },
+            { "id": "q6", "question": "One approach to sustainable waste management is:", "options": [{ "id": "a", "text": "Recycling and reusing materials where possible" }, { "id": "b", "text": "Burning all waste indiscriminately" }, { "id": "c", "text": "Dumping waste into water sources" }, { "id": "d", "text": "Ignoring waste separation entirely" }], "correctOptionId": "a" },
+            { "id": "q7", "question": "Ethical use of information gathered during a waste management survey involves:", "options": [{ "id": "a", "text": "Representing the data accurately and responsibly" }, { "id": "b", "text": "Altering data to fit a preferred outcome" }, { "id": "c", "text": "Ignoring accuracy" }, { "id": "d", "text": "Avoiding responsibility for data use" }], "correctOptionId": "a" },
+            { "id": "q8", "question": "Poor waste management practices in a community can result in:", "options": [{ "id": "a", "text": "Environmental pollution and health risks" }, { "id": "b", "text": "Improved public health automatically" }, { "id": "c", "text": "No effect on the community" }, { "id": "d", "text": "A cleaner environment regardless of practices" }], "correctOptionId": "a" },
+            { "id": "q9", "question": "Defining clear goals before carrying out a waste management project helps learners to:", "options": [{ "id": "a", "text": "Focus their efforts effectively" }, { "id": "b", "text": "Avoid any planning" }, { "id": "c", "text": "Work without direction" }, { "id": "d", "text": "Ignore the purpose of the project" }], "correctOptionId": "a" },
+            { "id": "q10", "question": "Understanding sustainable waste management helps learners to appreciate that:", "options": [{ "id": "a", "text": "Responsible waste practices protect both people and the environment" }, { "id": "b", "text": "Waste management has no connection to health" }, { "id": "c", "text": "All waste practices have the same environmental impact" }, { "id": "d", "text": "Individual actions have no effect on community waste" }], "correctOptionId": "a" }
+          ]
+        },
+        {
+          "id": "5-2-human-health",
+          "title": "Human Health",
+          "completed": false,
+          "learningGoals": [
+            "Explain the symptoms, effects and prevention of common communicable diseases such as hepatitis",
+            "Analyse the risk factors of communicable diseases",
+            "Explain the nature of bacterial diseases with special emphasis on food poisoning, gonorrhoea and meningitis"
+          ],
+          "keyConceptSummary": "Communicable diseases such as hepatitis, along with bacterial diseases like food poisoning, gonorrhoea and meningitis, have specific causes, symptoms, effects and prevention methods. Understanding their risk factors and modes of transmission helps individuals and communities take steps to reduce their spread.",
+          "resources": [
+            { "type": "video", "title": "Understanding Communicable Diseases", "url": "REPLACE_WITH_REAL_URL" },
+            { "type": "reading", "title": "Hepatitis: Causes, Symptoms and Prevention", "url": "#" },
+            { "type": "reading", "title": "Bacterial Diseases: Food Poisoning, Gonorrhoea and Meningitis", "url": "#" }
+          ],
+          "quiz": [
+            { "id": "q1", "question": "A communicable disease is best described as one that:", "options": [{ "id": "a", "text": "Can spread from one person to another" }, { "id": "b", "text": "Cannot be transmitted under any circumstances" }, { "id": "c", "text": "Only affects animals" }, { "id": "d", "text": "Has no identifiable cause" }], "correctOptionId": "a" },
+            { "id": "q2", "question": "Hepatitis mainly affects which organ of the body?", "options": [{ "id": "a", "text": "The liver" }, { "id": "b", "text": "The lungs" }, { "id": "c", "text": "The skin only" }, { "id": "d", "text": "The bones" }], "correctOptionId": "a" },
+            { "id": "q3", "question": "Meningitis is best described as an infection that affects:", "options": [{ "id": "a", "text": "The membranes surrounding the brain and spinal cord" }, { "id": "b", "text": "Only the fingernails" }, { "id": "c", "text": "The teeth exclusively" }, { "id": "d", "text": "No part of the body" }], "correctOptionId": "a" },
+            { "id": "q4", "question": "Food poisoning is commonly caused by:", "options": [{ "id": "a", "text": "Consuming contaminated food or water" }, { "id": "b", "text": "Eating only fresh, properly stored food" }, { "id": "c", "text": "Drinking clean water exclusively" }, { "id": "d", "text": "No identifiable cause" }], "correctOptionId": "a" },
+            { "id": "q5", "question": "A risk factor for communicable diseases can include:", "options": [{ "id": "a", "text": "Poor sanitation and hygiene practices" }, { "id": "b", "text": "Excellent personal hygiene" }, { "id": "c", "text": "Clean drinking water only" }, { "id": "d", "text": "No connection to hygiene at all" }], "correctOptionId": "a" },
+            { "id": "q6", "question": "Gonorrhoea is classified as which type of disease?", "options": [{ "id": "a", "text": "Bacterial" }, { "id": "b", "text": "Viral" }, { "id": "c", "text": "Fungal" }, { "id": "d", "text": "Not caused by any organism" }], "correctOptionId": "a" },
+            { "id": "q7", "question": "Preventing the spread of communicable diseases like hepatitis can involve:", "options": [{ "id": "a", "text": "Practising good hygiene and safe food handling" }, { "id": "b", "text": "Ignoring hygiene practices" }, { "id": "c", "text": "Avoiding all healthcare information" }, { "id": "d", "text": "Spreading misinformation" }], "correctOptionId": "a" },
+            { "id": "q8", "question": "Compiling data on individuals affected by a communicable disease helps learners to:", "options": [{ "id": "a", "text": "Identify patterns and possible causes" }, { "id": "b", "text": "Avoid analysing health data" }, { "id": "c", "text": "Ignore evidence-based reasoning" }, { "id": "d", "text": "Assume no patterns exist" }], "correctOptionId": "a" },
+            { "id": "q9", "question": "Designing a poster to educate a community on bacterial diseases helps to:", "options": [{ "id": "a", "text": "Raise awareness and promote prevention" }, { "id": "b", "text": "Spread confusion" }, { "id": "c", "text": "Discourage safe practices" }, { "id": "d", "text": "Have no educational value" }], "correctOptionId": "a" },
+            { "id": "q10", "question": "Government's role in managing outbreaks of communicable diseases often includes:", "options": [{ "id": "a", "text": "Providing health guidance and resources to the public" }, { "id": "b", "text": "Ignoring the outbreak entirely" }, { "id": "c", "text": "Encouraging the spread of misinformation" }, { "id": "d", "text": "Having no responsibility at all" }], "correctOptionId": "a" },
+            { "id": "q11", "question": "Understanding the mode of transmission of a communicable disease helps individuals to:", "options": [{ "id": "a", "text": "Take appropriate precautions to prevent its spread" }, { "id": "b", "text": "Ignore how it spreads" }, { "id": "c", "text": "Assume it cannot be prevented" }, { "id": "d", "text": "Avoid learning about health" }], "correctOptionId": "a" },
+            { "id": "q12", "question": "Searching for information on risk factors of communicable diseases helps learners to:", "options": [{ "id": "a", "text": "Identify ways to reduce their own risk" }, { "id": "b", "text": "Avoid understanding disease risk" }, { "id": "c", "text": "Ignore preventive measures" }, { "id": "d", "text": "Assume risk factors do not exist" }], "correctOptionId": "a" },
+            { "id": "q13", "question": "Analysing risk factors of communicable diseases is an example of applying:", "options": [{ "id": "a", "text": "Critical thinking and problem solving" }, { "id": "b", "text": "Random guessing" }, { "id": "c", "text": "No particular reasoning skill" }, { "id": "d", "text": "Avoidance of evidence" }], "correctOptionId": "a" },
+            { "id": "q14", "question": "Community members can help reduce the spread of bacterial diseases by:", "options": [{ "id": "a", "text": "Following recommended hygiene and safety practices" }, { "id": "b", "text": "Ignoring health advice" }, { "id": "c", "text": "Spreading rumours instead of facts" }, { "id": "d", "text": "Avoiding all precautions" }], "correctOptionId": "a" },
+            { "id": "q15", "question": "Understanding communicable and bacterial diseases helps learners to appreciate that:", "options": [{ "id": "a", "text": "Awareness and prevention play a key role in protecting health" }, { "id": "b", "text": "Diseases cannot be prevented in any way" }, { "id": "c", "text": "Health has no connection to hygiene practices" }, { "id": "d", "text": "Only doctors need to understand disease prevention" }], "correctOptionId": "a" }
+          ]
+        },
+        {
+          "id": "5-3-science-and-industry",
+          "title": "Science and Industry",
+          "completed": false,
+          "learningGoals": [
+            "Examine the relationship among science, technology, innovation and society"
+          ],
+          "keyConceptSummary": "Science, technology and innovation are closely interconnected and influence how society develops. Understanding this relationship helps learners appreciate the impact of technological advancement on the Ghanaian environment and beyond.",
+          "resources": [
+            { "type": "video", "title": "Science, Technology and Society", "url": "REPLACE_WITH_REAL_URL" },
+            { "type": "reading", "title": "How Innovation Shapes Modern Life", "url": "#" },
+            { "type": "reading", "title": "Technological Change and Its Impact on Ghana", "url": "#" }
+          ],
+          "quiz": [
+            { "id": "q1", "question": "Science, technology and innovation are best described as:", "options": [{ "id": "a", "text": "Interconnected fields that drive societal progress" }, { "id": "b", "text": "Completely unrelated fields" }, { "id": "c", "text": "Concepts with no impact on society" }, { "id": "d", "text": "Only relevant to certain countries" }], "correctOptionId": "a" },
+            { "id": "q2", "question": "Innovation can be best described as the process of:", "options": [{ "id": "a", "text": "Applying new ideas to solve problems or improve processes" }, { "id": "b", "text": "Repeating old methods with no change" }, { "id": "c", "text": "Avoiding new ideas entirely" }, { "id": "d", "text": "A concept unrelated to technology" }], "correctOptionId": "a" },
+            { "id": "q3", "question": "Technological advancements can affect a country's environment by:", "options": [{ "id": "a", "text": "Changing how resources are used and managed" }, { "id": "b", "text": "Having no effect on the environment" }, { "id": "c", "text": "Automatically improving the environment with no risk" }, { "id": "d", "text": "Eliminating all environmental concerns" }], "correctOptionId": "a" },
+            { "id": "q4", "question": "Explaining the interrelationship between science, technology and innovation helps learners to:", "options": [{ "id": "a", "text": "See how these fields support one another" }, { "id": "b", "text": "Assume these fields are unrelated" }, { "id": "c", "text": "Avoid understanding technological change" }, { "id": "d", "text": "Ignore societal development" }], "correctOptionId": "a" },
+            { "id": "q5", "question": "Discussing technological advancements and their impact on the Ghanaian environment helps learners to:", "options": [{ "id": "a", "text": "Connect global trends to their local context" }, { "id": "b", "text": "Avoid considering local relevance" }, { "id": "c", "text": "Ignore Ghana's development" }, { "id": "d", "text": "Assume technology has no local effect" }], "correctOptionId": "a" },
+            { "id": "q6", "question": "One benefit of science and technology to society is:", "options": [{ "id": "a", "text": "Improved efficiency in daily tasks and industries" }, { "id": "b", "text": "Reduced quality of life always" }, { "id": "c", "text": "No practical benefit at all" }, { "id": "d", "text": "Complete elimination of all challenges" }], "correctOptionId": "a" },
+            { "id": "q7", "question": "Evaluating the quality and validity of information about technological change is an example of the competency of:", "options": [{ "id": "a", "text": "Digital literacy" }, { "id": "b", "text": "Physical fitness" }, { "id": "c", "text": "Cultural identity" }, { "id": "d", "text": "None of the above" }], "correctOptionId": "a" },
+            { "id": "q8", "question": "A challenge that can accompany rapid technological change is:", "options": [{ "id": "a", "text": "Difficulty adapting existing systems or skills" }, { "id": "b", "text": "Guaranteed smooth transition with no issues" }, { "id": "c", "text": "No challenges of any kind" }, { "id": "d", "text": "Complete rejection of all new methods" }], "correctOptionId": "a" },
+            { "id": "q9", "question": "Understanding connections among science, technology and society helps learners to appreciate that:", "options": [{ "id": "a", "text": "Innovation influences how communities live and work" }, { "id": "b", "text": "Technology has no bearing on daily life" }, { "id": "c", "text": "Science operates independently of society" }, { "id": "d", "text": "Innovation has no historical basis" }], "correctOptionId": "a" },
+            { "id": "q10", "question": "Studying the relationship among science, technology, innovation and society encourages learners to:", "options": [{ "id": "a", "text": "Think critically about the role of innovation in development" }, { "id": "b", "text": "Avoid engaging with technological topics" }, { "id": "c", "text": "Assume all technology is equally beneficial" }, { "id": "d", "text": "Ignore the importance of critical thinking" }], "correctOptionId": "a" }
+          ]
+        },
+        {
+          "id": "5-4-climate-change-green-economy",
+          "title": "Climate Change and Green Economy",
+          "completed": false,
+          "learningGoals": [
+            "Explain the concept of climate change and its effect on the environment",
+            "Describe climate change adaptation measures and green economy actions"
+          ],
+          "keyConceptSummary": "Climate change affects the environment in various ways, and countries around the world are adopting adaptation measures such as tree planting and legislation to reduce its effects. Understanding these actions helps communities contribute to climate change adaptation and a green economy.",
+          "resources": [
+            { "type": "video", "title": "Understanding Climate Change", "url": "REPLACE_WITH_REAL_URL" },
+            { "type": "reading", "title": "Climate Change Adaptation Measures", "url": "#" },
+            { "type": "reading", "title": "What Is a Green Economy?", "url": "#" }
+          ],
+          "quiz": [
+            { "id": "q1", "question": "Climate change refers to:", "options": [{ "id": "a", "text": "Long-term shifts in temperature and weather patterns" }, { "id": "b", "text": "A single day's weather" }, { "id": "c", "text": "A type of renewable energy" }, { "id": "d", "text": "A form of soil erosion only" }], "astatus_removed": true, "correctOptionId": "a" },
+            { "id": "q2", "question": "A sign of climate change can include:", "options": [{ "id": "a", "text": "Rising average temperatures over time" }, { "id": "b", "text": "No change in weather patterns" }, { "id": "c", "text": "Consistent rainfall every single year with no variation" }, { "id": "d", "text": "A permanent decrease in global temperatures" }], "correctOptionId": "a" },
+            { "id": "q3", "question": "Tree planting is often used as a climate change adaptation measure because trees:", "options": [{ "id": "a", "text": "Help absorb carbon (IV) oxide from the atmosphere" }, { "id": "b", "text": "Release only harmful gases" }, { "id": "c", "text": "Have no environmental role" }, { "id": "d", "text": "Increase greenhouse gas levels" }], "correctOptionId": "a" },
+            { "id": "q4", "question": "Legislation on bush burning is an example of a measure used to:", "options": [{ "id": "a", "text": "Reduce practices that contribute to climate change" }, { "id": "b", "text": "Encourage more burning of vegetation" }, { "id": "c", "text": "Increase greenhouse gas emissions" }, { "id": "d", "text": "Have no connection to climate policy" }], "correctOptionId": "a" },
+            { "id": "q5", "question": "A green economy can be described as one that:", "options": [{ "id": "a", "text": "Promotes economic growth while protecting the environment" }, { "id": "b", "text": "Ignores environmental impact completely" }, { "id": "c", "text": "Focuses only on industrial growth with no environmental concern" }, { "id": "d", "text": "Has no connection to sustainability" }], "correctOptionId": "a" },
+            { "id": "q6", "question": "Describing mitigation strategies for climate change in a community can include:", "options": [{ "id": "a", "text": "Reducing activities that increase greenhouse gas emissions" }, { "id": "b", "text": "Increasing harmful emissions deliberately" }, { "id": "c", "text": "Ignoring environmental impact entirely" }, { "id": "d", "text": "Avoiding any form of community action" }], "correctOptionId": "a" },
+            { "id": "q7", "question": "Searching for the causes and effects of climate change and presenting a report helps learners to:", "options": [{ "id": "a", "text": "Build evidence-based understanding of the topic" }, { "id": "b", "text": "Avoid researching climate issues" }, { "id": "c", "text": "Rely only on assumptions" }, { "id": "d", "text": "Ignore scientific evidence" }], "correctOptionId": "a" },
+            { "id": "q8", "question": "Understanding how countries are adapting to climate change helps learners to:", "options": [{ "id": "a", "text": "See practical examples of environmental action" }, { "id": "b", "text": "Assume no action is being taken anywhere" }, { "id": "c", "text": "Avoid learning about global efforts" }, { "id": "d", "text": "Ignore international cooperation on climate issues" }], "correctOptionId": "a" },
+            { "id": "q9", "question": "Adaptation measures that a community can apply to climate change may include:", "options": [{ "id": "a", "text": "Adjusting farming practices to changing weather patterns" }, { "id": "b", "text": "Ignoring changes in weather entirely" }, { "id": "c", "text": "Continuing practices with no consideration of climate" }, { "id": "d", "text": "Avoiding any community planning" }], "correctOptionId": "a" },
+            { "id": "q10", "question": "Understanding climate change and green economy actions helps learners to appreciate that:", "options": [{ "id": "a", "text": "Communities can take active steps to respond to environmental change" }, { "id": "b", "text": "Climate change cannot be addressed in any way" }, { "id": "c", "text": "Environmental issues are unrelated to human activity" }, { "id": "d", "text": "Green economy practices have no real-world application" }], "correctOptionId": "a" }
+          ]
+        },
+        {
+          "id": "5-5-understanding-the-environment",
+          "title": "Understanding the Environment",
+          "completed": false,
+          "learningGoals": [
+            "Discuss the physical properties of soils",
+            "Analyse the physical properties of soils and soil water content, and demonstrate their importance in crop production"
+          ],
+          "keyConceptSummary": "Different soil types, such as sandy, loamy and clay soils, have distinct physical properties that affect their ability to retain water and support plant roots. Understanding these properties helps explain why certain soils are better suited to crop production than others.",
+          "resources": [
+            { "type": "video", "title": "Types of Soil and Their Properties", "url": "REPLACE_WITH_REAL_URL" },
+            { "type": "reading", "title": "How Soil Type Affects Crop Growth", "url": "#" },
+            { "type": "reading", "title": "Soil Water Retention Explained", "url": "#" }
+          ],
+          "quiz": [
+            { "id": "q1", "question": "Sandy soil is generally known for:", "options": [{ "id": "a", "text": "Draining water quickly and retaining little moisture" }, { "id": "b", "text": "Retaining water better than any other soil type" }, { "id": "c", "text": "Being unsuitable for any type of use" }, { "id": "d", "text": "Having no particle structure at all" }], "correctOptionId": "a" },
+            { "id": "q2", "question": "Loamy soil is often considered ideal for crop production because it:", "options": [{ "id": "a", "text": "Balances water retention and drainage well" }, { "id": "b", "text": "Cannot hold any water" }, { "id": "c", "text": "Drains water too quickly for any plant to survive" }, { "id": "d", "text": "Has no connection to plant growth" }], "correctOptionId": "a" },
+            { "id": "q3", "question": "Clay soil is generally known for:", "options": [{ "id": "a", "text": "Retaining water well but draining slowly" }, { "id": "b", "text": "Draining water extremely quickly" }, { "id": "c", "text": "Having no ability to hold water" }, { "id": "d", "text": "Being unrelated to plant growth" }], "correctOptionId": "a" },
+            { "id": "q4", "question": "Soil water content is important to crop production mainly because it:", "options": [{ "id": "a", "text": "Supports the uptake of water and nutrients by plant roots" }, { "id": "b", "text": "Has no connection to root systems" }, { "id": "c", "text": "Always harms plant growth" }, { "id": "d", "text": "Prevents any nutrient absorption" }], "correctOptionId": "a" },
+            { "id": "q5", "question": "Conducting an experiment to show how soil types retain water helps learners to:", "options": [{ "id": "a", "text": "Gather evidence to support their understanding of soil properties" }, { "id": "b", "text": "Avoid using evidence in their learning" }, { "id": "c", "text": "Assume all soils behave identically" }, { "id": "d", "text": "Ignore practical investigation" }], "correctOptionId": "a" },
+            { "id": "q6", "question": "Osmosis in plants refers to the process by which:", "options": [{ "id": "a", "text": "Water moves into plant roots from the soil" }, { "id": "b", "text": "Plants release all their water into the soil" }, { "id": "c", "text": "Soil absorbs nutrients from plants" }, { "id": "d", "text": "No movement of water occurs in plants" }], "correctOptionId": "a" },
+            { "id": "q7", "question": "Observing the growth of plants on different soil types helps learners to:", "options": [{ "id": "a", "text": "Draw connections between soil properties and plant health" }, { "id": "b", "text": "Assume soil type has no effect on plants" }, { "id": "c", "text": "Avoid comparing growth conditions" }, { "id": "d", "text": "Ignore observational evidence" }], "correctOptionId": "a" },
+            { "id": "q8", "question": "Collecting and describing soil samples from a school garden and community helps learners to:", "options": [{ "id": "a", "text": "Compare real, local examples of different soil types" }, { "id": "b", "text": "Avoid engaging with their environment" }, { "id": "c", "text": "Ignore practical soil study" }, { "id": "d", "text": "Rely only on textbook descriptions" }], "correctOptionId": "a" },
+            { "id": "q9", "question": "Understanding the physical properties of soils helps farmers to:", "options": [{ "id": "a", "text": "Choose suitable crops and practices for their soil type" }, { "id": "b", "text": "Ignore soil conditions entirely" }, { "id": "c", "text": "Assume all crops grow identically in every soil" }, { "id": "d", "text": "Avoid using scientific knowledge in farming" }], "correctOptionId": "a" },
+            { "id": "q10", "question": "Studying soil properties and their role in crop production helps learners to appreciate that:", "options": [{ "id": "a", "text": "Healthy crop growth depends on suitable soil conditions" }, { "id": "b", "text": "Soil has no relevance to agriculture" }, { "id": "c", "text": "All soils are equally suited to every crop" }, { "id": "d", "text": "Crop production requires no understanding of soil" }], "correctOptionId": "a" }
+          ]
+        },
+        {
+          "id": "5-6-soil-as-component-of-environment",
+          "title": "Soil as a Component of the Environment",
+          "completed": false,
+          "learningGoals": [
+            "Observe and describe different types of rocks as the origin of soils"
+          ],
+          "keyConceptSummary": "Different types of rocks serve as the origin of soils through the process of weathering, which gradually breaks rocks down over time. Understanding rock characteristics helps explain how different soils form in the environment.",
+          "resources": [
+            { "type": "video", "title": "From Rocks to Soil: The Process of Weathering", "url": "REPLACE_WITH_REAL_URL" },
+            { "type": "reading", "title": "Identifying Different Types of Rocks", "url": "#" },
+            { "type": "reading", "title": "How Soil Forms Over Time", "url": "#" }
+          ],
+          "quiz": [
+            { "id": "q1", "question": "Weathering of rocks refers to the process by which rocks:", "options": [{ "id": "a", "text": "Break down gradually into smaller particles over time" }, { "id": "b", "text": "Instantly turn into water" }, { "id": "c", "text": "Remain completely unchanged forever" }, { "id": "d", "text": "Grow larger over time" }], "correctOptionId": "a" },
+            { "id": "q2", "question": "Soil is best described as originating mainly from:", "options": [{ "id": "a", "text": "The weathering of rocks over long periods" }, { "id": "b", "text": "Water alone, with no connection to rocks" }, { "id": "c", "text": "Nothing; soil has no origin" }, { "id": "d", "text": "Only man-made materials" }], "correctOptionId": "a" },
+            { "id": "q3", "question": "Observing the visible characteristics of different rock samples helps learners to:", "options": [{ "id": "a", "text": "Identify and compare different rock types" }, { "id": "b", "text": "Avoid examining rocks scientifically" }, { "id": "c", "text": "Confuse rocks with soil directly" }, { "id": "d", "text": "Ignore observational skills" }], "correctOptionId": "a" },
+            { "id": "q4", "question": "Collecting rock samples from the community and comparing them with labelled samples helps learners to:", "options": [{ "id": "a", "text": "Apply classroom learning to real-world observation" }, { "id": "b", "text": "Avoid connecting theory to practice" }, { "id": "c", "text": "Ignore local geological features" }, { "id": "d", "text": "Rely only on textbook images" }], "correctOptionId": "a" },
+            { "id": "q5", "question": "Researching the stages of weathering that lead to soil formation helps learners to:", "options": [{ "id": "a", "text": "Understand the gradual process behind soil origin" }, { "id": "b", "text": "Assume soil appears suddenly with no process" }, { "id": "c", "text": "Avoid studying geology" }, { "id": "d", "text": "Ignore the connection between rocks and soil" }], "correctOptionId": "a" },
+            { "id": "q6", "question": "Different rock types can lead to the formation of soils that:", "options": [{ "id": "a", "text": "Have different properties depending on their rock origin" }, { "id": "b", "text": "Are always identical regardless of rock type" }, { "id": "c", "text": "Have no connection to their source rock" }, { "id": "d", "text": "Cannot be studied scientifically" }], "correctOptionId": "a" },
+            { "id": "q7", "question": "Selecting alternative methods to identify and classify rock samples is an example of applying:", "options": [{ "id": "a", "text": "Critical thinking and problem solving" }, { "id": "b", "text": "Random guessing" }, { "id": "c", "text": "No particular reasoning skill" }, { "id": "d", "text": "Avoidance of classification" }], "correctOptionId": "a" },
+            { "id": "q8", "question": "Recognising patterns in rock characteristics across samples helps learners to:", "options": [{ "id": "a", "text": "Generalise findings to understand broader geological processes" }, { "id": "b", "text": "Avoid recognising patterns" }, { "id": "c", "text": "Assume each rock sample is entirely unrelated to others" }, { "id": "d", "text": "Ignore evidence from multiple samples" }], "correctOptionId": "a" },
+            { "id": "q9", "question": "Describing the stages of weathering of rocks to form soil is useful because it helps learners to:", "options": [{ "id": "a", "text": "Understand a natural process that supports agriculture" }, { "id": "b", "text": "Ignore the importance of soil formation" }, { "id": "c", "text": "Assume soil formation has no relevance to farming" }, { "id": "d", "text": "Avoid studying earth science" }], "correctOptionId": "a" },
+            { "id": "q10", "question": "Understanding rocks as the origin of soils helps learners to appreciate that:", "options": [{ "id": "a", "text": "Natural processes over time shape the environment we depend on" }, { "id": "b", "text": "Soil and rocks are entirely unrelated" }, { "id": "c", "text": "The environment has no connection to natural history" }, { "id": "d", "text": "Rocks have no role in supporting plant life" }], "correctOptionId": "a" }
+          ]
+        }
+      ]
+    }
+  ]
+}
