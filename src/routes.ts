@@ -4,11 +4,14 @@ export const routes = {
   login: () => "/login",
   signup: () => "/signup",
   selectGrade: () => "/select-grade",
+  logout: () => "/logout",
 
   // Main tabs
   dashboard: () => "/dashboard",
+  courses: () => "/courses",
   profile: () => "/profile",
   settings: () => "/settings",
+  
 
   // Subject / topic / subtopic tree
   subject: (subjectId: string) => `/subject/${subjectId}`,

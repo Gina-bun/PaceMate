@@ -17,6 +17,7 @@ import { SettingsScreen } from "./features/settings/SettingsScreen";
 import "./App.css";
 import { AuthProvider } from "./context/AuthContext";
 import { CurriculumProvider } from "./context/CurriculumContext";
+import { CoursesScreen } from "./features/subjects/CoursesScreen";
 
 function App() {
   return (
@@ -38,6 +39,7 @@ function App() {
             <Route path="/dashboard" element={<DashboardScreen />} />
             <Route path="/profile" element={<ProfileScreen />} />
             <Route path="/settings" element={<SettingsScreen />} />
+            <Route path="/courses" element={<CoursesScreen/>}/>
           </Route>
 
           {/* back buttons only for this screen */}
