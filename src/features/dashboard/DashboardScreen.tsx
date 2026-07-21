@@ -1,4 +1,5 @@
 import { Card } from "../../components/Card";
+import { PrimaryActionCard } from "../../components/PrimaryActionCard";
 import { ProfileAvatar } from "../../components/ProfileAvatar";
 import { ProgressOverviewCard } from "../../components/ProgressOverviewCard";
 import { StreakBadge } from "../../components/StreakBadge";
@@ -30,9 +31,7 @@ const mockRecentActivity = [
 export function DashboardScreen() {
   const { user } = useAuth();
   if(!user) return <p>Loading...</p>
-  console.log(user);
   const firstName = user.name.split(" ")[0] || "User";
-  console.log(firstName);
 
   return (
     <div className="flex flex-col gap-6 p-4 bg-amber-50 min-h-screen">
@@ -51,7 +50,14 @@ export function DashboardScreen() {
 
       {/* Overall progress snapshot */}
       <ProgressOverviewCard completed={mockCompleted} total={mockTotal} subjectProgress={mockSubjectProgress} />
+
       {/* Primary action card(unfinished quiz, a visited-but-not-quizzed subtopic, or nothing if none) */}
+      <PrimaryActionCard
+        kind="continue"
+        subject="Social Studies"
+        subtopic="The Individual and Community Development"
+        onAction={() => {return null}}
+      />
 
       {/* warm up quiz /recap quiz card*/}
       {/* <div>
