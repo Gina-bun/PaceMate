@@ -14,7 +14,7 @@ export function ProfileAvatar({ name, imageUrl, editable, onEditClick, height = 
     <div className={`relative`}>
       <div
         onClick={editable ? onEditClick : undefined}
-        className={`w-${width} h-${height} rounded-md bg-orange-200 flex items-center justify-center text-2xl font-semibold text-orange-700 overflow-hidden ${
+        className={`w-${width} h-${height} p-1 py-2 rounded-md bg-orange-200 flex items-center justify-center text-2xl font-semibold text-orange-700 overflow-hidden ${
           editable ? "cursor-pointer" : ""
         }`}
       >
