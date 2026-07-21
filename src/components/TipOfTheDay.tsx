@@ -1,8 +1,21 @@
+import { Card } from "./Card";
 
+const TIPS = [
+  "The Ashanti Kingdom's power came partly from controlling gold trade routes across West Africa.",
+  "Knowing yourself helps you accept your strengths and identify where you can grow.",
+  "Forests are renewable resources because they can be replanted and regrow over time.",
+];
 
-export function TipOfTheDay(){
+function getTipForToday(): string {
+  const dayOfYear = Math.floor((Date.now() - new Date(new Date().getFullYear(), 0, 0).getTime()) / 86400000);
+  return TIPS[dayOfYear % TIPS.length];
+}
 
-    return (
-        <></>
-    )
+export function TipOfTheDay() {
+  return (
+    <Card variant="tip">
+      <p className="text-xs font-semibold text-orange-500 mb-1">💡 Did you know?</p>
+      <p className="text-sm text-gray-700">{getTipForToday()}</p>
+    </Card>
+  );
 }

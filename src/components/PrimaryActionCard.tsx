@@ -1,5 +1,6 @@
 import { Card } from "./Card";
 import { Button } from "./Button";
+import { ArrowRight } from "lucide-react";
 
 type PrimaryActionProps =
   | { kind: "start"; subject: string; topic: string; onAction: () => void }
@@ -30,8 +31,8 @@ export function PrimaryActionCard(props: PrimaryActionProps) {
       <h2 className="text-lg font-semibold">{subject}</h2>
       <p className="text-sm text-orange-100 mb-4">{detail}</p>
       <div className="flex justify-end">
-        <Button type="button" onClick={onAction} styles="bg-white text-orange-600">
-          {buttonLabel} →
+        <Button type="button" onClick={onAction} styles="flex items-center gap-1 bg-white text-orange-600">
+          {buttonLabel} <ArrowRight size={16}/>
         </Button>
       </div>
     </Card>

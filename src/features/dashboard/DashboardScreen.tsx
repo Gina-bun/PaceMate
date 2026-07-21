@@ -1,8 +1,9 @@
-import { Card } from "../../components/Card";
 import { PrimaryActionCard } from "../../components/PrimaryActionCard";
 import { ProfileAvatar } from "../../components/ProfileAvatar";
 import { ProgressOverviewCard } from "../../components/ProgressOverviewCard";
 import { StreakBadge } from "../../components/StreakBadge";
+import { TipOfTheDay } from "../../components/TipOfTheDay";
+import { WarmUpOrRecapCard } from "../../components/WarmUpRecapCard";
 import { WeeklyActivityStrip } from "../../components/WeeklyActivityStrip";
 import { useAuth } from "../../context/AuthContext";
 
@@ -51,6 +52,16 @@ export function DashboardScreen() {
       {/* Overall progress snapshot */}
       <ProgressOverviewCard completed={mockCompleted} total={mockTotal} subjectProgress={mockSubjectProgress} />
 
+      {/* warm up quiz /recap quiz card*/}
+      <WarmUpOrRecapCard
+        hasRecapData={mockHasRecap}
+        recapSubject="Social Studies"
+        recapCount={5}
+        subjectOptions={mockSubjectOptions}
+        onStartWarmUp={(subject) => console.log("start warm-up:", subject)}
+        onStartRecap={() => console.log("start recap")}
+      />
+
       {/* Primary action card(unfinished quiz, a visited-but-not-quizzed subtopic, or nothing if none) */}
       <PrimaryActionCard
         kind="continue"
@@ -59,22 +70,11 @@ export function DashboardScreen() {
         onAction={() => {return null}}
       />
 
-      {/* warm up quiz /recap quiz card*/}
-      {/* <div>
-        <h2 className="font-semibold mb-2">
-          {isFirstTime ? "Warm-Up Quiz" : "Quiz Recap"}
-        </h2>
-        <Card variant={isFirstTime ? "warmup" : "review"}>
-          <p className="text-sm">
-            {isFirstTime
-              ? "Take a quick warm-up quiz to get started!"
-              : "Retake: Cell Structure Quiz"}
-          </p>
-        </Card>
-      </div> */}
+      {/* Tip of the day */}
+      <TipOfTheDay/>
+  
 
       {/* recent activity (recent subtopics, quizzes) */}
-      {/* subjects overview, compact row */}
     </div>
   );
 }
