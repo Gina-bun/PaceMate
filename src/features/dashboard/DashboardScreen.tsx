@@ -1,6 +1,8 @@
+import { Carousel } from "../../components/Carousel";
 import { PrimaryActionCard } from "../../components/PrimaryActionCard";
 import { ProfileAvatar } from "../../components/ProfileAvatar";
 import { ProgressOverviewCard } from "../../components/ProgressOverviewCard";
+import { RecentActivityCard } from "../../components/RecentActivityCard";
 import { StreakBadge } from "../../components/StreakBadge";
 import { TipOfTheDay } from "../../components/TipOfTheDay";
 import { WarmUpOrRecapCard } from "../../components/WarmUpRecapCard";
@@ -21,17 +23,24 @@ const mockSubjectProgress = [
   { subject: "Science", percent: 0 },
 ];
 
-const mockSubjectOptions = mockSubjectProgress.map((s) => ({label: s.subject, value: s.subject}));
+const mockSubjectOptions = mockSubjectProgress.map((s) => ({
+  label: s.subject,
+  value: s.subject,
+}));
 const mockHasRecap = mockCompleted > 0;
 const mockRecentActivity = [
-  { subject: "Social Studies", subtopic: "The People of Ghana", score: { correct: 8, total: 10 } },
+  {
+    subject: "Social Studies",
+    subtopic: "The People of Ghana",
+    score: { correct: 8, total: 10 },
+  },
   { subject: "Social Studies", subtopic: "Environmental Issues" },
+  
 ];
-
 
 export function DashboardScreen() {
   const { user } = useAuth();
-  if(!user) return <p>Loading...</p>
+  if (!user) return <p>Loading...</p>;
   const firstName = user.name.split(" ")[0] || "User";
 
   return (
@@ -40,17 +49,20 @@ export function DashboardScreen() {
       <div className="flex justify-between items-center">
         <h1 className="text-xl font-bold">Welcome back {firstName}</h1>
         <div className="flex items-center gap-3">
-            <StreakBadge streak={mockStreak} />
-            <ProfileAvatar name={user.name} height={16} width={16} />
+          <StreakBadge streak={mockStreak} />
+          <ProfileAvatar name={user.name} height={16} width={16} />
         </div>
-        
       </div>
 
       {/* Weekly Activity Strip */}
-      <WeeklyActivityStrip activeDates={mockActiveDates}/>
+      <WeeklyActivityStrip activeDates={mockActiveDates} />
 
       {/* Overall progress snapshot */}
-      <ProgressOverviewCard completed={mockCompleted} total={mockTotal} subjectProgress={mockSubjectProgress} />
+      <ProgressOverviewCard
+        completed={mockCompleted}
+        total={mockTotal}
+        subjectProgress={mockSubjectProgress}
+      />
 
       {/* warm up quiz /recap quiz card*/}
       <WarmUpOrRecapCard
@@ -67,14 +79,28 @@ export function DashboardScreen() {
         kind="continue"
         subject="Social Studies"
         subtopic="The Individual and Community Development"
-        onAction={() => {return null}}
+        onAction={() => {
+          return null;
+        }}
       />
 
       {/* Tip of the day */}
-      <TipOfTheDay/>
-  
+      <TipOfTheDay />
 
       {/* recent activity (recent subtopics, quizzes) */}
+      {mockRecentActivity.length > 0 && (
+        <div className="min-w-0">
+          <h2 className="font-semibold mb-2">Recent activity</h2>
+          <Carousel>
+            {mockRecentActivity.map((item, i) => (
+              <RecentActivityCard
+                key={`${item.subject}-${item.subtopic}-${i}`}
+                {...item}
+              />
+            ))}
+          </Carousel>
+        </div>
+      )}
     </div>
   );
 }

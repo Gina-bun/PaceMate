@@ -18,7 +18,7 @@ const variantStyles: Record<CardProps["variant"], string> = {
 
 export function Card({ variant, children, onClick }: CardProps) {
   return (
-    <div onClick={onClick} className={`p-4 ${variantStyles[variant]}`}>
+    <div onClick={onClick} className={`p-4 h-full ${variantStyles[variant]}`}>
       {children}
     </div>
   );
