@@ -18,11 +18,13 @@ import "./App.css";
 import { AuthProvider } from "./context/AuthContext";
 import { CurriculumProvider } from "./context/CurriculumContext";
 import { CoursesScreen } from "./features/subjects/CoursesScreen";
+import { ProgressProvider } from "./context/ProgressContext";
 
 function App() {
   return (
     <AuthProvider>
         <CurriculumProvider>
+          <ProgressProvider>
       <BrowserRouter>
         <Routes>
           {/* Auth flow */}
@@ -59,6 +61,7 @@ function App() {
           <Route path="/edit-profile" element={<EditProfileScreen />} />
         </Routes>
       </BrowserRouter>
+      </ProgressProvider>
       </CurriculumProvider>
     </AuthProvider>
   );

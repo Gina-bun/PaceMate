@@ -7,8 +7,8 @@ export function QuizScoreScreen() {
   const navigate = useNavigate();
   const { subjectId, topicId, subtopicId } = useParams();
 
-  const { score = 0, total = 0 } = (location.state as { score: number; total: number }) || {};
-  const passed = total > 0 && score / total >= 0.5;
+  const { score = 0, total = 0, passed = false } = (location.state as { score: number; total: number, passed: boolean }) || {};
+  
 
   return (
     <div className="flex flex-col items-center justify-center min-h-screen bg-amber-50 gap-4 p-4 text-center">

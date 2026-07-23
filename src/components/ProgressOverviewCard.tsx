@@ -23,7 +23,9 @@ export function ProgressOverviewCard({
         <h2 className="font-semibold mb-3">Your subjects</h2>
         <div className="flex flex-col gap-2">
           {subjectProgress.map((s) => (
-            <div className="flex justify-between text-sm">
+            <div 
+            key={s.subject}
+            className="flex justify-between text-sm">
               <span>{s.subject}</span>
               <span className="text-gray-500">{s.percent}%</span>
             </div>

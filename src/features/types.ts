@@ -37,3 +37,10 @@ export interface SubjectData {
     grade: number;
     topics: Topic[];
 }
+
+export interface FlatSubtopic {
+  subjectId: string;
+  subject: string;
+  topic: Topic;
+  subtopic: Subtopic;
+}
