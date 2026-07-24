@@ -4,7 +4,7 @@ import { AuthLayout } from "./layouts/AuthLayout";
 import { MainLayout } from "./layouts/MainLayout";
 import { DashboardScreen } from "./features/dashboard/DashboardScreen";
 import { LoginScreen } from "./features/auth/LoginScreen";
-import { SplashScreen } from "./features/auth/SplashScreen";
+import { LandingScreen } from "./features/auth/LandingScreen";
 import { SignUpScreen } from "./features/auth/SignUpScreen";
 import { SelectGradeScreen } from "./features/auth/SelectGradeScreen";
 import { SubjectScreen } from "./features/subjects/SubjectScreen";
@@ -30,7 +30,7 @@ function App() {
         <Routes>
           {/* Auth flow */}
           <Route element={<AuthLayout />}>
-            <Route path="/" element={<SplashScreen />} />
+            <Route path="/" element={<LandingScreen />} />
             <Route path="/login" element={<LoginScreen />} />
             <Route path="/signup" element={<SignUpScreen />} />
             <Route path="/select-grade" element={<SelectGradeScreen />} />

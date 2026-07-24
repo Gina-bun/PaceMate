@@ -1,6 +1,6 @@
 export const routes = {
   //Auth
-  splash: () => "/",
+  landing: () => "/",
   login: () => "/login",
   signup: () => "/signup",
   selectGrade: () => "/select-grade",
