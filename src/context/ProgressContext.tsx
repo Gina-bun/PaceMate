@@ -18,7 +18,7 @@ import {
   query,
   type Timestamp,
 } from "firebase/firestore";
-import { db } from "../lib/firebase";
+import { auth, db } from "../lib/firebase";
 import { useAuth } from "./AuthContext";
 
 const PASSING_RATIO = 0.7; // 70% required to mark a subtopic complete
@@ -76,7 +76,7 @@ interface RecentActivityItem {
 interface AttemptDoc {
   uid: string;
   subjectId: string;
-    topicId: string;    
+  topicId: string;
   subtopicId: string;
   answers: AnsweredQuestion[];
   correct: number;
@@ -105,8 +105,11 @@ interface ProgressContextType {
   activeDates: string[];
   lastVisited: LastVisited | null;
   currentStreak: number;
-  recap: RecapData | null; 
-  submitRecapAttempt: (subjectId: string, answers: AnsweredQuestion[]) => Promise<{ correct: number; total: number }>;
+  recap: RecapData | null;
+  submitRecapAttempt: (
+    subjectId: string,
+    answers: AnsweredQuestion[],
+  ) => Promise<{ correct: number; total: number }>;
 
   isSubtopicComplete: (
     subjectId: string,
@@ -203,26 +206,38 @@ export function ProgressProvider({ children }: { children: ReactNode }) {
         next[d.id] = d.data() as InProgressQuiz;
       });
       setInProgressQuizzes(next);
-    });
+    },
+    (err) => {console.error("Inprogress failed:", err.code, err.message)}
+  );
 
     const metaRef = doc(db, "users", user.uid, "progress", "_meta");
     const unsubMeta = onSnapshot(metaRef, (snap) => {
       setMeta((snap.data() as MetaDoc) ?? {});
-    });
+    },
+    (err) => {console.error("meta failed:", err.code, err.message)}
+  );
+
+       console.log("Auth debug:", {
+  contextUser: user?.uid,
+  firebaseCurrentUser: auth.currentUser?.uid,
+});
 
     const attemptsQuery = query(
       collectionGroup(db, "attempts"),
       where("uid", "==", user.uid),
     );
-    const unsubAttempts = onSnapshot(attemptsQuery, (snap) => {
-      setAllAttempts(snap.docs.map((d) => d.data() as AttemptDoc));
-    });
+
+    const unsubAttempts = onSnapshot(
+      attemptsQuery,
+      (snap) => setAllAttempts(snap.docs.map((d) => d.data() as AttemptDoc)),
+      (err) => console.error("attempts query failed:", err.code, err.message),
+    );
 
     return () => {
       unsubProgress();
       unsubInProgress();
       unsubMeta();
-      unsubAttempts(); 
+      unsubAttempts();
     };
   }, [user]);
 
@@ -314,7 +329,7 @@ export function ProgressProvider({ children }: { children: ReactNode }) {
     await setDoc(attemptRef, {
       uid: user.uid,
       subjectId,
-      topicId,   
+      topicId,
       subtopicId,
       answers,
       correct,
@@ -370,55 +385,68 @@ export function ProgressProvider({ children }: { children: ReactNode }) {
   }
 
   const recap: RecapData | null = (() => {
-  const subjectMissCounts: Record<string, number> = {};
-  const questionMissCounts: Record<string, RecapQuestionRef> = {};
+    const subjectMissCounts: Record<string, number> = {};
+    const questionMissCounts: Record<string, RecapQuestionRef> = {};
 
-  allAttempts.forEach((attempt) => {
-    attempt.answers
-      .filter((a) => !a.correct)
-      .forEach((a) => {
-        subjectMissCounts[attempt.subjectId] = (subjectMissCounts[attempt.subjectId] ?? 0) + 1;
+    allAttempts.forEach((attempt) => {
+      attempt.answers
+        .filter((a) => !a.correct)
+        .forEach((a) => {
+          subjectMissCounts[attempt.subjectId] =
+            (subjectMissCounts[attempt.subjectId] ?? 0) + 1;
 
-        const key = `${attempt.subjectId}__${attempt.topicId}__${attempt.subtopicId}__${a.questionId}`;
-        if (!questionMissCounts[key]) {
-          questionMissCounts[key] = {
-            topicId: attempt.topicId,
-            subtopicId: attempt.subtopicId,
-            questionId: a.questionId,
-            missCount: 0,
-          };
-        }
-        questionMissCounts[key].missCount += 1;
-      });
-  });
+          const key = `${attempt.subjectId}__${attempt.topicId}__${attempt.subtopicId}__${a.questionId}`;
+          if (!questionMissCounts[key]) {
+            questionMissCounts[key] = {
+              topicId: attempt.topicId,
+              subtopicId: attempt.subtopicId,
+              questionId: a.questionId,
+              missCount: 0,
+            };
+          }
+          questionMissCounts[key].missCount += 1;
+        });
+    });
 
-  const entries = Object.entries(subjectMissCounts);
-  if (entries.length === 0) return null;
+    const entries = Object.entries(subjectMissCounts);
+    if (entries.length === 0) return null;
 
-  const [topSubject, topCount] = entries.reduce((best, curr) => (curr[1] > best[1] ? curr : best));
+    const [topSubject, topCount] = entries.reduce((best, curr) =>
+      curr[1] > best[1] ? curr : best,
+    );
 
-  const questions = Object.entries(questionMissCounts)
-    .filter(([key]) => key.startsWith(`${topSubject}__`))
-    .map(([, ref]) => ref)
-    .sort((a, b) => b.missCount - a.missCount)
-    .slice(0, 10); // cap recap quiz length
+    const questions = Object.entries(questionMissCounts)
+      .filter(([key]) => key.startsWith(`${topSubject}__`))
+      .map(([, ref]) => ref)
+      .sort((a, b) => b.missCount - a.missCount)
+      .slice(0, 10); // cap recap quiz length
 
-  return { subject: topSubject, count: topCount, questions };
-})();
+    return { subject: topSubject, count: topCount, questions };
+  })();
 
-async function submitRecapAttempt(subjectId: string, answers: AnsweredQuestion[]) {
-  if (!user) return { correct: 0, total: 0 };
-  const correct = answers.filter((a) => a.correct).length;
-  const total = answers.length;
+  async function submitRecapAttempt(
+    subjectId: string,
+    answers: AnsweredQuestion[],
+  ) {
+    if (!user) return { correct: 0, total: 0 };
+    const correct = answers.filter((a) => a.correct).length;
+    const total = answers.length;
 
-  const ref = doc(collection(db, "users", user.uid, "recapAttempts"));
-  await setDoc(ref, { uid: user.uid, subjectId, answers, correct, total, completedAt: serverTimestamp() });
+    const ref = doc(collection(db, "users", user.uid, "recapAttempts"));
+    await setDoc(ref, {
+      uid: user.uid,
+      subjectId,
+      answers,
+      correct,
+      total,
+      completedAt: serverTimestamp(),
+    });
 
-  const passed = total > 0 && correct / total >= PASSING_RATIO;
-  if (passed) await touchToday(); // genuine practice still counts toward the streak
+    const passed = total > 0 && correct / total >= PASSING_RATIO;
+    if (passed) await touchToday(); // genuine practice still counts toward the streak
 
-  return { correct, total };
-}
+    return { correct, total };
+  }
 
   return (
     <ProgressContext.Provider
@@ -439,7 +467,6 @@ async function submitRecapAttempt(subjectId: string, answers: AnsweredQuestion[]
         recordVisit,
         saveQuizProgress,
         submitQuizAttempt,
-        
       }}
     >
       {children}

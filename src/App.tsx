@@ -19,6 +19,7 @@ import { AuthProvider } from "./context/AuthContext";
 import { CurriculumProvider } from "./context/CurriculumContext";
 import { CoursesScreen } from "./features/subjects/CoursesScreen";
 import { ProgressProvider } from "./context/ProgressContext";
+import { RecapQuizScreen } from "./features/quiz/RecapQuizScreen";
 
 function App() {
   return (
@@ -58,6 +59,7 @@ function App() {
             path="/subject/:subjectId/topic/:topicId/subtopic/:subtopicId/quiz-score"
             element={<QuizScoreScreen />}
           />
+          <Route path="/recap-quiz/:subjectId" element={<RecapQuizScreen />} />
           <Route path="/edit-profile" element={<EditProfileScreen />} />
         </Routes>
       </BrowserRouter>

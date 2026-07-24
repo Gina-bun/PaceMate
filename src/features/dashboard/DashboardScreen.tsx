@@ -32,6 +32,8 @@ function flattenSubtopics(subjects: SubjectData[]): FlatSubtopic[] {
 export function DashboardScreen() {
   const { user } = useAuth();
 
+ 
+
   const { subjects, loading: curriculumLoading } = useCurriculum();
   const {
     records,
@@ -149,6 +151,8 @@ export function DashboardScreen() {
 
     const firstName = user?.name.split(" ")[0] || "User";
 
+     console.log(recap);
+
   return (
     <div className="flex flex-col gap-6 p-4 bg-amber-50 min-h-screen">
       {/* HEADER (greeting, profile avatar, streak badge(for returning user)) */}
@@ -181,7 +185,10 @@ export function DashboardScreen() {
               routes.quiz(first.subjectId, first.topic.id, first.subtopic.id),
             );
         }}
-        onStartRecap={() => {}}
+        onStartRecap={() => {
+          if (!recap) return;
+          navigate(routes.recapQuiz(recap.subject));
+        }}
       />
 
       {/* Primary action card(unfinished quiz, a visited-but-not-quizzed subtopic, or nothing if none) */}
