@@ -21,6 +21,7 @@ export const routes = {
     `/subject/${subjectId}/topic/${topicId}/subtopic/${subtopicId}/quiz`,
   quizScore: (subjectId: string, topicId: string, subtopicId: string) =>
     `/subject/${subjectId}/topic/${topicId}/subtopic/${subtopicId}/quiz-score`,
+  recapQuiz: (subjectId: string) => `/recap-quiz/${subjectId}`,
 
   //Profile
   editProfile: () => "/edit-profile",

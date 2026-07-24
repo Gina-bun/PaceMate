@@ -42,6 +42,7 @@ export function DashboardScreen() {
     activeDates,
     currentStreak,
     getRecentActivity,
+    recap,
   } = useProgress();
   const navigate = useNavigate();
 
@@ -135,6 +136,13 @@ export function DashboardScreen() {
     value: s.subject.toLowerCase(),
   }));
 
+   const recapSubjectName = useMemo(() => {
+    if (!recap) return undefined;
+    const match = subjects.find((s) => s.subject.toLowerCase() === recap.subject);
+    return match?.subject ?? recap.subject; // fallback to the id if somehow not found
+  }, [recap, subjects]);
+
+
   if (curriculumLoading || progressLoading) {
     return <div className="p-6 text-gray-500">Loading your dashboard...</div>;
   }
@@ -164,7 +172,7 @@ export function DashboardScreen() {
 
       {/* warm up quiz /recap quiz card*/}
       <WarmUpOrRecapCard
-        hasRecapData={false}
+        hasRecapData={Boolean(recap)}
         subjectOptions={subjectOptions}
         onStartWarmUp={(subject) => {
           const first = flat.find((item) => item.subjectId === subject);
@@ -177,24 +185,20 @@ export function DashboardScreen() {
       />
 
       {/* Primary action card(unfinished quiz, a visited-but-not-quizzed subtopic, or nothing if none) */}
-      <PrimaryActionCard
-        kind={primaryAction.kind}
-        subject={primaryAction.subject}
-        {...(primaryAction.kind === "start"
-          ? { topic: primaryAction.topic }
-          : {})}
-        {...(primaryAction.kind === "resume-quiz"
-          ? {
-              questionIndex: primaryAction.questionIndex,
-              totalQuestions: primaryAction.totalQuestions,
-            }
-          : {})}
-        {...(primaryAction.kind === "continue" ||
-        primaryAction.kind === "resume-quiz"
-          ? { subtopic: primaryAction.subtopic }
-          : {})}
-        onAction={primaryAction.onAction}
-      />
+     {primaryAction && (
+  <PrimaryActionCard
+    kind={primaryAction.kind}
+    subject={primaryAction.subject}
+    {...(primaryAction.kind === "start" ? { topic: primaryAction.topic } : {})}
+    {...(primaryAction.kind === "resume-quiz"
+      ? { questionIndex: primaryAction.questionIndex, totalQuestions: primaryAction.totalQuestions }
+      : {})}
+    {...(primaryAction.kind === "continue" || primaryAction.kind === "resume-quiz"
+      ? { subtopic: primaryAction.subtopic }
+      : {})}
+    onAction={primaryAction.onAction}
+  />
+)}
 
       {/* Tip of the day */}
       <TipOfTheDay />

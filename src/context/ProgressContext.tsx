@@ -1,4 +1,10 @@
-import { createContext, useContext, useEffect, useState, type ReactNode } from "react";
+import {
+  createContext,
+  useContext,
+  useEffect,
+  useState,
+  type ReactNode,
+} from "react";
 import {
   collection,
   doc,
@@ -7,6 +13,9 @@ import {
   onSnapshot,
   serverTimestamp,
   arrayUnion,
+  collectionGroup,
+  where,
+  query,
   type Timestamp,
 } from "firebase/firestore";
 import { db } from "../lib/firebase";
@@ -64,6 +73,30 @@ interface RecentActivityItem {
   completedAt: Timestamp;
 }
 
+interface AttemptDoc {
+  uid: string;
+  subjectId: string;
+    topicId: string;    
+  subtopicId: string;
+  answers: AnsweredQuestion[];
+  correct: number;
+  total: number;
+  completedAt: Timestamp;
+}
+
+interface RecapQuestionRef {
+  topicId: string;
+  subtopicId: string;
+  questionId: string;
+  missCount: number;
+}
+
+interface RecapData {
+  subject: string; // subjectId
+  count: number; // weighted count of wrong answers for that subject
+  questions: RecapQuestionRef[];
+}
+
 interface ProgressContextType {
   records: Record<string, ProgressRecord>;
   inProgressQuizzes: Record<string, InProgressQuiz>;
@@ -72,9 +105,19 @@ interface ProgressContextType {
   activeDates: string[];
   lastVisited: LastVisited | null;
   currentStreak: number;
+  recap: RecapData | null; 
+  submitRecapAttempt: (subjectId: string, answers: AnsweredQuestion[]) => Promise<{ correct: number; total: number }>;
 
-  isSubtopicComplete: (subjectId: string, topicId: string, subtopicId: string) => boolean;
-  getInProgressQuiz: (subjectId: string, topicId: string, subtopicId: string) => InProgressQuiz | null;
+  isSubtopicComplete: (
+    subjectId: string,
+    topicId: string,
+    subtopicId: string,
+  ) => boolean;
+  getInProgressQuiz: (
+    subjectId: string,
+    topicId: string,
+    subtopicId: string,
+  ) => InProgressQuiz | null;
   findAnyInProgressQuiz: () => InProgressQuiz | null;
   getRecentActivity: (max?: number) => RecentActivityItem[];
 
@@ -84,17 +127,19 @@ interface ProgressContextType {
     topicId: string,
     subtopicId: string,
     currentIndex: number,
-    answers: AnsweredQuestion[]
+    answers: AnsweredQuestion[],
   ) => Promise<void>;
   submitQuizAttempt: (
     subjectId: string,
     topicId: string,
     subtopicId: string,
-    answers: AnsweredQuestion[]
+    answers: AnsweredQuestion[],
   ) => Promise<{ passed: boolean; correct: number; total: number }>;
 }
 
-const ProgressContext = createContext<ProgressContextType | undefined>(undefined);
+const ProgressContext = createContext<ProgressContextType | undefined>(
+  undefined,
+);
 const todayStr = () => new Date().toISOString().slice(0, 10);
 
 function computeStreak(activeDates: string[]): number {
@@ -113,10 +158,13 @@ function computeStreak(activeDates: string[]): number {
 export function ProgressProvider({ children }: { children: ReactNode }) {
   const { user } = useAuth();
   const [records, setRecords] = useState<Record<string, ProgressRecord>>({});
-  const [inProgressQuizzes, setInProgressQuizzes] = useState<Record<string, InProgressQuiz>>({});
+  const [inProgressQuizzes, setInProgressQuizzes] = useState<
+    Record<string, InProgressQuiz>
+  >({});
   const [meta, setMeta] = useState<MetaDoc>({});
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState<Error | null>(null);
+  const [allAttempts, setAllAttempts] = useState<AttemptDoc[]>([]);
 
   useEffect(() => {
     if (!user) {
@@ -145,7 +193,7 @@ export function ProgressProvider({ children }: { children: ReactNode }) {
       (err) => {
         setError(err as Error);
         setLoading(false);
-      }
+      },
     );
 
     const inProgressCol = collection(db, "users", user.uid, "inProgress");
@@ -162,10 +210,19 @@ export function ProgressProvider({ children }: { children: ReactNode }) {
       setMeta((snap.data() as MetaDoc) ?? {});
     });
 
+    const attemptsQuery = query(
+      collectionGroup(db, "attempts"),
+      where("uid", "==", user.uid),
+    );
+    const unsubAttempts = onSnapshot(attemptsQuery, (snap) => {
+      setAllAttempts(snap.docs.map((d) => d.data() as AttemptDoc));
+    });
+
     return () => {
       unsubProgress();
       unsubInProgress();
       unsubMeta();
+      unsubAttempts(); 
     };
   }, [user]);
 
@@ -188,7 +245,11 @@ export function ProgressProvider({ children }: { children: ReactNode }) {
 
     const id = progressDocId(info.subjectId, info.topicId, info.subtopicId);
     const ref = doc(db, "users", user.uid, "progress", id);
-    await setDoc(ref, { ...info, visitedAt: serverTimestamp() }, { merge: true });
+    await setDoc(
+      ref,
+      { ...info, visitedAt: serverTimestamp() },
+      { merge: true },
+    );
   }
 
   // Autosave while answering — does NOT touch the streak either.
@@ -197,15 +258,22 @@ export function ProgressProvider({ children }: { children: ReactNode }) {
     topicId: string,
     subtopicId: string,
     currentIndex: number,
-    answers: AnsweredQuestion[]
+    answers: AnsweredQuestion[],
   ) {
     if (!user) return;
     const id = progressDocId(subjectId, topicId, subtopicId);
     const ref = doc(db, "users", user.uid, "inProgress", id);
     await setDoc(
       ref,
-      { subjectId, topicId, subtopicId, currentIndex, answers, updatedAt: serverTimestamp() },
-      { merge: true }
+      {
+        subjectId,
+        topicId,
+        subtopicId,
+        currentIndex,
+        answers,
+        updatedAt: serverTimestamp(),
+      },
+      { merge: true },
     );
   }
 
@@ -217,7 +285,7 @@ export function ProgressProvider({ children }: { children: ReactNode }) {
     subjectId: string,
     topicId: string,
     subtopicId: string,
-    answers: AnsweredQuestion[]
+    answers: AnsweredQuestion[],
   ) {
     if (!user) return { passed: false, correct: 0, total: 0 };
 
@@ -237,11 +305,22 @@ export function ProgressProvider({ children }: { children: ReactNode }) {
         quizResult: { correct, total },
         ...(passed ? { completedAt: serverTimestamp() } : {}),
       },
-      { merge: true }
+      { merge: true },
     );
 
-    const attemptRef = doc(collection(db, "users", user.uid, "progress", id, "attempts"));
-    await setDoc(attemptRef, { answers, correct, total, completedAt: serverTimestamp() });
+    const attemptRef = doc(
+      collection(db, "users", user.uid, "progress", id, "attempts"),
+    );
+    await setDoc(attemptRef, {
+      uid: user.uid,
+      subjectId,
+      topicId,   
+      subtopicId,
+      answers,
+      correct,
+      total,
+      completedAt: serverTimestamp(),
+    });
 
     if (passed) {
       await touchToday(); // streak only advances on a passing attempt
@@ -253,12 +332,20 @@ export function ProgressProvider({ children }: { children: ReactNode }) {
     return { passed, correct, total };
   }
 
-  function isSubtopicComplete(subjectId: string, topicId: string, subtopicId: string) {
+  function isSubtopicComplete(
+    subjectId: string,
+    topicId: string,
+    subtopicId: string,
+  ) {
     const id = progressDocId(subjectId, topicId, subtopicId);
     return Boolean(records[id]?.completed);
   }
 
-  function getInProgressQuiz(subjectId: string, topicId: string, subtopicId: string) {
+  function getInProgressQuiz(
+    subjectId: string,
+    topicId: string,
+    subtopicId: string,
+  ) {
     const id = progressDocId(subjectId, topicId, subtopicId);
     return inProgressQuizzes[id] ?? null;
   }
@@ -272,7 +359,7 @@ export function ProgressProvider({ children }: { children: ReactNode }) {
   function getRecentActivity(max = 4): RecentActivityItem[] {
     return Object.values(records)
       .filter((r) => r.completed && r.completedAt)
-      .sort((a, b) => (b.completedAt!.toMillis() - a.completedAt!.toMillis()))
+      .sort((a, b) => b.completedAt!.toMillis() - a.completedAt!.toMillis())
       .slice(0, max)
       .map((r) => ({
         subjectId: r.subjectId,
@@ -281,6 +368,57 @@ export function ProgressProvider({ children }: { children: ReactNode }) {
         completedAt: r.completedAt!,
       }));
   }
+
+  const recap: RecapData | null = (() => {
+  const subjectMissCounts: Record<string, number> = {};
+  const questionMissCounts: Record<string, RecapQuestionRef> = {};
+
+  allAttempts.forEach((attempt) => {
+    attempt.answers
+      .filter((a) => !a.correct)
+      .forEach((a) => {
+        subjectMissCounts[attempt.subjectId] = (subjectMissCounts[attempt.subjectId] ?? 0) + 1;
+
+        const key = `${attempt.subjectId}__${attempt.topicId}__${attempt.subtopicId}__${a.questionId}`;
+        if (!questionMissCounts[key]) {
+          questionMissCounts[key] = {
+            topicId: attempt.topicId,
+            subtopicId: attempt.subtopicId,
+            questionId: a.questionId,
+            missCount: 0,
+          };
+        }
+        questionMissCounts[key].missCount += 1;
+      });
+  });
+
+  const entries = Object.entries(subjectMissCounts);
+  if (entries.length === 0) return null;
+
+  const [topSubject, topCount] = entries.reduce((best, curr) => (curr[1] > best[1] ? curr : best));
+
+  const questions = Object.entries(questionMissCounts)
+    .filter(([key]) => key.startsWith(`${topSubject}__`))
+    .map(([, ref]) => ref)
+    .sort((a, b) => b.missCount - a.missCount)
+    .slice(0, 10); // cap recap quiz length
+
+  return { subject: topSubject, count: topCount, questions };
+})();
+
+async function submitRecapAttempt(subjectId: string, answers: AnsweredQuestion[]) {
+  if (!user) return { correct: 0, total: 0 };
+  const correct = answers.filter((a) => a.correct).length;
+  const total = answers.length;
+
+  const ref = doc(collection(db, "users", user.uid, "recapAttempts"));
+  await setDoc(ref, { uid: user.uid, subjectId, answers, correct, total, completedAt: serverTimestamp() });
+
+  const passed = total > 0 && correct / total >= PASSING_RATIO;
+  if (passed) await touchToday(); // genuine practice still counts toward the streak
+
+  return { correct, total };
+}
 
   return (
     <ProgressContext.Provider
@@ -292,6 +430,8 @@ export function ProgressProvider({ children }: { children: ReactNode }) {
         activeDates: meta.activeDates ?? [],
         lastVisited: meta.lastVisited ?? null,
         currentStreak: computeStreak(meta.activeDates ?? []),
+        recap,
+        submitRecapAttempt,
         isSubtopicComplete,
         getInProgressQuiz,
         findAnyInProgressQuiz,
@@ -299,6 +439,7 @@ export function ProgressProvider({ children }: { children: ReactNode }) {
         recordVisit,
         saveQuizProgress,
         submitQuizAttempt,
+        
       }}
     >
       {children}
