@@ -20,50 +20,58 @@ import { CurriculumProvider } from "./context/CurriculumContext";
 import { CoursesScreen } from "./features/subjects/CoursesScreen";
 import { ProgressProvider } from "./context/ProgressContext";
 import { RecapQuizScreen } from "./features/quiz/RecapQuizScreen";
+import { QuizFeedbackScreen} from "./features/quiz/QuizFeedbackScreen";
 
 function App() {
   return (
     <AuthProvider>
-        <CurriculumProvider>
-          <ProgressProvider>
-      <BrowserRouter>
-        <Routes>
-          {/* Auth flow */}
-          <Route element={<AuthLayout />}>
-            <Route path="/" element={<LandingScreen />} />
-            <Route path="/login" element={<LoginScreen />} />
-            <Route path="/signup" element={<SignUpScreen />} />
-            <Route path="/select-grade" element={<SelectGradeScreen />} />
-          </Route>
+      <CurriculumProvider>
+        <ProgressProvider>
+          <BrowserRouter>
+            <Routes>
+              {/* Auth flow */}
+              <Route element={<AuthLayout />}>
+                <Route path="/" element={<LandingScreen />} />
+                <Route path="/login" element={<LoginScreen />} />
+                <Route path="/signup" element={<SignUpScreen />} />
+                <Route path="/select-grade" element={<SelectGradeScreen />} />
+              </Route>
 
-          {/* Main app */}
-          <Route element={<MainLayout />}>
-            {/* primary tabs only here - nav visible */}
-            <Route path="/dashboard" element={<DashboardScreen />} />
-            <Route path="/profile" element={<ProfileScreen />} />
-            <Route path="/settings" element={<SettingsScreen />} />
-            <Route path="/courses" element={<CoursesScreen/>}/>
-          </Route>
+              {/* Main app */}
+              <Route element={<MainLayout />}>
+                {/* primary tabs only here - nav visible */}
+                <Route path="/dashboard" element={<DashboardScreen />} />
+                <Route path="/profile" element={<ProfileScreen />} />
+                <Route path="/settings" element={<SettingsScreen />} />
+                <Route path="/courses" element={<CoursesScreen />} />
+              </Route>
 
-          {/* back buttons only for this screen */}
-          <Route path="/subject/:subjectId" element={<SubjectScreen />} />
-          <Route
-            path="/subject/:subjectId/topic/:topicId/subtopic/:subtopicId"
-            element={<TopicScreen />}
-          />
-          <Route
-            path="/subject/:subjectId/topic/:topicId/subtopic/:subtopicId/quiz"
-            element={<QuizScreen />}
-          />
-          <Route
-            path="/subject/:subjectId/topic/:topicId/subtopic/:subtopicId/quiz-score"
-            element={<QuizScoreScreen />}
-          />
-          <Route path="/recap-quiz/:subjectId" element={<RecapQuizScreen />} />
-          <Route path="/edit-profile" element={<EditProfileScreen />} />
-        </Routes>
-      </BrowserRouter>
-      </ProgressProvider>
+              {/* back buttons only for this screen */}
+              <Route path="/subject/:subjectId" element={<SubjectScreen />} />
+              <Route
+                path="/subject/:subjectId/topic/:topicId/subtopic/:subtopicId"
+                element={<TopicScreen />}
+              />
+              <Route
+                path="/subject/:subjectId/topic/:topicId/subtopic/:subtopicId/quiz"
+                element={<QuizScreen />}
+              />
+              <Route
+                path="/subject/:subjectId/topic/:topicId/subtopic/:subtopicId/quiz-score"
+                element={<QuizScoreScreen />}
+              />
+              <Route
+                path="/subject/:subjectId/topic/:topicId/subtopic/:subtopicId/quiz-feedback"
+                element={<QuizFeedbackScreen />}
+              />
+              <Route
+                path="/recap-quiz/:subjectId"
+                element={<RecapQuizScreen />}
+              />
+              <Route path="/edit-profile" element={<EditProfileScreen />} />
+            </Routes>
+          </BrowserRouter>
+        </ProgressProvider>
       </CurriculumProvider>
     </AuthProvider>
   );

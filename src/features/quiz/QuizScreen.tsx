@@ -71,6 +71,7 @@ export function QuizScreen() {
           score: result.correct,
           total: result.total,
           passed: result.passed,
+          answers: updatedAnswers,
         },
       });
     } else {
