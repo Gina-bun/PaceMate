@@ -11,9 +11,9 @@ function getTipForToday(): string {
   return TIPS[dayOfYear % TIPS.length];
 }
 
-export function TipOfTheDay() {
+export function TipOfTheDay({className}: {className?: string;}) {
   return (
-    <Card variant="tip">
+    <Card variant="tip" className={className}>
       <p className="text-xs font-semibold text-orange-500 mb-1">💡 Did you know?</p>
       <p className="text-sm text-gray-700">{getTipForToday()}</p>
     </Card>

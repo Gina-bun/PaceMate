@@ -1,8 +1,9 @@
 
 interface CardProps {
-  variant: "subject" | "review" | "warmup" | "welcome" | "question" | "option" | "action" | "tip";
+  variant: "subject" | "review" | "warmup" | "welcome" | "question" | "option" | "action" | "tip" | "greeting";
   children: React.ReactNode;
   onClick?: () => void;
+  className?: string;
 }
 
 const variantStyles: Record<CardProps["variant"], string> = {
@@ -14,11 +15,12 @@ const variantStyles: Record<CardProps["variant"], string> = {
   option: "rounded-md bg-white border border-gray-200 cursor-pointer hover:border-orange-300",
   action: "rounded-md bg-orange-400 text-white shadow-sm",
   tip: "rounded-md bg-white border border-dashed border-orange-200",
+  greeting: "rounded-md bg-gradient-to-br from-orange-400 to-amber-400 text-white shadow-md border border-orange-300",
 };
 
-export function Card({ variant, children, onClick }: CardProps) {
+export function Card({ variant, children, onClick, className = "" }: CardProps) {
   return (
-    <div onClick={onClick} className={`p-4 h-full ${variantStyles[variant]}`}>
+    <div onClick={onClick} className={`p-4 h-full relative ${variantStyles[variant]} ${className}`}>
       {children}
     </div>
   );

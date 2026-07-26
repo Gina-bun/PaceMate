@@ -5,6 +5,7 @@ interface CircularProgessProps {
   max: number;
   size?: number;
   strokeWidth?: number;
+  className?: string;
 }
 
 export function CircularProgress({
@@ -12,6 +13,7 @@ export function CircularProgress({
   max,
   size = 64,
   strokeWidth = 6,
+  className = "w-16 h-16 md:w-16 md:h-16",
 }: CircularProgessProps) {
   const percent = getPercentage({ value, max });
   const radius = (size - strokeWidth) / 2;
@@ -19,7 +21,7 @@ export function CircularProgress({
   const offset = circumference - (percent / 100) * circumference;
 
   return (
-    <svg width={size} height={size} viewBox={`0 0 ${size} ${size}`}>
+    <svg className={className} viewBox={`0 0 ${size} ${size}`}>
       <circle
         cx={size / 2}
         cy={size / 2}
@@ -27,6 +29,7 @@ export function CircularProgress({
         fill="none"
         stroke="#e5e7eb"
         strokeWidth={strokeWidth}
+        
       />
       <circle
         cx={size / 2}

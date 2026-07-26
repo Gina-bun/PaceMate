@@ -14,7 +14,8 @@ import type { FlatSubtopic, SubjectData } from "../types";
 import { useMemo } from "react";
 import { routes } from "../../routes";
 import { useCurriculum } from "../../context/CurriculumContext";
-
+import { GreetingCard } from "./GreetingCard";
+import { grades } from "../../utils/grades";
 
 function flattenSubtopics(subjects: SubjectData[]): FlatSubtopic[] {
   return subjects.flatMap((s) =>
@@ -31,8 +32,6 @@ function flattenSubtopics(subjects: SubjectData[]): FlatSubtopic[] {
 
 export function DashboardScreen() {
   const { user } = useAuth();
-
- 
 
   const { subjects, loading: curriculumLoading } = useCurriculum();
   const {
@@ -138,92 +137,183 @@ export function DashboardScreen() {
     value: s.subject.toLowerCase(),
   }));
 
-   const recapSubjectName = useMemo(() => {
+  const recapSubjectName = useMemo(() => {
     if (!recap) return undefined;
-    const match = subjects.find((s) => s.subject.toLowerCase() === recap.subject);
+    const match = subjects.find(
+      (s) => s.subject.toLowerCase() === recap.subject,
+    );
     return match?.subject ?? recap.subject; // fallback to the id if somehow not found
   }, [recap, subjects]);
-
 
   if (curriculumLoading || progressLoading) {
     return <div className="p-6 text-gray-500">Loading your dashboard...</div>;
   }
 
-    const firstName = user?.name.split(" ")[0] || "User";
-
-     console.log(recap);
+  const firstName = user?.name.split(" ")[0] || "User";
 
   return (
     <div className="flex flex-col gap-6 p-4 bg-amber-50 min-h-screen">
       {/* HEADER (greeting, profile avatar, streak badge(for returning user)) */}
       <div className="flex justify-between items-center">
-        <h1 className="text-xl font-bold">Welcome back {firstName}</h1>
+        <h1 className="text-2xl font-bold">Grade {user.grade}</h1>
         <div className="flex items-center gap-3">
           <StreakBadge streak={currentStreak} />
           <ProfileAvatar name={user?.name ?? ""} height={16} width={16} />
         </div>
       </div>
 
-      {/* Weekly Activity Strip */}
-      <WeeklyActivityStrip activeDates={activeDates} />
+      {/* DESKSTOP VIEW (LARGER SCREENS) */}
+      <div className="grid grid-cols-3 md:grid-cols-5 flex-1 grid-rows-3 gap-4 max-md:hidden">
+        {/* Greeting card */}
+        <GreetingCard className="col-span-3 row-span-1" name={firstName} />
 
-      {/* Overall progress snapshot */}
-      <ProgressOverviewCard
-        completed={overall.completed}
-        total={overall.total}
-        subjectProgress={subjectProgress}
-      />
 
-      {/* warm up quiz /recap quiz card*/}
-      <WarmUpOrRecapCard
-        hasRecapData={Boolean(recap)}
-        subjectOptions={subjectOptions}
-        onStartWarmUp={(subject) => {
-          const first = flat.find((item) => item.subjectId === subject);
-          if (first)
-            navigate(
-              routes.quiz(first.subjectId, first.topic.id, first.subtopic.id),
-            );
-        }}
-        onStartRecap={() => {
-          if (!recap) return;
-          navigate(routes.recapQuiz(recap.subject));
-        }}
-      />
+        {/* Weekly Activity Strip */}
+        <WeeklyActivityStrip activeDates={activeDates} className="col-span-2" />
 
-      {/* Primary action card(unfinished quiz, a visited-but-not-quizzed subtopic, or nothing if none) */}
-     {primaryAction && (
-  <PrimaryActionCard
-    kind={primaryAction.kind}
-    subject={primaryAction.subject}
-    {...(primaryAction.kind === "start" ? { topic: primaryAction.topic } : {})}
-    {...(primaryAction.kind === "resume-quiz"
-      ? { questionIndex: primaryAction.questionIndex, totalQuestions: primaryAction.totalQuestions }
-      : {})}
-    {...(primaryAction.kind === "continue" || primaryAction.kind === "resume-quiz"
-      ? { subtopic: primaryAction.subtopic }
-      : {})}
-    onAction={primaryAction.onAction}
-  />
-)}
+           {/* Overall progress snapshot */}
+        <ProgressOverviewCard
+          className="col-span-2 row-span-1"
+          completed={overall.completed}
+          total={overall.total}
+          subjectProgress={subjectProgress}
+        />
+        {/* PRIMARY ACTION + RECAP/WARM UP QUIZ */}
+        <div className="grid grid-cols-2 gap-2 col-span-3 row-span-1 ">
+           {/* Primary action card(unfinished quiz, a visited-but-not-quizzed subtopic, or nothing if none) */}
+        {primaryAction && (
+          <PrimaryActionCard
+            className=""
+            kind={primaryAction.kind}
+            subject={primaryAction.subject}
+            {...(primaryAction.kind === "start"
+              ? { topic: primaryAction.topic }
+              : {})}
+            {...(primaryAction.kind === "resume-quiz"
+              ? {
+                  questionIndex: primaryAction.questionIndex,
+                  totalQuestions: primaryAction.totalQuestions,
+                }
+              : {})}
+            {...(primaryAction.kind === "continue" ||
+            primaryAction.kind === "resume-quiz"
+              ? { subtopic: primaryAction.subtopic }
+              : {})}
+            onAction={primaryAction.onAction}
+          />
+        )}
 
-      {/* Tip of the day */}
-      <TipOfTheDay />
-
-      {/* recent activity (recent subtopics, quizzes) */}
-      {recentActivity.length > 0 && (
-        <div className="min-w-0">
-          <h2 className="font-semibold mb-2">Recent activity</h2>
-          <Carousel>
-            {recentActivity.map((item, i) => (
-              <RecentActivityCard
-                key={`${item.subject}-${item.subtopic}-${i}`}
-                {...item}
-              />
-            ))}
-          </Carousel>
+        {/* warm up quiz /recap quiz card*/}
+        <WarmUpOrRecapCard
+          className=""
+          recapSubject={recapSubjectName}
+          recapCount={recap?.count}
+          hasRecapData={Boolean(recap)}
+          subjectOptions={subjectOptions}
+          onStartWarmUp={(subject) => {
+            const first = flat.find((item) => item.subjectId === subject);
+            if (first)
+              navigate(
+                routes.quiz(first.subjectId, first.topic.id, first.subtopic.id),
+              );
+          }}
+          onStartRecap={() => {
+            if (!recap) return;
+            navigate(routes.recapQuiz(recap.subject));
+          }}
+        />
         </div>
-      )}
+
+        {/* Tip of the day */}
+        <TipOfTheDay className="col-span-2"/>
+
+        {/* recent activity (recent subtopics, quizzes) */}
+        {recentActivity.length > 0 && (
+          <div className="min-w-0 bg-amber-100 rounded-md p-2 col-span-3">
+            <h2 className="font-semibold mb-2">Recent activity</h2>
+            <Carousel>
+              {recentActivity.map((item, i) => (
+                <RecentActivityCard
+                  key={`${item.subject}-${item.subtopic}-${i}`}
+                  {...item}
+                />
+              ))}
+            </Carousel>
+          </div>
+        )}
+      </div>
+
+      {/* MOBILE VIEW(SMALLER SCREENS) */}
+      <div className="mobile md:hidden flex flex-col gap-5">
+        {/* Weekly Activity Strip */}
+        <WeeklyActivityStrip activeDates={activeDates} />
+
+        {/* Overall progress snapshot */}
+        <ProgressOverviewCard
+          completed={overall.completed}
+          total={overall.total}
+          subjectProgress={subjectProgress}
+        />
+
+        {/* warm up quiz /recap quiz card*/}
+        <WarmUpOrRecapCard
+          recapSubject={recapSubjectName}
+          recapCount={recap?.count}
+          hasRecapData={Boolean(recap)}
+          subjectOptions={subjectOptions}
+          onStartWarmUp={(subject) => {
+            const first = flat.find((item) => item.subjectId === subject);
+            if (first)
+              navigate(
+                routes.quiz(first.subjectId, first.topic.id, first.subtopic.id),
+              );
+          }}
+          onStartRecap={() => {
+            if (!recap) return;
+            navigate(routes.recapQuiz(recap.subject));
+          }}
+        />
+
+        {/* Primary action card(unfinished quiz, a visited-but-not-quizzed subtopic, or nothing if none) */}
+        {primaryAction && (
+          <PrimaryActionCard
+            kind={primaryAction.kind}
+            subject={primaryAction.subject}
+            {...(primaryAction.kind === "start"
+              ? { topic: primaryAction.topic }
+              : {})}
+            {...(primaryAction.kind === "resume-quiz"
+              ? {
+                  questionIndex: primaryAction.questionIndex,
+                  totalQuestions: primaryAction.totalQuestions,
+                }
+              : {})}
+            {...(primaryAction.kind === "continue" ||
+            primaryAction.kind === "resume-quiz"
+              ? { subtopic: primaryAction.subtopic }
+              : {})}
+            onAction={primaryAction.onAction}
+          />
+        )}
+
+        {/* Tip of the day */}
+        <TipOfTheDay />
+
+        {/* recent activity (recent subtopics, quizzes) */}
+        {recentActivity.length > 0 && (
+          <div className="min-w-0">
+            <h2 className="font-semibold mb-2">Recent activity</h2>
+            <Carousel>
+              {recentActivity.map((item, i) => (
+                <RecentActivityCard
+                  key={`${item.subject}-${item.subtopic}-${i}`}
+                  {...item}
+                />
+              ))}
+            </Carousel>
+          </div>
+        )}
+      </div>
     </div>
   );
 }
