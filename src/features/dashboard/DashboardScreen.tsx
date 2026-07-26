@@ -16,6 +16,7 @@ import { routes } from "../../routes";
 import { useCurriculum } from "../../context/CurriculumContext";
 import { GreetingCard } from "./GreetingCard";
 import { grades } from "../../utils/grades";
+import { EmptyActivityCard } from "../../components/EmptyActivityCard";
 
 function flattenSubtopics(subjects: SubjectData[]): FlatSubtopic[] {
   return subjects.flatMap((s) =>
@@ -132,6 +133,9 @@ export function DashboardScreen() {
     });
   }, [getRecentActivity, flat, records]);
 
+  //empty activity cards to fill empty slots in recent activity
+  const emptyActivitySlots = Math.max(0, 4 - recentActivity.length);
+
   const subjectOptions = subjects.map((s) => ({
     label: s.subject,
     value: s.subject.toLowerCase(),
@@ -167,11 +171,10 @@ export function DashboardScreen() {
         {/* Greeting card */}
         <GreetingCard className="col-span-3 row-span-1" name={firstName} />
 
-
         {/* Weekly Activity Strip */}
         <WeeklyActivityStrip activeDates={activeDates} className="col-span-2" />
 
-           {/* Overall progress snapshot */}
+        {/* Overall progress snapshot */}
         <ProgressOverviewCard
           className="col-span-2 row-span-1"
           completed={overall.completed}
@@ -180,52 +183,56 @@ export function DashboardScreen() {
         />
         {/* PRIMARY ACTION + RECAP/WARM UP QUIZ */}
         <div className="grid grid-cols-2 gap-2 col-span-3 row-span-1 ">
-           {/* Primary action card(unfinished quiz, a visited-but-not-quizzed subtopic, or nothing if none) */}
-        {primaryAction && (
-          <PrimaryActionCard
-            className=""
-            kind={primaryAction.kind}
-            subject={primaryAction.subject}
-            {...(primaryAction.kind === "start"
-              ? { topic: primaryAction.topic }
-              : {})}
-            {...(primaryAction.kind === "resume-quiz"
-              ? {
-                  questionIndex: primaryAction.questionIndex,
-                  totalQuestions: primaryAction.totalQuestions,
-                }
-              : {})}
-            {...(primaryAction.kind === "continue" ||
-            primaryAction.kind === "resume-quiz"
-              ? { subtopic: primaryAction.subtopic }
-              : {})}
-            onAction={primaryAction.onAction}
-          />
-        )}
+          {/* Primary action card(unfinished quiz, a visited-but-not-quizzed subtopic, or nothing if none) */}
+          {primaryAction && (
+            <PrimaryActionCard
+              className=""
+              kind={primaryAction.kind}
+              subject={primaryAction.subject}
+              {...(primaryAction.kind === "start"
+                ? { topic: primaryAction.topic }
+                : {})}
+              {...(primaryAction.kind === "resume-quiz"
+                ? {
+                    questionIndex: primaryAction.questionIndex,
+                    totalQuestions: primaryAction.totalQuestions,
+                  }
+                : {})}
+              {...(primaryAction.kind === "continue" ||
+              primaryAction.kind === "resume-quiz"
+                ? { subtopic: primaryAction.subtopic }
+                : {})}
+              onAction={primaryAction.onAction}
+            />
+          )}
 
-        {/* warm up quiz /recap quiz card*/}
-        <WarmUpOrRecapCard
-          className=""
-          recapSubject={recapSubjectName}
-          recapCount={recap?.count}
-          hasRecapData={Boolean(recap)}
-          subjectOptions={subjectOptions}
-          onStartWarmUp={(subject) => {
-            const first = flat.find((item) => item.subjectId === subject);
-            if (first)
-              navigate(
-                routes.quiz(first.subjectId, first.topic.id, first.subtopic.id),
-              );
-          }}
-          onStartRecap={() => {
-            if (!recap) return;
-            navigate(routes.recapQuiz(recap.subject));
-          }}
-        />
+          {/* warm up quiz /recap quiz card*/}
+          <WarmUpOrRecapCard
+            className=""
+            recapSubject={recapSubjectName}
+            recapCount={recap?.count}
+            hasRecapData={Boolean(recap)}
+            subjectOptions={subjectOptions}
+            onStartWarmUp={(subject) => {
+              const first = flat.find((item) => item.subjectId === subject);
+              if (first)
+                navigate(
+                  routes.quiz(
+                    first.subjectId,
+                    first.topic.id,
+                    first.subtopic.id,
+                  ),
+                );
+            }}
+            onStartRecap={() => {
+              if (!recap) return;
+              navigate(routes.recapQuiz(recap.subject));
+            }}
+          />
         </div>
 
         {/* Tip of the day */}
-        <TipOfTheDay className="col-span-2"/>
+        <TipOfTheDay className="col-span-2" />
 
         {/* recent activity (recent subtopics, quizzes) */}
         {recentActivity.length > 0 && (
@@ -237,6 +244,9 @@ export function DashboardScreen() {
                   key={`${item.subject}-${item.subtopic}-${i}`}
                   {...item}
                 />
+              ))}
+              {Array.from({ length: emptyActivitySlots }).map((_, i) => (
+                <EmptyActivityCard key={`empty-${i}`} />
               ))}
             </Carousel>
           </div>
@@ -309,6 +319,9 @@ export function DashboardScreen() {
                   key={`${item.subject}-${item.subtopic}-${i}`}
                   {...item}
                 />
+              ))}
+              {Array.from({ length: emptyActivitySlots }).map((_, i) => (
+                <EmptyActivityCard key={`empty-${i}`} />
               ))}
             </Carousel>
           </div>
