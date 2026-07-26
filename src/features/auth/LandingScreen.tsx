@@ -1,7 +1,9 @@
 import { Button } from "../../components/Button";
-import logo from "../../assets/logo.png"
+import logo from "../../assets/logo.png";
+import heroImage from "../../assets/student.jpeg";
 import { useNavigate } from "react-router-dom";
 import { routes } from "../../routes";
+import { ArrowBigRight } from "lucide-react";
 
 const SUBJECTS = [
   { name: "Math", blurb: "Number work, algebra, and geometry from your BECE syllabus." },
@@ -23,13 +25,13 @@ export function LandingScreen() {
   return (
     <div className="flex flex-col min-h-screen bg-amber-50">
       {/* NAV */}
-      <nav className="flex justify-between items-center px-4 py-3 pt-5 md:px-10 md:py-4">
+      <nav className="flex justify-between items-center px-4 max-sm:py-3 pt-5 md:px-10 md:py-4">
         <img src={logo} alt="PaceMate logo" className="w-25 md:w-30 transition-transform duration-200 hover:scale-105" />
         <div className="flex items-center gap-2 md:gap-3">
           <Button
             type="button"
             onClick={() => navigate(routes.login())}
-            styles="bg-orange-400 text-amber-50 px-3 py-1.5 text-xs md:px-4 md:py-2 md:text-base transition-all duration-200 hover:brightness-110 hover:shadow-md active:scale-95"
+            styles="w-25 md:w-25 bg-transparent border text-xs border-orange-400 text-orange-400  py-1.5 text-sm md:py-2 md:text-base transition-all duration-200 hover:bg-orange-400/10 active:scale-95"
           >
             SIGN IN
           </Button>
@@ -44,8 +46,8 @@ export function LandingScreen() {
       </nav>
 
       {/* HERO */}
-      <section className="flex flex-col md:flex-row md:items-center gap-6 md:gap-12 px-4 py-8 md:px-10 md:py-16 max-w-6xl mx-auto w-full">
-        <div className="flex flex-col gap-4 md:gap-6 md:w-1/2">
+      <section className="flex flex-col max-md:flex-col-reverse md:flex-row md:items-center gap-6 md:gap-12 px-4 py-8 md:px-10 md:py-16 max-w-6xl mx-auto w-full">
+        <div className="flex flex-col gap-4 md:gap-6 md:w-1/2 max-md:text-center">
           <h1 className="text-2xl md:text-4xl lg:text-5xl font-bold text-gray-900 leading-tight">
             Extra tuition for JHS students, right from home
           </h1>
@@ -55,22 +57,20 @@ export function LandingScreen() {
             quizzes for Math, English, Science, and Social Studies — free,
             whenever you have time to study.
           </p>
-          <div className="flex flex-col sm:flex-row gap-3">
-            <Button type="button" onClick={() => navigate(routes.signup())} styles="bg-orange-400 text-amber-50 text-sm md:w-48">
+          <div className="flex flex-col sm:flex-row gap-3 ">
+            <Button type="button" onClick={() => navigate(routes.signup())} styles="group bg-orange-400 flex justify-center items-center font-bold gap-2 text-amber-50 text-sm md:w-42 max-md:w-50 self-center">
               GET STARTED
-            </Button>
-            <Button type="button" onClick={() => navigate(routes.login())} styles="md:w-48 bg-transparent border text-sm border-orange-400 text-orange-400 px-3 py-1.5 text-sm md:px-4 md:py-2 md:text-base transition-all duration-200 hover:bg-orange-400/10 active:scale-95">
-              SIGN IN
+              <ArrowBigRight  className="transition-transform duration-300 ease-in-out group-hover:translate-x-1"/>
             </Button>
           </div>
         </div>
-        <div className="md:w-1/2 flex justify-center max-md:hidden">
-          <img src={logo} alt="PaceMate" className="w-40 sm:w-52 md:w-full md:max-w-md" />
+        <div className="md:w-1/2 flex justify-center">
+          <img src={heroImage} alt="PaceMate" className="max-md:size-59 max-md: w-40 sm:w-59 md:w-full md:max-w-md rounded-full" />
         </div>
       </section>
 
       {/* WHY / PROBLEM */}
-      <section className="bg-orange-400 text-white px-4 py-8 md:px-10 md:py-12">
+      <section className="bg-orange-400 text-white px-4 py-8 md:px-10 md:py-12 max-md:text-center">
         <div className="max-w-5xl mx-auto flex flex-col md:flex-row gap-6 md:gap-10 md:items-start">
           <h2 className="text-xl md:text-2xl font-bold md:w-1/3">Why students use PaceMate</h2>
           <ul className="flex flex-col gap-3 md:gap-4 md:w-2/3 text-sm md:text-base">
@@ -117,7 +117,7 @@ export function LandingScreen() {
       </section>
 
       {/* FOOTER */}
-      <footer className="mt-auto flex flex-col md:flex-row md:justify-between items-center gap-2 px-4 py-6 md:px-10 text-xs md:text-sm text-gray-600">
+      <footer className="mt-auto flex flex-col border-t border-orange-500 bg-orange-400/10 md:flex-row md:justify-between items-center gap-2 px-4 py-4 md:px-10 text-xs md:text-sm text-gray-600">
         <img src={logo} alt="PaceMate logo" className="w-20" />
         <p>&copy; {new Date().getFullYear()} PaceMate. All rights reserved.</p>
       </footer>
