@@ -14,7 +14,7 @@ const variantStyles: Record<CardProps["variant"], string> = {
   question: "rounded-md bg-white shadow-sm border border-gray-200",
   option: "rounded-md bg-white border border-gray-200 cursor-pointer hover:border-orange-300",
   action: "rounded-md bg-orange-400 text-white shadow-sm",
-  tip: "rounded-md bg-white border border-dashed border-orange-200",
+  tip: "rounded-md bg-orange-300/40 border border-dashed border-orange-200",
   greeting: "rounded-md bg-gradient-to-br from-orange-400 to-amber-400 text-white shadow-md border border-orange-300",
   empty: "rounded-md bg-gray-100 border border-dashed border-gray-300",
 };

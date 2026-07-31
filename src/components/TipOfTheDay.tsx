@@ -14,8 +14,8 @@ function getTipForToday(): string {
 export function TipOfTheDay({className}: {className?: string;}) {
   return (
     <Card variant="tip" className={className}>
-      <p className="text-xs font-semibold text-orange-500 mb-1">💡 Did you know?</p>
-      <p className="text-sm text-gray-700">{getTipForToday()}</p>
+      <p className="text-xs font-semibold text-orange-500 mb-1 md:text-2xl">💡 Did you know?</p>
+      <p className="text-sm text-gray-700 md:text-xl">{getTipForToday()}</p>
     </Card>
   );
 }

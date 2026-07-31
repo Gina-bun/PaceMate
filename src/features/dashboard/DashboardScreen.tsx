@@ -232,7 +232,7 @@ export function DashboardScreen() {
         </div>
 
         {/* Tip of the day */}
-        <TipOfTheDay className="col-span-2" />
+        <TipOfTheDay className="col-span-2 flex flex-col justify-center bg-amber-500/50" />
 
         {/* recent activity (recent subtopics, quizzes) */}
         {recentActivity.length > 0 && (
