@@ -32,13 +32,14 @@ export function LoginScreen() {
   });
 
   return (
-    <div className="flex flex-col gap-5 h-screen items-center justify-center bg-amber-50 px-6">
+    
+      <div className="flex flex-col gap-5 h-screen items-center justify-center bg-amber-50 px-6 ">
       <div className="flex flex-col gap-1 w-full sm:w-[50vw] items-center text-center">
         <h1 className="text-2xl font-bold">Login</h1>
         <p className="text-gray-600">Welcome back!</p>
       </div>
 
-      <form onSubmit={formik.handleSubmit} className="flex flex-col gap-3 w-full sm:w-[50vw]">
+      <form onSubmit={formik.handleSubmit} className="flex flex-col gap-3 lg:w-1/3 w-full sm:w-[50vw]">
         <TextInput 
            label="Email" 
            type="email" 

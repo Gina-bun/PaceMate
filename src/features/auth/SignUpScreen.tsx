@@ -47,7 +47,7 @@ export function SignUpScreen() {
         <p className="text-gray-600">Create an account</p>
       </div>
 
-      <form onSubmit={formik.handleSubmit} className="flex flex-col gap-3 w-full sm:w-[50vw]">
+      <form onSubmit={formik.handleSubmit} className="flex flex-col gap-3 w-full sm:w-[50vw] lg:w-1/3">
         <TextInput 
            label="Full Name" 
            value={formik.values.fullName} 
