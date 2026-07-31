@@ -21,25 +21,28 @@ export function SubjectScreen() {
 
   if (loading) return <div>loading...</div>;
   if (error) return <div>Error: {error.message}</div>; //judt for testing
- 
-
 
   const subject = subjects.find((s) => s.subject.toLowerCase() === subjectId);
 
   return (
-    <div className="flex flex-col min-h-screen bg-amber-50">
-      <div className="bg-orange-400 text-white p-4">
-        <button onClick={() => navigate(routes.dashboard())} className="mb-2 text-sm">
+    <div className="flex flex-col min-h-screen bg-amber-50 gap-2 px-4 pt-2">
+      <div className="flex bg-orange-400 text-white gap-2 p-4 md:w-[80vw] lg:w-[60vw] mx-auto">
+        <button
+          onClick={() => navigate(routes.dashboard())}
+          className="mb-2 text-sm border p-1 rounded-sm self-start"
+        >
           <ArrowLeft size={18} />
         </button>
-        <h1 className="text-xl font-bold">{subject.subject}</h1>
-        <p className="text-sm mt-1">
-          Build your reading, writing, and comprehension skills.
-        </p>
-        <p className="text-xs mt-2">{subject.topics.length} topics</p>
+        <div>
+          <h1 className="text-xl font-bold">{subject.subject}</h1>
+          <p className="text-sm mt-1">
+            Build your reading, writing, and comprehension skills.
+          </p>
+          <p className="text-xs mt-2">{subject.topics.length} topics</p>
+        </div>
       </div>
 
-      <div className="flex flex-col px-4">
+      <div className="flex flex-col px-4 border rounded-sm md:w-[80vw] lg:w-[60vw] mx-auto bg-gray-50">
         {subject.topics.map((topic) => (
           <TopicItem
             key={topic.id}
