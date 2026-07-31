@@ -4,6 +4,7 @@ interface CardProps {
   children: React.ReactNode;
   onClick?: () => void;
   className?: string;
+  padded?: boolean;
 }
 
 const variantStyles: Record<CardProps["variant"], string> = {
@@ -19,9 +20,9 @@ const variantStyles: Record<CardProps["variant"], string> = {
   empty: "rounded-md bg-gray-100 border border-dashed border-gray-300",
 };
 
-export function Card({ variant, children, onClick, className = "" }: CardProps) {
+export function Card({ variant, children, onClick, className = "", padded = true }: CardProps) {
   return (
-    <div onClick={onClick} className={`p-4 h-full relative ${variantStyles[variant]} ${className}`}>
+    <div onClick={onClick} className={`${padded ? "p-4" : ""} h-full relative ${variantStyles[variant]} ${className}`}>
       {children}
     </div>
   );

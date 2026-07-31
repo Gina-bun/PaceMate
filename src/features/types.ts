@@ -1,3 +1,19 @@
+//for subject cards on courses page
+export interface Subject {
+  id: string;
+  name: string;
+  slug: string;
+  image: string;
+  comingSoon: boolean;
+  totalSubtopics: number; // count from your curriculum content, set per subject
+}
+
+export interface StudentProgress {
+  subjectId: string;
+  percent: number;
+  lastAccessed: string; //ISO date
+}
+
 export interface Resource {
     type: "video" | "reading";
     title: string;
