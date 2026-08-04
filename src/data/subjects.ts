@@ -12,6 +12,6 @@ export const subjects: Subject[] = [
   { id: "science", name: "Science", slug: "science", image: scienceBg, comingSoon: false },
   { id: "english", name: "English", slug: "english", image: englishBg, comingSoon: false },
   { id: "social", name: "Social Studies", slug: "social-studies", image: socialBg, comingSoon: false },
-  { id: "ict", name: "History", slug: "history", image: ictBg, comingSoon: true },
+  { id: "ict", name: "ICT", slug: "ict", image: ictBg, comingSoon: true },
 ];
 

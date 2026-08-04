@@ -5,13 +5,6 @@ export interface Subject {
   slug: string;
   image: string;
   comingSoon: boolean;
-  totalSubtopics: number; // count from your curriculum content, set per subject
-}
-
-export interface StudentProgress {
-  subjectId: string;
-  percent: number;
-  lastAccessed: string; //ISO date
 }
 
 export interface Resource {
@@ -49,6 +42,7 @@ export interface Topic {
 }
 
 export interface SubjectData {
+    id: string;
     subject: string;
     grade: number;
     topics: Topic[];
