@@ -56,9 +56,9 @@ export function Nav({ variant }: NavProps) {
     }`}
     >
       {/* logo + collapse toggle */}
-      <div className={`flex items-center py-5 ${collapsed ? "justify-center" : "justify-end"}`}>
+      <div className={`flex items-center py-5 ${collapsed ? "justify-center" : "justify-between"}`}>
           {!collapsed && (
-            <img src={logo} alt="logo" className="h-15 w-full object-contain"/>
+            <img src={logo} alt="logo" className="h-15 ml-6 object-contain w-fit"/>
           )}
           {collapsed && (
             <img src={mobileLogo} alt="logo" className="h-9 w-full  object-contain"/>
@@ -69,7 +69,7 @@ export function Nav({ variant }: NavProps) {
           onClick={() => setCollapsed(!collapsed)}
           onMouseEnter={() => setShowTooltip(true)}
           onMouseLeave={() => setShowTooltip(false)}
-          styles="text-gray-600 hover:text-gray-700 bg-orange-200 rounded-r-none"
+          styles="absolute -right-2 text-gray-600 hover:text-gray-700 bg-orange-200 rounded"
           aria-label={collapsed ? "Expand sidebar" : "Collapse sidebar"}
           >
             {collapsed ? <ChevronRight size={11} strokeWidth={3}/> : <ChevronLeft size={22} strokeWidth={2} />}
@@ -102,7 +102,7 @@ export function Nav({ variant }: NavProps) {
                   }`
                 }
               >
-                <Icon size={20} strokeWidth={2} />
+                <Icon size={23} strokeWidth={2} />
                 {!collapsed && <span>{item.label}</span>}
               </NavLink>
             );

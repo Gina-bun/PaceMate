@@ -1,5 +1,6 @@
 import { useRef, useState, useEffect } from "react";
 import { ChevronLeft, ChevronRight } from "lucide-react";
+import "./Components.css"
 
 export function Carousel({ children }: { children: React.ReactNode }) {
   const scrollRef = useRef<HTMLDivElement>(null);
@@ -30,7 +31,7 @@ export function Carousel({ children }: { children: React.ReactNode }) {
   }
 
   return (
-    <div className="relative min-w-0">
+    <div className="relative min-w-0 no-scrollbar">
       <div ref={scrollRef} className="flex gap-2 overflow-x-auto scroll-smooth snap-x snap-mandatory no-scrollbar">
         {children}
       </div>
