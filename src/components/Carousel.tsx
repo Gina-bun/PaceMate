@@ -32,7 +32,11 @@ export function Carousel({ children }: { children: React.ReactNode }) {
 
   return (
     <div className="relative min-w-0 no-scrollbar">
-      <div ref={scrollRef} className="flex gap-2 overflow-x-auto scroll-smooth snap-x snap-mandatory no-scrollbar">
+      <div 
+      ref={scrollRef} 
+      className="flex gap-2 lg:gap-3 overflow-x-auto scroll-smooth snap-x snap-mandatory no-scrollbar
+                  md:flex-wrap md:overflow-visible md:snap-none"
+      >
         {children}
       </div>
       {canScrollLeft && (

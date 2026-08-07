@@ -27,19 +27,10 @@ export function CoursesScreen() {
   }
 
   return (
-    <div className="p-4 max-w-5xl mx-auto">
-      <div className="flex gap-2 items-center mb-4">
-        {/* <button
-          onClick={() => navigate(routes.dashboard())}
-          className="text-sm border p-1 rounded-sm"
-        >
-          <ArrowLeft size={18} />
-        </button> */}
-        <h1 className="text-xl font-bold">Courses</h1>
-      </div>
+    <div className="p-4 w-full md:max-w-6xl mx-auto">
 
       {myCourses.length > 0 && (
-        <section className="mb-6">
+        <section className="mb-5">
           <h2 className="font-semibold mb-2">My Courses</h2>
           <div className="min-w-0">
             <Carousel>
@@ -58,7 +49,7 @@ export function CoursesScreen() {
         </section>
       )}
 
-      <section className="mb-6">
+      <section className="mb-5">
         <h2 className="font-semibold mb-2">Available Subjects</h2>
         <div className=" min-w-0">
           <Carousel>
