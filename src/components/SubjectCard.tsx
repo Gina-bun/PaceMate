@@ -21,6 +21,7 @@ export function SubjectCard({
   const isLocked = status === "coming-soon";
 
   return (
+      <div className="flex-shrink-0 w-40 snap-start">
     <Card
       variant="subject"
       padded={false}
@@ -42,5 +43,6 @@ export function SubjectCard({
         )}
       </div>
     </Card>
+    </div>
   );
 }
