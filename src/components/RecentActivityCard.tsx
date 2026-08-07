@@ -9,8 +9,8 @@ interface RecentActivityCardProps {
 
 export function RecentActivityCard({ subject, subtopic, score, className }: RecentActivityCardProps) {
   return (
-    <div className="flex-shrink-0 w-40 snap-start">
-      <Card variant="subject" className={className}>
+    <div className={`shrink-0 w-50 snap-start ${className}`}>
+      <Card variant="recent">
         <p className="text-xs text-gray-500">{subject}</p>
         <p className="text-sm font-medium">{subtopic}</p>
         {score && <p className="text-xs text-gray-500 mt-1">{score.correct}/{score.total}</p>}

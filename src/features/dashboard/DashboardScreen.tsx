@@ -15,7 +15,6 @@ import { useMemo } from "react";
 import { routes } from "../../routes";
 import { useCurriculum } from "../../context/CurriculumContext";
 import { GreetingCard } from "./GreetingCard";
-import { grades } from "../../utils/grades";
 import { EmptyActivityCard } from "../../components/EmptyActivityCard";
 
 function flattenSubtopics(subjects: SubjectData[]): FlatSubtopic[] {
@@ -169,20 +168,20 @@ export function DashboardScreen() {
       {/* DESKSTOP VIEW (LARGER SCREENS) */}
       <div className="grid grid-cols-3 md:grid-cols-5 flex-1 grid-rows-3 gap-4 max-md:hidden">
         {/* Greeting card */}
-        <GreetingCard className="col-span-3 row-span-1" name={firstName} />
+        <GreetingCard className="col-span-5 lg:col-span-3 row-span-1" name={firstName} />
 
         {/* Weekly Activity Strip */}
-        <WeeklyActivityStrip activeDates={activeDates} className="col-span-2" />
+        <WeeklyActivityStrip activeDates={activeDates} className="col-span-5 lg:col-span-2" />
 
         {/* Overall progress snapshot */}
         <ProgressOverviewCard
-          className="col-span-2 row-span-1"
+          className="col-span-5 lg:col-span-2 row-span-1"
           completed={overall.completed}
           total={overall.total}
           subjectProgress={subjectProgress}
         />
         {/* PRIMARY ACTION + RECAP/WARM UP QUIZ */}
-        <div className="grid grid-cols-2 gap-2 col-span-3 row-span-1 ">
+        <div className="grid grid-cols-2 gap-2 col-span-5 lg:col-span-3 row-span-1 ">
           {/* Primary action card(unfinished quiz, a visited-but-not-quizzed subtopic, or nothing if none) */}
           {primaryAction && (
             <PrimaryActionCard
@@ -232,16 +231,17 @@ export function DashboardScreen() {
         </div>
 
         {/* Tip of the day */}
-        <TipOfTheDay className="col-span-2 flex flex-col justify-center bg-amber-500/50" />
+        <TipOfTheDay className="col-span-2 flex flex-col bg-amber-500/50" />
 
         {/* recent activity (recent subtopics, quizzes) */}
         {recentActivity.length > 0 && (
-          <div className="min-w-0 bg-amber-100 rounded-md p-2 col-span-3">
+          <div className="min-w-0 bg-amber-100 rounded-md p-2 flex flex-col gap-1 col-span-3">
             <h2 className="font-semibold mb-2">Recent activity</h2>
             <Carousel>
               {recentActivity.map((item, i) => (
                 <RecentActivityCard
                   key={`${item.subject}-${item.subtopic}-${i}`}
+                  className="h-40"
                   {...item}
                 />
               ))}
@@ -311,7 +311,7 @@ export function DashboardScreen() {
 
         {/* recent activity (recent subtopics, quizzes) */}
         {recentActivity.length > 0 && (
-          <div className="min-w-0">
+          <div className="min-w-0 relative">
             <h2 className="font-semibold mb-2">Recent activity</h2>
             <Carousel>
               {recentActivity.map((item, i) => (

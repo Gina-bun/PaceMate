@@ -1,6 +1,6 @@
 
 interface CardProps {
-  variant: "subject" | "review" | "warmup" | "welcome" | "question" | "option" | "action" | "tip" | "greeting" | "empty";
+  variant: "subject"  |"recent" | "review" | "warmup" | "welcome" | "question" | "option" | "action" | "tip" | "greeting" | "empty";
   children: React.ReactNode;
   onClick?: () => void;
   className?: string;
@@ -9,6 +9,7 @@ interface CardProps {
 
 const variantStyles: Record<CardProps["variant"], string> = {
   subject: "rounded-md bg-white shadow-sm border border-gray-200",
+  recent: "rounded-md bg-white shadow-sm border border-gray-200",
   review: "rounded-md bg-orange-50 border border-orange-200",
   warmup: "rounded-md bg-amber-100 border border-amber-300",
   welcome: "rounded-md bg-white shadow-md border border-gray-200 h-full flex flex-col justify-center",

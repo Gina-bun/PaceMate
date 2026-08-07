@@ -47,13 +47,13 @@ export function GreetingCard({ name, className }: GreetingCardProps) {
   });
 
   return (
-    <Card variant="greeting" className={`overflow-visible ${className ?? ""}`}>
+    <Card variant="greeting" className={`overflow-visible flex flex-row-reverse items-center justify-between ${className ?? ""}`}>
       {/* decorative stars poking slightly out of the top */}
-      <div className="pointer-events-none absolute -top-8 right-6 z-10 flex items-end gap-1">
-        <img src={stackedBooks} alt="stacked books" className="w-78" />
+      <div className="pointer-events-none z-10 flex items-end gap-1">
+        <img src={stackedBooks} alt="stacked books" className=" w-65 lg:w-60" />
       </div>
 
-      <div className="flex h-full flex-col gap-5 pr-4">
+      <div className="flex h-full justify-start pt-3 flex-col gap-5 pr-4">
         <div>
           <h2 className="text-2xl font-semibold">
             {greeting}, {name}
