@@ -21,14 +21,14 @@ export function SubjectCard({
   const isLocked = status === "coming-soon";
 
   return (
-      <div className="flex-shrink-0 w-40 snap-start">
+      <div className="shrink-0 w-40 md:w-60 lg:w-65 snap-start">
     <Card
       variant="subject"
       padded={false}
       onClick={isLocked ? undefined : onClick}
       className={isLocked ? "opacity-60" : ""}
     >
-      <div className="h-24 w-full bg-cover bg-center rounded-t-md" style={{ backgroundImage: `url(${subject.image})` }} />
+      <div className="h-24 md:h-32 lg:35 w-full bg-cover bg-center rounded-t-md" style={{ backgroundImage: `url(${subject.image})` }} />
 
       <div className="p-3">
         <p className="font-medium text-sm sm:text-base">{subject.name}</p>
