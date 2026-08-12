@@ -1,4 +1,4 @@
-=interface CheckboxProps {
+interface CheckboxProps {
   checked: boolean;
   onChange: () => void;
   disabled?: boolean;
