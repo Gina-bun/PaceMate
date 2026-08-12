@@ -24,7 +24,7 @@ export function SubjectScreen() {
     <div className="flex flex-col min-h-screen bg-amber-50 gap-2 px-4 pt-2">
       <div className="flex bg-orange-400 text-white gap-2 p-4 md:w-[80vw] lg:w-[60vw] mx-auto">
         <button
-          onClick={() => navigate(routes.dashboard())}
+          onClick={() => navigate(routes.courses())}
           className="mb-2 text-sm border p-1 rounded-sm self-start"
         >
           <ArrowLeft size={18} />
