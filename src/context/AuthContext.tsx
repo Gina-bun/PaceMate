@@ -11,6 +11,7 @@ import { auth, db } from "../lib/firebase";
 
 interface AppUser {
   uid: string;
+  username: string;
   name: string;
   email: string;
   grade: number | null;
@@ -23,6 +24,7 @@ interface AuthContextType {
   signup: (name: string, email: string, password: string) => Promise<void>;
   logout: () => Promise<void>;
   setGrade: (grade: number) => Promise<void>;
+  updateProfile: (updates: Partial<Pick<AppUser, "name" | "username">>) => Promise<void>;
 }
 
 const AuthContext = createContext<AuthContextType | undefined>(undefined);
@@ -38,6 +40,7 @@ export function AuthProvider({ children }: { children: ReactNode }) {
         const data = snap.data();
         setUser({
           uid: firebaseUser.uid,
+          username: data?.username ?? "",
           name: data?.name ?? "",
           email: firebaseUser.email ?? "",
           grade: data?.grade ?? null,
@@ -56,7 +59,7 @@ export function AuthProvider({ children }: { children: ReactNode }) {
 
   const signup = async (name: string, email: string, password: string) => {
     const cred = await createUserWithEmailAndPassword(auth, email, password);
-    await setDoc(doc(db, "users", cred.user.uid), { name, grade: null });
+    await setDoc(doc(db, "users", cred.user.uid), { name, username: "", grade: null });
   };
 
   const logout = async () => {
@@ -69,8 +72,14 @@ export function AuthProvider({ children }: { children: ReactNode }) {
     setUser((prev) => prev ? {...prev, grade} : null);
   };
 
+  const updateProfile = async (updates: Partial<Pick<AppUser, "name" | "username">>) => {
+    if (!user) return;
+    await setDoc(doc(db, "users", user.uid), updates, {merge: true});
+    setUser((prev) => prev ? {...prev, ...updates} : null);
+  }
+
   return (
-    <AuthContext.Provider value={{ user, loading, login, signup, logout, setGrade }}>
+    <AuthContext.Provider value={{ user, loading, login, signup, logout, setGrade, updateProfile }}>
       {children}
     </AuthContext.Provider>
   );

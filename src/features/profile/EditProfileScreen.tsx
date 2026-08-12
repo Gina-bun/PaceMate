@@ -11,16 +11,20 @@ import { routes } from "../../routes";
 
 export function EditProfileScreen() {
   const navigate = useNavigate();
-  const [fullName, setFullName] = useState("Philomena Cunk");
-  const [username, setUsername] = useState("philomena_c");
-  const [email, setEmail] = useState("philomena@example.com");
 
-  const {user, setGrade: saveGrade} = useAuth();
+  const {user, setGrade: saveGrade, updateProfile} = useAuth();
   const gradeValue = user?.grade ? user.grade.toString() : "7";
   const [grade, setGrade] = useState(gradeValue);
 
-  const handleSave = () => {
-    saveGrade(Number(grade));
+  const [username, setUsername] = useState(user?.username || "");
+ 
+
+  const handleSave = async () => {
+    await Promise.all([
+        saveGrade(Number(grade)),
+        updateProfile({username}),
+    ])
+ 
     navigate(routes.profile());
   };
 
@@ -34,13 +38,13 @@ export function EditProfileScreen() {
       </div>
 
       <div className="flex justify-center">
-        <ProfileAvatar name={fullName} editable onEditClick={() => {}} />
+        <ProfileAvatar name={user?.name || ""} editable onEditClick={() => {}} />
       </div>
 
       <div className="flex flex-col gap-3">
-        <TextInput label="Full Name" value={fullName} onChange={setFullName} />
+        <TextInput label="Full Name" value={user?.name || ""} disabled={true} />
         <TextInput label="Username" value={username} onChange={setUsername} />
-        <TextInput label="Email" type="email" value={email} onChange={setEmail} />
+        <TextInput label="Email" type="email" value={user?.email || ""}  disabled={true} />
         <Select
           label="Grade"
           value={grade}

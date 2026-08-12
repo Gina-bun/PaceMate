@@ -3,8 +3,9 @@ import { ProfileAvatar } from "../../components/ProfileAvatar";
 import { ArrowLeft } from "lucide-react";
 import { Button } from "../../components/Button";
 import { routes } from "../../routes";
+import { useAuth } from "../../context/AuthContext";
 
-const user = { name: "Philomena Cunk", email: "philomena@example.com" }; // add real user data later
+
 
 const menuItems = [
   {label: "Edit Profile", path: routes.editProfile()},
@@ -14,6 +15,7 @@ const menuItems = [
 
 export function ProfileScreen() {
   const navigate = useNavigate();
+  const { user } = useAuth();
 
   return (
     <div className="flex flex-col min-h-screen bg-amber-50">
@@ -24,10 +26,10 @@ export function ProfileScreen() {
         <h1 className="text-xl font-bold text-center">Profile</h1>
       </div>
 
-      <div className="bg-orange-400 rounded-md mx-4 p-4 flex flex-col items-center gap-2 text-white">
+      <div className="rounded-md mx-4 p-4 flex flex-col items-center gap-2 text-white">
         <ProfileAvatar name={user.name} />
-        <p className="font-semibold">{user.name}</p>
-        <p className="text-sm opacity-90">{user.email}</p>
+        <p className="font-semibold text-gray-900">{user.name}</p>
+        <p className="text-sm opacity-90 text-gray-900">{user.email}</p>
       </div>
 
       <div className="flex flex-col mt-6 px-4">
