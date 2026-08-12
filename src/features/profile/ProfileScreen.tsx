@@ -6,19 +6,16 @@ import { routes } from "../../routes";
 import { useAuth } from "../../context/AuthContext";
 import { useLogout } from "../../hooks/useLogout";
 
-
-
 const menuItems = [
-  {label: "Edit Profile", path: routes.editProfile()},
-  {label: "Terms and Conditions", path: routes.terms()},
-  {label: "Help and Support", path: routes.help()},
+  { label: "Edit Profile", path: routes.editProfile() },
+  { label: "Terms and Conditions", path: routes.terms() },
+  { label: "Help and Support", path: routes.help() },
 ];
 
 export function ProfileScreen() {
   const navigate = useNavigate();
   const { user } = useAuth();
   const handleLogout = useLogout();
-
 
   return (
     <div className="flex flex-col min-h-screen bg-amber-50">
@@ -29,29 +26,34 @@ export function ProfileScreen() {
         <h1 className="text-xl font-bold text-center">Profile</h1>
       </div>
 
-      <div className="rounded-md mx-4 p-4 flex flex-col items-center gap-2 text-white">
-        <ProfileAvatar name={user?.name || ""} />
+      <div className="rounded-md mx-4 flex flex-col items-center gap-2 text-white">
+        <ProfileAvatar height={18} width={18} name={user?.name || ""} />
         <p className="font-semibold text-gray-900">{user?.name || ""}</p>
         <p className="text-sm opacity-90 text-gray-900">{user?.email || ""}</p>
       </div>
 
-      <div className="flex flex-col mt-6 px-4">
-        {menuItems.map((item) => (
-          <Link
-          key={item.path}
-          to={item.path}
-          className="text-left py-3 border-b border-gray-200"
-          >
-            {item.label}
-          </Link>
-        ))}
+      {/* Centered container, mobile: full width / tablet: 480px / desktop: 400px */}
+      <div className="flex justify-center mt-6 px-4">
+        <div className="w-full md:w-120 lg:w-100 bg-transparent md:border  border-gray-300 rounded-lg p-6 md:p-8 lg:p-6">
+          <div className="flex flex-col">
+            {menuItems.map((item) => (
+              <Link
+                key={item.path}
+                to={item.path}
+                className="text-left py-3 border-b border-gray-200 last:border-b-0"
+              >
+                {item.label}
+              </Link>
+            ))}
 
-        <Button
-          onClick={handleLogout}
-          styles="text-left py-3 text-orange-600 font-medium flex items-center gap-2 mt-2"
-        >
-         <LogOut size={18} /> Log Out
-        </Button>
+            <Button
+              onClick={handleLogout}
+              styles="text-left py-3 text-orange-600 font-medium flex items-center gap-2 mt-2"
+            >
+              <LogOut size={18} /> Log Out
+            </Button>
+          </div>
+        </div>
       </div>
     </div>
   );

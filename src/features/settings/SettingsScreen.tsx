@@ -23,50 +23,53 @@ export function SettingsScreen() {
         <h1 className="text-xl font-bold text-center">Settings</h1>
       </div>
 
-      <div className="flex flex-col px-4">
-        <Accordion title={<span className="font-medium">Account</span>}>
-          <div className="flex flex-col gap-3">
-            <Link
-              to={routes.changePassword()}
-              className="text-left text-sm text-gray-700"
-            >
-              Change Password
-            </Link>
-            <Button
-              onClick={() => {
-              }}
-              styles="text-left text-sm text-red-500 font-medium"
-            >
-              Delete Account
-            </Button>
-          </div>
-        </Accordion>
+      <div className="flex justify-center px-4">
+        <div className="w-full md:w-[65vw] lg:w-[40vw] bg-transparent md:border md:border-gray-300 rounded-lg md:p-8 lg:p-6 flex flex-col">
 
-        <Accordion title={<span className="font-medium">Appearance</span>}>
-          <div className="flex flex-col gap-2">
-            {APPEARANCE_OPTIONS.map((mode) => (
-              <label key={mode} className="flex items-center gap-2 text-sm text-gray-700 capitalize">
-                <input
-                  type="radio"
-                  name="appearance"
-                  checked={appearance === mode}
-                  onChange={() => setAppearance(mode)}
-                  className="accent-orange-400"
-                />
-                {mode}
-              </label>
-            ))}
-          </div>
-        </Accordion>
+          <Accordion title={<span className="font-medium">Account</span>}>
+            <div className="flex flex-col gap-3">
+              <Link
+                to={routes.changePassword()}
+                className="text-left text-sm text-gray-700"
+              >
+                Change Password
+              </Link>
+              <Button
+                onClick={() => {
+                }}
+                styles="text-left text-sm text-red-500 font-medium"
+              >
+                Delete Account
+              </Button>
+            </div>
+          </Accordion>
 
-        <Accordion title={<span className="font-medium">About</span>}>
-          <div className="flex flex-col gap-3 text-sm text-gray-700">
-            <p>App Version: {__APP_VERSION__}</p>
-            <button onClick={() => navigate(routes.terms())} className="text-left">
-              Terms and Privacy
-            </button>
-          </div>
-        </Accordion>
+          <Accordion title={<span className="font-medium">Appearance</span>}>
+            <div className="flex flex-col gap-2">
+              {APPEARANCE_OPTIONS.map((mode) => (
+                <label key={mode} className="flex items-center gap-2 text-sm text-gray-700 capitalize">
+                  <input
+                    type="radio"
+                    name="appearance"
+                    checked={appearance === mode}
+                    onChange={() => setAppearance(mode)}
+                    className="accent-orange-400"
+                  />
+                  {mode}
+                </label>
+              ))}
+            </div>
+          </Accordion>
+
+          <Accordion title={<span className="font-medium">About</span>}>
+            <div className="flex flex-col gap-3 text-sm text-gray-700">
+              <p>App Version: {__APP_VERSION__}</p>
+              <button onClick={() => navigate(routes.terms())} className="text-left">
+                Terms and Privacy
+              </button>
+            </div>
+          </Accordion>
+        </div>
       </div>
     </div>
   );
