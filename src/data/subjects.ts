@@ -13,10 +13,10 @@ import type { Subject } from "../features/types";
 
 
 export const subjects: Subject[] = [
-  { id: "math", name: "Mathematics", slug: "mathematics", image: mathBg, comingSoon: false },
-  { id: "science", name: "Science", slug: "science", image: scienceBg, comingSoon: false },
-  { id: "english", name: "English", slug: "english", image: englishBg, comingSoon: false },
   { id: "social", name: "Social Studies", slug: "social-studies", image: socialBg, comingSoon: false },
+  { id: "science", name: "Science", slug: "science", image: scienceBg, comingSoon: false },
+  { id: "math", name: "Mathematics", slug: "mathematics", image: mathBg, comingSoon: false },
+  { id: "english", name: "English", slug: "english", image: englishBg, comingSoon: false },
   { id: "ict", name: "Computing(ICT)", slug: "ict", image: ictBg, comingSoon: true },
   { id: "rme", name: "Religious & Moral Education", slug: "rme", image: rmeBg, comingSoon: true },
   { id: "creative-arts", name: "Creative Arts", slug: "creative-arts", image: creativeArtsBg, comingSoon: true },
