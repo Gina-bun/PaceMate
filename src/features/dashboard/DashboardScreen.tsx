@@ -158,7 +158,7 @@ export function DashboardScreen() {
     <div className="flex flex-col gap-6 p-4 bg-amber-50 min-h-screen">
       {/* HEADER (greeting, profile avatar, streak badge(for returning user)) */}
       <div className="flex justify-between items-center">
-        <h1 className="text-2xl font-bold">Grade {user.grade}</h1>
+        <h1 className="text-2xl font-bold">Grade {user?.grade}</h1>
         <div className="flex items-center gap-3">
           <StreakBadge streak={currentStreak} />
           <ProfileAvatar name={user?.name ?? ""} height={16} width={16} />
@@ -168,10 +168,16 @@ export function DashboardScreen() {
       {/* DESKSTOP VIEW (LARGER SCREENS) */}
       <div className="grid grid-cols-3 md:grid-cols-5 flex-1 grid-rows-3 gap-4 max-md:hidden">
         {/* Greeting card */}
-        <GreetingCard className="col-span-5 lg:col-span-3 row-span-1" name={firstName} />
+        <GreetingCard
+          className="col-span-5 lg:col-span-3 row-span-1"
+          name={firstName}
+        />
 
         {/* Weekly Activity Strip */}
-        <WeeklyActivityStrip activeDates={activeDates} className="col-span-5 lg:col-span-2" />
+        <WeeklyActivityStrip
+          activeDates={activeDates}
+          className="col-span-5 lg:col-span-2"
+        />
 
         {/* Overall progress snapshot */}
         <ProgressOverviewCard
@@ -183,24 +189,21 @@ export function DashboardScreen() {
         {/* PRIMARY ACTION + RECAP/WARM UP QUIZ */}
         <div className="grid grid-cols-2 gap-2 col-span-5 lg:col-span-3 row-span-1 ">
           {/* Primary action card(unfinished quiz, a visited-but-not-quizzed subtopic, or nothing if none) */}
-          {primaryAction && (
+          {primaryAction?.kind === "start" && (
             <PrimaryActionCard
-              className=""
-              kind={primaryAction.kind}
+              kind="start"
               subject={primaryAction.subject}
-              {...(primaryAction.kind === "start"
-                ? { topic: primaryAction.topic }
-                : {})}
-              {...(primaryAction.kind === "resume-quiz"
-                ? {
-                    questionIndex: primaryAction.questionIndex,
-                    totalQuestions: primaryAction.totalQuestions,
-                  }
-                : {})}
-              {...(primaryAction.kind === "continue" ||
-              primaryAction.kind === "resume-quiz"
-                ? { subtopic: primaryAction.subtopic }
-                : {})}
+              topic={primaryAction.topic}
+              onAction={primaryAction.onAction}
+            />
+          )}
+          {primaryAction?.kind === "resume-quiz" && (
+            <PrimaryActionCard
+              kind="resume-quiz"
+              subject={primaryAction.subject}
+              subtopic={primaryAction.subtopic}
+              questionIndex={primaryAction.questionIndex}
+              totalQuestions={primaryAction.totalQuestions}
               onAction={primaryAction.onAction}
             />
           )}
@@ -285,23 +288,21 @@ export function DashboardScreen() {
         />
 
         {/* Primary action card(unfinished quiz, a visited-but-not-quizzed subtopic, or nothing if none) */}
-        {primaryAction && (
+        {primaryAction?.kind === "start" && (
           <PrimaryActionCard
-            kind={primaryAction.kind}
+            kind="start"
             subject={primaryAction.subject}
-            {...(primaryAction.kind === "start"
-              ? { topic: primaryAction.topic }
-              : {})}
-            {...(primaryAction.kind === "resume-quiz"
-              ? {
-                  questionIndex: primaryAction.questionIndex,
-                  totalQuestions: primaryAction.totalQuestions,
-                }
-              : {})}
-            {...(primaryAction.kind === "continue" ||
-            primaryAction.kind === "resume-quiz"
-              ? { subtopic: primaryAction.subtopic }
-              : {})}
+            topic={primaryAction.topic}
+            onAction={primaryAction.onAction}
+          />
+        )}
+        {primaryAction?.kind === "resume-quiz" && (
+          <PrimaryActionCard
+            kind="resume-quiz"
+            subject={primaryAction.subject}
+            subtopic={primaryAction.subtopic}
+            questionIndex={primaryAction.questionIndex}
+            totalQuestions={primaryAction.totalQuestions}
             onAction={primaryAction.onAction}
           />
         )}
