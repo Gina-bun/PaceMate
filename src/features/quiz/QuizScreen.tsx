@@ -45,11 +45,12 @@ export function QuizScreen() {
 
   const handleNext = async () => {
     if (!currentQuestion || !subjectId || !topicId || !subtopicId) return;
+    if (selectedOptionId === null) return;
 
     const correct = selectedOptionId === currentQuestion.correctOptionId;
     const answeredQuestion: AnsweredQuestion = {
       questionId: currentQuestion.id,
-      selectedOptionId: selectedOptionId,
+      selectedOptionId,
       correct,
     };
 

@@ -7,18 +7,18 @@ import { routes } from "../../routes";
 
 
 export function TopicScreen() {
-  const {subjects, loading, error} = useCurriculum();
+  const {subjects} = useCurriculum();
   const navigate = useNavigate();
   const { subjectId, topicId, subtopicId } = useParams();
 
     const subject = subjects.find((s) => s.subject.toLowerCase() === subjectId);
-    console.log(subject.subject);
-
     const topic = subject?.topics.find((t) => t.id === topicId);
-    console.log(topic.title);
-    
     const subtopic = topic?.subtopics.find((s) => s.id === subtopicId);
-    console.log(subtopic.title)
+
+      if (!subject || !topic || !subtopic) {
+    return <div className="p-4">Content not found.</div>;
+  }
+  
   return (
     <div className="flex flex-col min-h-screen bg-amber-50">
       {/* Header zone — distinct background, same pattern as Subject screen */}

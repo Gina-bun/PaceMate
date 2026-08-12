@@ -35,8 +35,6 @@ export function CurriculumProvider({children}: {children: ReactNode}) {
             import(`../data/science-grade${grade}.json`),
         ]).then((modules) => {
             setSubjects(modules.map((mod) => mod.default as SubjectData));
-            setLoading(false);
-
         })
         .catch((err) => {
             console.error("Failed to load curriculum data:", err);

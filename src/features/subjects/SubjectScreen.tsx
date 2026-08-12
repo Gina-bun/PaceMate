@@ -24,6 +24,10 @@ export function SubjectScreen() {
 
   const subject = subjects.find((s) => s.subject.toLowerCase() === subjectId);
 
+  if (!subject) {
+  return <div className="p-4">Subject not found.</div>;
+}
+
   return (
     <div className="flex flex-col min-h-screen bg-amber-50 gap-2 px-4 pt-2">
       <div className="flex bg-orange-400 text-white gap-2 p-4 md:w-[80vw] lg:w-[60vw] mx-auto">

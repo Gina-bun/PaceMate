@@ -3,7 +3,6 @@ import { useNavigate, useParams } from "react-router-dom";
 import { QuizQuestion } from "../../components/QuizQuestion";
 import { Button } from "../../components/Button";
 import { ProgressBar } from "../../components/ProgressBar";
-import { Card } from "../../components/Card";
 import { useCurriculum } from "../../context/CurriculumContext";
 import { useProgress, type AnsweredQuestion } from "../../context/ProgressContext";
 import { ArrowLeft } from "lucide-react";
