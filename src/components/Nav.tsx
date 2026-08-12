@@ -3,6 +3,7 @@ import { routes } from "../routes";
 import { Home, BookOpen, User, Settings, LogOut, ChevronRight, ChevronLeft } from "lucide-react";
 import { Button } from "./Button";
 import { useState } from "react";
+import { useLogout } from "../hooks/useLogout";
 import logo from "../assets/logo.png";
 import mobileLogo from "../assets/logo-mobile.png";
 
@@ -22,6 +23,8 @@ const navItems = [
 export function Nav({ variant }: NavProps) {
   const [collapsed, setCollapsed] = useState(false);
   const [showTooltip, setShowTooltip] = useState(false);
+  const handleLogout = useLogout();
+ 
 
   if (variant === "bottom") {
     return (
@@ -112,9 +115,7 @@ export function Nav({ variant }: NavProps) {
       {/* Logout, separated at the bottom */}
       <div className=" border-gray-200 px-3 py-3">
           <Button
-          onClick={() => {
-            //logout logic here
-          }}
+          onClick={handleLogout}
           styles={`flex items-center gap-3 rounded-lg px-3 py-2.5 text-sm text-red-500 hover:bg-red-50 transition-colors w-full ${
             collapsed ? `justify-center` : ``
           }`}
