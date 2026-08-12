@@ -8,15 +8,9 @@ export interface TopicItemProps {
   id: string;
   title: string;
   subtopics: Subtopic[];
-  onToggleSubtopic: (subtopicId: string) => void;
 }
 
-export function TopicItem({
-  id,
-  title,
-  subtopics,
-  onToggleSubtopic,
-}: TopicItemProps) {
+export function TopicItem({ id, title, subtopics }: TopicItemProps) {
   const navigate = useNavigate();
   const { subjectId } = useParams();
   const isTopicComplete = subtopics.every((s) => s.completed);
@@ -25,7 +19,7 @@ export function TopicItem({
     <Accordion
       title={
         <div className="flex items-center gap-2">
-          <Checkbox checked={isTopicComplete} onChange={() => {}} />
+          <Checkbox checked={isTopicComplete} onChange={() => {}} disabled />
           <span className="font-medium">{title}</span>
         </div>
       }
@@ -33,13 +27,10 @@ export function TopicItem({
       <div className="flex flex-col gap-2">
         {subtopics.map((sub) => (
           <div key={sub.id} className="flex items-center gap-2">
-            <Checkbox
-              checked={sub.completed}
-              onChange={() => onToggleSubtopic(sub.id)}
-            />
+            <Checkbox checked={sub.completed} onChange={() => {}} disabled />
             <span
               className="text-sm text-gray-700"
-              onClick={() => navigate(routes.subtopic(subjectId!, id, sub.id ))}
+              onClick={() => navigate(routes.subtopic(subjectId!, id, sub.id))}
             >
               {sub.title}
             </span>

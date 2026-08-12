@@ -1,7 +1,7 @@
 import { useNavigate, useParams } from "react-router-dom";
 import { useCurriculum } from "../../context/CurriculumContext";
+import { useProgress } from "../../context/ProgressContext";
 import { TopicItem } from "./TopicItem";
-import { useState } from "react";
 import { ArrowLeft } from "lucide-react";
 import { routes } from "../../routes";
 
@@ -9,24 +9,16 @@ export function SubjectScreen() {
   const { subjectId } = useParams();
   const navigate = useNavigate();
   const { subjects, loading, error } = useCurriculum();
-  const [completedIds, setCompletedIds] = useState<string[]>([]);
-
-  const handleToggleSubtopic = (subtopicId: string) => {
-    setCompletedIds((prev) =>
-      prev.includes(subtopicId)
-        ? prev.filter((id) => id !== subtopicId)
-        : [...prev, subtopicId],
-    );
-  };
+  const { isSubtopicComplete } = useProgress();
 
   if (loading) return <div>loading...</div>;
-  if (error) return <div>Error: {error.message}</div>; //judt for testing
+  if (error) return <div>Error: {error.message}</div>;
 
   const subject = subjects.find((s) => s.subject.toLowerCase() === subjectId);
 
   if (!subject) {
-  return <div className="p-4">Subject not found.</div>;
-}
+    return <div className="p-4">Subject not found.</div>;
+  }
 
   return (
     <div className="flex flex-col min-h-screen bg-amber-50 gap-2 px-4 pt-2">
@@ -54,9 +46,8 @@ export function SubjectScreen() {
             title={topic.title}
             subtopics={topic.subtopics.map((s) => ({
               ...s,
-              completed: completedIds.includes(s.id),
+              completed: isSubtopicComplete(subjectId!, topic.id, s.id),
             }))}
-            onToggleSubtopic={handleToggleSubtopic}
           />
         ))}
       </div>

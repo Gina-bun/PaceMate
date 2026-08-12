@@ -1,10 +1,11 @@
 import type { Subject, SubjectData } from "../features/types";
+import { normalize } from "./normalize";
 
 export type SubjectDisplayStatus = "in-progress" | "available" | "coming-soon";
 
 interface SubjectRecord {
-    subjectId: string;
-    completed: boolean;
+  subjectId: string;
+  completed: boolean;
 }
 
 export function getSubjectStatus(
@@ -12,8 +13,10 @@ export function getSubjectStatus(
   records: Record<string, SubjectRecord>,
 ): SubjectDisplayStatus {
   if (subject.comingSoon) return "coming-soon";
-  const hasActivity = Object.values(records).some((r) => r.subjectId === subject.id);
-  return hasActivity ? "in-progress" : "available";
+  const hasCompletedActivity = Object.values(records).some(
+    (r) => normalize(r.subjectId) === normalize(subject.slug) && r.completed,
+  );
+  return hasCompletedActivity ? "in-progress" : "available";
 }
 
 export function getCompletedCount(
@@ -21,7 +24,7 @@ export function getCompletedCount(
   records: Record<string, SubjectRecord>,
 ): number {
   return Object.values(records).filter(
-    (r) => r.subjectId === subject.id && r.completed,
+    (r) => normalize(r.subjectId) === normalize(subject.slug) && r.completed,
   ).length;
 }
 

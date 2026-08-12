@@ -6,10 +6,8 @@ import { useCurriculum } from "../../context/CurriculumContext";
 import { getSubjectStatus, getCompletedCount } from "../../utils/subjectStatus";
 import { routes } from "../../routes";
 import { Carousel } from "../../components/Carousel";
+import { normalize } from "../../utils/normalize";
 
-function normalize(str: string): string {
-  return str.toLowerCase().replace(/[\s-]+/g, "");
-}
 
 export function CoursesScreen() {
   const navigate = useNavigate();
