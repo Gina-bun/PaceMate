@@ -7,6 +7,10 @@ import { getSubjectStatus, getCompletedCount } from "../../utils/subjectStatus";
 import { routes } from "../../routes";
 import { Carousel } from "../../components/Carousel";
 
+function normalize(str: string): string {
+  return str.toLowerCase().replace(/[\s-]+/g, "");
+}
+
 export function CoursesScreen() {
   const navigate = useNavigate();
   const { records, loading: progressLoading } = useProgress();
@@ -14,7 +18,7 @@ export function CoursesScreen() {
 
    const withStatus = subjects.map((subject) => {
     const curriculumMatch = curriculumSubjects.find(
-      (cs) => cs.subject.toLowerCase() === subject.slug.toLowerCase(),
+      (cs) => normalize(cs.subject) === normalize(subject.slug),
     );
     const totalCount =
       curriculumMatch?.topics.reduce((sum, t) => sum + t.subtopics.length, 0) ?? 0;
@@ -24,6 +28,7 @@ export function CoursesScreen() {
       status: getSubjectStatus(subject, records),
       completedCount: getCompletedCount(subject, records),
       totalCount,
+      navId: curriculumMatch?.subject.toLowerCase() ?? subject.slug,
     };
   });
 
@@ -45,14 +50,14 @@ export function CoursesScreen() {
           <h2 className="font-semibold mb-2">My Courses</h2>
           <div className="min-w-0">
             <Carousel>
-              {myCourses.map(({ subject, completedCount , totalCount}) => (
+              {myCourses.map(({ subject, completedCount , totalCount, navId}) => (
                 <SubjectCard
                   key={subject.id}
                   subject={subject}
                   status="in-progress"
                   completedCount={completedCount}
                   totalCount={totalCount}
-                  onClick={() => navigate(routes.subject(subject.id))}
+                  onClick={() => navigate(routes.subject(navId))}
                 />
               ))}
             </Carousel>
@@ -64,12 +69,12 @@ export function CoursesScreen() {
         <h2 className="font-semibold mb-2">Available Subjects</h2>
         <div className=" min-w-0">
           <Carousel>
-            {available.map(({ subject }) => (
+            {available.map(({ subject, navId }) => (
               <SubjectCard
                 key={subject.id}
                 subject={subject}
                 status="available"
-                onClick={() => navigate(routes.subject(subject.id))}
+                onClick={() => navigate(routes.subject(navId))}
               />
             ))}
           </Carousel>
@@ -81,11 +86,12 @@ export function CoursesScreen() {
           <h2 className="font-semibold mb-2 text-gray-500">Coming Soon</h2>
           <div className="min-w-0">
             <Carousel>
-              {comingSoon.map(({ subject }) => (
+              {comingSoon.map(({ subject, navId }) => (
                 <SubjectCard
                   key={subject.id}
                   subject={subject}
                   status="coming-soon"
+                  onClick={() => navigate(routes.subject(navId))}
                 />
               ))}
             </Carousel>

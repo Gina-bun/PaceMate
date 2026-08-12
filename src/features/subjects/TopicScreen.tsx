@@ -4,14 +4,14 @@ import { Button } from "../../components/Button";
 import { useCurriculum } from "../../context/CurriculumContext";
 import { ArrowLeft } from "lucide-react";
 import { routes } from "../../routes";
-
+import { toSlug } from "../../utils/slug";
 
 export function TopicScreen() {
   const {subjects} = useCurriculum();
   const navigate = useNavigate();
   const { subjectId, topicId, subtopicId } = useParams();
 
-    const subject = subjects.find((s) => s.subject.toLowerCase() === subjectId);
+    const subject = subjects.find((s) => toSlug(s.subject) === subjectId);
     const topic = subject?.topics.find((t) => t.id === topicId);
     const subtopic = topic?.subtopics.find((s) => s.id === subtopicId);
 
