@@ -10,6 +10,7 @@ import {
   useProgress,
   type AnsweredQuestion,
 } from "../../context/ProgressContext";
+import { ConfirmDialog } from "../../components/ConfirmDialog";
 
 export function QuizScreen() {
   const navigate = useNavigate();
@@ -17,6 +18,7 @@ export function QuizScreen() {
   const { getInProgressQuiz, saveQuizProgress, submitQuizAttempt } =
     useProgress();
   const { subjectId, topicId, subtopicId } = useParams();
+  const [showExitConfirm, setShowExitConfirm] = useState(false);
 
   const [currentIndex, setCurrentIndex] = useState(0);
   const [selectedOptionId, setSelectedOptionId] = useState<string | null>(null);
@@ -77,7 +79,7 @@ export function QuizScreen() {
       });
     } else {
       const nextIndex = currentIndex + 1;
-       console.log("SAVING:", JSON.stringify(updatedAnswers, null, 2));
+      console.log("SAVING:", JSON.stringify(updatedAnswers, null, 2));
       await saveQuizProgress(
         subjectId,
         topicId,
@@ -96,7 +98,10 @@ export function QuizScreen() {
 
   return (
     <div className="flex flex-col min-h-screen bg-amber-50 p-4 gap-4">
-      <button onClick={() => navigate(-1)} className="text-sm self-start">
+      <button
+        onClick={() => setShowExitConfirm(true)}
+        className="text-sm self-start"
+      >
         <ArrowLeft size={18} />
       </button>
 
@@ -123,6 +128,15 @@ export function QuizScreen() {
       >
         {isLastQuestion ? "SUBMIT" : "NEXT"}
       </Button>
+      <ConfirmDialog
+  open={showExitConfirm}
+  title="Leave this quiz?"
+  message="Are you sure you want to exit the quiz?"
+  confirmLabel="Exit"
+  cancelLabel="Cancel"
+  onConfirm={() => navigate(-1)}
+  onCancel={() => setShowExitConfirm(false)}
+/>
     </div>
   );
 }

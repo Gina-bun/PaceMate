@@ -5,6 +5,8 @@ import { Button } from "../../components/Button";
 import { routes } from "../../routes";
 import { useAuth } from "../../context/AuthContext";
 import { useLogout } from "../../hooks/useLogout";
+import { ConfirmDialog } from "../../components/ConfirmDialog";
+import { useState } from "react";
 
 const menuItems = [
   { label: "Edit Profile", path: routes.editProfile() },
@@ -16,6 +18,7 @@ export function ProfileScreen() {
   const navigate = useNavigate();
   const { user } = useAuth();
   const handleLogout = useLogout();
+  const [showLogoutConfirm, setShowLogoutConfirm] = useState(false);
 
   return (
     <div className="flex flex-col min-h-screen bg-amber-50">
@@ -47,7 +50,7 @@ export function ProfileScreen() {
             ))}
 
             <Button
-              onClick={handleLogout}
+              onClick={() => setShowLogoutConfirm(true)}
               styles="text-left py-3 text-orange-600 font-medium flex items-center gap-2 mt-2"
             >
               <LogOut size={18} /> Log Out
@@ -55,6 +58,16 @@ export function ProfileScreen() {
           </div>
         </div>
       </div>
+
+        <ConfirmDialog
+        open={showLogoutConfirm}
+        title="Confirm Logout"
+        message="You'll need to sign in again to access your account."
+        confirmLabel="Log Out"
+        cancelLabel="Cancel"
+        onConfirm={handleLogout}
+        onCancel={() => setShowLogoutConfirm(false)}
+      />
     </div>
   );
 }
